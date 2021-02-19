@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="" label="Offender" language="en" table="x_snc_offmgtcsc_offender">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>Offender</label>
+            <language>en</language>
+            <name>x_snc_offmgtcsc_offender</name>
+            <plural>Offenders</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-02-05 20:36:37</sys_created_on>
+            <sys_id>6462c19b1b86e010487bb88cdc4bcb9e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Offender</sys_name>
+            <sys_package display_value="Global" source="global">global</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+            <sys_update_name>sys_documentation_x_snc_offmgtcsc_offender__en</sys_update_name>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-02-05 20:36:37</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

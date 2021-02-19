@@ -1,0 +1,942 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>0d3e74c01b1224108edb0d03cd4bcb66</copied_from>
+        <copied_from_name>Get CSC Facilities</copied_from_name>
+        <description/>
+        <ih_action>false</ih_action>
+        <internal_name>get_codes_facilities</internal_name>
+        <label_cache>[{"name":"{{step[03605a09-844d-4047-bc98-23784ccbfab4].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":""},{"name":"{{step[9f962138-58b4-43ce-a751-499df3f7adc0].root}}","label":"step➛JSON Parser step➛root","type":"step","ref":""}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Get CSC Codes</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <state>draft</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-14 01:54:49</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2fe7d3351b92a810487bb88cdc4bcb66</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Get CSC Codes</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Offender Management System" source="x_snc_offmgtcsc">aad6ec1cdb392090520c0bd3e29619cc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_2fe7d3351b92a810487bb88cdc4bcb66</sys_update_name>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-14 02:02:23</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=2fe7d3351b92a810487bb88cdc4bcb66"/>
+    <sys_variable_value action="delete_multiple" query="document_key=2fe7d3351b92a810487bb88cdc4bcb66"/>
+    <sys_element_mapping action="delete_multiple" query="id=2fe7d3351b92a810487bb88cdc4bcb66"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>facilities_list</field>
+        <id>2fe7d3351b92a810487bb88cdc4bcb66</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-14 01:54:50</sys_created_on>
+        <sys_id>b7e7d3351b92a810487bb88cdc4bcbcb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-14 01:54:50</sys_updated_on>
+        <table>var__m_sys_hub_action_output_2fe7d3351b92a810487bb88cdc4bcb66</table>
+        <value>{{step[9f962138-58b4-43ce-a751-499df3f7adc0].root}}</value>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=2fe7d3351b92a810487bb88cdc4bcb66^sys_idNOT IN3be7d3351b92a810487bb88cdc4bcbae,afe7d3351b92a810487bb88cdc4bcb91"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Get CSC Codes">2fe7d3351b92a810487bb88cdc4bcb66</action>
+        <cid>9f962138-58b4-43ce-a751-499df3f7adc0</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>JSON Parser step</label>
+        <order>2</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="JSON Parser">502328c387523300f917e55936cb0bf0</step_type>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-14 01:54:49</sys_created_on>
+        <sys_id>3be7d3351b92a810487bb88cdc4bcbae</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-14 01:56:04</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=3be7d3351b92a810487bb88cdc4bcbae"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>3be7d3351b92a810487bb88cdc4bcbae</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-14 01:54:50</sys_created_on>
+        <sys_id>3fe7d3351b92a810487bb88cdc4bcbbd</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-14 01:56:04</sys_updated_on>
+        <value>raw</value>
+        <variable display_value="Payload view">95d4280787523300f917e55936cb0bfe</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>3be7d3351b92a810487bb88cdc4bcbae</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-14 01:54:50</sys_created_on>
+        <sys_id>7be7d3351b92a810487bb88cdc4bcbbd</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-14 01:56:04</sys_updated_on>
+        <value/>
+        <variable display_value="Sample payload">d335ac0787523300f917e55936cb0b1d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>3be7d3351b92a810487bb88cdc4bcbae</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-14 01:54:50</sys_created_on>
+        <sys_id>b7e7d3351b92a810487bb88cdc4bcbbd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-14 01:54:50</sys_updated_on>
+        <value>{"name":"root","children":[{"name":"results","children":[{"name":"results_object","children":[{"name":"_id","children":[],"type":"string","jpath":"$.results[*]._id","previewValue":"5ecfdd60ae455c2f5b4d4c60"},{"name":"code","children":[],"type":"string","jpath":"$.results[*].code","previewValue":"29170"},{"name":"header","children":[{"name":"address","children":[{"name":"city","children":[],"type":"string","jpath":"$.results[*].header.address.city","previewValue":"DACHSTAD"},{"name":"postalZipCode","children":[],"type":"string","jpath":"$.results[*].header.address.postalZipCode","previewValue":"V1J8N7"},{"name":"provinceState","children":[{"name":"code","children":[],"type":"string","jpath":"$.results[*].header.address.provinceState.code","previewValue":"0010"},{"name":"description","children":[{"name":"en","children":[],"type":"string","jpath":"$.results[*].header.address.provinceState.description.en","previewValue":"QUEBEC"},{"name":"fr","children":[],"type":"string","jpath":"$.results[*].header.address.provinceState.description.fr","previewValue":"QUÉBEC"}],"type":"object","jpath":"$.results[*].header.address.provinceState.description","previewValue":""}],"type":"object","jpath":"$.results[*].header.address.provinceState","previewValue":""},{"name":"region","children":[{"name":"code","children":[],"type":"string","jpath":"$.results[*].header.address.region.code","previewValue":"0003"},{"name":"description","children":[{"name":"en","children":[],"type":"string","jpath":"$.results[*].header.address.region.description.en","previewValue":"QUEBEC"},{"name":"fr","children":[],"type":"string","jpath":"$.results[*].header.address.region.description.fr","previewValue":"QUÉBEC"}],"type":"object","jpath":"$.results[*].header.address.region.description","previewValue":""}],"type":"object","jpath":"$.results[*].header.address.region","previewValue":""},{"name":"street1","children":[{"name":"en","children":[],"type":"string","jpath":"$.results[*].header.address.street1.en","previewValue":"169 WALSH RANCH"},{"name":"fr","children":[],"type":"string","jpath":"$.results[*].header.address.street1.fr","previewValue":"169 WALSH RANCH"}],"type":"object","jpath":"$.results[*].header.address.street1","previewValue":""},{"name":"timezone","children":[{"name":"code","children":[],"type":"string","jpath":"$.results[*].header.address.timezone.code","previewValue":"0003"},{"name":"description","children":[{"name":"en","children":[],"type":"string","jpath":"$.results[*].header.address.timezone.description.en","previewValue":"EASTERN TIME"},{"name":"fr","children":[],"type":"string","jpath":"$.results[*].header.address.timezone.description.fr","previewValue":"HEURE DE L'EST"}],"type":"object","jpath":"$.results[*].header.address.timezone.description","previewValue":""}],"type":"object","jpath":"$.results[*].header.address.timezone","previewValue":""}],"type":"object","jpath":"$.results[*].header.address","previewValue":""},{"name":"contact","children":[{"name":"hours","children":[],"type":"string","jpath":"$.results[*].header.contact.hours","previewValue":"0"},{"name":"personInCharge","children":[],"type":"string","jpath":"$.results[*].header.contact.personInCharge","previewValue":"NIL"},{"name":"phone","children":[],"type":"string","jpath":"$.results[*].header.contact.phone","previewValue":"298935155"},{"name":"phone2","children":[],"type":"string","jpath":"$.results[*].header.contact.phone2","previewValue":"773253543"}],"type":"object","jpath":"$.results[*].header.contact","previewValue":""},{"name":"name","children":[{"name":"abbreviation","children":[{"name":"en","children":[],"type":"string","jpath":"$.results[*].header.name.abbreviation.en","previewValue":"CHICOUTIMI"},{"name":"fr","children":[],"type":"string","jpath":"$.results[*].header.name.abbreviation.fr","previewValue":"CHICOUTIMI"}],"type":"object","jpath":"$.results[*].header.name.abbreviation","previewValue":""},{"name":"description","children":[{"name":"en","children":[],"type":"string","jpath":"$.results[*].header.name.description.en","previewValue":"CHICOUTIMI"},{"name":"fr","children":[],"type":"string","jpath":"$.results[*].header.name.description.fr","previewValue":"CHICOUTIMI"}],"type":"object","jpath":"$.results[*].header.name.description","previewValue":""}],"type":"object","jpath":"$.results[*].header.name","previewValue":""},{"name":"parent","children":[{"name":"code","children":[],"type":"string","jpath":"$.results[*].header.parent.code","previewValue":"30100"},{"name":"description","children":[{"name":"en","children":[],"type":"string","jpath":"$.results[*].header.parent.description.en","previewValue":"QUEBEC - REG. HEADQUARTERS"},{"name":"fr","children":[],"type":"string","jpath":"$.results[*].header.parent.description.fr","previewValue":"QUEBEC - ADMIN. RGIONALE"}],"type":"object","jpath":"$.results[*].header.parent.description","previewValue":""}],"type":"object","jpath":"$.results[*].header.parent","previewValue":""},{"name":"type","children":[{"name":"code","children":[],"type":"string","jpath":"$.results[*].header.type.code","previewValue":"0013"},{"name":"description","children":[{"name":"en","children":[],"type":"string","jpath":"$.results[*].header.type.description.en","previewValue":"PROVINCIAL PAROLE OFFICE"},{"name":"fr","children":[],"type":"string","jpath":"$.results[*].header.type.description.fr","previewValue":"BUREAU DE LIB. COND. PROV."}],"type":"object","jpath":"$.results[*].header.type.description","previewValue":""}],"type":"object","jpath":"$.results[*].header.type","previewValue":""}],"type":"object","jpath":"$.results[*].header","previewValue":""},{"name":"status","children":[{"name":"current","children":[{"name":"code","children":[],"type":"string","jpath":"$.results[*].status.current.code","previewValue":"0001"},{"name":"description","children":[{"name":"en","children":[],"type":"string","jpath":"$.results[*].status.current.description.en","previewValue":"ACTIVE"},{"name":"fr","children":[],"type":"string","jpath":"$.results[*].status.current.description.fr","previewValue":"ACTIF"}],"type":"object","jpath":"$.results[*].status.current.description","previewValue":""},{"name":"effectiveDate","children":[],"type":"string","jpath":"$.results[*].status.current.effectiveDate","previewValue":"1994-05-17T04:00:00.000Z"}],"type":"object","jpath":"$.results[*].status.current","previewValue":""},{"name":"section81","children":[{"name":"description","children":[{"name":"en","children":[],"type":"string","jpath":"$.results[*].status.section81.description.en","previewValue":"NO"},{"name":"fr","children":[],"type":"string","jpath":"$.results[*].status.section81.description.fr","previewValue":"NON"}],"type":"object","jpath":"$.results[*].status.section81.description","previewValue":""},{"name":"flag","children":[],"type":"string","jpath":"$.results[*].status.section81.flag","previewValue":"0002"}],"type":"object","jpath":"$.results[*].status.section81","previewValue":""}],"type":"object","jpath":"$.results[*].status","previewValue":""}],"type":"object","jpath":"$.results[*]","previewValue":""}],"type":"array.object","jpath":"$.results[*]","previewValue":""}],"type":"object","jpath":"$","previewValue":""}</value>
+        <variable display_value="Target">4674240787523300f917e55936cb0b0e</variable>
+    </sys_variable_value>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=3be7d3351b92a810487bb88cdc4bcbae^sys_idNOT INbfe7d3351b92a810487bb88cdc4bcbb3"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>co_type_name=FDf3e7d3352d92a81036bfb9c98b8dc7b1,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=188871d0-31a2-47b3-90ef-93a412d8aac9</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>root</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>root</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="JSON Parser step">3be7d3351b92a810487bb88cdc4bcbae</model>
+        <model_id>3be7d3351b92a810487bb88cdc4bcbae</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_3be7d3351b92a810487bb88cdc4bcbae</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-14 01:54:50</sys_created_on>
+        <sys_id>bfe7d3351b92a810487bb88cdc4bcbb3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-14 01:54:50</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Get CSC Codes">2fe7d3351b92a810487bb88cdc4bcb66</action>
+        <cid>03605a09-844d-4047-bc98-23784ccbfab4</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>REST step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-14 01:54:49</sys_created_on>
+        <sys_id>afe7d3351b92a810487bb88cdc4bcb91</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-14 01:55:49</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=afe7d3351b92a810487bb88cdc4bcb91"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>afe7d3351b92a810487bb88cdc4bcb91</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-14 01:54:49</sys_created_on>
+        <sys_id>23e7d3351b92a810487bb88cdc4bcbaa</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-14 01:55:49</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[]}</value>
+        <variable display_value="Query Parameters">4328e2fb47222200b4fad7527c9a7164</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>afe7d3351b92a810487bb88cdc4bcb91</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-14 01:54:49</sys_created_on>
+        <sys_id>27e7d3351b92a810487bb88cdc4bcba8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-14 01:54:49</sys_updated_on>
+        <value>ef751ff07301330025d71afe2ff6a7f9</value>
+        <variable display_value="Retry Policy">37be397587c03300a8cc7d5e27cb0ba2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>afe7d3351b92a810487bb88cdc4bcb91</document_key>
+        <order>13</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-14 01:54:49</sys_created_on>
+        <sys_id>27e7d3351b92a810487bb88cdc4bcba9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-14 01:54:49</sys_updated_on>
+        <value>18409d8007482000dada43c0d1021e8f</value>
+        <variable display_value="Capabilities">c30a451d2f201300a09a839fb18c95b4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>afe7d3351b92a810487bb88cdc4bcb91</document_key>
+        <order>30</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-14 01:54:49</sys_created_on>
+        <sys_id>63e7d3351b92a810487bb88cdc4bcba9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-14 01:54:49</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"Ocp-Apim-Subscription-Key","value":"25a3466d6a4a4d3da8f189a7f3b77f03 "}]}</value>
+        <variable display_value="Headers">371837f1c71003007b237f48cb9763b0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>afe7d3351b92a810487bb88cdc4bcb91</document_key>
+        <order>12</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-14 01:54:49</sys_created_on>
+        <sys_id>6fe7d3351b92a810487bb88cdc4bcba9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-14 01:54:49</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>afe7d3351b92a810487bb88cdc4bcb91</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-14 01:54:49</sys_created_on>
+        <sys_id>abe7d3351b92a810487bb88cdc4bcba9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-14 01:54:49</sys_updated_on>
+        <value>f8b41a341b5aa4108edb0d03cd4bcb7a</value>
+        <variable display_value="Credential Alias">445c2a72b3701300176b051a16a8dcc2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>afe7d3351b92a810487bb88cdc4bcb91</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-14 01:54:49</sys_created_on>
+        <sys_id>afe7d3351b92a810487bb88cdc4bcba8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-14 01:54:49</sys_updated_on>
+        <value>define_connection_inline</value>
+        <variable display_value="Connection">91e207d03b50030057a4a2e334efc4a0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>afe7d3351b92a810487bb88cdc4bcb91</document_key>
+        <order>15</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-14 01:54:49</sys_created_on>
+        <sys_id>e7e7d3351b92a810487bb88cdc4bcba9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-14 01:54:49</sys_updated_on>
+        <value>https://cspc-apim.azure-api.net/oms-api/</value>
+        <variable display_value="Base URL">a67a8ef03b23320057a4a2e334efc472</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>afe7d3351b92a810487bb88cdc4bcb91</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-14 01:54:49</sys_created_on>
+        <sys_id>ebe7d3351b92a810487bb88cdc4bcba8</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-14 01:55:49</sys_updated_on>
+        <value>/codes</value>
+        <variable display_value="Resource Path">3d090af03b23320057a4a2e334efc455</variable>
+    </sys_variable_value>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=afe7d3351b92a810487bb88cdc4bcb91^sys_idNOT IN23e7d3351b92a810487bb88cdc4bcb99"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=password2,uiTypeLabel=Password (2 Way Encrypted),uiUniqueId=eae11187-be2e-4a41-9fd2-9a4db7b12420</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>sn_auth_token</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">password2</internal_type>
+        <label>Credential Value</label>
+        <mandatory>false</mandatory>
+        <max_length>255</max_length>
+        <model display_value="REST step">afe7d3351b92a810487bb88cdc4bcb91</model>
+        <model_id>afe7d3351b92a810487bb88cdc4bcb91</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_afe7d3351b92a810487bb88cdc4bcb91</name>
+        <next_element/>
+        <order>7</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-14 01:54:49</sys_created_on>
+        <sys_id>23e7d3351b92a810487bb88cdc4bcb99</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-14 01:54:49</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=afe7d3351b92a810487bb88cdc4bcb91^sys_idNOT IN27e7d3351b92a810487bb88cdc4bcba3"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <input_name>connection_alias</input_name>
+        <instance>afe7d3351b92a810487bb88cdc4bcb91</instance>
+        <referenced_table>sys_hub_step_instance</referenced_table>
+        <script>{"connection_alias":{"scriptActive":false}}</script>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-14 01:54:49</sys_created_on>
+        <sys_id>27e7d3351b92a810487bb88cdc4bcba3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-14 01:54:49</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_action_output action="delete_multiple" query="model=2fe7d3351b92a810487bb88cdc4bcb66^sys_idNOT INb7e7d3351b92a810487bb88cdc4bcbc2"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>co_type_name=FDffe7d335e192a81082a5351aecfc7ebf,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,sourceId=9f962138-58b4-43ce-a751-499df3f7adc0,sourceType=step,sourceUiUniqueId=188871d0-31a2-47b3-90ef-93a412d8aac9,uiType=object,uiTypeLabel=Object,uiUniqueId=52a44614-17bf-4494-b540-2a50d2de0a5b</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>facilities_list</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Facilities List</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Get CSC Codes">2fe7d3351b92a810487bb88cdc4bcb66</model>
+        <model_id>2fe7d3351b92a810487bb88cdc4bcb66</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_2fe7d3351b92a810487bb88cdc4bcb66</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-14 01:54:50</sys_created_on>
+        <sys_id>b7e7d3351b92a810487bb88cdc4bcbc2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-14 01:54:50</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_step_instance action="delete_multiple" query="action=2fe7d3351b92a810487bb88cdc4bcb66^sys_idNOT IN3be7d3351b92a810487bb88cdc4bcbae,afe7d3351b92a810487bb88cdc4bcb91"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Get CSC Codes">2fe7d3351b92a810487bb88cdc4bcb66</action>
+        <cid>9f962138-58b4-43ce-a751-499df3f7adc0</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>JSON Parser step</label>
+        <order>2</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="JSON Parser">502328c387523300f917e55936cb0bf0</step_type>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-14 01:54:49</sys_created_on>
+        <sys_id>3be7d3351b92a810487bb88cdc4bcbae</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-14 01:56:04</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=3be7d3351b92a810487bb88cdc4bcbae"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>3be7d3351b92a810487bb88cdc4bcbae</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-14 01:54:50</sys_created_on>
+        <sys_id>3fe7d3351b92a810487bb88cdc4bcbbd</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-14 01:56:04</sys_updated_on>
+        <value>raw</value>
+        <variable display_value="Payload view">95d4280787523300f917e55936cb0bfe</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>3be7d3351b92a810487bb88cdc4bcbae</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-14 01:54:50</sys_created_on>
+        <sys_id>7be7d3351b92a810487bb88cdc4bcbbd</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-14 01:56:04</sys_updated_on>
+        <value/>
+        <variable display_value="Sample payload">d335ac0787523300f917e55936cb0b1d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>3be7d3351b92a810487bb88cdc4bcbae</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-14 01:54:50</sys_created_on>
+        <sys_id>b7e7d3351b92a810487bb88cdc4bcbbd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-14 01:54:50</sys_updated_on>
+        <value>{"name":"root","children":[{"name":"results","children":[{"name":"results_object","children":[{"name":"_id","children":[],"type":"string","jpath":"$.results[*]._id","previewValue":"5ecfdd60ae455c2f5b4d4c60"},{"name":"code","children":[],"type":"string","jpath":"$.results[*].code","previewValue":"29170"},{"name":"header","children":[{"name":"address","children":[{"name":"city","children":[],"type":"string","jpath":"$.results[*].header.address.city","previewValue":"DACHSTAD"},{"name":"postalZipCode","children":[],"type":"string","jpath":"$.results[*].header.address.postalZipCode","previewValue":"V1J8N7"},{"name":"provinceState","children":[{"name":"code","children":[],"type":"string","jpath":"$.results[*].header.address.provinceState.code","previewValue":"0010"},{"name":"description","children":[{"name":"en","children":[],"type":"string","jpath":"$.results[*].header.address.provinceState.description.en","previewValue":"QUEBEC"},{"name":"fr","children":[],"type":"string","jpath":"$.results[*].header.address.provinceState.description.fr","previewValue":"QUÉBEC"}],"type":"object","jpath":"$.results[*].header.address.provinceState.description","previewValue":""}],"type":"object","jpath":"$.results[*].header.address.provinceState","previewValue":""},{"name":"region","children":[{"name":"code","children":[],"type":"string","jpath":"$.results[*].header.address.region.code","previewValue":"0003"},{"name":"description","children":[{"name":"en","children":[],"type":"string","jpath":"$.results[*].header.address.region.description.en","previewValue":"QUEBEC"},{"name":"fr","children":[],"type":"string","jpath":"$.results[*].header.address.region.description.fr","previewValue":"QUÉBEC"}],"type":"object","jpath":"$.results[*].header.address.region.description","previewValue":""}],"type":"object","jpath":"$.results[*].header.address.region","previewValue":""},{"name":"street1","children":[{"name":"en","children":[],"type":"string","jpath":"$.results[*].header.address.street1.en","previewValue":"169 WALSH RANCH"},{"name":"fr","children":[],"type":"string","jpath":"$.results[*].header.address.street1.fr","previewValue":"169 WALSH RANCH"}],"type":"object","jpath":"$.results[*].header.address.street1","previewValue":""},{"name":"timezone","children":[{"name":"code","children":[],"type":"string","jpath":"$.results[*].header.address.timezone.code","previewValue":"0003"},{"name":"description","children":[{"name":"en","children":[],"type":"string","jpath":"$.results[*].header.address.timezone.description.en","previewValue":"EASTERN TIME"},{"name":"fr","children":[],"type":"string","jpath":"$.results[*].header.address.timezone.description.fr","previewValue":"HEURE DE L'EST"}],"type":"object","jpath":"$.results[*].header.address.timezone.description","previewValue":""}],"type":"object","jpath":"$.results[*].header.address.timezone","previewValue":""}],"type":"object","jpath":"$.results[*].header.address","previewValue":""},{"name":"contact","children":[{"name":"hours","children":[],"type":"string","jpath":"$.results[*].header.contact.hours","previewValue":"0"},{"name":"personInCharge","children":[],"type":"string","jpath":"$.results[*].header.contact.personInCharge","previewValue":"NIL"},{"name":"phone","children":[],"type":"string","jpath":"$.results[*].header.contact.phone","previewValue":"298935155"},{"name":"phone2","children":[],"type":"string","jpath":"$.results[*].header.contact.phone2","previewValue":"773253543"}],"type":"object","jpath":"$.results[*].header.contact","previewValue":""},{"name":"name","children":[{"name":"abbreviation","children":[{"name":"en","children":[],"type":"string","jpath":"$.results[*].header.name.abbreviation.en","previewValue":"CHICOUTIMI"},{"name":"fr","children":[],"type":"string","jpath":"$.results[*].header.name.abbreviation.fr","previewValue":"CHICOUTIMI"}],"type":"object","jpath":"$.results[*].header.name.abbreviation","previewValue":""},{"name":"description","children":[{"name":"en","children":[],"type":"string","jpath":"$.results[*].header.name.description.en","previewValue":"CHICOUTIMI"},{"name":"fr","children":[],"type":"string","jpath":"$.results[*].header.name.description.fr","previewValue":"CHICOUTIMI"}],"type":"object","jpath":"$.results[*].header.name.description","previewValue":""}],"type":"object","jpath":"$.results[*].header.name","previewValue":""},{"name":"parent","children":[{"name":"code","children":[],"type":"string","jpath":"$.results[*].header.parent.code","previewValue":"30100"},{"name":"description","children":[{"name":"en","children":[],"type":"string","jpath":"$.results[*].header.parent.description.en","previewValue":"QUEBEC - REG. HEADQUARTERS"},{"name":"fr","children":[],"type":"string","jpath":"$.results[*].header.parent.description.fr","previewValue":"QUEBEC - ADMIN. RGIONALE"}],"type":"object","jpath":"$.results[*].header.parent.description","previewValue":""}],"type":"object","jpath":"$.results[*].header.parent","previewValue":""},{"name":"type","children":[{"name":"code","children":[],"type":"string","jpath":"$.results[*].header.type.code","previewValue":"0013"},{"name":"description","children":[{"name":"en","children":[],"type":"string","jpath":"$.results[*].header.type.description.en","previewValue":"PROVINCIAL PAROLE OFFICE"},{"name":"fr","children":[],"type":"string","jpath":"$.results[*].header.type.description.fr","previewValue":"BUREAU DE LIB. COND. PROV."}],"type":"object","jpath":"$.results[*].header.type.description","previewValue":""}],"type":"object","jpath":"$.results[*].header.type","previewValue":""}],"type":"object","jpath":"$.results[*].header","previewValue":""},{"name":"status","children":[{"name":"current","children":[{"name":"code","children":[],"type":"string","jpath":"$.results[*].status.current.code","previewValue":"0001"},{"name":"description","children":[{"name":"en","children":[],"type":"string","jpath":"$.results[*].status.current.description.en","previewValue":"ACTIVE"},{"name":"fr","children":[],"type":"string","jpath":"$.results[*].status.current.description.fr","previewValue":"ACTIF"}],"type":"object","jpath":"$.results[*].status.current.description","previewValue":""},{"name":"effectiveDate","children":[],"type":"string","jpath":"$.results[*].status.current.effectiveDate","previewValue":"1994-05-17T04:00:00.000Z"}],"type":"object","jpath":"$.results[*].status.current","previewValue":""},{"name":"section81","children":[{"name":"description","children":[{"name":"en","children":[],"type":"string","jpath":"$.results[*].status.section81.description.en","previewValue":"NO"},{"name":"fr","children":[],"type":"string","jpath":"$.results[*].status.section81.description.fr","previewValue":"NON"}],"type":"object","jpath":"$.results[*].status.section81.description","previewValue":""},{"name":"flag","children":[],"type":"string","jpath":"$.results[*].status.section81.flag","previewValue":"0002"}],"type":"object","jpath":"$.results[*].status.section81","previewValue":""}],"type":"object","jpath":"$.results[*].status","previewValue":""}],"type":"object","jpath":"$.results[*]","previewValue":""}],"type":"array.object","jpath":"$.results[*]","previewValue":""}],"type":"object","jpath":"$","previewValue":""}</value>
+        <variable display_value="Target">4674240787523300f917e55936cb0b0e</variable>
+    </sys_variable_value>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=3be7d3351b92a810487bb88cdc4bcbae^sys_idNOT INbfe7d3351b92a810487bb88cdc4bcbb3"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>co_type_name=FDf3e7d3352d92a81036bfb9c98b8dc7b1,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=188871d0-31a2-47b3-90ef-93a412d8aac9</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>root</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>root</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="JSON Parser step">3be7d3351b92a810487bb88cdc4bcbae</model>
+        <model_id>3be7d3351b92a810487bb88cdc4bcbae</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_3be7d3351b92a810487bb88cdc4bcbae</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-14 01:54:50</sys_created_on>
+        <sys_id>bfe7d3351b92a810487bb88cdc4bcbb3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-14 01:54:50</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Get CSC Codes">2fe7d3351b92a810487bb88cdc4bcb66</action>
+        <cid>03605a09-844d-4047-bc98-23784ccbfab4</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>REST step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-14 01:54:49</sys_created_on>
+        <sys_id>afe7d3351b92a810487bb88cdc4bcb91</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-14 01:55:49</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=afe7d3351b92a810487bb88cdc4bcb91"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>afe7d3351b92a810487bb88cdc4bcb91</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-14 01:54:49</sys_created_on>
+        <sys_id>23e7d3351b92a810487bb88cdc4bcbaa</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-14 01:55:49</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[]}</value>
+        <variable display_value="Query Parameters">4328e2fb47222200b4fad7527c9a7164</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>afe7d3351b92a810487bb88cdc4bcb91</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-14 01:54:49</sys_created_on>
+        <sys_id>27e7d3351b92a810487bb88cdc4bcba8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-14 01:54:49</sys_updated_on>
+        <value>ef751ff07301330025d71afe2ff6a7f9</value>
+        <variable display_value="Retry Policy">37be397587c03300a8cc7d5e27cb0ba2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>afe7d3351b92a810487bb88cdc4bcb91</document_key>
+        <order>13</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-14 01:54:49</sys_created_on>
+        <sys_id>27e7d3351b92a810487bb88cdc4bcba9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-14 01:54:49</sys_updated_on>
+        <value>18409d8007482000dada43c0d1021e8f</value>
+        <variable display_value="Capabilities">c30a451d2f201300a09a839fb18c95b4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>afe7d3351b92a810487bb88cdc4bcb91</document_key>
+        <order>30</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-14 01:54:49</sys_created_on>
+        <sys_id>63e7d3351b92a810487bb88cdc4bcba9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-14 01:54:49</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"Ocp-Apim-Subscription-Key","value":"25a3466d6a4a4d3da8f189a7f3b77f03 "}]}</value>
+        <variable display_value="Headers">371837f1c71003007b237f48cb9763b0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>afe7d3351b92a810487bb88cdc4bcb91</document_key>
+        <order>12</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-14 01:54:49</sys_created_on>
+        <sys_id>6fe7d3351b92a810487bb88cdc4bcba9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-14 01:54:49</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>afe7d3351b92a810487bb88cdc4bcb91</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-14 01:54:49</sys_created_on>
+        <sys_id>abe7d3351b92a810487bb88cdc4bcba9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-14 01:54:49</sys_updated_on>
+        <value>f8b41a341b5aa4108edb0d03cd4bcb7a</value>
+        <variable display_value="Credential Alias">445c2a72b3701300176b051a16a8dcc2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>afe7d3351b92a810487bb88cdc4bcb91</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-14 01:54:49</sys_created_on>
+        <sys_id>afe7d3351b92a810487bb88cdc4bcba8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-14 01:54:49</sys_updated_on>
+        <value>define_connection_inline</value>
+        <variable display_value="Connection">91e207d03b50030057a4a2e334efc4a0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>afe7d3351b92a810487bb88cdc4bcb91</document_key>
+        <order>15</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-14 01:54:49</sys_created_on>
+        <sys_id>e7e7d3351b92a810487bb88cdc4bcba9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-14 01:54:49</sys_updated_on>
+        <value>https://cspc-apim.azure-api.net/oms-api/</value>
+        <variable display_value="Base URL">a67a8ef03b23320057a4a2e334efc472</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>afe7d3351b92a810487bb88cdc4bcb91</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-14 01:54:49</sys_created_on>
+        <sys_id>ebe7d3351b92a810487bb88cdc4bcba8</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-14 01:55:49</sys_updated_on>
+        <value>/codes</value>
+        <variable display_value="Resource Path">3d090af03b23320057a4a2e334efc455</variable>
+    </sys_variable_value>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=afe7d3351b92a810487bb88cdc4bcb91^sys_idNOT IN23e7d3351b92a810487bb88cdc4bcb99"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=password2,uiTypeLabel=Password (2 Way Encrypted),uiUniqueId=eae11187-be2e-4a41-9fd2-9a4db7b12420</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>sn_auth_token</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">password2</internal_type>
+        <label>Credential Value</label>
+        <mandatory>false</mandatory>
+        <max_length>255</max_length>
+        <model display_value="REST step">afe7d3351b92a810487bb88cdc4bcb91</model>
+        <model_id>afe7d3351b92a810487bb88cdc4bcb91</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_afe7d3351b92a810487bb88cdc4bcb91</name>
+        <next_element/>
+        <order>7</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-14 01:54:49</sys_created_on>
+        <sys_id>23e7d3351b92a810487bb88cdc4bcb99</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-14 01:54:49</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=afe7d3351b92a810487bb88cdc4bcb91^sys_idNOT IN27e7d3351b92a810487bb88cdc4bcba3"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <input_name>connection_alias</input_name>
+        <instance>afe7d3351b92a810487bb88cdc4bcb91</instance>
+        <referenced_table>sys_hub_step_instance</referenced_table>
+        <script>{"connection_alias":{"scriptActive":false}}</script>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-14 01:54:49</sys_created_on>
+        <sys_id>27e7d3351b92a810487bb88cdc4bcba3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-14 01:54:49</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_2fe7d3351b92a810487bb88cdc4bcb66^sys_idNOT INb7e7d3351b92a810487bb88cdc4bcbc8"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>facilities_list</element>
+        <help/>
+        <hint/>
+        <label>Facilities List</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_2fe7d3351b92a810487bb88cdc4bcb66</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-14 01:54:50</sys_created_on>
+        <sys_id>b7e7d3351b92a810487bb88cdc4bcbc8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Offender Management System" source="x_snc_offmgtcsc">aad6ec1cdb392090520c0bd3e29619cc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-14 01:54:50</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+</record_update>

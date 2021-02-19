@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item">
+    <sc_cat_item action="INSERT_OR_UPDATE">
+        <access_type/>
+        <active>true</active>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <category display_value="Search and Seizure Management">6a080518dbf92090520c0bd3e29619c8</category>
+        <checked_out/>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description><![CDATA[<p><strong style="color: #000000; font-style: normal; text-align: start;"><span style="font-size: 8pt; font-family: &#39;Century Gothic&#39;, sans-serif;">capture and manage orders to collect urine samples from offenders based on security information (reasonable grounds}, as part of the National Random Urinalysis Program, or at pre-set intervals to monitor an abstinence condition in the community.</span></strong></p>]]></description>
+        <display_price_property>non_zero</display_price_property>
+        <entitlement_script/>
+        <flow_designer_flow/>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon/>
+        <ignore_price>false</ignore_price>
+        <image/>
+        <list_price>0</list_price>
+        <location/>
+        <mandatory_attachment>false</mandatory_attachment>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>Urinalysis Testing</name>
+        <no_attachment_v2>false</no_attachment_v2>
+        <no_cart>false</no_cart>
+        <no_cart_v2>false</no_cart_v2>
+        <no_delivery_time_v2>false</no_delivery_time_v2>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_quantity_v2>false</no_quantity_v2>
+        <no_search>false</no_search>
+        <no_wishlist_v2>false</no_wishlist_v2>
+        <omit_price>false</omit_price>
+        <order>0</order>
+        <ordered_item_link/>
+        <owner/>
+        <picture>4d190d58dbf92090520c0bd3e29619d1</picture>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=82c8c558dbf92090520c0bd3e2961987&amp;sysparm_preview=true", "summary");</preview>
+        <price>0</price>
+        <published_ref/>
+        <recurring_frequency/>
+        <recurring_price>0</recurring_price>
+        <request_method/>
+        <roles>snc_internal</roles>
+        <sc_catalogs>c12ae414db792090520c0bd3e2961989</sc_catalogs>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <sc_template/>
+        <short_description>Urinalysis Testing</short_description>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <state/>
+        <sys_class_name>sc_cat_item</sys_class_name>
+        <sys_created_by>tony.perron</sys_created_by>
+        <sys_created_on>2021-01-15 03:08:14</sys_created_on>
+        <sys_id>82c8c558dbf92090520c0bd3e2961987</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Urinalysis Testing</sys_name>
+        <sys_package display_value="Offender Management System" source="x_snc_offmgtcsc">aad6ec1cdb392090520c0bd3e29619cc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+        <sys_update_name>sc_cat_item_82c8c558dbf92090520c0bd3e2961987</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-16 23:15:42</sys_updated_on>
+        <template/>
+        <template_manager_roles/>
+        <type>item</type>
+        <use_sc_layout>true</use_sc_layout>
+        <vendor/>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow/>
+    </sc_cat_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=82c8c558dbf92090520c0bd3e2961987"/>
+    <fx_price action="delete_multiple" query="id=82c8c558dbf92090520c0bd3e2961987"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price</field>
+        <id>82c8c558dbf92090520c0bd3e2961987</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>tony.perron</sys_created_by>
+        <sys_created_on>2021-01-15 03:08:14</sys_created_on>
+        <sys_id>26090d58dbf92090520c0bd3e296191a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tony.perron</sys_updated_by>
+        <sys_updated_on>2021-01-15 03:08:14</sys_updated_on>
+        <table>sc_cat_item</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>recurring_price</field>
+        <id>82c8c558dbf92090520c0bd3e2961987</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>tony.perron</sys_created_by>
+        <sys_created_on>2021-01-15 03:08:14</sys_created_on>
+        <sys_id>6e090d58dbf92090520c0bd3e296191a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tony.perron</sys_updated_by>
+        <sys_updated_on>2021-01-15 03:08:14</sys_updated_on>
+        <table>sc_cat_item</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color>#0</average_image_color>
+        <chunk_size_bytes>700000</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <encryption_context/>
+        <file_name>picture</file_name>
+        <hash>a59ea66001542be3c3a9ad9f78e18e60fb2c3cc5b8eba348b6369fb6189ec4fb</hash>
+        <image_height>200</image_height>
+        <image_width>200</image_width>
+        <size_bytes>1569</size_bytes>
+        <size_compressed>1260</size_compressed>
+        <state>available</state>
+        <sys_created_by>tony.perron</sys_created_by>
+        <sys_created_on>2021-01-15 03:08:24</sys_created_on>
+        <sys_id>4d190d58dbf92090520c0bd3e29619d1</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>tony.perron</sys_updated_by>
+        <sys_updated_on>2021-01-15 03:08:25</sys_updated_on>
+        <table_name>ZZ_YYsc_cat_item</table_name>
+        <table_sys_id>82c8c558dbf92090520c0bd3e2961987</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="picture" sys_id="4d190d58dbf92090520c0bd3e29619d1">4d190d58dbf92090520c0bd3e29619d1</sys_attachment>
+        <sys_created_by>tony.perron</sys_created_by>
+        <sys_created_on>2021-01-15 03:08:24</sys_created_on>
+        <sys_id>8d190d58dbf92090520c0bd3e29619d1</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>6wzwc+flkuJiYGDg9fRwCQLSJ0CYgw1Iro1YNw9IsRQ7eYZwAEENR0oHkM9Z4BFZzMDALQzCjAyz5kgwMLAe9nRxDKmY8/aufYdMqkz7x+d6z+f7HQkKuNQ5wUpCZ20IhxdTuKSqkIDrlBsrPBwcWVh9hY9GdLR6Ck70EOJ+O+VG1IpeFak/zVxqR1Ys8MzTfab00eD+zDvnzvx+d/dz48pvRu/z87/vvH175tyGkHNbDxQf2H4gZclblQ8mBWc/lPtH7a18YPC4dWORNcsZ3jr9paG75hcVxtx6lytdtK/dWmvtMdul7AsO87AtCsrTsGUoSL4tLtEhAkE6U+QcdjU9PrA6+N1jzYTPJtYGAldfWc9KFr0ckXLKoaZTlZVNiSg07926qLPGfz8Xv4pnYFsUlRt/r+uT6jQRuEVwVCHjsvXTocKgB62Pl9ySxJDGiip27c56ClR/gPu451ZjAU0DVLRj1mOF2Q2yB9YeuGPweEWQ8APpB7kPVk+8tubRocLYt0x6l2oW37n2vkyuoqNOJivydQJvdkll51bOir2Pr2flRjPcY8nTtj0RscvmZXnJH6u1/NwHmJe2S3hPV/+3ttl/YeTmjV8Ykl8KddRPyF5a+nnOh6WT8To1Vufqqi7u41e/SD+x+WBz9uTEzybqR/Z6fLYUuS5R33tp2+U75zO3/T4mseWts3ptbvT6Df/MrmtscnvJb3z21F+Jp3177hsdFrwuUcrLHBl22nvNYt3t8sW9gdcvbIpisrxd9FsSJKW7WnXCySnbd7vtz86I1G30CDXCCBM4WvGUObh8UvrNR1KL1y1cHXA482Reae68d3onHZaccFiywFuhjsFde66e7YGIXSxFKR80TbKvnS1e5K0gz/Ce17Yj7Zjjg8OXnHuWni6cwLmB4w1b2aWY5pef/i/O6/t24dqlr7OuNfHqbte/aPNuuk+D8IG6hPddt68kTfwT97m1aPHLep0LdTUJtzmKgZE+q5TIlERdxK28xpBdp29D366P7Y9CJZQnVD44wPHaY+/n5Z1EJT2qoC+CJ4L4fwfE6k2TWyBWy/IpHcSp07d10P3F8eS53LeFu/4EVTVEAZWdBHKqfD4Y/g2Xb/zDVXP/cF1I++QDOy85X1m0vnyj3dtMe633ky8xX1my3qHv2xb5qc+TK2fuY7Lk+XPx8r6Qc/kHNgJVAuXOMb7/tkV/6me+fbn/5WvlPOsl+Q3Obvp8QHtp+wrf+Y01vHuuPv5nsq72wEqg+mXvizfOO9jss/mFe4L/S8WsK+UKyxvnmrDPNpGeBsxVNy81X8no2FzZz6DPsyGe93Hkg8dATVkrLt/9/uC+8uYE+Q9BQE1mT547ll20YVh1OftAMtCWuxMafRrcG9Uz7jmFyP5jk2Ocd2S/aHTvx85Dew+IPegWvBb0zXKDZMXiLwoHZl5ivrBnZUgv64PCB+qz5sfkPc61v/Dn2o0LvzR607Wf7tcv56/TD39Y9SDxgcXZ6J6l+z2zS6MXWRp/d3ywS4//zIlnDc5Tfv+TiZi3sPTEpDy2d0zvGPLY8xjzFnWu+JKzOYnzR/ezYsvlDfqN5xv6M+qir+cw3vAtfpOjfNj+mfADlg3zny3937qt/gP/7md5nqI7X/YAy3gGT1c/l3VOCU0ACd60diEGAAA=</data>
+        <length>1668</length>
+        <position>1</position>
+        <sys_attachment display_value="picture" sys_id="4d190d58dbf92090520c0bd3e29619d1">4d190d58dbf92090520c0bd3e29619d1</sys_attachment>
+        <sys_created_by>tony.perron</sys_created_by>
+        <sys_created_on>2021-01-15 03:08:24</sys_created_on>
+        <sys_id>01190d58dbf92090520c0bd3e29619d2</sys_id>
+    </sys_attachment_doc>
+</record_update>

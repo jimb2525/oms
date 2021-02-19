@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Music Instrument" section_id="4600f1fa1b1e2c10487bb88cdc4bcb66" sys_domain="global" table="x_snc_offmgtcsc_personal_property_of_offenders" version="3" view="workspace">
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>tony.perron</sys_created_by>
+            <sys_created_on>2021-02-16 20:54:49</sys_created_on>
+            <sys_id>9e00f1fa1b1e2c10487bb88cdc4bcbdf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tony.perron</sys_updated_by>
+            <sys_updated_on>2021-02-16 20:54:49</sys_updated_on>
+            <text>Stringed instrument, wind instrument or keyboard (maximum of 1 metre in length and no amps) and instrument accessories (stringed and wind instruments at the Institutional Head's discretion in maximum security)</text>
+            <type display_value="Info Box Red">823f88a80f930000b12e6903cfe01209</type>
+        </sys_ui_annotation>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>9e00f1fa1b1e2c10487bb88cdc4bcbdf</element>
+            <position>0</position>
+            <sys_created_by>tony.perron</sys_created_by>
+            <sys_created_on>2021-02-16 20:54:49</sys_created_on>
+            <sys_id>d600f1fa1b1e2c10487bb88cdc4bcbe0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Music Instrument" display_value="Music Instrument" name="x_snc_offmgtcsc_personal_property_of_offenders" sys_domain="global" view="c2364b1610352010d152bac818665e22">4600f1fa1b1e2c10487bb88cdc4bcb66</sys_ui_section>
+            <sys_updated_by>tony.perron</sys_updated_by>
+            <sys_updated_on>2021-02-16 20:54:49</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>1</position>
+            <sys_created_by>tony.perron</sys_created_by>
+            <sys_created_on>2021-02-16 20:54:49</sys_created_on>
+            <sys_id>5e00f1fa1b1e2c10487bb88cdc4bcbe0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Music Instrument" display_value="Music Instrument" name="x_snc_offmgtcsc_personal_property_of_offenders" sys_domain="global" view="c2364b1610352010d152bac818665e22">4600f1fa1b1e2c10487bb88cdc4bcb66</sys_ui_section>
+            <sys_updated_by>tony.perron</sys_updated_by>
+            <sys_updated_on>2021-02-16 20:54:49</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_boolean_16</element>
+            <position>2</position>
+            <sys_created_by>tony.perron</sys_created_by>
+            <sys_created_on>2021-02-16 20:54:49</sys_created_on>
+            <sys_id>d200f1fa1b1e2c10487bb88cdc4bcbe1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Music Instrument" display_value="Music Instrument" name="x_snc_offmgtcsc_personal_property_of_offenders" sys_domain="global" view="c2364b1610352010d152bac818665e22">4600f1fa1b1e2c10487bb88cdc4bcb66</sys_ui_section>
+            <sys_updated_by>tony.perron</sys_updated_by>
+            <sys_updated_on>2021-02-16 20:54:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Music Instrument</caption>
+            <header>false</header>
+            <name>x_snc_offmgtcsc_personal_property_of_offenders</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>tony.perron</sys_created_by>
+            <sys_created_on>2021-02-16 20:54:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4600f1fa1b1e2c10487bb88cdc4bcb66</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_offmgtcsc_personal_property_of_offenders</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Offender Management System" source="x_snc_offmgtcsc">aad6ec1cdb392090520c0bd3e29619cc</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+            <sys_update_name>sys_ui_section_4600f1fa1b1e2c10487bb88cdc4bcb66</sys_update_name>
+            <sys_updated_by>tony.perron</sys_updated_by>
+            <sys_updated_on>2021-02-16 20:54:48</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Workspace" name="workspace">c2364b1610352010d152bac818665e22</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

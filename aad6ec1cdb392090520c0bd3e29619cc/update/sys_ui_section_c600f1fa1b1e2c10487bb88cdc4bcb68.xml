@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Miscellaneous Items" section_id="c600f1fa1b1e2c10487bb88cdc4bcb68" sys_domain="global" table="x_snc_offmgtcsc_personal_property_of_offenders" version="3" view="workspace">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_boolean_23</element>
+            <position>0</position>
+            <sys_created_by>tony.perron</sys_created_by>
+            <sys_created_on>2021-02-16 20:54:49</sys_created_on>
+            <sys_id>5e00f1fa1b1e2c10487bb88cdc4bcbef</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Miscellaneous Items" display_value="Miscellaneous Items" name="x_snc_offmgtcsc_personal_property_of_offenders" sys_domain="global" view="c2364b1610352010d152bac818665e22">c600f1fa1b1e2c10487bb88cdc4bcb68</sys_ui_section>
+            <sys_updated_by>tony.perron</sys_updated_by>
+            <sys_updated_on>2021-02-16 20:54:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_boolean_25</element>
+            <position>1</position>
+            <sys_created_by>tony.perron</sys_created_by>
+            <sys_created_on>2021-02-16 20:54:49</sys_created_on>
+            <sys_id>d200f1fa1b1e2c10487bb88cdc4bcbf0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Miscellaneous Items" display_value="Miscellaneous Items" name="x_snc_offmgtcsc_personal_property_of_offenders" sys_domain="global" view="c2364b1610352010d152bac818665e22">c600f1fa1b1e2c10487bb88cdc4bcb68</sys_ui_section>
+            <sys_updated_by>tony.perron</sys_updated_by>
+            <sys_updated_on>2021-02-16 20:54:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_boolean_24</element>
+            <position>2</position>
+            <sys_created_by>tony.perron</sys_created_by>
+            <sys_created_on>2021-02-16 20:54:49</sys_created_on>
+            <sys_id>5a00f1fa1b1e2c10487bb88cdc4bcbf0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Miscellaneous Items" display_value="Miscellaneous Items" name="x_snc_offmgtcsc_personal_property_of_offenders" sys_domain="global" view="c2364b1610352010d152bac818665e22">c600f1fa1b1e2c10487bb88cdc4bcb68</sys_ui_section>
+            <sys_updated_by>tony.perron</sys_updated_by>
+            <sys_updated_on>2021-02-16 20:54:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>tony.perron</sys_created_by>
+            <sys_created_on>2021-02-16 20:54:49</sys_created_on>
+            <sys_id>de00f1fa1b1e2c10487bb88cdc4bcbf0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Miscellaneous Items" display_value="Miscellaneous Items" name="x_snc_offmgtcsc_personal_property_of_offenders" sys_domain="global" view="c2364b1610352010d152bac818665e22">c600f1fa1b1e2c10487bb88cdc4bcb68</sys_ui_section>
+            <sys_updated_by>tony.perron</sys_updated_by>
+            <sys_updated_on>2021-02-16 20:54:49</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_boolean_27</element>
+            <position>4</position>
+            <sys_created_by>tony.perron</sys_created_by>
+            <sys_created_on>2021-02-16 20:54:49</sys_created_on>
+            <sys_id>5600f1fa1b1e2c10487bb88cdc4bcbf1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Miscellaneous Items" display_value="Miscellaneous Items" name="x_snc_offmgtcsc_personal_property_of_offenders" sys_domain="global" view="c2364b1610352010d152bac818665e22">c600f1fa1b1e2c10487bb88cdc4bcb68</sys_ui_section>
+            <sys_updated_by>tony.perron</sys_updated_by>
+            <sys_updated_on>2021-02-16 20:54:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Miscellaneous Items</caption>
+            <header>false</header>
+            <name>x_snc_offmgtcsc_personal_property_of_offenders</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>tony.perron</sys_created_by>
+            <sys_created_on>2021-02-16 20:54:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c600f1fa1b1e2c10487bb88cdc4bcb68</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_offmgtcsc_personal_property_of_offenders</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Offender Management System" source="x_snc_offmgtcsc">aad6ec1cdb392090520c0bd3e29619cc</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+            <sys_update_name>sys_ui_section_c600f1fa1b1e2c10487bb88cdc4bcb68</sys_update_name>
+            <sys_updated_by>tony.perron</sys_updated_by>
+            <sys_updated_on>2021-02-16 20:54:48</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Workspace" name="workspace">c2364b1610352010d152bac818665e22</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

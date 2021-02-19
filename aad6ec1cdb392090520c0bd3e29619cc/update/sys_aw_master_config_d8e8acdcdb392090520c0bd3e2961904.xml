@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_aw_master_config">
+    <sys_aw_master_config action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <brand_color>#426d91</brand_color>
+        <compiled_page display_value="Workspace Core">b70867ad0f603300bb57f4a1ff767e15</compiled_page>
+        <compiled_page_registry display_value="Offender Management System">54e8acdcdb392090520c0bd3e2961905</compiled_page_registry>
+        <description>Correctional Services Canada - Services Correctionnels Canada</description>
+        <global_search display_value="Workspace search settings">97a574ea53c0130084acddeeff7b12a6</global_search>
+        <global_search_data display_value="">d4e868dcdb392090520c0bd3e296198a</global_search_data>
+        <hide_search_results_count>false</hide_search_results_count>
+        <name>Offender Management System</name>
+        <navigation_type>tab</navigation_type>
+        <notifications_enabled>true</notifications_enabled>
+        <primary_color>#1d4d85</primary_color>
+        <search_enabled>true</search_enabled>
+        <sys_class_name>sys_aw_master_config</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-01-15 00:47:43</sys_created_on>
+        <sys_id>d8e8acdcdb392090520c0bd3e2961904</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Offender Management System</sys_name>
+        <sys_package display_value="Offender Management System" source="x_snc_offmgtcsc">aad6ec1cdb392090520c0bd3e29619cc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+        <sys_update_name>sys_aw_master_config_d8e8acdcdb392090520c0bd3e2961904</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-11 22:02:54</sys_updated_on>
+        <user_preference_controls_enabled>true</user_preference_controls_enabled>
+        <workspace_logo>e9ad48d91bd22810487bb88cdc4bcb6a</workspace_logo>
+        <workspace_url>offender_managemen</workspace_url>
+    </sys_aw_master_config>
+</record_update>

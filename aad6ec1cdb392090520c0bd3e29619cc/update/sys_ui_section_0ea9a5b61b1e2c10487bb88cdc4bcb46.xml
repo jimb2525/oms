@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Electrical Item" section_id="0ea9a5b61b1e2c10487bb88cdc4bcb46" sys_domain="global" table="x_snc_offmgtcsc_personal_property_of_offenders" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_boolean_17</element>
+            <position>0</position>
+            <sys_created_by>tony.perron</sys_created_by>
+            <sys_created_on>2021-02-16 20:26:59</sys_created_on>
+            <sys_id>6aa9a5b61b1e2c10487bb88cdc4bcbc5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Electrical Item" display_value="Electrical Item" name="x_snc_offmgtcsc_personal_property_of_offenders" sys_domain="global" view="Default view">0ea9a5b61b1e2c10487bb88cdc4bcb46</sys_ui_section>
+            <sys_updated_by>tony.perron</sys_updated_by>
+            <sys_updated_on>2021-02-16 20:26:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_boolean_18</element>
+            <position>1</position>
+            <sys_created_by>tony.perron</sys_created_by>
+            <sys_created_on>2021-02-16 20:26:59</sys_created_on>
+            <sys_id>eea9a5b61b1e2c10487bb88cdc4bcbc5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Electrical Item" display_value="Electrical Item" name="x_snc_offmgtcsc_personal_property_of_offenders" sys_domain="global" view="Default view">0ea9a5b61b1e2c10487bb88cdc4bcb46</sys_ui_section>
+            <sys_updated_by>tony.perron</sys_updated_by>
+            <sys_updated_on>2021-02-16 20:26:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_boolean_19</element>
+            <position>2</position>
+            <sys_created_by>tony.perron</sys_created_by>
+            <sys_created_on>2021-02-16 20:26:59</sys_created_on>
+            <sys_id>66a9a5b61b1e2c10487bb88cdc4bcbc6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Electrical Item" display_value="Electrical Item" name="x_snc_offmgtcsc_personal_property_of_offenders" sys_domain="global" view="Default view">0ea9a5b61b1e2c10487bb88cdc4bcb46</sys_ui_section>
+            <sys_updated_by>tony.perron</sys_updated_by>
+            <sys_updated_on>2021-02-16 20:26:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>tony.perron</sys_created_by>
+            <sys_created_on>2021-02-16 20:26:59</sys_created_on>
+            <sys_id>eaa9a5b61b1e2c10487bb88cdc4bcbc6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Electrical Item" display_value="Electrical Item" name="x_snc_offmgtcsc_personal_property_of_offenders" sys_domain="global" view="Default view">0ea9a5b61b1e2c10487bb88cdc4bcb46</sys_ui_section>
+            <sys_updated_by>tony.perron</sys_updated_by>
+            <sys_updated_on>2021-02-16 20:26:59</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_boolean_20</element>
+            <position>4</position>
+            <sys_created_by>tony.perron</sys_created_by>
+            <sys_created_on>2021-02-16 20:26:59</sys_created_on>
+            <sys_id>62a9a5b61b1e2c10487bb88cdc4bcbc7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Electrical Item" display_value="Electrical Item" name="x_snc_offmgtcsc_personal_property_of_offenders" sys_domain="global" view="Default view">0ea9a5b61b1e2c10487bb88cdc4bcb46</sys_ui_section>
+            <sys_updated_by>tony.perron</sys_updated_by>
+            <sys_updated_on>2021-02-16 20:26:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_boolean_21</element>
+            <position>5</position>
+            <sys_created_by>tony.perron</sys_created_by>
+            <sys_created_on>2021-02-16 20:26:59</sys_created_on>
+            <sys_id>e6a9a5b61b1e2c10487bb88cdc4bcbc7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Electrical Item" display_value="Electrical Item" name="x_snc_offmgtcsc_personal_property_of_offenders" sys_domain="global" view="Default view">0ea9a5b61b1e2c10487bb88cdc4bcb46</sys_ui_section>
+            <sys_updated_by>tony.perron</sys_updated_by>
+            <sys_updated_on>2021-02-16 20:26:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_boolean_22</element>
+            <position>6</position>
+            <sys_created_by>tony.perron</sys_created_by>
+            <sys_created_on>2021-02-16 20:26:59</sys_created_on>
+            <sys_id>6ea9a5b61b1e2c10487bb88cdc4bcbc7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Electrical Item" display_value="Electrical Item" name="x_snc_offmgtcsc_personal_property_of_offenders" sys_domain="global" view="Default view">0ea9a5b61b1e2c10487bb88cdc4bcb46</sys_ui_section>
+            <sys_updated_by>tony.perron</sys_updated_by>
+            <sys_updated_on>2021-02-16 20:26:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Electrical Item</caption>
+            <header>false</header>
+            <name>x_snc_offmgtcsc_personal_property_of_offenders</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>tony.perron</sys_created_by>
+            <sys_created_on>2021-02-16 20:26:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0ea9a5b61b1e2c10487bb88cdc4bcb46</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_offmgtcsc_personal_property_of_offenders</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Offender Management System" source="x_snc_offmgtcsc">aad6ec1cdb392090520c0bd3e29619cc</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+            <sys_update_name>sys_ui_section_0ea9a5b61b1e2c10487bb88cdc4bcb46</sys_update_name>
+            <sys_updated_by>tony.perron</sys_updated_by>
+            <sys_updated_on>2021-02-16 20:26:57</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

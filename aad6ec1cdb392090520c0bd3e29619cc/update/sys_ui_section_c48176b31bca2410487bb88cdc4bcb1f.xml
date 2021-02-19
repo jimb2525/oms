@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Contact Information" section_id="c48176b31bca2410487bb88cdc4bcb1f" sys_domain="global" table="x_snc_offmgtcsc_offender_contact" version="3" view="workspace">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>relationship</element>
+            <position>0</position>
+            <sys_created_by>tony.perron</sys_created_by>
+            <sys_created_on>2021-02-17 13:30:13</sys_created_on>
+            <sys_id>5bd315471b1a24108edb0d03cd4bcb1c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Contact Information" display_value="Contact Information" name="x_snc_offmgtcsc_offender_contact" sys_domain="global" view="c2364b1610352010d152bac818665e22">c48176b31bca2410487bb88cdc4bcb1f</sys_ui_section>
+            <sys_updated_by>tony.perron</sys_updated_by>
+            <sys_updated_on>2021-02-17 13:30:13</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_string_1</element>
+            <position>1</position>
+            <sys_created_by>tony.perron</sys_created_by>
+            <sys_created_on>2021-02-17 13:30:13</sys_created_on>
+            <sys_id>dfd315471b1a24108edb0d03cd4bcb1c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Contact Information" display_value="Contact Information" name="x_snc_offmgtcsc_offender_contact" sys_domain="global" view="c2364b1610352010d152bac818665e22">c48176b31bca2410487bb88cdc4bcb1f</sys_ui_section>
+            <sys_updated_by>tony.perron</sys_updated_by>
+            <sys_updated_on>2021-02-17 13:30:13</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>street</element>
+            <position>2</position>
+            <sys_created_by>tony.perron</sys_created_by>
+            <sys_created_on>2021-02-17 13:30:13</sys_created_on>
+            <sys_id>57d315471b1a24108edb0d03cd4bcb1d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Contact Information" display_value="Contact Information" name="x_snc_offmgtcsc_offender_contact" sys_domain="global" view="c2364b1610352010d152bac818665e22">c48176b31bca2410487bb88cdc4bcb1f</sys_ui_section>
+            <sys_updated_by>tony.perron</sys_updated_by>
+            <sys_updated_on>2021-02-17 13:30:13</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>city</element>
+            <position>3</position>
+            <sys_created_by>tony.perron</sys_created_by>
+            <sys_created_on>2021-02-17 13:30:13</sys_created_on>
+            <sys_id>dbd315471b1a24108edb0d03cd4bcb1d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Contact Information" display_value="Contact Information" name="x_snc_offmgtcsc_offender_contact" sys_domain="global" view="c2364b1610352010d152bac818665e22">c48176b31bca2410487bb88cdc4bcb1f</sys_ui_section>
+            <sys_updated_by>tony.perron</sys_updated_by>
+            <sys_updated_on>2021-02-17 13:30:13</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>phone</element>
+            <position>4</position>
+            <sys_created_by>tony.perron</sys_created_by>
+            <sys_created_on>2021-02-17 13:30:13</sys_created_on>
+            <sys_id>53d315471b1a24108edb0d03cd4bcb1e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Contact Information" display_value="Contact Information" name="x_snc_offmgtcsc_offender_contact" sys_domain="global" view="c2364b1610352010d152bac818665e22">c48176b31bca2410487bb88cdc4bcb1f</sys_ui_section>
+            <sys_updated_by>tony.perron</sys_updated_by>
+            <sys_updated_on>2021-02-17 13:30:13</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>mobile_phone</element>
+            <position>5</position>
+            <sys_created_by>tony.perron</sys_created_by>
+            <sys_created_on>2021-02-17 13:30:13</sys_created_on>
+            <sys_id>d7d315471b1a24108edb0d03cd4bcb1e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Contact Information" display_value="Contact Information" name="x_snc_offmgtcsc_offender_contact" sys_domain="global" view="c2364b1610352010d152bac818665e22">c48176b31bca2410487bb88cdc4bcb1f</sys_ui_section>
+            <sys_updated_by>tony.perron</sys_updated_by>
+            <sys_updated_on>2021-02-17 13:30:13</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>zip</element>
+            <position>6</position>
+            <sys_created_by>tony.perron</sys_created_by>
+            <sys_created_on>2021-02-17 13:30:13</sys_created_on>
+            <sys_id>5fd315471b1a24108edb0d03cd4bcb1e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Contact Information" display_value="Contact Information" name="x_snc_offmgtcsc_offender_contact" sys_domain="global" view="c2364b1610352010d152bac818665e22">c48176b31bca2410487bb88cdc4bcb1f</sys_ui_section>
+            <sys_updated_by>tony.perron</sys_updated_by>
+            <sys_updated_on>2021-02-17 13:30:13</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Contact Information</caption>
+            <header>false</header>
+            <name>x_snc_offmgtcsc_offender_contact</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>tony.perron</sys_created_by>
+            <sys_created_on>2021-02-07 17:59:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c48176b31bca2410487bb88cdc4bcb1f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_offmgtcsc_offender_contact</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Offender Management System" source="x_snc_offmgtcsc">aad6ec1cdb392090520c0bd3e29619cc</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+            <sys_update_name>sys_ui_section_c48176b31bca2410487bb88cdc4bcb1f</sys_update_name>
+            <sys_updated_by>tony.perron</sys_updated_by>
+            <sys_updated_on>2021-02-07 17:59:04</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Workspace" name="workspace">c2364b1610352010d152bac818665e22</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

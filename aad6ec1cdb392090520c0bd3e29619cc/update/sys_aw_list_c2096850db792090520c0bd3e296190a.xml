@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_aw_list">
+    <sys_aw_list action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category display_value="Security Information and Intelligence">89789c691bde2810487bb88cdc4bcb2e</category>
+        <columns>number,priority,state,assigned_to,short_description,opened_at,opened_by</columns>
+        <condition table="x_snc_offmgtcsc_offender_incident">active=true^assigned_toISEMPTY^EQ<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="false" field="assigned_to" goto="false" newquery="false" operator="ISEMPTY" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <groups/>
+        <list_attributes/>
+        <order>200</order>
+        <roles/>
+        <sys_class_name>sys_aw_list</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-01-15 00:48:23</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c2096850db792090520c0bd3e296190a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Open - Unassigned Incidents</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Offender Management System" source="x_snc_offmgtcsc">aad6ec1cdb392090520c0bd3e29619cc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+        <sys_update_name>sys_aw_list_c2096850db792090520c0bd3e296190a</sys_update_name>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-14 01:50:55</sys_updated_on>
+        <table>x_snc_offmgtcsc_offender_incident</table>
+        <title>Open - Unassigned Incidents</title>
+        <user/>
+        <workspace display_value="Offender Management System">d8e8acdcdb392090520c0bd3e2961904</workspace>
+    </sys_aw_list>
+</record_update>

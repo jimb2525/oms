@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>Statement/Observation Report</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>Statement/Observation Report</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Task" name="Task">5da303d610312010d152bac818665e4e</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-15 02:55:55</sys_created_on>
+        <sys_id>108f2c921bd2e810487bb88cdc4bcb95</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Statement/Observation Report</sys_name>
+        <sys_package display_value="Offender Management System" source="x_snc_offmgtcsc">aad6ec1cdb392090520c0bd3e29619cc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+        <sys_update_name>sys_wizard_answer_108f2c921bd2e810487bb88cdc4bcb95</sys_update_name>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-15 02:55:55</sys_updated_on>
+        <table/>
+        <target_url>x_snc_offmgtcsc_statement_observation_report.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+</record_update>

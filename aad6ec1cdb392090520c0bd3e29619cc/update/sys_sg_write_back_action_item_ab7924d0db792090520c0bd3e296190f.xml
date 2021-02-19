@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_write_back_action_item">
+    <sys_sg_write_back_action_item action="INSERT_OR_UPDATE">
+        <description/>
+        <execution_script/>
+        <name>New (Offender)</name>
+        <parameter_screen/>
+        <query_condition table="x_snc_offmgtcsc_offender">sys_idSTARTSWITH{{Offender sys_id}}^EQ<item endquery="false" field="sys_id" goto="false" newquery="false" operator="STARTSWITH" or="false" value="{{Offender sys_id}}"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </query_condition>
+        <sys_class_name>sys_sg_write_back_action_item</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-01-15 00:50:24</sys_created_on>
+        <sys_id>ab7924d0db792090520c0bd3e296190f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>New (Offender)</sys_name>
+        <sys_package display_value="Offender Management System" source="x_snc_offmgtcsc">aad6ec1cdb392090520c0bd3e29619cc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+        <sys_update_name>sys_sg_write_back_action_item_ab7924d0db792090520c0bd3e296190f</sys_update_name>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-01-15 00:50:24</sys_updated_on>
+        <table>x_snc_offmgtcsc_offender</table>
+        <template>accumulated_roles={{Offender accumulated_roles}}^active={{Offender active}}^agent_status={{Offender agent_status}}^avatar={{Offender avatar}}^average_daily_fte={{Offender average_daily_fte}}^building={{Offender building}}^business_criticality={{Offender business_criticality}}^calendar_integration={{Offender calendar_integration}}^city={{Offender city}}^company={{Offender company}}^correlation_id={{Offender correlation_id}}^cost_center={{Offender cost_center}}^country={{Offender country}}^date_format={{Offender date_format}}^default_perspective={{Offender default_perspective}}^EQ</template>
+        <type>new</type>
+        <use_current_record_as_condition>false</use_current_record_as_condition>
+        <use_fields_for_ref_lookup>false</use_fields_for_ref_lookup>
+    </sys_sg_write_back_action_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=ab7924d0db792090520c0bd3e296190f"/>
+</record_update>

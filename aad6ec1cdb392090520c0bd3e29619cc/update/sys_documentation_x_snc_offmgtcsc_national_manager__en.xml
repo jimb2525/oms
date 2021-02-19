@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="" label="National Manager" language="en" table="x_snc_offmgtcsc_national_manager">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>National Manager</label>
+            <language>en</language>
+            <name>x_snc_offmgtcsc_national_manager</name>
+            <plural>National Managers</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-02-12 16:14:59</sys_created_on>
+            <sys_id>04a9c4e91b9e2810487bb88cdc4bcb40</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>National Manager</sys_name>
+            <sys_package display_value="Offender Management System" source="x_snc_offmgtcsc">aad6ec1cdb392090520c0bd3e29619cc</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+            <sys_update_name>sys_documentation_x_snc_offmgtcsc_national_manager__en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-02-12 16:14:59</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

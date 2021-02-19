@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Additional Information" section_id="368439dcdbf92010b69ac6ab1396196c" sys_domain="global" table="x_snc_offmgtcsc_investigation" version="3" view="workspace">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>video_review</element>
+            <position>0</position>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-01-15 06:18:19</sys_created_on>
+            <sys_id>4f8479dcdbf92010b69ac6ab13961932</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Additional Information" display_value="Additional Information" name="x_snc_offmgtcsc_investigation" sys_domain="global" view="c2364b1610352010d152bac818665e22">368439dcdbf92010b69ac6ab1396196c</sys_ui_section>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-01-15 06:18:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>interviews</element>
+            <position>1</position>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-01-15 06:18:19</sys_created_on>
+            <sys_id>c38479dcdbf92010b69ac6ab13961933</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Additional Information" display_value="Additional Information" name="x_snc_offmgtcsc_investigation" sys_domain="global" view="c2364b1610352010d152bac818665e22">368439dcdbf92010b69ac6ab1396196c</sys_ui_section>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-01-15 06:18:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>intelligence_information</element>
+            <position>2</position>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-01-15 06:18:19</sys_created_on>
+            <sys_id>4b8479dcdbf92010b69ac6ab13961933</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Additional Information" display_value="Additional Information" name="x_snc_offmgtcsc_investigation" sys_domain="global" view="c2364b1610352010d152bac818665e22">368439dcdbf92010b69ac6ab1396196c</sys_ui_section>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-01-15 06:18:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Additional Information</caption>
+            <header>false</header>
+            <name>x_snc_offmgtcsc_investigation</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-01-15 06:18:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>368439dcdbf92010b69ac6ab1396196c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_offmgtcsc_investigation</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Offender Management System" source="x_snc_offmgtcsc">aad6ec1cdb392090520c0bd3e29619cc</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+            <sys_update_name>sys_ui_section_368439dcdbf92010b69ac6ab1396196c</sys_update_name>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-01-15 06:18:19</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Workspace" name="workspace">c2364b1610352010d152bac818665e22</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

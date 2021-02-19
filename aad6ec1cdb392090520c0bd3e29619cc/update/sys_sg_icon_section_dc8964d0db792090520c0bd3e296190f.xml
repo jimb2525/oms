@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_icon_section">
+    <sys_sg_icon_section action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applets>888924d0db792090520c0bd3e29619c3</applets>
+        <data_item/>
+        <display_feed_count>false</display_feed_count>
+        <hide_header>false</hide_header>
+        <hide_section_if_empty>false</hide_section_if_empty>
+        <orientation>horizontal</orientation>
+        <required_roles>x_snc_offmgtcsc.offender,x_snc_offmgtcsc.victim,x_snc_offmgtcsc.case_manager,x_snc_offmgtcsc.parole_officer</required_roles>
+        <sys_class_name>sys_sg_icon_section</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-01-15 00:50:27</sys_created_on>
+        <sys_id>dc8964d0db792090520c0bd3e296190f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Offender Incident</sys_name>
+        <sys_package display_value="Offender Management System" source="x_snc_offmgtcsc">aad6ec1cdb392090520c0bd3e29619cc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+        <sys_update_name>sys_sg_icon_section_dc8964d0db792090520c0bd3e296190f</sys_update_name>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-01-15 00:50:27</sys_updated_on>
+        <table/>
+        <title>Offender Incident</title>
+        <visible_condition/>
+    </sys_sg_icon_section>
+</record_update>

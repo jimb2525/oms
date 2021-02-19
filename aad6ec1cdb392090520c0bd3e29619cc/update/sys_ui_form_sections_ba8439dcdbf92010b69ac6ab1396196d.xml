@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="ba8439dcdbf92010b69ac6ab1396196d" sys_domain="global" table="x_snc_offmgtcsc_investigation" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-01-15 06:18:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>368479dcdbf92010b69ac6ab1396191e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_offmgtcsc_investigation" name="x_snc_offmgtcsc_investigation" sys_domain="global" view="c2364b1610352010d152bac818665e22">ba8439dcdbf92010b69ac6ab1396196d</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_offmgtcsc_investigation" sys_domain="global" view="c2364b1610352010d152bac818665e22">b28439dcdbf92010b69ac6ab1396196b</sys_ui_section>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-01-15 06:18:19</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-01-15 06:18:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f28479dcdbf92010b69ac6ab1396191f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_offmgtcsc_investigation" name="x_snc_offmgtcsc_investigation" sys_domain="global" view="c2364b1610352010d152bac818665e22">ba8439dcdbf92010b69ac6ab1396196d</sys_ui_form>
+            <sys_ui_section caption="Additional Information" display_value="Additional Information" name="x_snc_offmgtcsc_investigation" sys_domain="global" view="c2364b1610352010d152bac818665e22">368439dcdbf92010b69ac6ab1396196c</sys_ui_section>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-01-15 06:18:19</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_snc_offmgtcsc_investigation</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-01-15 06:18:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ba8439dcdbf92010b69ac6ab1396196d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_offmgtcsc_investigation</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Offender Management System" source="x_snc_offmgtcsc">aad6ec1cdb392090520c0bd3e29619cc</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+            <sys_update_name>sys_ui_form_sections_ba8439dcdbf92010b69ac6ab1396196d</sys_update_name>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-01-15 06:18:19</sys_updated_on>
+            <sys_user/>
+            <view display_value="Workspace" name="workspace">c2364b1610352010d152bac818665e22</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

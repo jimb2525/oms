@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>u_boolean_24</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>tony.perron</sys_created_by>
+        <sys_created_on>2021-02-16 20:36:06</sys_created_on>
+        <sys_id>72abadf61b1e2c10487bb88cdc4bcb80</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_boolean_24</sys_name>
+        <sys_package display_value="Offender Management System" source="x_snc_offmgtcsc">aad6ec1cdb392090520c0bd3e29619cc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+        <sys_update_name>sys_ui_policy_action_72abadf61b1e2c10487bb88cdc4bcb80</sys_update_name>
+        <sys_updated_by>tony.perron</sys_updated_by>
+        <sys_updated_on>2021-02-16 20:36:06</sys_updated_on>
+        <table>x_snc_offmgtcsc_personal_property_of_offenders</table>
+        <ui_policy display_value="Max security -  item to disapear">d96ba9f61b1e2c10487bb88cdc4bcbbe</ui_policy>
+        <visible>false</visible>
+    </sys_ui_policy_action>
+</record_update>

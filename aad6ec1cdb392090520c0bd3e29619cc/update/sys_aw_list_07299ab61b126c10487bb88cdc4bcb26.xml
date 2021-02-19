@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_aw_list">
+    <sys_aw_list action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category display_value="Grievances">a1b992f61b126c10487bb88cdc4bcb2b</category>
+        <columns>case,u_reference_1,u_reference_2,contact,state,priority,assigned_to,sys_updated_on</columns>
+        <condition/>
+        <groups/>
+        <list_attributes/>
+        <order>100</order>
+        <roles/>
+        <sys_class_name>sys_aw_list</sys_class_name>
+        <sys_created_by>tony.perron</sys_created_by>
+        <sys_created_on>2021-02-16 23:55:21</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>07299ab61b126c10487bb88cdc4bcb26</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>All</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Offender Management System" source="x_snc_offmgtcsc">aad6ec1cdb392090520c0bd3e29619cc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+        <sys_update_name>sys_aw_list_07299ab61b126c10487bb88cdc4bcb26</sys_update_name>
+        <sys_updated_by>tony.perron</sys_updated_by>
+        <sys_updated_on>2021-02-17 00:04:12</sys_updated_on>
+        <table>sn_complaint_case</table>
+        <title>All</title>
+        <user/>
+        <workspace display_value="Offender Management System">d8e8acdcdb392090520c0bd3e2961904</workspace>
+    </sys_aw_list>
+</record_update>

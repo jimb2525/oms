@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Release Decision Processing">83b155d4db3d2090520c0bd3e2961936</sc_cat_item>
+        <sc_category display_value="Decisions Management">e9ce8910db3d2090520c0bd3e29619eb</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>tony.perron</sys_created_by>
+        <sys_created_on>2021-01-15 03:46:17</sys_created_on>
+        <sys_id>0cc155d4db3d2090520c0bd3e29619bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Decisions Management.Release Decision Processing</sys_name>
+        <sys_package display_value="Offender Management System" source="x_snc_offmgtcsc">aad6ec1cdb392090520c0bd3e29619cc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+        <sys_update_name>sc_cat_item_category_0cc155d4db3d2090520c0bd3e29619bf</sys_update_name>
+        <sys_updated_by>tony.perron</sys_updated_by>
+        <sys_updated_on>2021-01-15 03:46:17</sys_updated_on>
+    </sc_cat_item_category>
+</record_update>

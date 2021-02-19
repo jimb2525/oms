@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_snc_offmgtcsc_offender_incident">x_snc_offmgtcsc_offender_incident</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>INC</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-14 19:23:59</sys_created_on>
+        <sys_id>78084fce1b1ea810487bb88cdc4bcb73</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>INC</sys_name>
+        <sys_package display_value="Offender Management System" source="x_snc_offmgtcsc">aad6ec1cdb392090520c0bd3e29619cc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+        <sys_update_name>sys_number_78084fce1b1ea810487bb88cdc4bcb73</sys_update_name>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-14 19:23:59</sys_updated_on>
+    </sys_number>
+</record_update>

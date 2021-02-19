@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>book_a_cell_through_the_reservation_portal</internal_name>
+        <label_cache>[]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Book a cell through the Reservation Portal</name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>tony.perron</sys_created_by>
+        <sys_created_on>2021-02-19 13:25:39</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0c0667e31b1ea4108edb0d03cd4bcb64</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Book a cell through the Reservation Portal</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Offender Management System" source="x_snc_offmgtcsc">aad6ec1cdb392090520c0bd3e29619cc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+        <sys_update_name>sys_hub_flow_0c0667e31b1ea4108edb0d03cd4bcb64</sys_update_name>
+        <sys_updated_by>tony.perron</sys_updated_by>
+        <sys_updated_on>2021-02-19 13:25:39</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=0c0667e31b1ea4108edb0d03cd4bcb64"/>
+    <sys_variable_value action="delete_multiple" query="document_key=0c0667e31b1ea4108edb0d03cd4bcb64"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=0c0667e31b1ea4108edb0d03cd4bcb64^sys_idNOT IN440667e31b1ea4108edb0d03cd4bcb67"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>0c0667e31b1ea4108edb0d03cd4bcb64</id>
+        <name>Book a cell through the Reservation Portal</name>
+        <sys_created_by>tony.perron</sys_created_by>
+        <sys_created_on>2021-02-19 13:25:39</sys_created_on>
+        <sys_id>440667e31b1ea4108edb0d03cd4bcb67</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>tony.perron</sys_updated_by>
+        <sys_updated_on>2021-02-19 13:25:39</sys_updated_on>
+    </sys_flow_cat_variable_model>
+</record_update>

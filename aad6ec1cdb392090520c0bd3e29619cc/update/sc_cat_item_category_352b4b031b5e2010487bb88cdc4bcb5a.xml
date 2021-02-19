@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Victim registration">60598f4f1b1e2010487bb88cdc4bcb9e</sc_cat_item>
+        <sc_category display_value="Registration">6827d10b1b1a24108edb0d03cd4bcbb3</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>sam.pirner</sys_created_by>
+        <sys_created_on>2021-02-17 22:11:24</sys_created_on>
+        <sys_id>352b4b031b5e2010487bb88cdc4bcb5a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Registration.Victim registration</sys_name>
+        <sys_package display_value="Offender Management System" source="x_snc_offmgtcsc">aad6ec1cdb392090520c0bd3e29619cc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+        <sys_update_name>sc_cat_item_category_352b4b031b5e2010487bb88cdc4bcb5a</sys_update_name>
+        <sys_updated_by>sam.pirner</sys_updated_by>
+        <sys_updated_on>2021-02-17 22:11:24</sys_updated_on>
+    </sc_cat_item_category>
+</record_update>

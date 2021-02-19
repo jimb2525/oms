@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <order>1</order>
+        <published_ref/>
+        <question display_value="Gender">8959078f1b1e2010487bb88cdc4bcbf7</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>sam.pirner</sys_created_by>
+        <sys_created_on>2021-02-17 22:03:27</sys_created_on>
+        <sys_id>5959078f1b1e2010487bb88cdc4bcbfe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Female</sys_name>
+        <sys_package display_value="Offender Management System" source="x_snc_offmgtcsc">aad6ec1cdb392090520c0bd3e29619cc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+        <sys_update_name>question_choice_5959078f1b1e2010487bb88cdc4bcbfe</sys_update_name>
+        <sys_updated_by>sam.pirner</sys_updated_by>
+        <sys_updated_on>2021-02-17 22:03:27</sys_updated_on>
+        <text>Female</text>
+        <value>Female</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=5959078f1b1e2010487bb88cdc4bcbfe"/>
+</record_update>

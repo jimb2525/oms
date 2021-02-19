@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_aw_ribbon_component">
+    <sys_aw_ribbon_component action="INSERT_OR_UPDATE">
+        <component display_value="snc-snc-process-formatter">e91042eda9ff74c5df214c400500fea4</component>
+        <description/>
+        <name>Process Formatter</name>
+        <sys_class_name>sys_aw_ribbon_component</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-12 21:13:59</sys_created_on>
+        <sys_id>f3fd45e11b9a28108edb0d03cd4bcb80</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Process Formatter</sys_name>
+        <sys_package display_value="Offender Management System" source="x_snc_offmgtcsc">aad6ec1cdb392090520c0bd3e29619cc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+        <sys_update_name>sys_aw_ribbon_component_f3fd45e11b9a28108edb0d03cd4bcb80</sys_update_name>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-12 21:13:59</sys_updated_on>
+        <tag>snc-snc-process-formatter</tag>
+    </sys_aw_ribbon_component>
+    <sys_translated_text action="delete_multiple" query="documentkey=f3fd45e11b9a28108edb0d03cd4bcb80"/>
+</record_update>

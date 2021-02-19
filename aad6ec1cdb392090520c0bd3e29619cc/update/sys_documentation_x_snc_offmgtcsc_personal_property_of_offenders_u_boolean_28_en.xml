@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_boolean_28" label="1 - Blunt end cuticle scissors" language="en" table="x_snc_offmgtcsc_personal_property_of_offenders">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_boolean_28</element>
+            <help/>
+            <hint/>
+            <label>1 - Blunt end cuticle scissors</label>
+            <language>en</language>
+            <name>x_snc_offmgtcsc_personal_property_of_offenders</name>
+            <plural>1 - Blunt end cuticle scissors</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>tony.perron</sys_created_by>
+            <sys_created_on>2021-02-16 20:45:33</sys_created_on>
+            <sys_id>eeede57a1b1e2c10487bb88cdc4bcb17</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>1 - Blunt end cuticle scissors</sys_name>
+            <sys_package display_value="Offender Management System" source="x_snc_offmgtcsc">aad6ec1cdb392090520c0bd3e29619cc</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+            <sys_update_name>sys_documentation_x_snc_offmgtcsc_personal_property_of_offenders_u_boolean_28_en</sys_update_name>
+            <sys_updated_by>tony.perron</sys_updated_by>
+            <sys_updated_on>2021-02-16 20:45:33</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_choice_1" label="Choice" language="en" table="x_snc_offmgtcsc_offense">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_choice_1</element>
+            <help/>
+            <hint/>
+            <label>Choice</label>
+            <language>en</language>
+            <name>x_snc_offmgtcsc_offense</name>
+            <plural>Choices</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>tony.perron</sys_created_by>
+            <sys_created_on>2021-02-07 17:22:15</sys_created_on>
+            <sys_id>f0192e3f1b8a2410487bb88cdc4bcbbb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Choice</sys_name>
+            <sys_package display_value="Offender Management System" source="x_snc_offmgtcsc">aad6ec1cdb392090520c0bd3e29619cc</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+            <sys_update_name>sys_documentation_x_snc_offmgtcsc_offense_u_choice_1_en</sys_update_name>
+            <sys_updated_by>tony.perron</sys_updated_by>
+            <sys_updated_on>2021-02-07 17:22:15</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,540 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_charges_type" table="x_snc_offmgtcsc_offense" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_charges_type</element>
+            <name>x_snc_offmgtcsc_offense</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>tony.perron</sys_created_by>
+            <sys_created_on>2021-02-07 16:53:56</sys_created_on>
+            <sys_id>ce92a27b1b8a2410487bb88cdc4bcb29</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_charges_type</sys_name>
+            <sys_package display_value="Offender Management System" source="x_snc_offmgtcsc">aad6ec1cdb392090520c0bd3e29619cc</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+            <sys_update_name>sys_choice_x_snc_offmgtcsc_offense_u_charges_type</sys_update_name>
+            <sys_updated_by>tony.perron</sys_updated_by>
+            <sys_updated_on>2021-02-07 16:53:56</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>administration of justice</dependent_value>
+            <element>u_charges_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Breach of probation</label>
+            <language>en</language>
+            <name>x_snc_offmgtcsc_offense</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>tony.perron</sys_created_by>
+            <sys_created_on>2021-02-07 17:43:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>42ddaeff1b8a2410487bb88cdc4bcb01</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>tony.perron</sys_updated_by>
+            <sys_updated_on>2021-02-07 17:43:41</sys_updated_on>
+            <value>Breach of probation</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>crimes against property</dependent_value>
+            <element>u_charges_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Break and Enter</label>
+            <language>en</language>
+            <name>x_snc_offmgtcsc_offense</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>tony.perron</sys_created_by>
+            <sys_created_on>2021-02-07 17:41:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>338d2eff1b8a2410487bb88cdc4bcb23</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>tony.perron</sys_updated_by>
+            <sys_updated_on>2021-02-07 17:48:31</sys_updated_on>
+            <value>Break and Enter</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>crimes against the person</dependent_value>
+            <element>u_charges_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Common Assault (Level 1)</label>
+            <language>en</language>
+            <name>x_snc_offmgtcsc_offense</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>tony.perron</sys_created_by>
+            <sys_created_on>2021-02-07 17:39:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>20dca6ff1b8a2410487bb88cdc4bcb18</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tony.perron</sys_updated_by>
+            <sys_updated_on>2021-02-07 17:39:05</sys_updated_on>
+            <value>Common Aussault</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>crimes against the person</dependent_value>
+            <element>u_charges_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Criminal Harrassement</label>
+            <language>en</language>
+            <name>x_snc_offmgtcsc_offense</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>tony.perron</sys_created_by>
+            <sys_created_on>2021-02-07 17:39:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8c1d2aff1b8a2410487bb88cdc4bcb53</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>tony.perron</sys_updated_by>
+            <sys_updated_on>2021-02-07 17:40:05</sys_updated_on>
+            <value>criminal harrassment</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>other criminal code</dependent_value>
+            <element>u_charges_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Disturbing the Peace</label>
+            <language>en</language>
+            <name>x_snc_offmgtcsc_offense</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>tony.perron</sys_created_by>
+            <sys_created_on>2021-02-07 17:45:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6e4ea2331bca2410487bb88cdc4bcbcf</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>tony.perron</sys_updated_by>
+            <sys_updated_on>2021-02-07 17:45:16</sys_updated_on>
+            <value>Disturbing the Peace</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>other federal statutes</dependent_value>
+            <element>u_charges_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Drug Possession</label>
+            <language>en</language>
+            <name>x_snc_offmgtcsc_offense</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>tony.perron</sys_created_by>
+            <sys_created_on>2021-02-07 17:46:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>879e66331bca2410487bb88cdc4bcb0b</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>tony.perron</sys_updated_by>
+            <sys_updated_on>2021-02-07 17:46:51</sys_updated_on>
+            <value>Drug Possession</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>administration of justice</dependent_value>
+            <element>u_charges_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Fail to Comply with Order</label>
+            <language>en</language>
+            <name>x_snc_offmgtcsc_offense</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>tony.perron</sys_created_by>
+            <sys_created_on>2021-02-07 17:43:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a7fdeeff1b8a2410487bb88cdc4bcbff</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>tony.perron</sys_updated_by>
+            <sys_updated_on>2021-02-07 17:44:13</sys_updated_on>
+            <value>Fail to Comply with Order</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>crimes against property</dependent_value>
+            <element>u_charges_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Fraud</label>
+            <language>en</language>
+            <name>x_snc_offmgtcsc_offense</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>tony.perron</sys_created_by>
+            <sys_created_on>2021-02-07 17:42:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2f9d6eff1b8a2410487bb88cdc4bcb00</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>tony.perron</sys_updated_by>
+            <sys_updated_on>2021-02-07 17:48:44</sys_updated_on>
+            <value>Fraud</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>criminal code traffic</dependent_value>
+            <element>u_charges_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Impaired Driving</label>
+            <language>en</language>
+            <name>x_snc_offmgtcsc_offense</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>tony.perron</sys_created_by>
+            <sys_created_on>2021-02-07 17:45:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>287e66331bca2410487bb88cdc4bcb1f</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>tony.perron</sys_updated_by>
+            <sys_updated_on>2021-02-07 17:46:08</sys_updated_on>
+            <value>Impaired Driving</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>administration of justice</dependent_value>
+            <element>u_charges_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other Admins. Justice</label>
+            <language>en</language>
+            <name>x_snc_offmgtcsc_offense</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>tony.perron</sys_created_by>
+            <sys_created_on>2021-02-07 17:44:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5f1eeeff1b8a2410487bb88cdc4bcb83</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>tony.perron</sys_updated_by>
+            <sys_updated_on>2021-02-07 17:44:28</sys_updated_on>
+            <value>Other Admins. Justice</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>criminal code traffic</dependent_value>
+            <element>u_charges_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other CC Traffic</label>
+            <language>en</language>
+            <name>x_snc_offmgtcsc_offense</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>tony.perron</sys_created_by>
+            <sys_created_on>2021-02-07 17:46:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e78ea6331bca2410487bb88cdc4bcb3e</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>tony.perron</sys_updated_by>
+            <sys_updated_on>2021-02-07 17:46:22</sys_updated_on>
+            <value>Other CC Traffic</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>crimes against the person</dependent_value>
+            <element>u_charges_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other Crimes Against Persons</label>
+            <language>en</language>
+            <name>x_snc_offmgtcsc_offense</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>tony.perron</sys_created_by>
+            <sys_created_on>2021-02-07 17:40:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>832d2aff1b8a2410487bb88cdc4bcb63</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>tony.perron</sys_updated_by>
+            <sys_updated_on>2021-02-07 17:40:23</sys_updated_on>
+            <value>Other Crimes Against Persons</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>other federal statutes</dependent_value>
+            <element>u_charges_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other Drug Offences</label>
+            <language>en</language>
+            <name>x_snc_offmgtcsc_offense</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>tony.perron</sys_created_by>
+            <sys_created_on>2021-02-07 17:46:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c6be2a331bca2410487bb88cdc4bcb15</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>tony.perron</sys_updated_by>
+            <sys_updated_on>2021-02-07 17:47:07</sys_updated_on>
+            <value>Other Drug Offences</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>crimes against property</dependent_value>
+            <element>u_charges_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other Property Crimes</label>
+            <language>en</language>
+            <name>x_snc_offmgtcsc_offense</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>tony.perron</sys_created_by>
+            <sys_created_on>2021-02-07 17:42:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6aad6eff1b8a2410487bb88cdc4bcbaf</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>tony.perron</sys_updated_by>
+            <sys_updated_on>2021-02-07 17:48:55</sys_updated_on>
+            <value>Other Property Crimes</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>crimes against property</dependent_value>
+            <element>u_charges_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Property Theft</label>
+            <language>en</language>
+            <name>x_snc_offmgtcsc_offense</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>tony.perron</sys_created_by>
+            <sys_created_on>2021-02-07 17:41:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>837d6aff1b8a2410487bb88cdc4bcb57</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>tony.perron</sys_updated_by>
+            <sys_updated_on>2021-02-07 17:49:06</sys_updated_on>
+            <value>Property Theft</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>other criminal code</dependent_value>
+            <element>u_charges_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Prostitution</label>
+            <language>en</language>
+            <name>x_snc_offmgtcsc_offense</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>tony.perron</sys_created_by>
+            <sys_created_on>2021-02-07 17:44:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>eb3ea2331bca2410487bb88cdc4bcb2d</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>tony.perron</sys_updated_by>
+            <sys_updated_on>2021-02-07 17:44:59</sys_updated_on>
+            <value>Prostitution</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>other criminal code</dependent_value>
+            <element>u_charges_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Residual Criminal Code</label>
+            <language>en</language>
+            <name>x_snc_offmgtcsc_offense</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>tony.perron</sys_created_by>
+            <sys_created_on>2021-02-07 17:45:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>af5ee2331bca2410487bb88cdc4bcbaf</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>tony.perron</sys_updated_by>
+            <sys_updated_on>2021-02-07 17:45:39</sys_updated_on>
+            <value>Residual Criminal Code</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>other federal statutes</dependent_value>
+            <element>u_charges_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Residual Federal Statutes</label>
+            <language>en</language>
+            <name>x_snc_offmgtcsc_offense</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>tony.perron</sys_created_by>
+            <sys_created_on>2021-02-07 17:47:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>dace6a331bca2410487bb88cdc4bcb0d</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>tony.perron</sys_updated_by>
+            <sys_updated_on>2021-02-07 17:47:24</sys_updated_on>
+            <value>Residual Federal Statutes</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>crimes against the person</dependent_value>
+            <element>u_charges_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Uttering Threats</label>
+            <language>en</language>
+            <name>x_snc_offmgtcsc_offense</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>tony.perron</sys_created_by>
+            <sys_created_on>2021-02-07 17:39:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d1fca6ff1b8a2410487bb88cdc4bcbf8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tony.perron</sys_updated_by>
+            <sys_updated_on>2021-02-07 17:39:32</sys_updated_on>
+            <value>uttering threats</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>other criminal code</dependent_value>
+            <element>u_charges_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Weapons</label>
+            <language>en</language>
+            <name>x_snc_offmgtcsc_offense</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>tony.perron</sys_created_by>
+            <sys_created_on>2021-02-07 17:44:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0b2ea2331bca2410487bb88cdc4bcbd3</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>tony.perron</sys_updated_by>
+            <sys_updated_on>2021-02-07 17:44:46</sys_updated_on>
+            <value>Weapons</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>crimes against the person</dependent_value>
+            <element>u_charges_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Homicide and Related</label>
+            <language>en</language>
+            <name>x_snc_offmgtcsc_offense</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>tony.perron</sys_created_by>
+            <sys_created_on>2021-02-07 16:56:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d923a67b1b8a2410487bb88cdc4bcbca</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>tony.perron</sys_updated_by>
+            <sys_updated_on>2021-02-07 17:37:07</sys_updated_on>
+            <value>Homicide and Related</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>crimes against the person</dependent_value>
+            <element>u_charges_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Attempted Murder</label>
+            <language>en</language>
+            <name>x_snc_offmgtcsc_offense</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>tony.perron</sys_created_by>
+            <sys_created_on>2021-02-07 16:56:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9923a67b1b8a2410487bb88cdc4bcbcc</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>tony.perron</sys_updated_by>
+            <sys_updated_on>2021-02-07 17:37:52</sys_updated_on>
+            <value>Attempted Murder</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>crimes against the person</dependent_value>
+            <element>u_charges_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Robbery</label>
+            <language>en</language>
+            <name>x_snc_offmgtcsc_offense</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>tony.perron</sys_created_by>
+            <sys_created_on>2021-02-07 16:56:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5923a67b1b8a2410487bb88cdc4bcbce</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>tony.perron</sys_updated_by>
+            <sys_updated_on>2021-02-07 17:38:04</sys_updated_on>
+            <value>Robbery</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>crimes against the person</dependent_value>
+            <element>u_charges_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Sexual assault</label>
+            <language>en</language>
+            <name>x_snc_offmgtcsc_offense</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>tony.perron</sys_created_by>
+            <sys_created_on>2021-02-07 16:56:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1923a67b1b8a2410487bb88cdc4bcbd0</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>tony.perron</sys_updated_by>
+            <sys_updated_on>2021-02-07 17:38:22</sys_updated_on>
+            <value>sexual assault</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>crimes against the person</dependent_value>
+            <element>u_charges_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other Sexual Offences</label>
+            <language>en</language>
+            <name>x_snc_offmgtcsc_offense</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>tony.perron</sys_created_by>
+            <sys_created_on>2021-02-07 16:56:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d523a67b1b8a2410487bb88cdc4bcbd2</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>tony.perron</sys_updated_by>
+            <sys_updated_on>2021-02-07 17:38:13</sys_updated_on>
+            <value>other sexual offences</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>crimes against the person</dependent_value>
+            <element>u_charges_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Major Assault (levels 2 &amp; 3)</label>
+            <language>en</language>
+            <name>x_snc_offmgtcsc_offense</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>tony.perron</sys_created_by>
+            <sys_created_on>2021-02-07 16:56:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9523a67b1b8a2410487bb88cdc4bcbd4</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>tony.perron</sys_updated_by>
+            <sys_updated_on>2021-02-07 17:38:31</sys_updated_on>
+            <value>major assault (levels 2 &amp; 3)</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

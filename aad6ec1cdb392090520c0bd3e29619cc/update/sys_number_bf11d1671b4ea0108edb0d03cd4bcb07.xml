@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_snc_offmgtcsc_offender_contact">x_snc_offmgtcsc_offender_contact</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>OFC</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-06 16:19:30</sys_created_on>
+        <sys_id>bf11d1671b4ea0108edb0d03cd4bcb07</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>OFC</sys_name>
+        <sys_package display_value="Offender Management System" source="x_snc_offmgtcsc">aad6ec1cdb392090520c0bd3e29619cc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+        <sys_update_name>sys_number_bf11d1671b4ea0108edb0d03cd4bcb07</sys_update_name>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-06 16:19:30</sys_updated_on>
+    </sys_number>
+</record_update>

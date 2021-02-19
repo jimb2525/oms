@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="investigation_underway" label="Investigation Underway" language="en" table="x_snc_offmgtcsc_offender_incident">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>investigation_underway</element>
+            <help/>
+            <hint/>
+            <label>Investigation Underway</label>
+            <language>en</language>
+            <name>x_snc_offmgtcsc_offender_incident</name>
+            <plural>Investigation Underways</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-01-15 06:38:30</sys_created_on>
+            <sys_id>a629799cdb7d2010b69ac6ab139619d8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Investigation Underway</sys_name>
+            <sys_package display_value="Offender Management System" source="x_snc_offmgtcsc">aad6ec1cdb392090520c0bd3e29619cc</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+            <sys_update_name>sys_documentation_x_snc_offmgtcsc_offender_incident_investigation_underway_en</sys_update_name>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-01-15 06:38:30</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

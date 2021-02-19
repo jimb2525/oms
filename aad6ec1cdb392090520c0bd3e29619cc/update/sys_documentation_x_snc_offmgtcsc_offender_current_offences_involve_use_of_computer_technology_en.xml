@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="current_offences_involve_use_of_computer_technology" label="Current offences involve use of computer technology" language="en" table="x_snc_offmgtcsc_offender">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>current_offences_involve_use_of_computer_technology</element>
+            <help/>
+            <hint/>
+            <label>Current offences involve use of computer technology</label>
+            <language>en</language>
+            <name>x_snc_offmgtcsc_offender</name>
+            <plural>Current offences involve use of computer technologys</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>tony.perron</sys_created_by>
+            <sys_created_on>2021-02-07 14:54:51</sys_created_on>
+            <sys_id>3d578e7b1b4a2410487bb88cdc4bcb19</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Current offences involve use of computer technology</sys_name>
+            <sys_package display_value="Offender Management System" source="x_snc_offmgtcsc">aad6ec1cdb392090520c0bd3e29619cc</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+            <sys_update_name>sys_documentation_x_snc_offmgtcsc_offender_current_offences_involve_use_of_computer_technology_en</sys_update_name>
+            <sys_updated_by>tony.perron</sys_updated_by>
+            <sys_updated_on>2021-02-07 14:54:51</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

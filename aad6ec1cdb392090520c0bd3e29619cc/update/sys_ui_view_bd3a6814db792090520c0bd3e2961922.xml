@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view">
+    <sys_ui_view action="INSERT_OR_UPDATE">
+        <group/>
+        <hidden>false</hidden>
+        <name>catalog_offender_management_catalog</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-01-15 00:53:33</sys_created_on>
+        <sys_id>bd3a6814db792090520c0bd3e2961922</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Offender Management Catalog View</sys_name>
+        <sys_package display_value="Offender Management System" source="x_snc_offmgtcsc">aad6ec1cdb392090520c0bd3e29619cc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+        <sys_update_name>sys_ui_view_bd3a6814db792090520c0bd3e2961922</sys_update_name>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-01-15 00:53:33</sys_updated_on>
+        <title>Offender Management Catalog View</title>
+        <user/>
+    </sys_ui_view>
+</record_update>

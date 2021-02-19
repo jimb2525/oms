@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_aw_list">
+    <sys_aw_list action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category display_value="Investigations">2aa01c5d1bd22810487bb88cdc4bcbaf</category>
+        <columns>number,state,priority,short_description,sys_class_name,assigned_to,urgency</columns>
+        <condition/>
+        <groups/>
+        <list_attributes/>
+        <order>700</order>
+        <roles/>
+        <sys_class_name>sys_aw_list</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-11 22:08:34</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3290d85d1bd22810487bb88cdc4bcbc1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>All</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Offender Management System" source="x_snc_offmgtcsc">aad6ec1cdb392090520c0bd3e29619cc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+        <sys_update_name>sys_aw_list_3290d85d1bd22810487bb88cdc4bcbc1</sys_update_name>
+        <sys_updated_by>tony.perron</sys_updated_by>
+        <sys_updated_on>2021-02-18 13:58:40</sys_updated_on>
+        <table>x_snc_offmgtcsc_investigation</table>
+        <title>All</title>
+        <user/>
+        <workspace display_value="Offender Management System">d8e8acdcdb392090520c0bd3e2961904</workspace>
+    </sys_aw_list>
+</record_update>

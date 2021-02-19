@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item">
+    <sc_cat_item action="INSERT_OR_UPDATE">
+        <access_type/>
+        <active>true</active>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <category display_value="Victims Services Management">2f0acd98dbf92090520c0bd3e29619d2</category>
+        <checked_out/>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description/>
+        <display_price_property>non_zero</display_price_property>
+        <entitlement_script/>
+        <flow_designer_flow/>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon/>
+        <ignore_price>false</ignore_price>
+        <image/>
+        <list_price>0</list_price>
+        <location/>
+        <mandatory_attachment>false</mandatory_attachment>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>Victim Registration</name>
+        <no_attachment_v2>false</no_attachment_v2>
+        <no_cart>false</no_cart>
+        <no_cart_v2>false</no_cart_v2>
+        <no_delivery_time_v2>false</no_delivery_time_v2>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_quantity_v2>false</no_quantity_v2>
+        <no_search>false</no_search>
+        <no_wishlist_v2>false</no_wishlist_v2>
+        <omit_price>false</omit_price>
+        <order>0</order>
+        <ordered_item_link/>
+        <owner/>
+        <picture>489bc51cdbf92090520c0bd3e2961944</picture>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=052acd98dbf92090520c0bd3e296199b&amp;sysparm_preview=true", "summary");</preview>
+        <price>0</price>
+        <published_ref/>
+        <recurring_frequency/>
+        <recurring_price>0</recurring_price>
+        <request_method/>
+        <roles>snc_internal</roles>
+        <sc_catalogs>c12ae414db792090520c0bd3e2961989</sc_catalogs>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <sc_template/>
+        <short_description>Victim Registration</short_description>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <state/>
+        <sys_class_name>sc_cat_item</sys_class_name>
+        <sys_created_by>tony.perron</sys_created_by>
+        <sys_created_on>2021-01-15 03:19:06</sys_created_on>
+        <sys_id>052acd98dbf92090520c0bd3e296199b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Victim Registration</sys_name>
+        <sys_package display_value="Offender Management System" source="x_snc_offmgtcsc">aad6ec1cdb392090520c0bd3e29619cc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+        <sys_update_name>sc_cat_item_052acd98dbf92090520c0bd3e296199b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-16 23:15:34</sys_updated_on>
+        <template/>
+        <template_manager_roles/>
+        <type>item</type>
+        <use_sc_layout>true</use_sc_layout>
+        <vendor/>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow/>
+    </sc_cat_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=052acd98dbf92090520c0bd3e296199b"/>
+    <fx_price action="delete_multiple" query="id=052acd98dbf92090520c0bd3e296199b"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price</field>
+        <id>052acd98dbf92090520c0bd3e296199b</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>tony.perron</sys_created_by>
+        <sys_created_on>2021-01-15 03:19:06</sys_created_on>
+        <sys_id>358bc91cdbf92090520c0bd3e2961930</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tony.perron</sys_updated_by>
+        <sys_updated_on>2021-01-15 03:19:06</sys_updated_on>
+        <table>sc_cat_item</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>recurring_price</field>
+        <id>052acd98dbf92090520c0bd3e296199b</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>tony.perron</sys_created_by>
+        <sys_created_on>2021-01-15 03:19:06</sys_created_on>
+        <sys_id>358bc91cdbf92090520c0bd3e2961931</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tony.perron</sys_updated_by>
+        <sys_updated_on>2021-01-15 03:19:06</sys_updated_on>
+        <table>sc_cat_item</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color>#0</average_image_color>
+        <chunk_size_bytes>700000</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <encryption_context/>
+        <file_name>picture</file_name>
+        <hash>ef4c9cef4a9098180f294b65a5eb0a4c01fcd8418f790ba65d8014fca1152ba1</hash>
+        <image_height>200</image_height>
+        <image_width>200</image_width>
+        <size_bytes>2801</size_bytes>
+        <size_compressed>2722</size_compressed>
+        <state>available</state>
+        <sys_created_by>tony.perron</sys_created_by>
+        <sys_created_on>2021-01-15 03:19:15</sys_created_on>
+        <sys_id>489bc51cdbf92090520c0bd3e2961944</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>tony.perron</sys_updated_by>
+        <sys_updated_on>2021-01-15 03:19:15</sys_updated_on>
+        <table_name>ZZ_YYsc_cat_item</table_name>
+        <table_sys_id>052acd98dbf92090520c0bd3e296199b</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="picture" sys_id="489bc51cdbf92090520c0bd3e2961944">489bc51cdbf92090520c0bd3e2961944</sys_attachment>
+        <sys_created_by>tony.perron</sys_created_by>
+        <sys_created_on>2021-01-15 03:19:15</sys_created_on>
+        <sys_id>889bc51cdbf92090520c0bd3e2961944</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>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</data>
+        <length>3616</length>
+        <position>1</position>
+        <sys_attachment display_value="picture" sys_id="489bc51cdbf92090520c0bd3e2961944">489bc51cdbf92090520c0bd3e2961944</sys_attachment>
+        <sys_created_by>tony.perron</sys_created_by>
+        <sys_created_on>2021-01-15 03:19:15</sys_created_on>
+        <sys_id>0c9bc51cdbf92090520c0bd3e2961944</sys_id>
+    </sys_attachment_doc>
+</record_update>

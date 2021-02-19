@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_aw_ribbon_component">
+    <sys_aw_ribbon_component action="INSERT_OR_UPDATE">
+        <component display_value="now-card">c3862573533989fad02fd8aec92609ef</component>
+        <description/>
+        <name>Avatar</name>
+        <sys_class_name>sys_aw_ribbon_component</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-12 04:29:40</sys_created_on>
+        <sys_id>0d28259d1bd62810487bb88cdc4bcbb5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Avatar</sys_name>
+        <sys_package display_value="Offender Management System" source="x_snc_offmgtcsc">aad6ec1cdb392090520c0bd3e29619cc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+        <sys_update_name>sys_aw_ribbon_component_0d28259d1bd62810487bb88cdc4bcbb5</sys_update_name>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-12 04:40:55</sys_updated_on>
+        <tag>now-card</tag>
+    </sys_aw_ribbon_component>
+    <sys_translated_text action="delete_multiple" query="documentkey=0d28259d1bd62810487bb88cdc4bcbb5"/>
+</record_update>

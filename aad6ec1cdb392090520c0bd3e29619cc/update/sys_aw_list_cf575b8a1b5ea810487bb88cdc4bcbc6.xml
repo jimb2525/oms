@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_aw_list">
+    <sys_aw_list action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category display_value="Transfer Management">bf9050a11bde2810487bb88cdc4bcbc5</category>
+        <columns>number,priority,state,assigned_to,u_offender_1,short_description,sys_class_name,u_cell_1,u_cell_2</columns>
+        <condition/>
+        <groups/>
+        <list_attributes/>
+        <order>200</order>
+        <roles/>
+        <sys_class_name>sys_aw_list</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-14 20:30:48</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>cf575b8a1b5ea810487bb88cdc4bcbc6</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Cell Transfer</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Offender Management System" source="x_snc_offmgtcsc">aad6ec1cdb392090520c0bd3e29619cc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+        <sys_update_name>sys_aw_list_cf575b8a1b5ea810487bb88cdc4bcbc6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-14 21:08:32</sys_updated_on>
+        <table>x_snc_offmgtcsc_cell_transfer</table>
+        <title>Cell Transfer</title>
+        <user/>
+        <workspace display_value="Offender Management System">d8e8acdcdb392090520c0bd3e2961904</workspace>
+    </sys_aw_list>
+</record_update>
