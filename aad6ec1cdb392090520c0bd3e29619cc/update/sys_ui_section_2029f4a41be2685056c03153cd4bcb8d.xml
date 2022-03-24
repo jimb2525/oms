@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="2029f4a41be2685056c03153cd4bcb8d" sys_domain="global" table="x_snc_offmgtcsc_intake_tasks" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-02-22 03:26:32</sys_created_on>
+            <sys_id>85a9b8e41be2685056c03153cd4bcb2a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_offmgtcsc_intake_tasks" sys_domain="global" view="Default view">2029f4a41be2685056c03153cd4bcb8d</sys_ui_section>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-02-22 03:26:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>active</element>
+            <position>1</position>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-02-22 03:26:32</sys_created_on>
+            <sys_id>01a9b8e41be2685056c03153cd4bcb2b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_offmgtcsc_intake_tasks" sys_domain="global" view="Default view">2029f4a41be2685056c03153cd4bcb8d</sys_ui_section>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-02-22 03:26:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-02-22 03:26:32</sys_created_on>
+            <sys_id>85a9b8e41be2685056c03153cd4bcb2b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_offmgtcsc_intake_tasks" sys_domain="global" view="Default view">2029f4a41be2685056c03153cd4bcb8d</sys_ui_section>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-02-22 03:26:32</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>priority</element>
+            <position>3</position>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-02-22 03:26:32</sys_created_on>
+            <sys_id>0da9b8e41be2685056c03153cd4bcb2b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_offmgtcsc_intake_tasks" sys_domain="global" view="Default view">2029f4a41be2685056c03153cd4bcb8d</sys_ui_section>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-02-22 03:26:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assigned_to</element>
+            <position>4</position>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-02-22 03:26:32</sys_created_on>
+            <sys_id>81a9b8e41be2685056c03153cd4bcb2c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_offmgtcsc_intake_tasks" sys_domain="global" view="Default view">2029f4a41be2685056c03153cd4bcb8d</sys_ui_section>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-02-22 03:26:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assignment_group</element>
+            <position>5</position>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-02-22 03:26:32</sys_created_on>
+            <sys_id>09a9b8e41be2685056c03153cd4bcb2c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_offmgtcsc_intake_tasks" sys_domain="global" view="Default view">2029f4a41be2685056c03153cd4bcb8d</sys_ui_section>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-02-22 03:26:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>6</position>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-02-22 03:26:32</sys_created_on>
+            <sys_id>8da9b8e41be2685056c03153cd4bcb2c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_offmgtcsc_intake_tasks" sys_domain="global" view="Default view">2029f4a41be2685056c03153cd4bcb8d</sys_ui_section>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-02-22 03:26:32</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>short_description</element>
+            <position>7</position>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-02-22 03:26:32</sys_created_on>
+            <sys_id>05a9b8e41be2685056c03153cd4bcb2d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_offmgtcsc_intake_tasks" sys_domain="global" view="Default view">2029f4a41be2685056c03153cd4bcb8d</sys_ui_section>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-02-22 03:26:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description</element>
+            <position>8</position>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-02-22 03:26:32</sys_created_on>
+            <sys_id>89a9b8e41be2685056c03153cd4bcb2d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_offmgtcsc_intake_tasks" sys_domain="global" view="Default view">2029f4a41be2685056c03153cd4bcb8d</sys_ui_section>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-02-22 03:26:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>work_notes</element>
+            <position>9</position>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-02-22 03:26:32</sys_created_on>
+            <sys_id>01a9b8e41be2685056c03153cd4bcb2e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_offmgtcsc_intake_tasks" sys_domain="global" view="Default view">2029f4a41be2685056c03153cd4bcb8d</sys_ui_section>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-02-22 03:26:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>comments</element>
+            <position>10</position>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-02-22 03:26:32</sys_created_on>
+            <sys_id>85a9b8e41be2685056c03153cd4bcb2e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_offmgtcsc_intake_tasks" sys_domain="global" view="Default view">2029f4a41be2685056c03153cd4bcb8d</sys_ui_section>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-02-22 03:26:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>activity.xml</element>
+            <position>11</position>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-02-22 03:26:33</sys_created_on>
+            <sys_id>c1a9b8e41be2685056c03153cd4bcb3b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Activities (filtered)">444ea5c6bf310100e628555b3f0739d6</sys_ui_formatter>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_offmgtcsc_intake_tasks" sys_domain="global" view="Default view">2029f4a41be2685056c03153cd4bcb8d</sys_ui_section>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-02-22 03:26:33</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_snc_offmgtcsc_intake_tasks</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-02-22 03:24:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2029f4a41be2685056c03153cd4bcb8d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_offmgtcsc_intake_tasks</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Offender Management System" source="x_snc_offmgtcsc">aad6ec1cdb392090520c0bd3e29619cc</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+            <sys_update_name>sys_ui_section_2029f4a41be2685056c03153cd4bcb8d</sys_update_name>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-02-22 03:24:19</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

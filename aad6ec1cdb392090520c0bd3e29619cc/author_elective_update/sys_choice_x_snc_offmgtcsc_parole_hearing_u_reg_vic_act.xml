@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_reg_vic_act" table="x_snc_offmgtcsc_parole_hearing" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_reg_vic_act</element>
+            <name>x_snc_offmgtcsc_parole_hearing</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>sam.pirner</sys_created_by>
+            <sys_created_on>2021-02-24 00:29:54</sys_created_on>
+            <sys_id>4164e28ddb6a2c50c2939709f49619d4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_reg_vic_act</sys_name>
+            <sys_package display_value="Offender Management System" source="x_snc_offmgtcsc">aad6ec1cdb392090520c0bd3e29619cc</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+            <sys_update_name>sys_choice_x_snc_offmgtcsc_parole_hearing_u_reg_vic_act</sys_update_name>
+            <sys_updated_by>sam.pirner</sys_updated_by>
+            <sys_updated_on>2021-02-24 00:29:54</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_reg_vic_act</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Observe ONLY</label>
+            <language>en</language>
+            <name>x_snc_offmgtcsc_parole_hearing</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>sam.pirner</sys_created_by>
+            <sys_created_on>2021-02-24 00:29:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0964e28ddb6a2c50c2939709f49619d3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sam.pirner</sys_updated_by>
+            <sys_updated_on>2021-02-24 00:29:54</sys_updated_on>
+            <value>observe only</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_reg_vic_act</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Observe and read</label>
+            <language>en</language>
+            <name>x_snc_offmgtcsc_parole_hearing</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>sam.pirner</sys_created_by>
+            <sys_created_on>2021-02-24 00:29:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d164e28ddb6a2c50c2939709f49619d8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sam.pirner</sys_updated_by>
+            <sys_updated_on>2021-02-24 00:29:54</sys_updated_on>
+            <value>observe and read</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_reg_vic_act</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Observe and support reads</label>
+            <language>en</language>
+            <name>x_snc_offmgtcsc_parole_hearing</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>sam.pirner</sys_created_by>
+            <sys_created_on>2021-02-24 00:29:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1964e28ddb6a2c50c2939709f49619db</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sam.pirner</sys_updated_by>
+            <sys_updated_on>2021-02-24 00:29:54</sys_updated_on>
+            <value>observe and support reads</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_reg_vic_act</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Observe and present on recording</label>
+            <language>en</language>
+            <name>x_snc_offmgtcsc_parole_hearing</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>sam.pirner</sys_created_by>
+            <sys_created_on>2021-02-24 00:29:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5d64e28ddb6a2c50c2939709f49619de</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sam.pirner</sys_updated_by>
+            <sys_updated_on>2021-02-24 00:29:54</sys_updated_on>
+            <value>observe and present on recording</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

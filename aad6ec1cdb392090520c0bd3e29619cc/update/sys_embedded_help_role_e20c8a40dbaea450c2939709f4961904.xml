@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_snc_offmgtcsc.visit_requests_user" name="x_snc_offmgtcsc.visit_requests_user">a20c42ccdb6ea450c2939709f4961916</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>sam.pirner</sys_created_by>
+        <sys_created_on>2021-02-20 20:09:35</sys_created_on>
+        <sys_id>e20c8a40dbaea450c2939709f4961904</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>a20c42ccdb6ea450c2939709f4961916</sys_name>
+        <sys_package display_value="Offender Management System" source="x_snc_offmgtcsc">aad6ec1cdb392090520c0bd3e29619cc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+        <sys_update_name>sys_embedded_help_role_e20c8a40dbaea450c2939709f4961904</sys_update_name>
+        <sys_updated_by>sam.pirner</sys_updated_by>
+        <sys_updated_on>2021-02-20 20:09:35</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

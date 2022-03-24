@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <business_calendar/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_time/>
+        <name>d7c9ed2187ed7450f79653173cbb35aa</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek/>
+        <run_period/>
+        <run_start>2021-07-24 12:39:46</run_start>
+        <run_time/>
+        <run_type>once</run_type>
+        <script><![CDATA[var app_type = gs.getProperty('x_snc_demohub_app.App Type');
+
+var content_version = gs.getProperty('x_snc_demohub_app.Content Version');
+
+var app = new GlideRecord('sys_app');
+		app.get('5c1cc3cbdbf87300f669f40b0c961935');
+
+if (app.version.getDisplayValue() != '5.2'){
+
+
+
+gs.setProperty('com.glide.attachment.max_get_size','15000000');
+
+var DemoHubHub_USB = Class.create();
+
+DemoHubHub_USB.prototype = {
+	type: 'DemoHubHub_USB',
+	updateSetName: '',
+	reqNum: '',
+	instanceName: '',
+	_log: function(message,level){
+		message = message || "";
+		level = level || "info";
+		var msg_handle;
+		switch( level ){
+			case "debug": 
+				msg_handle = gs.debug;
+				break;
+			case "warn":
+				msg_handle = gs.warn;
+				break;
+			case "error":
+				msg_handle = gs.error;
+				break;
+			case "info":
+			default:
+				msg_handle = gs.info;
+				break;
+		}
+		msg_handle(message , "DemoHubHub_USB");
+	},
+	initialize: function() {
+		this.instanceName = gs.getProperty('instance_name');
+	},
+	
+	//Enables plugin in foreground
+	enablePlugin: function(pluginId){
+
+		gs.info('START enablePlugin arguments: {0}',JSON.stringify(arguments));
+
+		try{
+
+			var worker = new GlidePluginManagerWorker();
+			worker.setPluginId(pluginId);
+			worker.setProgressName('DemoHub App: Install plugin '+pluginId);
+			worker.setIncludeDemoData(Boolean(true));
+			worker.start();
+
+			gs.debug('END');
+		}
+
+		catch(err) {
+
+			var message = "message: {0} \n\nname: {1} \n\narguments: \n{2} \n\nstack: \n{3} ";
+			gs.error(message, err.message, err.name, JSON.stringify(arguments,null,' '), err.stack);
+
+		}	
+
+	},
+
+	//Set a script include to public accessable
+	setPublic: function(sys_id){
+
+		gs.debug('START setPublic arguments: {0}',JSON.stringify(arguments));
+
+		try{
+
+			var gr = new GlideRecord('sys_script_include');
+			gr.get(sys_id);
+			gr.access='public';
+			gr.update();
+
+
+			gs.debug('END');
+		}
+
+		catch(err) {
+
+			var message = "message: {0} \n\nname: {1} \n\narguments: \n{2} \n\nstack: \n{3} ";
+			gs.error(message, err.message, err.name, JSON.stringify(arguments,null,' '), err.stack);
+
+		}	
+
+	},
+
+	//disable store picture download
+	disableStorePics: function(){
+
+		gs.debug('START disableStorePics');
+
+		try{
+
+			var actionGr = new GlideRecord("sysevent_script_action");
+			actionGr.addQuery("sys_id","IN","601d7df9c3011200f7d1ca3adfba8fd1,d03a69980fe53300b717be630b767e18");
+			actionGr.query();
+
+			while(actionGr.next()){
+
+				actionGr.active = false;
+				actionGr.update();
+
+			}
+
+			gs.debug('END');
+		}
+
+		catch(err) {
+
+			var message = "message: {0} \n\nname: {1} \n\narguments: \n{2} \n\nstack: \n{3} ";
+			gs.error(message, err.message, err.name, JSON.stringify(arguments,null,' '), err.stack);
+
+		}	
+
+	},
+
+	//Enable access to Read, Write, Create, and Delete from all scopes
+	updateAccess: function(table){
+
+		gs.debug('START updateAccess arguments: {0}',JSON.stringify(arguments));
+
+		try{
+
+			var gr = new GlideRecord('sys_db_object');
+			gr.addEncodedQuery('nameIN'+table);
+			gr.setValue('delete_access',  true);
+			gr.setValue('read_access',  true);
+			gr.setValue('create_access',  true);
+			gr.setValue('update_access',  true);
+			gr.setValue('access',  'public');
+			gr.updateMultiple();
+
+			gs.debug('END');
+		}
+
+		catch(err) {
+
+			var message = "message: {0} \n\nname: {1} \n\narguments: \n{2} \n\nstack: \n{3} ";
+			gs.error(message, err.message, err.name, JSON.stringify(arguments,null,' '), err.stack);
+
+		}	
+
+	},
+
+	//Enable access to Read, Write, Create, and Delete from all scopes
+	insertApp: function(version){
+
+		gs.info('START insertApp arguments: {0}',JSON.stringify(arguments));
+
+		try{
+
+			var gr = new GlideRecord('x_snc_demohub_app_apps');
+			gr.name='DemoHub App Deploy '+version;
+			gr.version = version;
+			gr.insert();
+
+			gs.debug('END');
+		}
+
+		catch(err) {
+
+			var message = "message: {0} \n\nname: {1} \n\narguments: \n{2} \n\nstack: \n{3} ";
+			gs.error(message, err.message, err.name, JSON.stringify(arguments,null,' '), err.stack);
+
+		}	
+
+	},
+
+	//Enable access to Read, Write, Create, and Delete from all scopes
+	createBookmark: function(){
+
+		gs.info('START createBookmark arguments: {0}',JSON.stringify(arguments));
+
+		try{
+
+			var gr = new GlideRecord('sys_ui_bookmark');
+			gr.title='DemoHub App - Home (New!)';
+			gr.url='/dhapp';
+			gr.order='0';
+			gr.user='6816f79cc0a8016401c5a33be04be441';
+			gr.icon='wishlist-sm';
+			gr.color='red';
+			gr.insert();
+
+			gs.debug('END');
+		}
+
+		catch(err) {
+
+			var message = "message: {0} \n\nname: {1} \n\narguments: \n{2} \n\nstack: \n{3} ";
+			gs.error(message, err.message, err.name, JSON.stringify(arguments,null,' '), err.stack);
+
+		}	
+
+	},
+
+};
+
+// client executes starting here
+
+//enable Virtual Agent plugins for help
+new DemoHubHub_USB().enablePlugin('com.glide.cs');
+new DemoHubHub_USB().enablePlugin('com.glide.cs.settings');
+new DemoHubHub_USB().enablePlugin('com.glide.cs.chatbot');
+new DemoHubHub_USB().enablePlugin('com.glide.connect.support');
+new DemoHubHub_USB().enablePlugin('com.glide.connect.support.service-portal');
+
+//  attachment_sys_id is provided as input by the bootstrap runner
+var gr = new GlideRecord('x_snc_demohub_app_apps');
+gr.addEncodedQuery('id=b681f9da1b4eec105bf999f32a4bcb14');
+gr.query();
+gr.next();
+new x_snc_demohub_app.install().UpdateSet('x_snc_demohub_app_apps',gr.sys_id.getDisplayValue(),gr.name.getDisplayValue());
+
+//set common properties
+gs.setProperty('glide.login.home','/dhapp','The default homepage displayed on login. If blank, last page visited will be used.');
+gs.setProperty('glide.sys.date_format','yyyy-MM-dd','System date format for all users unless overridden in the user record.');
+gs.setProperty('glide.ui.session_timeout',1440,'Sets the session timeout, in minutes. Values exceeding 1440 minutes will be treated as one day.');
+gs.setProperty('DemoHub Community','https://community.servicenow.com/community?id=community_forum&sys_id=2eb14d9fdb0aa814d5c4d9d968961938');
+
+//KB0812568 to address performance and stability issues
+gs.setProperty('com.glide.script.interpret.short.expressions',true);
+gs.setProperty('com.glide.script.interpret.short.expressions.threshold',4000);
+
+new DemoHubHub_USB().createBookmark();
+
+gs.sleep(600000);
+
+//set IRSchedule public so narratives can be indexed
+new DemoHubHub_USB().setPublic('da0031870a0a0bc200289490b9da8601');
+
+
+
+new DemoHubHub_USB().disableStorePics();
+gs.setProperty('sn_appclient.upload_base_url','');
+gs.setProperty('sn_appauthor.upload_base_url','');
+new global.DemoHubAppGlobalUtils().sys_remote_appUpdate(false);
+
+new DemoHubHub_USB().updateAccess('sys_hub_flow,sys_hub_flow_input');
+	
+
+
+gs.setProperty('x_snc_demohub_app.App Type', app_type);
+gs.setProperty('x_snc_demohub_app.Content Version', content_version);
+	
+}]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-24 12:39:46</sys_created_on>
+        <sys_id>87e965e187ed7450f79653173cbb35fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>d7c9ed2187ed7450f79653173cbb35aa</sys_name>
+        <sys_package display_value="Offender Management System" source="x_snc_offmgtcsc">aad6ec1cdb392090520c0bd3e29619cc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+        <sys_update_name>sysauto_script_87e965e187ed7450f79653173cbb35fb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-24 12:39:46</sys_updated_on>
+        <time_zone/>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

@@ -28,7 +28,7 @@
         <function_definition/>
         <function_field>false</function_field>
         <internal_type display_value="">glide_date_time</internal_type>
-        <mandatory>false</mandatory>
+        <mandatory>true</mandatory>
         <max_length>40</max_length>
         <name>x_snc_offmgtcsc_offender</name>
         <next_element/>
@@ -49,14 +49,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-02-06 14:31:04</sys_created_on>
         <sys_id>274874a71b8ee010487bb88cdc4bcb3c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Date of birth</sys_name>
         <sys_package display_value="Offender Management System" source="x_snc_offmgtcsc">aad6ec1cdb392090520c0bd3e29619cc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
         <sys_update_name>sys_dictionary_x_snc_offmgtcsc_offender_date_of_birth</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-02-06 14:31:04</sys_updated_on>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-24 18:25:54</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

@@ -2,166 +2,166 @@
     <sys_ui_section caption="Information Collection" section_id="385eda371b4ae0108edb0d03cd4bcba3" sys_domain="global" table="x_snc_offmgtcsc_offender" version="3" view="workspace">
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
-            <sys_created_by>tony.perron</sys_created_by>
-            <sys_created_on>2021-02-18 18:28:42</sys_created_on>
-            <sys_id>95c1eb5f1b5e64108edb0d03cd4bcb02</sys_id>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-02-24 18:26:19</sys_created_on>
+            <sys_id>78ca56151b62ac5056c03153cd4bcbe9</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>tony.perron</sys_updated_by>
-            <sys_updated_on>2021-02-18 18:28:42</sys_updated_on>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-02-24 18:26:19</sys_updated_on>
             <text/>
             <type display_value="Text">863e446c0fd30000b12e6903cfe012ce</type>
         </sys_ui_annotation>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>official_version_of_the_offence</element>
             <position>0</position>
-            <sys_created_by>tony.perron</sys_created_by>
-            <sys_created_on>2021-02-18 18:28:42</sys_created_on>
-            <sys_id>51c1eb5f1b5e64108edb0d03cd4bcb0b</sys_id>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-02-24 18:26:19</sys_created_on>
+            <sys_id>fcca56151b62ac5056c03153cd4bcbf3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Information Collection" display_value="Information Collection" name="x_snc_offmgtcsc_offender" sys_domain="global" view="c2364b1610352010d152bac818665e22">385eda371b4ae0108edb0d03cd4bcba3</sys_ui_section>
-            <sys_updated_by>tony.perron</sys_updated_by>
-            <sys_updated_on>2021-02-18 18:28:42</sys_updated_on>
+            <sys_ui_section caption="Information Collection" display_value="Information Collection" name="x_snc_offmgtcsc_offender" sys_domain="global" view="903b5b27db062010c2939709f49619f5">385eda371b4ae0108edb0d03cd4bcba3</sys_ui_section>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-02-24 18:26:19</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>history_of_criminal_activities</element>
             <position>1</position>
-            <sys_created_by>tony.perron</sys_created_by>
-            <sys_created_on>2021-02-18 18:28:42</sys_created_on>
-            <sys_id>d9c1eb5f1b5e64108edb0d03cd4bcb0b</sys_id>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-02-24 18:26:19</sys_created_on>
+            <sys_id>78ca56151b62ac5056c03153cd4bcbf4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Information Collection" display_value="Information Collection" name="x_snc_offmgtcsc_offender" sys_domain="global" view="c2364b1610352010d152bac818665e22">385eda371b4ae0108edb0d03cd4bcba3</sys_ui_section>
-            <sys_updated_by>tony.perron</sys_updated_by>
-            <sys_updated_on>2021-02-18 18:28:42</sys_updated_on>
+            <sys_ui_section caption="Information Collection" display_value="Information Collection" name="x_snc_offmgtcsc_offender" sys_domain="global" view="903b5b27db062010c2939709f49619f5">385eda371b4ae0108edb0d03cd4bcba3</sys_ui_section>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-02-24 18:26:19</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>fingerprint_sheet</element>
             <position>2</position>
-            <sys_created_by>tony.perron</sys_created_by>
-            <sys_created_on>2021-02-18 18:28:42</sys_created_on>
-            <sys_id>51c1eb5f1b5e64108edb0d03cd4bcb0c</sys_id>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-02-24 18:26:19</sys_created_on>
+            <sys_id>fcca56151b62ac5056c03153cd4bcbf4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Information Collection" display_value="Information Collection" name="x_snc_offmgtcsc_offender" sys_domain="global" view="c2364b1610352010d152bac818665e22">385eda371b4ae0108edb0d03cd4bcba3</sys_ui_section>
-            <sys_updated_by>tony.perron</sys_updated_by>
-            <sys_updated_on>2021-02-18 18:28:42</sys_updated_on>
+            <sys_ui_section caption="Information Collection" display_value="Information Collection" name="x_snc_offmgtcsc_offender" sys_domain="global" view="903b5b27db062010c2939709f49619f5">385eda371b4ae0108edb0d03cd4bcba3</sys_ui_section>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-02-24 18:26:19</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>gladue_repor</element>
             <position>3</position>
-            <sys_created_by>tony.perron</sys_created_by>
-            <sys_created_on>2021-02-18 18:28:42</sys_created_on>
-            <sys_id>d5c1eb5f1b5e64108edb0d03cd4bcb0c</sys_id>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-02-24 18:26:19</sys_created_on>
+            <sys_id>74ca56151b62ac5056c03153cd4bcbf5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Information Collection" display_value="Information Collection" name="x_snc_offmgtcsc_offender" sys_domain="global" view="c2364b1610352010d152bac818665e22">385eda371b4ae0108edb0d03cd4bcba3</sys_ui_section>
-            <sys_updated_by>tony.perron</sys_updated_by>
-            <sys_updated_on>2021-02-18 18:28:42</sys_updated_on>
+            <sys_ui_section caption="Information Collection" display_value="Information Collection" name="x_snc_offmgtcsc_offender" sys_domain="global" view="903b5b27db062010c2939709f49619f5">385eda371b4ae0108edb0d03cd4bcba3</sys_ui_section>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-02-24 18:26:19</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>young_offender_history</element>
             <position>4</position>
-            <sys_created_by>tony.perron</sys_created_by>
-            <sys_created_on>2021-02-18 18:28:42</sys_created_on>
-            <sys_id>5dc1eb5f1b5e64108edb0d03cd4bcb0c</sys_id>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-02-24 18:26:19</sys_created_on>
+            <sys_id>f8ca56151b62ac5056c03153cd4bcbf5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Information Collection" display_value="Information Collection" name="x_snc_offmgtcsc_offender" sys_domain="global" view="c2364b1610352010d152bac818665e22">385eda371b4ae0108edb0d03cd4bcba3</sys_ui_section>
-            <sys_updated_by>tony.perron</sys_updated_by>
-            <sys_updated_on>2021-02-18 18:28:42</sys_updated_on>
+            <sys_ui_section caption="Information Collection" display_value="Information Collection" name="x_snc_offmgtcsc_offender" sys_domain="global" view="903b5b27db062010c2939709f49619f5">385eda371b4ae0108edb0d03cd4bcba3</sys_ui_section>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-02-24 18:26:19</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>victim_impact_assessment</element>
             <position>5</position>
-            <sys_created_by>tony.perron</sys_created_by>
-            <sys_created_on>2021-02-18 18:28:42</sys_created_on>
-            <sys_id>d1c1eb5f1b5e64108edb0d03cd4bcb0d</sys_id>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-02-24 18:26:19</sys_created_on>
+            <sys_id>70ca56151b62ac5056c03153cd4bcbf6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Information Collection" display_value="Information Collection" name="x_snc_offmgtcsc_offender" sys_domain="global" view="c2364b1610352010d152bac818665e22">385eda371b4ae0108edb0d03cd4bcba3</sys_ui_section>
-            <sys_updated_by>tony.perron</sys_updated_by>
-            <sys_updated_on>2021-02-18 18:28:42</sys_updated_on>
+            <sys_ui_section caption="Information Collection" display_value="Information Collection" name="x_snc_offmgtcsc_offender" sys_domain="global" view="903b5b27db062010c2939709f49619f5">385eda371b4ae0108edb0d03cd4bcba3</sys_ui_section>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-02-24 18:26:19</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>official_documents</element>
             <position>6</position>
-            <sys_created_by>tony.perron</sys_created_by>
-            <sys_created_on>2021-02-18 18:28:42</sys_created_on>
-            <sys_id>59c1eb5f1b5e64108edb0d03cd4bcb0d</sys_id>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-02-24 18:26:19</sys_created_on>
+            <sys_id>f4ca56151b62ac5056c03153cd4bcbf6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Information Collection" display_value="Information Collection" name="x_snc_offmgtcsc_offender" sys_domain="global" view="c2364b1610352010d152bac818665e22">385eda371b4ae0108edb0d03cd4bcba3</sys_ui_section>
-            <sys_updated_by>tony.perron</sys_updated_by>
-            <sys_updated_on>2021-02-18 18:28:42</sys_updated_on>
+            <sys_ui_section caption="Information Collection" display_value="Information Collection" name="x_snc_offmgtcsc_offender" sys_domain="global" view="903b5b27db062010c2939709f49619f5">385eda371b4ae0108edb0d03cd4bcba3</sys_ui_section>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-02-24 18:26:19</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>post_sentence_community_assessment</element>
             <position>7</position>
-            <sys_created_by>tony.perron</sys_created_by>
-            <sys_created_on>2021-02-18 18:28:42</sys_created_on>
-            <sys_id>ddc1eb5f1b5e64108edb0d03cd4bcb0d</sys_id>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-02-24 18:26:19</sys_created_on>
+            <sys_id>7cca56151b62ac5056c03153cd4bcbf6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Information Collection" display_value="Information Collection" name="x_snc_offmgtcsc_offender" sys_domain="global" view="c2364b1610352010d152bac818665e22">385eda371b4ae0108edb0d03cd4bcba3</sys_ui_section>
-            <sys_updated_by>tony.perron</sys_updated_by>
-            <sys_updated_on>2021-02-18 18:28:42</sys_updated_on>
+            <sys_ui_section caption="Information Collection" display_value="Information Collection" name="x_snc_offmgtcsc_offender" sys_domain="global" view="903b5b27db062010c2939709f49619f5">385eda371b4ae0108edb0d03cd4bcba3</sys_ui_section>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-02-24 18:26:19</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>offender_s_personal_history</element>
             <position>8</position>
-            <sys_created_by>tony.perron</sys_created_by>
-            <sys_created_on>2021-02-18 18:28:42</sys_created_on>
-            <sys_id>55c1eb5f1b5e64108edb0d03cd4bcb0e</sys_id>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-02-24 18:26:19</sys_created_on>
+            <sys_id>f0ca56151b62ac5056c03153cd4bcbf7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Information Collection" display_value="Information Collection" name="x_snc_offmgtcsc_offender" sys_domain="global" view="c2364b1610352010d152bac818665e22">385eda371b4ae0108edb0d03cd4bcba3</sys_ui_section>
-            <sys_updated_by>tony.perron</sys_updated_by>
-            <sys_updated_on>2021-02-18 18:28:42</sys_updated_on>
+            <sys_ui_section caption="Information Collection" display_value="Information Collection" name="x_snc_offmgtcsc_offender" sys_domain="global" view="903b5b27db062010c2939709f49619f5">385eda371b4ae0108edb0d03cd4bcba3</sys_ui_section>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-02-24 18:26:19</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>95c1eb5f1b5e64108edb0d03cd4bcb02</element>
+            <element>78ca56151b62ac5056c03153cd4bcbe9</element>
             <position>9</position>
-            <sys_created_by>tony.perron</sys_created_by>
-            <sys_created_on>2021-02-18 18:28:42</sys_created_on>
-            <sys_id>d9c1eb5f1b5e64108edb0d03cd4bcb0e</sys_id>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-02-24 18:26:19</sys_created_on>
+            <sys_id>78ca56151b62ac5056c03153cd4bcbf7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Information Collection" display_value="Information Collection" name="x_snc_offmgtcsc_offender" sys_domain="global" view="c2364b1610352010d152bac818665e22">385eda371b4ae0108edb0d03cd4bcba3</sys_ui_section>
-            <sys_updated_by>tony.perron</sys_updated_by>
-            <sys_updated_on>2021-02-18 18:28:42</sys_updated_on>
+            <sys_ui_section caption="Information Collection" display_value="Information Collection" name="x_snc_offmgtcsc_offender" sys_domain="global" view="903b5b27db062010c2939709f49619f5">385eda371b4ae0108edb0d03cd4bcba3</sys_ui_section>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-02-24 18:26:19</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>parole_officer_notes</element>
             <position>10</position>
-            <sys_created_by>tony.perron</sys_created_by>
-            <sys_created_on>2021-02-18 18:28:42</sys_created_on>
-            <sys_id>51c1eb5f1b5e64108edb0d03cd4bcb0f</sys_id>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-02-24 18:26:19</sys_created_on>
+            <sys_id>fcca56151b62ac5056c03153cd4bcbf7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Information Collection" display_value="Information Collection" name="x_snc_offmgtcsc_offender" sys_domain="global" view="c2364b1610352010d152bac818665e22">385eda371b4ae0108edb0d03cd4bcba3</sys_ui_section>
-            <sys_updated_by>tony.perron</sys_updated_by>
-            <sys_updated_on>2021-02-18 18:28:42</sys_updated_on>
+            <sys_ui_section caption="Information Collection" display_value="Information Collection" name="x_snc_offmgtcsc_offender" sys_domain="global" view="903b5b27db062010c2939709f49619f5">385eda371b4ae0108edb0d03cd4bcba3</sys_ui_section>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-02-24 18:26:19</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -187,7 +187,7 @@
             <sys_updated_on>2021-02-07 16:35:17</sys_updated_on>
             <sys_user/>
             <title>false</title>
-            <view display_value="Workspace" name="workspace">c2364b1610352010d152bac818665e22</view>
+            <view display_value="Workspace" name="workspace">903b5b27db062010c2939709f49619f5</view>
             <view_name/>
         </sys_ui_section>
     </sys_ui_section>

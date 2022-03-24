@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="Orientation Task" max_length="40" name="x_snc_offmgtcsc_orientation_task" sizeclass="0" type="collection">
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Orientation" max_length="32" name="orientation" reference="x_snc_offmgtcsc_orientation" type="reference"/>
+    </element>
+</database>

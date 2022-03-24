@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sc_catalog">
     <sc_catalog action="INSERT_OR_UPDATE">
-        <active>true</active>
+        <active>false</active>
         <background_color>white</background_color>
-        <description>A Catalog for Visitors Services</description>
+        <description>A Catalog for Visitor Services</description>
         <desktop_continue_shopping/>
         <desktop_home_page/>
         <desktop_image/>
         <editors/>
         <enable_wish_list>false</enable_wish_list>
-        <manager display_value="Sam Pirner">9aca70571b86e010487bb88cdc4bcb5c</manager>
+        <manager display_value="">9aca70571b86e010487bb88cdc4bcb5c</manager>
         <sys_class_name>sc_catalog</sys_class_name>
         <sys_created_by>sam.pirner</sys_created_by>
         <sys_created_on>2021-02-17 13:41:49</sys_created_on>
         <sys_id>1a5695c71b1a24108edb0d03cd4bcb26</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>Visitors Services Catalog</sys_name>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Visitor Services Catalog</sys_name>
         <sys_package display_value="Offender Management System" source="x_snc_offmgtcsc">aad6ec1cdb392090520c0bd3e29619cc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
         <sys_update_name>sc_catalog_1a5695c71b1a24108edb0d03cd4bcb26</sys_update_name>
-        <sys_updated_by>tony.perron</sys_updated_by>
-        <sys_updated_on>2021-02-18 16:44:42</sys_updated_on>
-        <title>Visitors Services Catalog</title>
+        <sys_updated_by>sam.pirner</sys_updated_by>
+        <sys_updated_on>2021-02-23 17:41:35</sys_updated_on>
+        <title>Visitor Services Catalog</title>
     </sc_catalog>
     <sys_translated_text action="delete_multiple" query="documentkey=1a5695c71b1a24108edb0d03cd4bcb26"/>
 </record_update>

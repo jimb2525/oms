@@ -5,7 +5,7 @@
         <description/>
         <label>Cell Transfer</label>
         <name>cell_transfer</name>
-        <snapshot display_value="cell_transfer">6444b30e1bdea810487bb88cdc4bcb2c</snapshot>
+        <snapshot display_value="">6444b30e1bdea810487bb88cdc4bcb2c</snapshot>
         <status>published</status>
         <sys_class_name>sys_pd_process_definition</sys_class_name>
         <sys_created_by>james.belote</sys_created_by>
@@ -26,7 +26,7 @@
         <description/>
         <label>Cell Transfer</label>
         <name>cell_transfer</name>
-        <snapshot display_value="cell_transfer">6444b30e1bdea810487bb88cdc4bcb2c</snapshot>
+        <snapshot display_value="">6444b30e1bdea810487bb88cdc4bcb2c</snapshot>
         <status>published</status>
         <sys_class_name>sys_pd_process_definition</sys_class_name>
         <sys_created_by>james.belote</sys_created_by>
@@ -44,6 +44,7 @@
     <sys_pd_lane action="delete_multiple" query="process_definition=cbe367461b9ea810487bb88cdc4bcb80^sys_idNOT IN3444ab461b9ea810487bb88cdc4bcb0d,b7246f461b9ea810487bb88cdc4bcb08,e214eb461b9ea810487bb88cdc4bcbeb,f6446f461b9ea810487bb88cdc4bcbc8"/>
     <sys_pd_lane action="INSERT_OR_UPDATE">
         <active>true</active>
+        <condition_to_run/>
         <description/>
         <label>Transfer</label>
         <lane_condition/>
@@ -63,6 +64,7 @@
     <sys_variable_value action="delete_multiple" query="document_key=3444ab461b9ea810487bb88cdc4bcb0d"/>
     <sys_pd_lane action="INSERT_OR_UPDATE">
         <active>true</active>
+        <condition_to_run/>
         <description/>
         <label>Planning</label>
         <lane_condition/>
@@ -82,6 +84,7 @@
     <sys_variable_value action="delete_multiple" query="document_key=b7246f461b9ea810487bb88cdc4bcb08"/>
     <sys_pd_lane action="INSERT_OR_UPDATE">
         <active>true</active>
+        <condition_to_run/>
         <description/>
         <label>Initiation</label>
         <lane_condition/>
@@ -101,6 +104,7 @@
     <sys_variable_value action="delete_multiple" query="document_key=e214eb461b9ea810487bb88cdc4bcbeb"/>
     <sys_pd_lane action="INSERT_OR_UPDATE">
         <active>true</active>
+        <condition_to_run/>
         <description/>
         <label>Close</label>
         <lane_condition/>
@@ -1404,6 +1408,7 @@
         <value/>
         <variable display_value="Footer">8793d6feb70100101a6ddb91de11a98f</variable>
     </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_input_2b8b42e31b630010affd0e55cc4bcbe9^id=8154af461b9ea810487bb88cdc4bcb39"/>
     <sys_element_mapping action="delete_multiple" query="id=8154af461b9ea810487bb88cdc4bcb39"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>associated_record</field>
@@ -1551,9 +1556,9 @@
     </sys_element_mapping>
     <sys_pd_snapshot action="delete_multiple" query="sys_id=6444b30e1bdea810487bb88cdc4bcb2c^sys_idNOT IN6444b30e1bdea810487bb88cdc4bcb2c"/>
     <sys_pd_snapshot action="INSERT_OR_UPDATE">
-        <access>package_private</access>
+        <access>public</access>
         <derivatives>{"table":"sys_pd_snapshot","id":"6444b30e1bdea810487bb88cdc4bcb2c","name":"derivatives","type":"com.snc.pd.model.serialization.DerivativeFetcher"}</derivatives>
-        <name>cell_transfer</name>
+        <name/>
         <process_definition>{"table":"sys_pd_snapshot","id":"6444b30e1bdea810487bb88cdc4bcb2c","name":"process_definition","type":"com.snc.pd.model.ProcessDefinition"}</process_definition>
         <source display_value="Cell Transfer">cbe367461b9ea810487bb88cdc4bcb80</source>
         <sys_created_by>james.belote</sys_created_by>

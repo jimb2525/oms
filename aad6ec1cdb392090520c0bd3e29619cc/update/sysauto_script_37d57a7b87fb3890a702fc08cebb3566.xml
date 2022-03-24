@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <business_calendar/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_time/>
+        <name>cec3bef787fb3890a702fc08cebb351e</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek/>
+        <run_period/>
+        <run_start>2021-11-20 14:19:11</run_start>
+        <run_time/>
+        <run_type>once</run_type>
+        <script><![CDATA[var message = 'DemoHub App Version is not supported';
+var appVersion = '';
+
+var gr = new GlideRecord('sys_app');
+gr.get('5c1cc3cbdbf87300f669f40b0c961935');
+
+appVersion = parseFloat(gr.version);
+
+if(appVersion < 4.7){
+	var grSP = new GlideRecord('sys_properties');
+
+	if (grSP.get('1a17fc64dbcd3700f669f40b0c96191d')) {
+
+		grSP.setValue('value',message);
+
+		grSP.update();
+
+	}
+}]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-20 14:19:11</sys_created_on>
+        <sys_id>37d57a7b87fb3890a702fc08cebb3566</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>cec3bef787fb3890a702fc08cebb351e</sys_name>
+        <sys_package display_value="Offender Management System" source="x_snc_offmgtcsc">aad6ec1cdb392090520c0bd3e29619cc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+        <sys_update_name>sysauto_script_37d57a7b87fb3890a702fc08cebb3566</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-20 14:19:11</sys_updated_on>
+        <time_zone/>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

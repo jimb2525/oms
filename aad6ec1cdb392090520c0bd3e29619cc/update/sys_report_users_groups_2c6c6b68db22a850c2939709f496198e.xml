@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_users_groups">
+    <sys_report_users_groups action="INSERT_OR_UPDATE">
+        <group_id/>
+        <report_id display_value="CO II Offender Shift Calendar">a46c6b68db22a850c2939709f496198e</report_id>
+        <sys_class_name>sys_report_users_groups</sys_class_name>
+        <sys_created_by>tony.perron</sys_created_by>
+        <sys_created_on>2021-02-22 16:27:28</sys_created_on>
+        <sys_id>2c6c6b68db22a850c2939709f496198e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>a46c6b68db22a850c2939709f496198e</sys_name>
+        <sys_package display_value="Offender Management System" source="x_snc_offmgtcsc">aad6ec1cdb392090520c0bd3e29619cc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+        <sys_update_name>sys_report_users_groups_2c6c6b68db22a850c2939709f496198e</sys_update_name>
+        <sys_updated_by>tony.perron</sys_updated_by>
+        <sys_updated_on>2021-02-22 16:27:28</sys_updated_on>
+        <user_id display_value="Tony Perron">31d0757f1bd2645056c03153cd4bcbdf</user_id>
+    </sys_report_users_groups>
+</record_update>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" extends="task" label="Absense and Release Tasks" max_length="40" name="x_snc_offmgtcsc_absense_and_release_tasks" sizeclass="18" type="collection">
+        <element label="Absense and Release" max_length="32" name="absense_and_release" reference="x_snc_offmgtcsc_absence_and_release" type="reference"/>
+    </element>
+</database>

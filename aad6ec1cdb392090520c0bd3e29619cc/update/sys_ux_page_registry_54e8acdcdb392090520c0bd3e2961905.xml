@@ -5,6 +5,7 @@
         <admin_panel_table>sys_aw_master_config</admin_panel_table>
         <auth_routes/>
         <page display_value="Workspace Core">b70867ad0f603300bb57f4a1ff767e15</page>
+        <parent_app/>
         <path>workspace/offender_managemen</path>
         <root_macroponent/>
         <sys_class_name>sys_ux_page_registry</sys_class_name>

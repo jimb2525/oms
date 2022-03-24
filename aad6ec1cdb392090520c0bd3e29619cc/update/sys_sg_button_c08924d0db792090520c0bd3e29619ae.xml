@@ -36,7 +36,7 @@
         <phone_number/>
         <phone_type>cellular</phone_type>
         <preconditions>none</preconditions>
-        <rating_span_count/>
+        <rating_span_count>2</rating_span_count>
         <refresh_screen_after_action>false</refresh_screen_after_action>
         <relative_url>true</relative_url>
         <roles/>

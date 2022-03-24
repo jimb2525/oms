@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_manual_breakdowns">
+    <pa_manual_breakdowns action="INSERT_OR_UPDATE">
+        <breakdown display_value="Numbers of days in SIU">d12cfadcdb662850c2939709f496198b</breakdown>
+        <order>400</order>
+        <sys_class_name>pa_manual_breakdowns</sys_class_name>
+        <sys_created_by>tony.perron</sys_created_by>
+        <sys_created_on>2021-02-21 18:19:41</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b04c3adcdb662850c2939709f4961957</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>6-15 days</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Offender Management System" source="x_snc_offmgtcsc">aad6ec1cdb392090520c0bd3e29619cc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+        <sys_update_name>pa_manual_breakdowns_b04c3adcdb662850c2939709f4961957</sys_update_name>
+        <sys_updated_by>tony.perron</sys_updated_by>
+        <sys_updated_on>2021-02-21 18:38:04</sys_updated_on>
+        <value>6-15 days</value>
+    </pa_manual_breakdowns>
+</record_update>

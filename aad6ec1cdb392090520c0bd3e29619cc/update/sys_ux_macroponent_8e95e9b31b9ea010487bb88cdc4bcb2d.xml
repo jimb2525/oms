@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
     <sys_ux_macroponent action="INSERT_OR_UPDATE">
         <associated_types/>
-        <category>page</category>
+        <category>component</category>
         <component_dependencies/>
         <composition>[ {
   "elementId" : "heading",
@@ -464,25 +464,13 @@
   },
   "readEvaluationMode" : "EAGER"
 } ]</data>
-        <dispatched_events>5215fad07323101001d32e46fbf6a7ee,1680a6947323101001d32e46fbf6a775</dispatched_events>
+        <dispatched_events/>
         <events/>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
-        <handled_events>64304f42ff7a10109046e490703bf18c</handled_events>
+        <handled_events/>
         <interactions/>
         <interfaces/>
-        <internal_event_mappings>{
-  "MACROPONENT_READY" : [ {
-    "broker" : null,
-    "clientScript" : {
-      "sysId" : "1295e9b31b9ea010487bb88cdc4bcb45"
-    },
-    "declarativeAction" : null,
-    "event" : null,
-    "operation" : null,
-    "targetId" : "ckbqzybaawaaaaaadddsfehhoccexbbm",
-    "type" : "CLIENT_SCRIPT"
-  } ]
-}</internal_event_mappings>
+        <internal_event_mappings/>
         <layout>{
   "default" : {
     "children" : null,
@@ -541,144 +529,12 @@
   "readOnly" : false,
   "selectable" : false
 } ]</props>
-        <required_translations>[{"message":"Select a category","comment":""}]</required_translations>
+        <required_translations/>
         <root_component/>
         <root_component_config>{ }</root_component_config>
         <root_component_definition/>
         <schema_version>1.0.0</schema_version>
-        <state_properties>[ {
-  "name" : "items",
-  "label" : "items",
-  "fieldType" : "json",
-  "valueType" : "json",
-  "shape" : "",
-  "description" : "",
-  "initialValue" : {
-    "type" : "JSON_LITERAL",
-    "value" : [ ]
-  }
-}, {
-  "name" : "loadingItems",
-  "label" : "loadingItems",
-  "fieldType" : "json",
-  "valueType" : "json",
-  "shape" : "",
-  "description" : "",
-  "initialValue" : {
-    "type" : "JSON_LITERAL",
-    "value" : [ ]
-  }
-}, {
-  "name" : "expandedItems",
-  "label" : "expandedItems",
-  "fieldType" : "json",
-  "valueType" : "json",
-  "shape" : "",
-  "description" : "",
-  "initialValue" : {
-    "type" : "JSON_LITERAL",
-    "value" : [ ]
-  }
-}, {
-  "name" : "selectedItems",
-  "label" : "selectedItems",
-  "fieldType" : "json",
-  "valueType" : "json",
-  "shape" : "",
-  "description" : "",
-  "initialValue" : {
-    "type" : "JSON_LITERAL",
-    "value" : [ ]
-  }
-}, {
-  "name" : "parentId",
-  "label" : "parentId",
-  "fieldType" : "string",
-  "valueType" : "string",
-  "shape" : "",
-  "description" : "",
-  "initialValue" : {
-    "type" : "JSON_LITERAL",
-    "value" : null
-  }
-}, {
-  "name" : "hasValue",
-  "label" : "hasValue",
-  "fieldType" : "boolean",
-  "valueType" : "boolean",
-  "shape" : "",
-  "description" : "",
-  "initialValue" : {
-    "type" : "JSON_LITERAL",
-    "value" : false
-  }
-}, {
-  "name" : "value",
-  "label" : "value",
-  "fieldType" : "string",
-  "valueType" : "string",
-  "shape" : "",
-  "description" : "",
-  "initialValue" : {
-    "type" : "JSON_LITERAL",
-    "value" : null
-  }
-}, {
-  "name" : "route",
-  "label" : "route",
-  "fieldType" : "json",
-  "valueType" : "json",
-  "shape" : "",
-  "description" : "",
-  "initialValue" : {
-    "type" : "JSON_LITERAL",
-    "value" : [ ]
-  }
-}, {
-  "name" : "sysId",
-  "label" : "sysId",
-  "fieldType" : "string",
-  "valueType" : "string",
-  "shape" : "",
-  "description" : "",
-  "initialValue" : {
-    "type" : "JSON_LITERAL",
-    "value" : null
-  }
-}, {
-  "name" : "hideNoItemsMessage",
-  "label" : "hideNoItemsMessage",
-  "fieldType" : "boolean",
-  "valueType" : "boolean",
-  "shape" : "",
-  "description" : "",
-  "initialValue" : {
-    "type" : "JSON_LITERAL",
-    "value" : true
-  }
-}, {
-  "name" : "encodedRecord",
-  "label" : "encodedRecord",
-  "fieldType" : "string",
-  "valueType" : "string",
-  "shape" : "",
-  "description" : "",
-  "initialValue" : {
-    "type" : "JSON_LITERAL",
-    "value" : null
-  }
-}, {
-  "name" : "clickedItemId",
-  "label" : "clickedItemId",
-  "fieldType" : "",
-  "valueType" : "",
-  "shape" : "",
-  "description" : "",
-  "initialValue" : {
-    "type" : "JSON_LITERAL",
-    "value" : null
-  }
-} ]</state_properties>
+        <state_properties/>
         <sys_class_name>sys_ux_macroponent</sys_class_name>
         <sys_created_by>james.belote</sys_created_by>
         <sys_created_on>2021-02-19 22:43:07</sys_created_on>

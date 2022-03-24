@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view">
+    <sys_ui_view action="INSERT_OR_UPDATE">
+        <group/>
+        <hidden>false</hidden>
+        <name>catalog_victim_services</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>sam.pirner</sys_created_by>
+        <sys_created_on>2021-02-20 13:42:31</sys_created_on>
+        <sys_id>e4733000dbe6a450c2939709f49619be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Victim Services View</sys_name>
+        <sys_package display_value="Offender Management System" source="x_snc_offmgtcsc">aad6ec1cdb392090520c0bd3e29619cc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+        <sys_update_name>sys_ui_view_e4733000dbe6a450c2939709f49619be</sys_update_name>
+        <sys_updated_by>sam.pirner</sys_updated_by>
+        <sys_updated_on>2021-02-20 13:42:31</sys_updated_on>
+        <title>Victim Services View</title>
+        <user/>
+    </sys_ui_view>
+</record_update>

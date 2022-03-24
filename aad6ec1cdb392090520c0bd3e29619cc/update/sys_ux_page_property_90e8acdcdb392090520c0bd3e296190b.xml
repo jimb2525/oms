@@ -11,7 +11,7 @@
         <sys_created_by>james.belote</sys_created_by>
         <sys_created_on>2021-01-15 00:47:43</sys_created_on>
         <sys_domain>global</sys_domain>
-        <sys_domain_path>/</sys_domain_path>
+        <sys_domain_path>global</sys_domain_path>
         <sys_id>90e8acdcdb392090520c0bd3e296190b</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>ws_active_search</sys_name>

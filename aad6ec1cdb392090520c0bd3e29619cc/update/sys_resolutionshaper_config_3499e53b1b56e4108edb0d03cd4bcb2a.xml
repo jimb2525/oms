@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_resolutionshaper_config">
+    <sys_resolutionshaper_config action="INSERT_OR_UPDATE">
+        <caller_label>Customer</caller_label>
+        <closed_state>Closed Complete</closed_state>
+        <fullfiller_label>Correction Officer</fullfiller_label>
+        <new_state>Open</new_state>
+        <request_label>Case</request_label>
+        <requestor_states>Work in Progress</requestor_states>
+        <sys_class_name>sys_resolutionshaper_config</sys_class_name>
+        <sys_created_by>allisa.liberto</sys_created_by>
+        <sys_created_on>2021-02-19 23:01:04</sys_created_on>
+        <sys_id>3499e53b1b56e4108edb0d03cd4bcb2a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Offender Management System" source="x_snc_offmgtcsc">aad6ec1cdb392090520c0bd3e29619cc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+        <sys_update_name>sys_resolutionshaper_config_3499e53b1b56e4108edb0d03cd4bcb2a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-19 23:14:31</sys_updated_on>
+        <table>x_snc_offmgtcsc_offender_incident</table>
+    </sys_resolutionshaper_config>
+    <sys_translated_text action="delete_multiple" query="documentkey=3499e53b1b56e4108edb0d03cd4bcb2a"/>
+</record_update>

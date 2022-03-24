@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_user" label="Nurses" max_length="40" name="x_snc_offmgtcsc_nurses" sizeclass="0" text_index="true" type="collection">
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Facility" max_length="32" name="u_facility" reference="x_snc_offmgtcsc_facility" type="reference"/>
+        <index name="index">
+            <element name="u_facility"/>
+        </index>
+    </element>
+</database>

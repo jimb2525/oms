@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_pd_activity_definition">
+    <sys_pd_activity_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <activity_type display_value="Record">e12af577871333003058d1a936cb0ba4</activity_type>
+        <badge/>
+        <category/>
+        <description/>
+        <input_display_preferences/>
+        <inputs/>
+        <label>Offender Intake Arrival</label>
+        <name>offender_intake_arrival</name>
+        <source>f117bc201be2685056c03153cd4bcb5d</source>
+        <source_type>sys_hub_flow</source_type>
+        <sys_class_name>sys_pd_activity_definition</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-22 03:21:55</sys_created_on>
+        <sys_id>6f58b8641be2685056c03153cd4bcb38</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Offender Intake Arrival</sys_name>
+        <sys_package display_value="Offender Management System" source="x_snc_offmgtcsc">aad6ec1cdb392090520c0bd3e29619cc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+        <sys_update_name>sys_pd_activity_definition_6f58b8641be2685056c03153cd4bcb38</sys_update_name>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-22 03:21:55</sys_updated_on>
+        <system_level>false</system_level>
+        <table>global</table>
+        <type_vals/>
+        <wait_for_completion>true</wait_for_completion>
+    </sys_pd_activity_definition>
+    <sys_variable_value action="delete_multiple" query="document_key=6f58b8641be2685056c03153cd4bcb38"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_input_f117bc201be2685056c03153cd4bcb5d^id=6f58b8641be2685056c03153cd4bcb38"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4^id=6f58b8641be2685056c03153cd4bcb38"/>
+</record_update>

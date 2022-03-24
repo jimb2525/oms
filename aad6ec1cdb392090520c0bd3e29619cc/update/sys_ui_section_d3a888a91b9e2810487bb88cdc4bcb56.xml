@@ -4,13 +4,13 @@
             <element>number</element>
             <position>0</position>
             <sys_created_by>james.belote</sys_created_by>
-            <sys_created_on>2021-02-18 17:20:08</sys_created_on>
-            <sys_id>f8121b9f1b5a6010487bb88cdc4bcbef</sys_id>
+            <sys_created_on>2021-02-24 06:03:20</sys_created_on>
+            <sys_id>5db07b011b226c5056c03153cd4bcb00</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_offmgtcsc_sentence" sys_domain="global" view="Default view">d3a888a91b9e2810487bb88cdc4bcb56</sys_ui_section>
             <sys_updated_by>james.belote</sys_updated_by>
-            <sys_updated_on>2021-02-18 17:20:08</sys_updated_on>
+            <sys_updated_on>2021-02-24 06:03:20</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>u_offender</element>
             <position>1</position>
             <sys_created_by>james.belote</sys_created_by>
-            <sys_created_on>2021-02-18 17:20:08</sys_created_on>
-            <sys_id>70121b9f1b5a6010487bb88cdc4bcbf0</sys_id>
+            <sys_created_on>2021-02-24 06:03:20</sys_created_on>
+            <sys_id>d5b07b011b226c5056c03153cd4bcb01</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_offmgtcsc_sentence" sys_domain="global" view="Default view">d3a888a91b9e2810487bb88cdc4bcb56</sys_ui_section>
             <sys_updated_by>james.belote</sys_updated_by>
-            <sys_updated_on>2021-02-18 17:20:08</sys_updated_on>
+            <sys_updated_on>2021-02-24 06:03:20</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,195 +32,181 @@
             <element>u_warrant_of_commital</element>
             <position>2</position>
             <sys_created_by>james.belote</sys_created_by>
-            <sys_created_on>2021-02-18 17:20:08</sys_created_on>
-            <sys_id>f4121b9f1b5a6010487bb88cdc4bcbf0</sys_id>
+            <sys_created_on>2021-02-24 06:03:20</sys_created_on>
+            <sys_id>5db07b011b226c5056c03153cd4bcb01</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_offmgtcsc_sentence" sys_domain="global" view="Default view">d3a888a91b9e2810487bb88cdc4bcb56</sys_ui_section>
             <sys_updated_by>james.belote</sys_updated_by>
-            <sys_updated_on>2021-02-18 17:20:08</sys_updated_on>
+            <sys_updated_on>2021-02-24 06:03:20</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_original_sentencing_date</element>
+            <element>u_sentence_length</element>
             <position>3</position>
             <sys_created_by>james.belote</sys_created_by>
-            <sys_created_on>2021-02-18 17:20:08</sys_created_on>
-            <sys_id>7c121b9f1b5a6010487bb88cdc4bcbf0</sys_id>
+            <sys_created_on>2021-02-24 06:03:20</sys_created_on>
+            <sys_id>d1b07b011b226c5056c03153cd4bcb02</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_offmgtcsc_sentence" sys_domain="global" view="Default view">d3a888a91b9e2810487bb88cdc4bcb56</sys_ui_section>
             <sys_updated_by>james.belote</sys_updated_by>
-            <sys_updated_on>2021-02-18 17:20:08</sys_updated_on>
+            <sys_updated_on>2021-02-24 06:03:20</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_parole_date</element>
+            <element>u_sentence_type</element>
             <position>4</position>
             <sys_created_by>james.belote</sys_created_by>
-            <sys_created_on>2021-02-18 17:20:08</sys_created_on>
-            <sys_id>f0121b9f1b5a6010487bb88cdc4bcbf1</sys_id>
+            <sys_created_on>2021-02-24 06:03:20</sys_created_on>
+            <sys_id>59b07b011b226c5056c03153cd4bcb02</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_offmgtcsc_sentence" sys_domain="global" view="Default view">d3a888a91b9e2810487bb88cdc4bcb56</sys_ui_section>
             <sys_updated_by>james.belote</sys_updated_by>
-            <sys_updated_on>2021-02-18 17:20:08</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_release_date</element>
-            <position>5</position>
-            <sys_created_by>james.belote</sys_created_by>
-            <sys_created_on>2021-02-18 17:20:08</sys_created_on>
-            <sys_id>78121b9f1b5a6010487bb88cdc4bcbf1</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_snc_offmgtcsc_sentence" sys_domain="global" view="Default view">d3a888a91b9e2810487bb88cdc4bcb56</sys_ui_section>
-            <sys_updated_by>james.belote</sys_updated_by>
-            <sys_updated_on>2021-02-18 17:20:08</sys_updated_on>
+            <sys_updated_on>2021-02-24 06:03:20</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>6</position>
+            <position>5</position>
             <sys_created_by>james.belote</sys_created_by>
-            <sys_created_on>2021-02-18 17:20:08</sys_created_on>
-            <sys_id>fc121b9f1b5a6010487bb88cdc4bcbf1</sys_id>
+            <sys_created_on>2021-02-24 06:03:20</sys_created_on>
+            <sys_id>ddb07b011b226c5056c03153cd4bcb02</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_offmgtcsc_sentence" sys_domain="global" view="Default view">d3a888a91b9e2810487bb88cdc4bcb56</sys_ui_section>
             <sys_updated_by>james.belote</sys_updated_by>
-            <sys_updated_on>2021-02-18 17:20:08</sys_updated_on>
+            <sys_updated_on>2021-02-24 06:03:20</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>active</element>
-            <position>7</position>
+            <position>6</position>
             <sys_created_by>james.belote</sys_created_by>
-            <sys_created_on>2021-02-18 17:20:08</sys_created_on>
-            <sys_id>74121b9f1b5a6010487bb88cdc4bcbf2</sys_id>
+            <sys_created_on>2021-02-24 06:03:20</sys_created_on>
+            <sys_id>55b07b011b226c5056c03153cd4bcb03</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_offmgtcsc_sentence" sys_domain="global" view="Default view">d3a888a91b9e2810487bb88cdc4bcb56</sys_ui_section>
             <sys_updated_by>james.belote</sys_updated_by>
-            <sys_updated_on>2021-02-18 17:20:08</sys_updated_on>
+            <sys_updated_on>2021-02-24 06:03:20</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>assigned_to</element>
-            <position>8</position>
+            <position>7</position>
             <sys_created_by>james.belote</sys_created_by>
-            <sys_created_on>2021-02-18 17:20:08</sys_created_on>
-            <sys_id>f8121b9f1b5a6010487bb88cdc4bcbf2</sys_id>
+            <sys_created_on>2021-02-24 06:03:20</sys_created_on>
+            <sys_id>d9b07b011b226c5056c03153cd4bcb03</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_offmgtcsc_sentence" sys_domain="global" view="Default view">d3a888a91b9e2810487bb88cdc4bcb56</sys_ui_section>
             <sys_updated_by>james.belote</sys_updated_by>
-            <sys_updated_on>2021-02-18 17:20:08</sys_updated_on>
+            <sys_updated_on>2021-02-24 06:03:20</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>priority</element>
-            <position>9</position>
+            <position>8</position>
             <sys_created_by>james.belote</sys_created_by>
-            <sys_created_on>2021-02-18 17:20:08</sys_created_on>
-            <sys_id>70121b9f1b5a6010487bb88cdc4bcbf3</sys_id>
+            <sys_created_on>2021-02-24 06:03:20</sys_created_on>
+            <sys_id>51b07b011b226c5056c03153cd4bcb04</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_offmgtcsc_sentence" sys_domain="global" view="Default view">d3a888a91b9e2810487bb88cdc4bcb56</sys_ui_section>
             <sys_updated_by>james.belote</sys_updated_by>
-            <sys_updated_on>2021-02-18 17:20:08</sys_updated_on>
+            <sys_updated_on>2021-02-24 06:03:20</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>state</element>
-            <position>10</position>
+            <position>9</position>
             <sys_created_by>james.belote</sys_created_by>
-            <sys_created_on>2021-02-18 17:20:08</sys_created_on>
-            <sys_id>f4121b9f1b5a6010487bb88cdc4bcbf3</sys_id>
+            <sys_created_on>2021-02-24 06:03:20</sys_created_on>
+            <sys_id>d5b07b011b226c5056c03153cd4bcb04</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_offmgtcsc_sentence" sys_domain="global" view="Default view">d3a888a91b9e2810487bb88cdc4bcb56</sys_ui_section>
             <sys_updated_by>james.belote</sys_updated_by>
-            <sys_updated_on>2021-02-18 17:20:08</sys_updated_on>
+            <sys_updated_on>2021-02-24 06:03:20</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>parent</element>
-            <position>11</position>
+            <position>10</position>
             <sys_created_by>james.belote</sys_created_by>
-            <sys_created_on>2021-02-18 17:20:08</sys_created_on>
-            <sys_id>7c121b9f1b5a6010487bb88cdc4bcbf3</sys_id>
+            <sys_created_on>2021-02-24 06:03:20</sys_created_on>
+            <sys_id>5db07b011b226c5056c03153cd4bcb04</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_offmgtcsc_sentence" sys_domain="global" view="Default view">d3a888a91b9e2810487bb88cdc4bcb56</sys_ui_section>
             <sys_updated_by>james.belote</sys_updated_by>
-            <sys_updated_on>2021-02-18 17:20:08</sys_updated_on>
+            <sys_updated_on>2021-02-24 06:03:20</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.end_split</element>
-            <position>12</position>
+            <position>11</position>
             <sys_created_by>james.belote</sys_created_by>
-            <sys_created_on>2021-02-18 17:20:08</sys_created_on>
-            <sys_id>f0121b9f1b5a6010487bb88cdc4bcbf4</sys_id>
+            <sys_created_on>2021-02-24 06:03:20</sys_created_on>
+            <sys_id>d1b07b011b226c5056c03153cd4bcb05</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_offmgtcsc_sentence" sys_domain="global" view="Default view">d3a888a91b9e2810487bb88cdc4bcb56</sys_ui_section>
             <sys_updated_by>james.belote</sys_updated_by>
-            <sys_updated_on>2021-02-18 17:20:08</sys_updated_on>
+            <sys_updated_on>2021-02-24 06:03:20</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>short_description</element>
-            <position>13</position>
+            <position>12</position>
             <sys_created_by>james.belote</sys_created_by>
-            <sys_created_on>2021-02-18 17:20:08</sys_created_on>
-            <sys_id>78121b9f1b5a6010487bb88cdc4bcbf4</sys_id>
+            <sys_created_on>2021-02-24 06:03:20</sys_created_on>
+            <sys_id>59b07b011b226c5056c03153cd4bcb05</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_offmgtcsc_sentence" sys_domain="global" view="Default view">d3a888a91b9e2810487bb88cdc4bcb56</sys_ui_section>
             <sys_updated_by>james.belote</sys_updated_by>
-            <sys_updated_on>2021-02-18 17:20:08</sys_updated_on>
+            <sys_updated_on>2021-02-24 06:03:20</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>description</element>
-            <position>14</position>
+            <position>13</position>
             <sys_created_by>james.belote</sys_created_by>
-            <sys_created_on>2021-02-18 17:20:08</sys_created_on>
-            <sys_id>fc121b9f1b5a6010487bb88cdc4bcbf4</sys_id>
+            <sys_created_on>2021-02-24 06:03:20</sys_created_on>
+            <sys_id>ddb07b011b226c5056c03153cd4bcb05</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_offmgtcsc_sentence" sys_domain="global" view="Default view">d3a888a91b9e2810487bb88cdc4bcb56</sys_ui_section>
             <sys_updated_by>james.belote</sys_updated_by>
-            <sys_updated_on>2021-02-18 17:20:08</sys_updated_on>
+            <sys_updated_on>2021-02-24 06:03:20</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>work_notes</element>
-            <position>15</position>
+            <position>14</position>
             <sys_created_by>james.belote</sys_created_by>
-            <sys_created_on>2021-02-18 17:20:08</sys_created_on>
-            <sys_id>74121b9f1b5a6010487bb88cdc4bcbf5</sys_id>
+            <sys_created_on>2021-02-24 06:03:20</sys_created_on>
+            <sys_id>55b07b011b226c5056c03153cd4bcb06</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_offmgtcsc_sentence" sys_domain="global" view="Default view">d3a888a91b9e2810487bb88cdc4bcb56</sys_ui_section>
             <sys_updated_by>james.belote</sys_updated_by>
-            <sys_updated_on>2021-02-18 17:20:08</sys_updated_on>
+            <sys_updated_on>2021-02-24 06:03:20</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

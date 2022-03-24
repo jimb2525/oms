@@ -2,7 +2,9 @@
     <sys_search_source action="INSERT_OR_UPDATE">
         <active>true</active>
         <condition/>
+        <group/>
         <name>Offenders</name>
+        <roles/>
         <source_table>x_snc_offmgtcsc_offender</source_table>
         <sys_class_name>sys_search_source</sys_class_name>
         <sys_created_by>james.belote</sys_created_by>

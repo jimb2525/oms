@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="INSERT_OR_UPDATE">
+        <associated_types/>
+        <category>component</category>
+        <component_dependencies/>
+        <composition>[ {
+  "elementId" : "eilcblbwxsfmbrnq",
+  "elementLabel" : "CSM: My Teams' Cases",
+  "propertyValues" : {
+    "border" : false,
+    "collapsed" : false,
+    "canCollapse" : false,
+    "label" : "My Teams' Cases",
+    "type" : "visualizations",
+    "bare" : "false",
+    "bgvar" : ""
+  },
+  "slot" : "secondary",
+  "definition" : {
+    "id" : "80653115e23949b501e719ae9b0b42a6",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : {
+    "composition" : [ {
+      "elementId" : "iatisxujhpgqnvmi",
+      "elementLabel" : "Report/PA Widget",
+      "propertyValues" : {
+        "border" : true,
+        "reportSysId" : "2d60380ddbaee850c2939709f4961901",
+        "paWidgetSysId" : null,
+        "refreshInterval" : "2",
+        "variant" : null,
+        "is_realtime" : false,
+        "label" : "Escalated",
+        "isRealtime" : "false",
+        "refreshFrequency" : "0",
+        "kpiDetailsNavigation" : "false"
+      },
+      "slot" : "right",
+      "definition" : {
+        "id" : "7dbc62b27efa88d6d910579a68c7a65d",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null
+    }, {
+      "elementId" : "zbtkbodliwingyqv",
+      "elementLabel" : "Report/PA Widget",
+      "propertyValues" : {
+        "border" : true,
+        "reportSysId" : "4030300ddbaee850c2939709f49619a4",
+        "paWidgetSysId" : null,
+        "refreshInterval" : "2",
+        "variant" : null,
+        "is_realtime" : false,
+        "label" : "Offender's case High Priority",
+        "isRealtime" : "false",
+        "refreshFrequency" : "0",
+        "kpiDetailsNavigation" : "false"
+      },
+      "slot" : "center",
+      "definition" : {
+        "id" : "7dbc62b27efa88d6d910579a68c7a65d",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null
+    }, {
+      "elementId" : "dpqhjqpfmygvceep",
+      "elementLabel" : "Report/PA Widget",
+      "propertyValues" : {
+        "border" : true,
+        "reportSysId" : "3befa4c9dbaee850c2939709f49619a4",
+        "paWidgetSysId" : null,
+        "refreshInterval" : "2",
+        "variant" : null,
+        "is_realtime" : false,
+        "label" : "All",
+        "isRealtime" : "false",
+        "refreshFrequency" : "0",
+        "kpiDetailsNavigation" : "false"
+      },
+      "slot" : "cklh4jrt8000g3h7bb0aiavkm",
+      "definition" : {
+        "id" : "7dbc62b27efa88d6d910579a68c7a65d",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null
+    } ],
+    "layout" : {
+      "default" : {
+        "type" : "rowColumn",
+        "root" : {"type":"row","id":"cklh4jrt7000a3h7budhy4e5d","columns":[{"type":"column","id":"cklh4jrt8000h3h7bhdlpqntb","slotName":"cklh4jrt8000g3h7bb0aiavkm","size":"4"},{"type":"column","id":"cklh4jrt7000c3h7b9c9agn85","slotName":"center","size":"4"},{"type":"column","id":"cklh4jrt7000d3h7bx8iml9au","slotName":"right","size":"4"}]},
+        "items" : null,
+        "rules" : null,
+        "styles" : null
+      }
+    }
+  }
+}, {
+  "elementId" : "dxtmmdoshqbggamj",
+  "elementLabel" : "Overview",
+  "propertyValues" : {
+    "border" : false,
+    "collapsed" : false,
+    "canCollapse" : false,
+    "label" : "Overview",
+    "type" : "visualizations",
+    "bare" : "false",
+    "bgvar" : ""
+  },
+  "slot" : "cklh4jrt700043h7bxkfr74r2",
+  "definition" : {
+    "id" : "80653115e23949b501e719ae9b0b42a6",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : {
+    "composition" : [ {
+      "elementId" : "mlfepkhmhsuxcxbu",
+      "elementLabel" : "Report/PA Widget",
+      "propertyValues" : {
+        "border" : true,
+        "reportSysId" : "fa9b580ddb2ee850c2939709f49619a0",
+        "paWidgetSysId" : null,
+        "refreshInterval" : "2",
+        "variant" : null,
+        "is_realtime" : false,
+        "label" : "All New Transfers",
+        "isRealtime" : "false",
+        "refreshFrequency" : "0",
+        "kpiDetailsNavigation" : "false"
+      },
+      "slot" : "second",
+      "definition" : {
+        "id" : "7dbc62b27efa88d6d910579a68c7a65d",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null
+    }, {
+      "elementId" : "lluesnweqifruzms",
+      "elementLabel" : "Report/PA Widget",
+      "propertyValues" : {
+        "border" : true,
+        "reportSysId" : "1f5b580ddb2ee850c2939709f496194c",
+        "paWidgetSysId" : null,
+        "refreshInterval" : "5",
+        "variant" : null,
+        "is_realtime" : false,
+        "label" : "All New Offender Intake",
+        "isRealtime" : "false",
+        "refreshFrequency" : "0",
+        "kpiDetailsNavigation" : "false"
+      },
+      "slot" : "first",
+      "definition" : {
+        "id" : "7dbc62b27efa88d6d910579a68c7a65d",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null
+    }, {
+      "elementId" : "lvwvoerogvuxbkvu",
+      "elementLabel" : "Report/PA Widget",
+      "propertyValues" : {
+        "border" : true,
+        "reportSysId" : "b66c5c4ddb2ee850c2939709f4961975",
+        "paWidgetSysId" : null,
+        "refreshInterval" : "2",
+        "variant" : null,
+        "is_realtime" : false,
+        "label" : "New Grievance Requests",
+        "isRealtime" : "false",
+        "refreshFrequency" : "0",
+        "kpiDetailsNavigation" : "false"
+      },
+      "slot" : "third",
+      "definition" : {
+        "id" : "7dbc62b27efa88d6d910579a68c7a65d",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null
+    }, {
+      "elementId" : "cklieecybbgaaaaeetddhhhbcbopffyxdd",
+      "elementLabel" : "Report/PA Widget",
+      "propertyValues" : {
+        "label" : "New Offender Incidents",
+        "reportSysId" : "c95af4b8dbe6a850c2939709f4961923",
+        "paWidgetSysId" : "",
+        "variant" : "auto",
+        "border" : true,
+        "refreshInterval" : "2",
+        "isRealtime" : false,
+        "refreshFrequency" : "0",
+        "kpiDetailsNavigation" : false
+      },
+      "slot" : "ckli4cy1h004u3h7by6xheeb9",
+      "definition" : {
+        "id" : "7dbc62b27efa88d6d910579a68c7a65d",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null
+    }, {
+      "elementId" : "cklieehpehhaaaahhbbddhhhbnofhhffouy",
+      "elementLabel" : "Report/PA Widget",
+      "propertyValues" : {
+        "label" : "Absences and Releases",
+        "reportSysId" : "80bf5c81db6ee850c2939709f4961966",
+        "paWidgetSysId" : "",
+        "variant" : "auto",
+        "border" : true,
+        "refreshInterval" : "",
+        "isRealtime" : false,
+        "refreshFrequency" : "0",
+        "kpiDetailsNavigation" : false
+      },
+      "slot" : "ckli4hpe700723h7b0028811q",
+      "definition" : {
+        "id" : "7dbc62b27efa88d6d910579a68c7a65d",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null
+    }, {
+      "elementId" : "cklijtxaqaaaaaagddhhhbglnexddjt",
+      "elementLabel" : "Report/PA Widget",
+      "propertyValues" : {
+        "label" : "All New Sentences ",
+        "reportSysId" : "9fadee451b6a2c5056c03153cd4bcbaf",
+        "paWidgetSysId" : "",
+        "variant" : "auto",
+        "border" : true,
+        "refreshInterval" : "",
+        "isRealtime" : false,
+        "refreshFrequency" : "0",
+        "kpiDetailsNavigation" : false
+      },
+      "slot" : "cklijtxaq000h3h7bd8wn7qel",
+      "definition" : {
+        "id" : "7dbc62b27efa88d6d910579a68c7a65d",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null
+    } ],
+    "layout" : {
+      "default" : {
+        "type" : "rowColumn",
+        "root" : {"type":"row","id":"cklh4jrt8000i3h7bctsii3m3","columns":[{"type":"column","id":"cklijtf60000d3h7beuhzzn57","size":3,"rows":[{"type":"row","id":"cklh4jrt8000j3h7bazsx1u2o","slotName":"first"},{"type":"row","id":"cklijtf60000c3h7b0w58fyz4","slotName":"ckli4hpe700723h7b0028811q"}]},{"type":"column","id":"cklijtp22000f3h7bhrqjf0au","size":3,"rows":[{"type":"row","id":"cklh4jrt8000k3h7b0j6w8dp6","slotName":"second"},{"type":"row","id":"cklijtp22000e3h7b8heznxyr","slotName":"ckli4cy1h004u3h7by6xheeb9"}]},{"id":"ckliju95u000o3h7bd89k1tk4","type":"column","rows":[{"type":"row","id":"cklh4jrt8000l3h7bnqv2hf7z","slotName":"third"},{"type":"row","slotName":"cklijtxaq000h3h7bd8wn7qel","id":"ckliju95u000n3h7b2nibww3u"}],"size":3},{"type":"column","id":"cklh4jrt8000m3h7b1qh1j6f5","slotName":"fourth","size":3}]},
+        "items" : null,
+        "rules" : null,
+        "styles" : null
+      }
+    }
+  }
+}, {
+  "elementId" : "geyjuexbcrvfnnel",
+  "elementLabel" : "CSM: My Cases",
+  "propertyValues" : {
+    "border" : false,
+    "collapsed" : false,
+    "canCollapse" : false,
+    "label" : "My Cases",
+    "type" : "visualizations",
+    "bare" : "false",
+    "bgvar" : ""
+  },
+  "slot" : "cklh4jrt700063h7bybbe5nk4",
+  "definition" : {
+    "id" : "80653115e23949b501e719ae9b0b42a6",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : {
+    "composition" : [ {
+      "elementId" : "yadpjdtrkmghyccw",
+      "elementLabel" : "Report/PA Widget",
+      "propertyValues" : {
+        "border" : true,
+        "reportSysId" : "7818e0cddb6ee850c2939709f4961956",
+        "paWidgetSysId" : null,
+        "refreshInterval" : "2",
+        "variant" : null,
+        "is_realtime" : false,
+        "label" : "All Opened Cases",
+        "isRealtime" : "false",
+        "refreshFrequency" : "0",
+        "kpiDetailsNavigation" : "false"
+      },
+      "slot" : "third",
+      "definition" : {
+        "id" : "7dbc62b27efa88d6d910579a68c7a65d",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null
+    }, {
+      "elementId" : "zxrtpwjfcwshqygx",
+      "elementLabel" : "Report/PA Widget",
+      "propertyValues" : {
+        "border" : true,
+        "reportSysId" : "1d26e80ddb6ee850c2939709f4961960",
+        "paWidgetSysId" : null,
+        "refreshInterval" : "2",
+        "variant" : null,
+        "is_realtime" : false,
+        "label" : "My Cases or Tasks needing my Attention",
+        "isRealtime" : "false",
+        "refreshFrequency" : "0",
+        "kpiDetailsNavigation" : "false"
+      },
+      "slot" : "first",
+      "definition" : {
+        "id" : "7dbc62b27efa88d6d910579a68c7a65d",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null
+    } ],
+    "layout" : {
+      "default" : {
+        "type" : "rowColumn",
+        "root" : {"type":"row","id":"cklh4jrt8000n3h7bclt4xm4l","columns":[{"type":"column","id":"cklh4jrt8000o3h7b3fp6jzfd","slotName":"first","size":"6"},{"type":"column","id":"cklh4jrt8000q3h7bl4050xnk","slotName":"third","size":"6"}]},
+        "items" : null,
+        "rules" : null,
+        "styles" : null
+      }
+    }
+  }
+}, {
+  "elementId" : "kdqvyhbmaobcakhl",
+  "elementLabel" : "All",
+  "propertyValues" : {
+    "border" : false,
+    "collapsed" : false,
+    "canCollapse" : false,
+    "label" : "My work",
+    "type" : "visualizations",
+    "bare" : "false",
+    "bgvar" : ""
+  },
+  "slot" : "cklh4jrt700083h7bnkq5eftk",
+  "definition" : {
+    "id" : "80653115e23949b501e719ae9b0b42a6",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : {
+    "composition" : [ {
+      "elementId" : "ahrctvztbikrffhk",
+      "elementLabel" : "Report/PA Widget",
+      "propertyValues" : {
+        "border" : false,
+        "reportSysId" : "395ba881dbaee850c2939709f4961971",
+        "paWidgetSysId" : null,
+        "refreshInterval" : "2",
+        "variant" : "MEDIUM",
+        "is_realtime" : false,
+        "label" : "All my Tasks",
+        "isRealtime" : "false",
+        "refreshFrequency" : "0",
+        "kpiDetailsNavigation" : "false"
+      },
+      "slot" : "cklh4jrt8000s3h7bscd3z71b",
+      "definition" : {
+        "id" : "7dbc62b27efa88d6d910579a68c7a65d",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null
+    } ],
+    "layout" : {
+      "default" : {
+        "type" : "rowColumn",
+        "root" : {"id":"cklh4jrt8000t3h7b7ewbkwgd","type":"column","size":12,"rows":[{"type":"row","id":"cklh4jrt8000u3h7by3cxo4z6","slotName":"cklh4jrt8000s3h7bscd3z71b"}]},
+        "items" : null,
+        "rules" : null,
+        "styles" : null
+      }
+    }
+  }
+} ]</composition>
+        <da_relay_models/>
+        <data/>
+        <dispatched_events/>
+        <events/>
+        <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <handled_events/>
+        <interactions/>
+        <interfaces/>
+        <internal_event_mappings/>
+        <layout>{
+  "default" : {
+    "type" : "rowColumn",
+    "root" : {"type":"column","id":"cklh4jrt700013h7b1cedmiqe","size":"12","rows":[{"type":"row","slotName":"cklh4jrt700043h7bxkfr74r2","id":"ckli4isow00763h7bn9pdrjlf"},{"type":"row","id":"ckli4ijky00753h7b2ck99fjk","slotName":"secondary"},{"type":"row","id":"cklh4jrt700073h7b3ct09kqs","slotName":"cklh4jrt700063h7bybbe5nk4"},{"type":"row","id":"cklh4jrt700093h7btkazhskj","slotName":"cklh4jrt700083h7bnkq5eftk"}]},
+    "items" : null,
+    "rules" : null,
+    "styles" : null
+  }
+}</layout>
+        <macroponent_dependencies/>
+        <name>Offender Management Landing Page</name>
+        <props/>
+        <required_translations/>
+        <root_component/>
+        <root_component_config/>
+        <root_component_definition/>
+        <schema_version>1.0.0</schema_version>
+        <state_properties/>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>tony.perron</sys_created_by>
+        <sys_created_on>2021-02-22 22:01:59</sys_created_on>
+        <sys_id>24f83c38dbe6a850c2939709f496191c</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_name>Offender Management Landing Page</sys_name>
+        <sys_package display_value="Offender Management System" source="x_snc_offmgtcsc">aad6ec1cdb392090520c0bd3e29619cc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+        <sys_update_name>sys_ux_macroponent_24f83c38dbe6a850c2939709f496191c</sys_update_name>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-24 01:14:48</sys_updated_on>
+    </sys_ux_macroponent>
+</record_update>

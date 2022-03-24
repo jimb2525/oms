@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_dimensions">
+    <pa_dimensions action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <conditions table="pa_manual_breakdowns">breakdown=17284ca4db2e2850c2939709f496190f<item display_table="pa_breakdowns" display_value="Sentence Manager Breakdown list" endquery="false" field="breakdown" goto="false" newquery="false" operator="=" or="false" value="17284ca4db2e2850c2939709f496190f"/>
+        </conditions>
+        <description/>
+        <empty_value/>
+        <facts_table>pa_manual_breakdowns</facts_table>
+        <field>sys_id</field>
+        <manual_breakdown>17284ca4db2e2850c2939709f496190f</manual_breakdown>
+        <name>Sentence Manager Breakdown list</name>
+        <security_type>1</security_type>
+        <sys_class_name>pa_dimensions</sys_class_name>
+        <sys_created_by>tony.perron</sys_created_by>
+        <sys_created_on>2021-02-21 23:51:14</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>575800e4db2e2850c2939709f496197f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Sentence Manager Breakdown list</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Offender Management System" source="x_snc_offmgtcsc">aad6ec1cdb392090520c0bd3e29619cc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+        <sys_update_name>pa_dimensions_575800e4db2e2850c2939709f496197f</sys_update_name>
+        <sys_updated_by>tony.perron</sys_updated_by>
+        <sys_updated_on>2021-02-21 23:51:14</sys_updated_on>
+    </pa_dimensions>
+    <sys_translated_text action="delete_multiple" query="documentkey=575800e4db2e2850c2939709f496197f"/>
+</record_update>

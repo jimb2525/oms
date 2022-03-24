@@ -2,45 +2,59 @@
     <sys_ui_related sys_domain="global" table="x_snc_offmgtcsc_offender_incident" version="2" view="workspace">
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="Offender Incident - Workspace" name="x_snc_offmgtcsc_offender_incident" related_list="NULL" sys_domain="global" view="c2364b1610352010d152bac818665e22">78243cd61bd2e810487bb88cdc4bcbbb</list_id>
+            <list_id display_value="Offender Incident - Workspace" name="x_snc_offmgtcsc_offender_incident" related_list="NULL" sys_domain="global" view="903b5b27db062010c2939709f49619f5">579f41d11b2a6c5056c03153cd4bcb69</list_id>
             <order_by/>
             <position>0</position>
+            <related_list>x_snc_offmgtcsc_offender_incident_tasks.parent</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-02-24 12:57:59</sys_created_on>
+            <sys_id>179f41d11b2a6c5056c03153cd4bcb6a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-02-24 12:57:59</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Offender Incident - Workspace" name="x_snc_offmgtcsc_offender_incident" related_list="NULL" sys_domain="global" view="903b5b27db062010c2939709f49619f5">579f41d11b2a6c5056c03153cd4bcb69</list_id>
+            <order_by/>
+            <position>1</position>
             <related_list>x_snc_offmgtcsc_statement_observation_report.parent</related_list>
             <sys_class_name>sys_ui_related_list_entry</sys_class_name>
             <sys_created_by>james.belote</sys_created_by>
-            <sys_created_on>2021-02-15 03:16:09</sys_created_on>
-            <sys_id>f4243cd61bd2e810487bb88cdc4bcbbc</sys_id>
+            <sys_created_on>2021-02-24 12:57:59</sys_created_on>
+            <sys_id>9b9f41d11b2a6c5056c03153cd4bcb6a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>james.belote</sys_updated_by>
-            <sys_updated_on>2021-02-15 03:16:09</sys_updated_on>
+            <sys_updated_on>2021-02-24 12:57:59</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="Offender Incident - Workspace" name="x_snc_offmgtcsc_offender_incident" related_list="NULL" sys_domain="global" view="c2364b1610352010d152bac818665e22">78243cd61bd2e810487bb88cdc4bcbbb</list_id>
+            <list_id display_value="Offender Incident - Workspace" name="x_snc_offmgtcsc_offender_incident" related_list="NULL" sys_domain="global" view="903b5b27db062010c2939709f49619f5">579f41d11b2a6c5056c03153cd4bcb69</list_id>
             <order_by/>
-            <position>1</position>
+            <position>2</position>
             <related_list>task_sla.task</related_list>
             <sys_class_name>sys_ui_related_list_entry</sys_class_name>
             <sys_created_by>james.belote</sys_created_by>
-            <sys_created_on>2021-02-15 03:16:09</sys_created_on>
-            <sys_id>7c243cd61bd2e810487bb88cdc4bcbbc</sys_id>
+            <sys_created_on>2021-02-24 12:57:59</sys_created_on>
+            <sys_id>139f41d11b2a6c5056c03153cd4bcb6b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>james.belote</sys_updated_by>
-            <sys_updated_on>2021-02-15 03:16:09</sys_updated_on>
+            <sys_updated_on>2021-02-24 12:57:59</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="Offender Incident - Workspace" name="x_snc_offmgtcsc_offender_incident" related_list="NULL" sys_domain="global" view="c2364b1610352010d152bac818665e22">78243cd61bd2e810487bb88cdc4bcbbb</list_id>
+            <list_id display_value="Offender Incident - Workspace" name="x_snc_offmgtcsc_offender_incident" related_list="NULL" sys_domain="global" view="903b5b27db062010c2939709f49619f5">579f41d11b2a6c5056c03153cd4bcb69</list_id>
             <order_by/>
-            <position>2</position>
+            <position>3</position>
             <related_list>x_snc_offmgtcsc_investigation.parent</related_list>
             <sys_class_name>sys_ui_related_list_entry</sys_class_name>
             <sys_created_by>james.belote</sys_created_by>
-            <sys_created_on>2021-02-15 03:16:09</sys_created_on>
-            <sys_id>f0243cd61bd2e810487bb88cdc4bcbbd</sys_id>
+            <sys_created_on>2021-02-24 12:57:59</sys_created_on>
+            <sys_id>979f41d11b2a6c5056c03153cd4bcb6b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>james.belote</sys_updated_by>
-            <sys_updated_on>2021-02-15 03:16:09</sys_updated_on>
+            <sys_updated_on>2021-02-24 12:57:59</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list action="INSERT_OR_UPDATE">
             <calculated_name>Offender Incident - Workspace</calculated_name>
@@ -51,10 +65,10 @@
             <related_list/>
             <sys_class_name>sys_ui_related_list</sys_class_name>
             <sys_created_by>james.belote</sys_created_by>
-            <sys_created_on>2021-02-15 03:16:09</sys_created_on>
+            <sys_created_on>2021-02-24 12:57:59</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>78243cd61bd2e810487bb88cdc4bcbbb</sys_id>
+            <sys_id>579f41d11b2a6c5056c03153cd4bcb69</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>Offender Incident - Workspace</sys_name>
             <sys_package display_value="Offender Management System" source="x_snc_offmgtcsc">aad6ec1cdb392090520c0bd3e29619cc</sys_package>
@@ -62,9 +76,9 @@
             <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
             <sys_update_name>sys_ui_related_x_snc_offmgtcsc_offender_incident_workspace</sys_update_name>
             <sys_updated_by>james.belote</sys_updated_by>
-            <sys_updated_on>2021-02-15 03:16:09</sys_updated_on>
+            <sys_updated_on>2021-02-24 12:57:59</sys_updated_on>
             <sys_user/>
-            <view display_value="Workspace" name="workspace">c2364b1610352010d152bac818665e22</view>
+            <view display_value="Workspace" name="workspace">903b5b27db062010c2939709f49619f5</view>
             <view_name/>
         </sys_ui_related_list>
     </sys_ui_related>

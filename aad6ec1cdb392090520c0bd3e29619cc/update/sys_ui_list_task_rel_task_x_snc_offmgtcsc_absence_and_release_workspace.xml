@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="x_snc_offmgtcsc_absence_and_release" relationship="" sys_domain="global" table="task_rel_task" version="2" view="workspace">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>parent</element>
+            <list_id display_value="task_rel_task" element="NULL" name="task_rel_task" parent="x_snc_offmgtcsc_absence_and_release" relationship="NULL" sys_domain="global" view="903b5b27db062010c2939709f49619f5">eb4d12b81ba2e85056c03153cd4bcbe3</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-02-23 05:20:28</sys_created_on>
+            <sys_id>6b4d12b81ba2e85056c03153cd4bcbe4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-02-23 05:20:28</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>child</element>
+            <list_id display_value="task_rel_task" element="NULL" name="task_rel_task" parent="x_snc_offmgtcsc_absence_and_release" relationship="NULL" sys_domain="global" view="903b5b27db062010c2939709f49619f5">eb4d12b81ba2e85056c03153cd4bcbe3</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-02-23 05:20:28</sys_created_on>
+            <sys_id>6f4d12b81ba2e85056c03153cd4bcbe4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-02-23 05:20:28</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>type</element>
+            <list_id display_value="task_rel_task" element="NULL" name="task_rel_task" parent="x_snc_offmgtcsc_absence_and_release" relationship="NULL" sys_domain="global" view="903b5b27db062010c2939709f49619f5">eb4d12b81ba2e85056c03153cd4bcbe3</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-02-23 05:20:28</sys_created_on>
+            <sys_id>634d12b81ba2e85056c03153cd4bcbe5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-02-23 05:20:28</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>task_rel_task</name>
+            <parent>x_snc_offmgtcsc_absence_and_release</parent>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-02-23 05:20:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>eb4d12b81ba2e85056c03153cd4bcbe3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>task_rel_task</sys_name>
+            <sys_package display_value="Offender Management System" source="x_snc_offmgtcsc">aad6ec1cdb392090520c0bd3e29619cc</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+            <sys_update_name>sys_ui_list_task_rel_task_x_snc_offmgtcsc_absence_and_release_workspace</sys_update_name>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-02-23 05:20:28</sys_updated_on>
+            <sys_user/>
+            <view display_value="Workspace" name="workspace">903b5b27db062010c2939709f49619f5</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

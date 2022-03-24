@@ -8,7 +8,7 @@
             <sys_id>1966bc6f1b9e6010487bb88cdc4bcb79</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_snc_offmgtcsc_facility_transfer_task" sys_domain="global" view="c2364b1610352010d152bac818665e22">45667c6f1b9e6010487bb88cdc4bcb68</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_offmgtcsc_facility_transfer_task" sys_domain="global" view="903b5b27db062010c2939709f49619f5">45667c6f1b9e6010487bb88cdc4bcb68</sys_ui_section>
             <sys_updated_by>james.belote</sys_updated_by>
             <sys_updated_on>2021-02-19 00:38:26</sys_updated_on>
             <sys_user/>
@@ -22,7 +22,7 @@
             <sys_id>9d66bc6f1b9e6010487bb88cdc4bcb79</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_snc_offmgtcsc_facility_transfer_task" sys_domain="global" view="c2364b1610352010d152bac818665e22">45667c6f1b9e6010487bb88cdc4bcb68</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_offmgtcsc_facility_transfer_task" sys_domain="global" view="903b5b27db062010c2939709f49619f5">45667c6f1b9e6010487bb88cdc4bcb68</sys_ui_section>
             <sys_updated_by>james.belote</sys_updated_by>
             <sys_updated_on>2021-02-19 00:38:26</sys_updated_on>
             <sys_user/>
@@ -36,7 +36,7 @@
             <sys_id>1566bc6f1b9e6010487bb88cdc4bcb7a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_snc_offmgtcsc_facility_transfer_task" sys_domain="global" view="c2364b1610352010d152bac818665e22">45667c6f1b9e6010487bb88cdc4bcb68</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_offmgtcsc_facility_transfer_task" sys_domain="global" view="903b5b27db062010c2939709f49619f5">45667c6f1b9e6010487bb88cdc4bcb68</sys_ui_section>
             <sys_updated_by>james.belote</sys_updated_by>
             <sys_updated_on>2021-02-19 00:38:26</sys_updated_on>
             <sys_user/>
@@ -50,7 +50,7 @@
             <sys_id>9966bc6f1b9e6010487bb88cdc4bcb7a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_snc_offmgtcsc_facility_transfer_task" sys_domain="global" view="c2364b1610352010d152bac818665e22">45667c6f1b9e6010487bb88cdc4bcb68</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_offmgtcsc_facility_transfer_task" sys_domain="global" view="903b5b27db062010c2939709f49619f5">45667c6f1b9e6010487bb88cdc4bcb68</sys_ui_section>
             <sys_updated_by>james.belote</sys_updated_by>
             <sys_updated_on>2021-02-19 00:38:26</sys_updated_on>
             <sys_user/>
@@ -64,7 +64,7 @@
             <sys_id>1166bc6f1b9e6010487bb88cdc4bcb7b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_snc_offmgtcsc_facility_transfer_task" sys_domain="global" view="c2364b1610352010d152bac818665e22">45667c6f1b9e6010487bb88cdc4bcb68</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_offmgtcsc_facility_transfer_task" sys_domain="global" view="903b5b27db062010c2939709f49619f5">45667c6f1b9e6010487bb88cdc4bcb68</sys_ui_section>
             <sys_updated_by>james.belote</sys_updated_by>
             <sys_updated_on>2021-02-19 00:38:26</sys_updated_on>
             <sys_user/>
@@ -78,7 +78,7 @@
             <sys_id>9566bc6f1b9e6010487bb88cdc4bcb7b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_snc_offmgtcsc_facility_transfer_task" sys_domain="global" view="c2364b1610352010d152bac818665e22">45667c6f1b9e6010487bb88cdc4bcb68</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_offmgtcsc_facility_transfer_task" sys_domain="global" view="903b5b27db062010c2939709f49619f5">45667c6f1b9e6010487bb88cdc4bcb68</sys_ui_section>
             <sys_updated_by>james.belote</sys_updated_by>
             <sys_updated_on>2021-02-19 00:38:26</sys_updated_on>
             <sys_user/>
@@ -106,7 +106,7 @@
             <sys_updated_on>2021-02-19 00:38:25</sys_updated_on>
             <sys_user/>
             <title>false</title>
-            <view display_value="Workspace" name="workspace">c2364b1610352010d152bac818665e22</view>
+            <view display_value="Workspace" name="workspace">903b5b27db062010c2939709f49619f5</view>
             <view_name/>
         </sys_ui_section>
     </sys_ui_section>

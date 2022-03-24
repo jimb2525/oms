@@ -4,13 +4,13 @@
             <element>number</element>
             <position>0</position>
             <sys_created_by>tony.perron</sys_created_by>
-            <sys_created_on>2021-02-16 21:44:01</sys_created_on>
-            <sys_id>c74bf5b61b5e2c10487bb88cdc4bcbf8</sys_id>
+            <sys_created_on>2021-02-23 00:16:14</sys_created_on>
+            <sys_id>5fa7ddf0dbaaa850c2939709f49619f6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Management of Seized Items" display_value="Management of Seized Items" name="x_snc_offmgtcsc_management_of_seized_items" sys_domain="global" view="c2364b1610352010d152bac818665e22">474bf5b61b5e2c10487bb88cdc4bcb8d</sys_ui_section>
+            <sys_ui_section caption="Management of Seized Items" display_value="Management of Seized Items" name="x_snc_offmgtcsc_management_of_seized_items" sys_domain="global" view="903b5b27db062010c2939709f49619f5">474bf5b61b5e2c10487bb88cdc4bcb8d</sys_ui_section>
             <sys_updated_by>tony.perron</sys_updated_by>
-            <sys_updated_on>2021-02-16 21:44:01</sys_updated_on>
+            <sys_updated_on>2021-02-23 00:16:14</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>u_offender</element>
             <position>1</position>
             <sys_created_by>tony.perron</sys_created_by>
-            <sys_created_on>2021-02-16 21:44:01</sys_created_on>
-            <sys_id>4f4bf5b61b5e2c10487bb88cdc4bcbf8</sys_id>
+            <sys_created_on>2021-02-23 00:16:14</sys_created_on>
+            <sys_id>d3a7ddf0dbaaa850c2939709f49619f7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Management of Seized Items" display_value="Management of Seized Items" name="x_snc_offmgtcsc_management_of_seized_items" sys_domain="global" view="c2364b1610352010d152bac818665e22">474bf5b61b5e2c10487bb88cdc4bcb8d</sys_ui_section>
+            <sys_ui_section caption="Management of Seized Items" display_value="Management of Seized Items" name="x_snc_offmgtcsc_management_of_seized_items" sys_domain="global" view="903b5b27db062010c2939709f49619f5">474bf5b61b5e2c10487bb88cdc4bcb8d</sys_ui_section>
             <sys_updated_by>tony.perron</sys_updated_by>
-            <sys_updated_on>2021-02-16 21:44:01</sys_updated_on>
+            <sys_updated_on>2021-02-23 00:16:14</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,155 +32,197 @@
             <element>assigned_to</element>
             <position>2</position>
             <sys_created_by>tony.perron</sys_created_by>
-            <sys_created_on>2021-02-16 21:44:01</sys_created_on>
-            <sys_id>c34bf5b61b5e2c10487bb88cdc4bcbf9</sys_id>
+            <sys_created_on>2021-02-23 00:16:14</sys_created_on>
+            <sys_id>5ba7ddf0dbaaa850c2939709f49619f7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Management of Seized Items" display_value="Management of Seized Items" name="x_snc_offmgtcsc_management_of_seized_items" sys_domain="global" view="c2364b1610352010d152bac818665e22">474bf5b61b5e2c10487bb88cdc4bcb8d</sys_ui_section>
+            <sys_ui_section caption="Management of Seized Items" display_value="Management of Seized Items" name="x_snc_offmgtcsc_management_of_seized_items" sys_domain="global" view="903b5b27db062010c2939709f49619f5">474bf5b61b5e2c10487bb88cdc4bcb8d</sys_ui_section>
             <sys_updated_by>tony.perron</sys_updated_by>
-            <sys_updated_on>2021-02-16 21:44:01</sys_updated_on>
+            <sys_updated_on>2021-02-23 00:16:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_reportable_incident</element>
+            <position>3</position>
+            <sys_created_by>tony.perron</sys_created_by>
+            <sys_created_on>2021-02-23 00:16:14</sys_created_on>
+            <sys_id>dfa7ddf0dbaaa850c2939709f49619f7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Management of Seized Items" display_value="Management of Seized Items" name="x_snc_offmgtcsc_management_of_seized_items" sys_domain="global" view="903b5b27db062010c2939709f49619f5">474bf5b61b5e2c10487bb88cdc4bcb8d</sys_ui_section>
+            <sys_updated_by>tony.perron</sys_updated_by>
+            <sys_updated_on>2021-02-23 00:16:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_facility</element>
+            <position>4</position>
+            <sys_created_by>tony.perron</sys_created_by>
+            <sys_created_on>2021-02-23 00:16:14</sys_created_on>
+            <sys_id>57a7ddf0dbaaa850c2939709f49619f8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Management of Seized Items" display_value="Management of Seized Items" name="x_snc_offmgtcsc_management_of_seized_items" sys_domain="global" view="903b5b27db062010c2939709f49619f5">474bf5b61b5e2c10487bb88cdc4bcb8d</sys_ui_section>
+            <sys_updated_by>tony.perron</sys_updated_by>
+            <sys_updated_on>2021-02-23 00:16:14</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>active</element>
-            <position>3</position>
+            <position>5</position>
             <sys_created_by>tony.perron</sys_created_by>
-            <sys_created_on>2021-02-16 21:44:01</sys_created_on>
-            <sys_id>4b4bf5b61b5e2c10487bb88cdc4bcbf9</sys_id>
+            <sys_created_on>2021-02-23 00:16:14</sys_created_on>
+            <sys_id>dba7ddf0dbaaa850c2939709f49619f8</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Management of Seized Items" display_value="Management of Seized Items" name="x_snc_offmgtcsc_management_of_seized_items" sys_domain="global" view="c2364b1610352010d152bac818665e22">474bf5b61b5e2c10487bb88cdc4bcb8d</sys_ui_section>
+            <sys_ui_section caption="Management of Seized Items" display_value="Management of Seized Items" name="x_snc_offmgtcsc_management_of_seized_items" sys_domain="global" view="903b5b27db062010c2939709f49619f5">474bf5b61b5e2c10487bb88cdc4bcb8d</sys_ui_section>
             <sys_updated_by>tony.perron</sys_updated_by>
-            <sys_updated_on>2021-02-16 21:44:01</sys_updated_on>
+            <sys_updated_on>2021-02-23 00:16:14</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>4</position>
+            <position>6</position>
             <sys_created_by>tony.perron</sys_created_by>
-            <sys_created_on>2021-02-16 21:44:01</sys_created_on>
-            <sys_id>cf4bf5b61b5e2c10487bb88cdc4bcbf9</sys_id>
+            <sys_created_on>2021-02-23 00:16:14</sys_created_on>
+            <sys_id>53a7ddf0dbaaa850c2939709f49619f9</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Management of Seized Items" display_value="Management of Seized Items" name="x_snc_offmgtcsc_management_of_seized_items" sys_domain="global" view="c2364b1610352010d152bac818665e22">474bf5b61b5e2c10487bb88cdc4bcb8d</sys_ui_section>
+            <sys_ui_section caption="Management of Seized Items" display_value="Management of Seized Items" name="x_snc_offmgtcsc_management_of_seized_items" sys_domain="global" view="903b5b27db062010c2939709f49619f5">474bf5b61b5e2c10487bb88cdc4bcb8d</sys_ui_section>
             <sys_updated_by>tony.perron</sys_updated_by>
-            <sys_updated_on>2021-02-16 21:44:01</sys_updated_on>
+            <sys_updated_on>2021-02-23 00:16:14</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>priority</element>
-            <position>5</position>
+            <position>7</position>
             <sys_created_by>tony.perron</sys_created_by>
-            <sys_created_on>2021-02-16 21:44:01</sys_created_on>
-            <sys_id>474bf5b61b5e2c10487bb88cdc4bcbfa</sys_id>
+            <sys_created_on>2021-02-23 00:16:14</sys_created_on>
+            <sys_id>d7a7ddf0dbaaa850c2939709f49619f9</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Management of Seized Items" display_value="Management of Seized Items" name="x_snc_offmgtcsc_management_of_seized_items" sys_domain="global" view="c2364b1610352010d152bac818665e22">474bf5b61b5e2c10487bb88cdc4bcb8d</sys_ui_section>
+            <sys_ui_section caption="Management of Seized Items" display_value="Management of Seized Items" name="x_snc_offmgtcsc_management_of_seized_items" sys_domain="global" view="903b5b27db062010c2939709f49619f5">474bf5b61b5e2c10487bb88cdc4bcb8d</sys_ui_section>
             <sys_updated_by>tony.perron</sys_updated_by>
-            <sys_updated_on>2021-02-16 21:44:01</sys_updated_on>
+            <sys_updated_on>2021-02-23 00:16:14</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>state</element>
-            <position>6</position>
+            <position>8</position>
             <sys_created_by>tony.perron</sys_created_by>
-            <sys_created_on>2021-02-16 21:44:01</sys_created_on>
-            <sys_id>cb4bf5b61b5e2c10487bb88cdc4bcbfa</sys_id>
+            <sys_created_on>2021-02-23 00:16:14</sys_created_on>
+            <sys_id>5fa7ddf0dbaaa850c2939709f49619f9</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Management of Seized Items" display_value="Management of Seized Items" name="x_snc_offmgtcsc_management_of_seized_items" sys_domain="global" view="c2364b1610352010d152bac818665e22">474bf5b61b5e2c10487bb88cdc4bcb8d</sys_ui_section>
+            <sys_ui_section caption="Management of Seized Items" display_value="Management of Seized Items" name="x_snc_offmgtcsc_management_of_seized_items" sys_domain="global" view="903b5b27db062010c2939709f49619f5">474bf5b61b5e2c10487bb88cdc4bcb8d</sys_ui_section>
             <sys_updated_by>tony.perron</sys_updated_by>
-            <sys_updated_on>2021-02-16 21:44:01</sys_updated_on>
+            <sys_updated_on>2021-02-23 00:16:14</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_glide_date_time_3</element>
-            <position>7</position>
+            <position>9</position>
             <sys_created_by>tony.perron</sys_created_by>
-            <sys_created_on>2021-02-16 21:44:01</sys_created_on>
-            <sys_id>434bf5b61b5e2c10487bb88cdc4bcbfb</sys_id>
+            <sys_created_on>2021-02-23 00:16:14</sys_created_on>
+            <sys_id>d3a7ddf0dbaaa850c2939709f49619fa</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Management of Seized Items" display_value="Management of Seized Items" name="x_snc_offmgtcsc_management_of_seized_items" sys_domain="global" view="c2364b1610352010d152bac818665e22">474bf5b61b5e2c10487bb88cdc4bcb8d</sys_ui_section>
+            <sys_ui_section caption="Management of Seized Items" display_value="Management of Seized Items" name="x_snc_offmgtcsc_management_of_seized_items" sys_domain="global" view="903b5b27db062010c2939709f49619f5">474bf5b61b5e2c10487bb88cdc4bcb8d</sys_ui_section>
             <sys_updated_by>tony.perron</sys_updated_by>
-            <sys_updated_on>2021-02-16 21:44:01</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_reference_4</element>
-            <position>8</position>
-            <sys_created_by>tony.perron</sys_created_by>
-            <sys_created_on>2021-02-16 21:44:01</sys_created_on>
-            <sys_id>c74bf5b61b5e2c10487bb88cdc4bcbfb</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Management of Seized Items" display_value="Management of Seized Items" name="x_snc_offmgtcsc_management_of_seized_items" sys_domain="global" view="c2364b1610352010d152bac818665e22">474bf5b61b5e2c10487bb88cdc4bcb8d</sys_ui_section>
-            <sys_updated_by>tony.perron</sys_updated_by>
-            <sys_updated_on>2021-02-16 21:44:01</sys_updated_on>
+            <sys_updated_on>2021-02-23 00:16:14</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.end_split</element>
-            <position>9</position>
+            <position>10</position>
             <sys_created_by>tony.perron</sys_created_by>
-            <sys_created_on>2021-02-16 21:44:01</sys_created_on>
-            <sys_id>4f4bf5b61b5e2c10487bb88cdc4bcbfb</sys_id>
+            <sys_created_on>2021-02-23 00:16:14</sys_created_on>
+            <sys_id>5ba7ddf0dbaaa850c2939709f49619fa</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Management of Seized Items" display_value="Management of Seized Items" name="x_snc_offmgtcsc_management_of_seized_items" sys_domain="global" view="c2364b1610352010d152bac818665e22">474bf5b61b5e2c10487bb88cdc4bcb8d</sys_ui_section>
+            <sys_ui_section caption="Management of Seized Items" display_value="Management of Seized Items" name="x_snc_offmgtcsc_management_of_seized_items" sys_domain="global" view="903b5b27db062010c2939709f49619f5">474bf5b61b5e2c10487bb88cdc4bcb8d</sys_ui_section>
             <sys_updated_by>tony.perron</sys_updated_by>
-            <sys_updated_on>2021-02-16 21:44:01</sys_updated_on>
+            <sys_updated_on>2021-02-23 00:16:14</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>short_description</element>
-            <position>10</position>
+            <position>11</position>
             <sys_created_by>tony.perron</sys_created_by>
-            <sys_created_on>2021-02-16 21:44:01</sys_created_on>
-            <sys_id>c34bf5b61b5e2c10487bb88cdc4bcbfc</sys_id>
+            <sys_created_on>2021-02-23 00:16:14</sys_created_on>
+            <sys_id>dfa7ddf0dbaaa850c2939709f49619fa</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Management of Seized Items" display_value="Management of Seized Items" name="x_snc_offmgtcsc_management_of_seized_items" sys_domain="global" view="c2364b1610352010d152bac818665e22">474bf5b61b5e2c10487bb88cdc4bcb8d</sys_ui_section>
+            <sys_ui_section caption="Management of Seized Items" display_value="Management of Seized Items" name="x_snc_offmgtcsc_management_of_seized_items" sys_domain="global" view="903b5b27db062010c2939709f49619f5">474bf5b61b5e2c10487bb88cdc4bcb8d</sys_ui_section>
             <sys_updated_by>tony.perron</sys_updated_by>
-            <sys_updated_on>2021-02-16 21:44:01</sys_updated_on>
+            <sys_updated_on>2021-02-23 00:16:14</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>description</element>
-            <position>11</position>
+            <position>12</position>
             <sys_created_by>tony.perron</sys_created_by>
-            <sys_created_on>2021-02-16 21:44:01</sys_created_on>
-            <sys_id>4b4bf5b61b5e2c10487bb88cdc4bcbfc</sys_id>
+            <sys_created_on>2021-02-23 00:16:14</sys_created_on>
+            <sys_id>57a7ddf0dbaaa850c2939709f49619fb</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Management of Seized Items" display_value="Management of Seized Items" name="x_snc_offmgtcsc_management_of_seized_items" sys_domain="global" view="c2364b1610352010d152bac818665e22">474bf5b61b5e2c10487bb88cdc4bcb8d</sys_ui_section>
+            <sys_ui_section caption="Management of Seized Items" display_value="Management of Seized Items" name="x_snc_offmgtcsc_management_of_seized_items" sys_domain="global" view="903b5b27db062010c2939709f49619f5">474bf5b61b5e2c10487bb88cdc4bcb8d</sys_ui_section>
             <sys_updated_by>tony.perron</sys_updated_by>
-            <sys_updated_on>2021-02-16 21:44:01</sys_updated_on>
+            <sys_updated_on>2021-02-23 00:16:14</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>work_notes</element>
-            <position>12</position>
+            <position>13</position>
             <sys_created_by>tony.perron</sys_created_by>
-            <sys_created_on>2021-02-16 21:44:01</sys_created_on>
-            <sys_id>cf4bf5b61b5e2c10487bb88cdc4bcbfc</sys_id>
+            <sys_created_on>2021-02-23 00:16:14</sys_created_on>
+            <sys_id>dba7ddf0dbaaa850c2939709f49619fb</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Management of Seized Items" display_value="Management of Seized Items" name="x_snc_offmgtcsc_management_of_seized_items" sys_domain="global" view="c2364b1610352010d152bac818665e22">474bf5b61b5e2c10487bb88cdc4bcb8d</sys_ui_section>
+            <sys_ui_section caption="Management of Seized Items" display_value="Management of Seized Items" name="x_snc_offmgtcsc_management_of_seized_items" sys_domain="global" view="903b5b27db062010c2939709f49619f5">474bf5b61b5e2c10487bb88cdc4bcb8d</sys_ui_section>
             <sys_updated_by>tony.perron</sys_updated_by>
-            <sys_updated_on>2021-02-16 21:44:01</sys_updated_on>
+            <sys_updated_on>2021-02-23 00:16:14</sys_updated_on>
             <sys_user/>
             <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>activity.xml</element>
+            <position>14</position>
+            <sys_created_by>tony.perron</sys_created_by>
+            <sys_created_on>2021-02-23 00:16:14</sys_created_on>
+            <sys_id>53a7ddf0dbaaa850c2939709f49619fc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Activities (filtered)">444ea5c6bf310100e628555b3f0739d6</sys_ui_formatter>
+            <sys_ui_section caption="Management of Seized Items" display_value="Management of Seized Items" name="x_snc_offmgtcsc_management_of_seized_items" sys_domain="global" view="903b5b27db062010c2939709f49619f5">474bf5b61b5e2c10487bb88cdc4bcb8d</sys_ui_section>
+            <sys_updated_by>tony.perron</sys_updated_by>
+            <sys_updated_on>2021-02-23 00:16:14</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>inline_checklist_macro</element>
+            <position>15</position>
+            <sys_created_by>tony.perron</sys_created_by>
+            <sys_created_on>2021-02-23 00:16:14</sys_created_on>
+            <sys_id>9ba7ddf0dbaaa850c2939709f49619fc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Checklist">ade76621c3200200e280dccdf3d3ae9a</sys_ui_formatter>
+            <sys_ui_section caption="Management of Seized Items" display_value="Management of Seized Items" name="x_snc_offmgtcsc_management_of_seized_items" sys_domain="global" view="903b5b27db062010c2939709f49619f5">474bf5b61b5e2c10487bb88cdc4bcb8d</sys_ui_section>
+            <sys_updated_by>tony.perron</sys_updated_by>
+            <sys_updated_on>2021-02-23 00:16:14</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption>Management of Seized Items</caption>
@@ -204,7 +246,7 @@
             <sys_updated_on>2021-02-16 21:44:01</sys_updated_on>
             <sys_user/>
             <title>false</title>
-            <view display_value="Workspace" name="workspace">c2364b1610352010d152bac818665e22</view>
+            <view display_value="Workspace" name="workspace">903b5b27db062010c2939709f49619f5</view>
             <view_name/>
         </sys_ui_section>
     </sys_ui_section>

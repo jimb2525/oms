@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_user" label="Victim" max_length="40" name="x_snc_offmgtcsc_victim" sizeclass="12" text_index="true" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Address" max_length="100" name="address" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Offender" max_length="32" name="offender" reference="x_snc_offmgtcsc_offender" type="reference"/>
+        <element label="Permission to share statement with offender" max_length="40" name="permission_to_share_statement_with_offender" type="boolean"/>
+        <element attributes="encode_utf8=false" label="User" max_length="32" name="true_user" reference="sys_user" type="reference"/>
+        <element attributes="encode_utf8=false" label="Name" max_length="32" name="u_name" reference="x_snc_offmgtcsc_victim" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Victim ID" max_length="40" name="victim_id" type="string"/>
+        <element label="Victim Representative" max_length="40" name="victim_representative" type="boolean"/>
+        <element label="Victim Statement" max_length="40" name="victim_statement" type="file_attachment"/>
+        <index name="index">
+            <element name="true_user"/>
+        </index>
+        <index name="index2">
+            <element name="u_name"/>
+        </index>
+        <index name="index3">
+            <element name="offender"/>
+        </index>
+    </element>
+</database>

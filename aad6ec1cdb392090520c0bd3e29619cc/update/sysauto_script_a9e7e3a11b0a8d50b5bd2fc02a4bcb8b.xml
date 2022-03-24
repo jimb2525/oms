@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <business_calendar/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_time/>
+        <name>bdfcf66987ce8950a702fc08cebb3538</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek/>
+        <run_period/>
+        <run_start>2022-03-05 14:32:43</run_start>
+        <run_time/>
+        <run_type>once</run_type>
+        <script><![CDATA[var grSysAlias = new GlideRecord('sys_alias');
+    grSysAlias.name = 'aes_pipeline';
+    grSysAlias.id = 'aes_pipeline';
+    grSysAlias.type = 'credential';
+    grSysAlias.insert();
+
+var password = new x_snc_demohub_isim.core()._randomPassword();
+
+		var user = new GlideRecord('sys_user');
+		user.user_name='aes_pipeline';
+		user.first_name = 'AES';
+		user.last_name = 'Pipeline';
+		user.web_service_access_only=true;
+		user.user_password.setDisplayValue(password);
+		user.locked_out = false;
+		var user_created = user.insert();
+
+		var cred = new GlideRecord('basic_auth_credentials');
+		cred.user_name='aes_pipeline';
+		cred.name='aes_pipeline';
+		cred.password.setDisplayValue(password);
+		cred.tag=grSysAlias.sys_id.getDisplayValue();
+		cred.active=true;
+		cred.insert();
+
+		var user_roles = new GlideRecord('sys_user_has_role');
+		user_roles.user=user_created;
+		user_roles.role='2831a114c611228501d4ea6c309d626d';
+		user_roles.state='active';
+		user_roles.insert();]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-05 14:32:43</sys_created_on>
+        <sys_id>a9e7e3a11b0a8d50b5bd2fc02a4bcb8b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>bdfcf66987ce8950a702fc08cebb3538</sys_name>
+        <sys_package display_value="Offender Management System" source="x_snc_offmgtcsc">aad6ec1cdb392090520c0bd3e29619cc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+        <sys_update_name>sysauto_script_a9e7e3a11b0a8d50b5bd2fc02a4bcb8b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-05 14:32:43</sys_updated_on>
+        <time_zone/>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

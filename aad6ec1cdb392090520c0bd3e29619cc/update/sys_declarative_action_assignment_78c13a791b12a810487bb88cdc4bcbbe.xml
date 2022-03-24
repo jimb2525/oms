@@ -10,6 +10,7 @@
         <client_action/>
         <client_conditions/>
         <client_conditions_on_fields/>
+        <client_script><![CDATA[function onClick() { }]]></client_script>
         <confirmation_message/>
         <confirmation_required>false</confirmation_required>
         <create_access>false</create_access>
@@ -27,7 +28,7 @@
         <group/>
         <group_by>false</group_by>
         <icon/>
-        <label>Playbook</label>
+        <label>Workflow</label>
         <model display_value="Form">360935e9534723003eddddeeff7b127d</model>
         <model_conditions/>
         <model_field_required/>
@@ -47,7 +48,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>78c13a791b12a810487bb88cdc4bcbbe</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package display_value="Offender Management System" source="x_snc_offmgtcsc">aad6ec1cdb392090520c0bd3e29619cc</sys_package>
@@ -55,11 +56,11 @@
         <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
         <sys_update_name>sys_declarative_action_assignment_78c13a791b12a810487bb88cdc4bcbbe</sys_update_name>
         <sys_updated_by>james.belote</sys_updated_by>
-        <sys_updated_on>2021-02-13 23:09:41</sys_updated_on>
+        <sys_updated_on>2021-02-23 05:14:21</sys_updated_on>
         <table>x_snc_offmgtcsc_orientation</table>
         <tooltip/>
         <ui_component display_value="now-playbook-experience">9d0bc73916d784d8692b89e9553124dc</ui_component>
-        <view display_value="Workspace" name="workspace">c2364b1610352010d152bac818665e22</view>
+        <view display_value="Workspace" name="workspace">903b5b27db062010c2939709f49619f5</view>
         <workspace display_value="Offender Management System">d8e8acdcdb392090520c0bd3e2961904</workspace>
         <write_access>false</write_access>
     </sys_declarative_action_assignment>

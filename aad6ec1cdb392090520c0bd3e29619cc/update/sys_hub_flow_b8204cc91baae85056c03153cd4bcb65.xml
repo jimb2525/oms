@@ -1,0 +1,747 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build>glide-paris-06-24-2020__patch6-01-19-2021</compiler_build>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>management_of_seizures_procedure</internal_name>
+        <label_cache>[{"name":"{{static.a314a7ecdbee6850c2939709f49619da}}","label":"Jim Trenton","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference"},{"name":"891666be-8751-45cc-82d1-e0b44514ad68.approval_state","label":"4➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f500bab2-bf20-47f2-b614-c7c138a34e0c.Table","label":"4➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f500bab2-bf20-47f2-b614-c7c138a34e0c.Record","label":"4➛Record","reference":"task","reference_display":"Task","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"24931b43-3de4-410a-923e-b495afc8b389.Table","label":"4➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"24931b43-3de4-410a-923e-b495afc8b389.Record","label":"4➛Record","reference":"task","reference_display":"Task","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"3e6e299f-d08e-4424-8980-ed0e899f1f7d.Record","label":"1➛Seizure tasks Record","reference":"x_snc_offmgtcsc_seizure_tasks","reference_display":"Seizure tasks","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"3e6e299f-d08e-4424-8980-ed0e899f1f7d.Table","label":"1➛Seizure tasks Table","reference":"x_snc_offmgtcsc_seizure_tasks","reference_display":"Seizure tasks","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"subflow.seizure_record","label":"Input➛Seizure Record","reference":"x_snc_offmgtcsc_management_of_seized_items","reference_display":"Management of Seized Items","type":"reference","base_type":"reference","column_name":"","attributes":{"uiType":"reference","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"d9c3c2e4-6038-4d27-9926-0b06ed100b05","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"3ad23183-7c01-4148-ad80-3b495d47937b.Record","label":"2➛Seizure tasks Record","reference":"x_snc_offmgtcsc_seizure_tasks","reference_display":"Seizure tasks","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"3ad23183-7c01-4148-ad80-3b495d47937b.Table","label":"2➛Seizure tasks Table","reference":"x_snc_offmgtcsc_seizure_tasks","reference_display":"Seizure tasks","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b6781ef7-1a02-445a-a2fe-0a7514b4743e.Record","label":"3➛Seizure tasks Record","reference":"x_snc_offmgtcsc_seizure_tasks","reference_display":"Seizure tasks","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b6781ef7-1a02-445a-a2fe-0a7514b4743e.Table","label":"3➛Seizure tasks Table","reference":"x_snc_offmgtcsc_seizure_tasks","reference_display":"Seizure tasks","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <master_snapshot>63618c4d1baae85056c03153cd4bcb7b</master_snapshot>
+        <name>Management_of_seizures_procedure</name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-23 12:32:15</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b8204cc91baae85056c03153cd4bcb65</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>Management_of_seizures_procedure</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Offender Management System" source="x_snc_offmgtcsc">aad6ec1cdb392090520c0bd3e29619cc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+        <sys_update_name>sys_hub_flow_b8204cc91baae85056c03153cd4bcb65</sys_update_name>
+        <sys_updated_by>tony.perron</sys_updated_by>
+        <sys_updated_on>2021-02-23 22:27:44</sys_updated_on>
+        <type>subflow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=b8204cc91baae85056c03153cd4bcb65"/>
+    <sys_variable_value action="delete_multiple" query="document_key=b8204cc91baae85056c03153cd4bcb65"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=b8204cc91baae85056c03153cd4bcb65"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=b8204cc91baae85056c03153cd4bcb65"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=b8204cc91baae85056c03153cd4bcb65^sys_idNOT INb0204cc91baae85056c03153cd4bcb67"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>b8204cc91baae85056c03153cd4bcb65</id>
+        <name>Management of Seizures Procedure</name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-23 12:32:15</sys_created_on>
+        <sys_id>b0204cc91baae85056c03153cd4bcb67</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-23 12:32:15</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=b0204cc91baae85056c03153cd4bcb67"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=b8204cc91baae85056c03153cd4bcb65^sys_idNOT IN6a614c4d1baae85056c03153cd4bcb8a"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=d9c3c2e4-6038-4d27-9926-0b06ed100b05</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>x_snc_offmgtcsc_management_of_seized_items</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>seizure_record</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Seizure Record</label>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Management_of_seizures_procedure">b8204cc91baae85056c03153cd4bcb65</model>
+        <model_id>b8204cc91baae85056c03153cd4bcb65</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_b8204cc91baae85056c03153cd4bcb65</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="x_snc_offmgtcsc_management_of_seized_items">x_snc_offmgtcsc_management_of_seized_items</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-23 12:37:50</sys_created_on>
+        <sys_id>6a614c4d1baae85056c03153cd4bcb8a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-23 12:37:51</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_output action="delete_multiple" query="model=b8204cc91baae85056c03153cd4bcb65"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=b8204cc91baae85056c03153cd4bcb65"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=b8204cc91baae85056c03153cd4bcb65^sys_idNOT IN2e614c4d1baae85056c03153cd4bcb9c,6e614c4d1baae85056c03153cd4bcba3,f2614c4d1baae85056c03153cd4bcba9"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
+        <action_type_parent/>
+        <comment>Provide a copy of the Contraband/Unauthorized Item Seizure Tag</comment>
+        <compiled_snapshot>2b3a6335531003003bf1d9109ec58759</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Management_of_seizures_procedure">b8204cc91baae85056c03153cd4bcb65</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-23 12:37:51</sys_created_on>
+        <sys_id>2e614c4d1baae85056c03153cd4bcb9c</sys_id>
+        <sys_mod_count>24</sys_mod_count>
+        <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+        <sys_updated_by>tony.perron</sys_updated_by>
+        <sys_updated_on>2021-02-23 22:33:21</sys_updated_on>
+        <ui_id>3e6e299f-d08e-4424-8980-ed0e899f1f7d</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=2e614c4d1baae85056c03153cd4bcb9c"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>2e614c4d1baae85056c03153cd4bcb9c</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-23 12:37:51</sys_created_on>
+        <sys_id>a6614c4d1baae85056c03153cd4bcb9f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-23 12:37:51</sys_updated_on>
+        <value>x_snc_offmgtcsc_seizure_tasks</value>
+        <variable display_value="Table">e73a6335531003003bf1d9109ec5875c</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=2e614c4d1baae85056c03153cd4bcb9c"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>2e614c4d1baae85056c03153cd4bcb9c</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-23 12:37:51</sys_created_on>
+        <sys_id>26614c4d1baae85056c03153cd4bcb9f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-23 12:37:51</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value>parent={{subflow.seizure_record}}^short_description=Provide a copy of the Contraband/Unauthorized Item Seizure Tag^assigned_to={"display":"Charles Olon","value":"7a8470201be2685056c03153cd4bcb60"}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>task_table</field>
+        <id>2e614c4d1baae85056c03153cd4bcb9c</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-23 12:37:51</sys_created_on>
+        <sys_id>6e614c4d1baae85056c03153cd4bcb9e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-23 12:37:51</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=2e614c4d1baae85056c03153cd4bcb9c"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=2e614c4d1baae85056c03153cd4bcb9c"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
+        <action_type_parent/>
+        <comment>Submit Item to Seizure Control Officer</comment>
+        <compiled_snapshot>2b3a6335531003003bf1d9109ec58759</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Management_of_seizures_procedure">b8204cc91baae85056c03153cd4bcb65</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-23 12:37:51</sys_created_on>
+        <sys_id>6e614c4d1baae85056c03153cd4bcba3</sys_id>
+        <sys_mod_count>24</sys_mod_count>
+        <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+        <sys_updated_by>tony.perron</sys_updated_by>
+        <sys_updated_on>2021-02-23 22:33:21</sys_updated_on>
+        <ui_id>3ad23183-7c01-4148-ad80-3b495d47937b</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=6e614c4d1baae85056c03153cd4bcba3"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>6e614c4d1baae85056c03153cd4bcba3</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-23 12:37:51</sys_created_on>
+        <sys_id>e2614c4d1baae85056c03153cd4bcba5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-23 12:37:51</sys_updated_on>
+        <value>x_snc_offmgtcsc_seizure_tasks</value>
+        <variable display_value="Table">e73a6335531003003bf1d9109ec5875c</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=6e614c4d1baae85056c03153cd4bcba3"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>6e614c4d1baae85056c03153cd4bcba3</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-23 12:37:51</sys_created_on>
+        <sys_id>62614c4d1baae85056c03153cd4bcba5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-23 12:37:51</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value>parent={{subflow.seizure_record}}^short_description=Submit Item to Seizure Control Officer^assigned_to={"display":"Charles Olon","value":"7a8470201be2685056c03153cd4bcb60"}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>task_table</field>
+        <id>6e614c4d1baae85056c03153cd4bcba3</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-23 12:37:51</sys_created_on>
+        <sys_id>ae614c4d1baae85056c03153cd4bcba4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-23 12:37:51</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=6e614c4d1baae85056c03153cd4bcba3"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=6e614c4d1baae85056c03153cd4bcba3"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
+        <action_type_parent/>
+        <comment>Complete a Contraband/Unauthorized Item Seizure Tag (CSC/SCC 0482)</comment>
+        <compiled_snapshot>2b3a6335531003003bf1d9109ec58759</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Management_of_seizures_procedure">b8204cc91baae85056c03153cd4bcb65</flow>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-23 12:37:51</sys_created_on>
+        <sys_id>f2614c4d1baae85056c03153cd4bcba9</sys_id>
+        <sys_mod_count>24</sys_mod_count>
+        <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+        <sys_updated_by>tony.perron</sys_updated_by>
+        <sys_updated_on>2021-02-23 22:33:21</sys_updated_on>
+        <ui_id>b6781ef7-1a02-445a-a2fe-0a7514b4743e</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=f2614c4d1baae85056c03153cd4bcba9"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>f2614c4d1baae85056c03153cd4bcba9</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-23 12:37:51</sys_created_on>
+        <sys_id>7a614c4d1baae85056c03153cd4bcbaa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-23 12:37:51</sys_updated_on>
+        <value>x_snc_offmgtcsc_seizure_tasks</value>
+        <variable display_value="Table">e73a6335531003003bf1d9109ec5875c</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=f2614c4d1baae85056c03153cd4bcba9"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>f2614c4d1baae85056c03153cd4bcba9</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-23 12:37:51</sys_created_on>
+        <sys_id>f6614c4d1baae85056c03153cd4bcbaa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-23 12:37:51</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value>parent={{subflow.seizure_record}}^short_description=Complete a Contraband/Unauthorized Item Seizure Tag (CSC/SCC 0482)^assigned_to={"display":"Charles Olon","value":"7a8470201be2685056c03153cd4bcb60"}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>task_table</field>
+        <id>f2614c4d1baae85056c03153cd4bcba9</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-23 12:37:51</sys_created_on>
+        <sys_id>36614c4d1baae85056c03153cd4bcbaa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-23 12:37:51</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=f2614c4d1baae85056c03153cd4bcba9"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=f2614c4d1baae85056c03153cd4bcba9"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=b8204cc91baae85056c03153cd4bcb65"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=b8204cc91baae85056c03153cd4bcb65"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=b8204cc91baae85056c03153cd4bcb65"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=b8204cc91baae85056c03153cd4bcb65"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_b8204cc91baae85056c03153cd4bcb65^sys_idNOT INa6614c4d1baae85056c03153cd4bcb94"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>seizure_record</element>
+        <help/>
+        <hint/>
+        <label>Seizure Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_b8204cc91baae85056c03153cd4bcb65</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-23 12:37:51</sys_created_on>
+        <sys_id>a6614c4d1baae85056c03153cd4bcb94</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Offender Management System" source="x_snc_offmgtcsc">aad6ec1cdb392090520c0bd3e29619cc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-23 12:37:51</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_b8204cc91baae85056c03153cd4bcb65"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_b8204cc91baae85056c03153cd4bcb65"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_b8204cc91baae85056c03153cd4bcb65"/>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=b8204cc91baae85056c03153cd4bcb65"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=b8204cc91baae85056c03153cd4bcb65^sys_idNOT IN77618c4d1baae85056c03153cd4bcbd6"/>
+    <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_subflow_plan","id":"77618c4d1baae85056c03153cd4bcbd6","name":"plan"}}</plan>
+        <plan_id display_value="Management_of_seizures_procedure">b8204cc91baae85056c03153cd4bcb65</plan_id>
+        <snapshot>edb94a01dbe62c50c2939709f4961958</snapshot>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-23 12:37:55</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>77618c4d1baae85056c03153cd4bcbd6</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>tony.perron</sys_updated_by>
+        <sys_updated_on>2021-02-23 22:27:43</sys_updated_on>
+    </sys_flow_subflow_plan>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>management_of_seizures_procedure</internal_name>
+        <label_cache>[{"name":"{{static.a314a7ecdbee6850c2939709f49619da}}","label":"Jim Trenton","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference"},{"name":"891666be-8751-45cc-82d1-e0b44514ad68.approval_state","label":"4➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f500bab2-bf20-47f2-b614-c7c138a34e0c.Table","label":"4➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f500bab2-bf20-47f2-b614-c7c138a34e0c.Record","label":"4➛Record","reference":"task","reference_display":"Task","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"24931b43-3de4-410a-923e-b495afc8b389.Table","label":"4➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"24931b43-3de4-410a-923e-b495afc8b389.Record","label":"4➛Record","reference":"task","reference_display":"Task","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"3e6e299f-d08e-4424-8980-ed0e899f1f7d.Record","label":"1➛Seizure tasks Record","reference":"x_snc_offmgtcsc_seizure_tasks","reference_display":"Seizure tasks","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"3e6e299f-d08e-4424-8980-ed0e899f1f7d.Table","label":"1➛Seizure tasks Table","reference":"x_snc_offmgtcsc_seizure_tasks","reference_display":"Seizure tasks","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"subflow.seizure_record","label":"Input➛Seizure Record","reference":"x_snc_offmgtcsc_management_of_seized_items","reference_display":"Management of Seized Items","type":"reference","base_type":"reference","column_name":"","attributes":{"uiType":"reference","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"d9c3c2e4-6038-4d27-9926-0b06ed100b05","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"3ad23183-7c01-4148-ad80-3b495d47937b.Record","label":"2➛Seizure tasks Record","reference":"x_snc_offmgtcsc_seizure_tasks","reference_display":"Seizure tasks","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"3ad23183-7c01-4148-ad80-3b495d47937b.Table","label":"2➛Seizure tasks Table","reference":"x_snc_offmgtcsc_seizure_tasks","reference_display":"Seizure tasks","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b6781ef7-1a02-445a-a2fe-0a7514b4743e.Record","label":"3➛Seizure tasks Record","reference":"x_snc_offmgtcsc_seizure_tasks","reference_display":"Seizure tasks","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b6781ef7-1a02-445a-a2fe-0a7514b4743e.Table","label":"3➛Seizure tasks Table","reference":"x_snc_offmgtcsc_seizure_tasks","reference_display":"Seizure tasks","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <master>true</master>
+        <name>Management_of_seizures_procedure</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Management_of_seizures_procedure">b8204cc91baae85056c03153cd4bcb65</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-23 12:37:54</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>63618c4d1baae85056c03153cd4bcb7b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>tony.perron</sys_updated_by>
+        <sys_updated_on>2021-02-23 22:27:43</sys_updated_on>
+        <type>subflow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=63618c4d1baae85056c03153cd4bcb7b"/>
+    <sys_variable_value action="delete_multiple" query="document_key=63618c4d1baae85056c03153cd4bcb7b"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=63618c4d1baae85056c03153cd4bcb7b"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=63618c4d1baae85056c03153cd4bcb7b"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=63618c4d1baae85056c03153cd4bcb7b^sys_idNOT INef618c4d1baae85056c03153cd4bcb7b"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>63618c4d1baae85056c03153cd4bcb7b</id>
+        <name>Management of Seizures Procedure</name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-23 12:37:55</sys_created_on>
+        <sys_id>ef618c4d1baae85056c03153cd4bcb7b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-23 12:37:55</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=ef618c4d1baae85056c03153cd4bcb7b"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=63618c4d1baae85056c03153cd4bcb7b^sys_idNOT IN27618c4d1baae85056c03153cd4bcb7d"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=d9c3c2e4-6038-4d27-9926-0b06ed100b05</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>x_snc_offmgtcsc_management_of_seized_items</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>seizure_record</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Seizure Record</label>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Management_of_seizures_procedure">63618c4d1baae85056c03153cd4bcb7b</model>
+        <model_id>63618c4d1baae85056c03153cd4bcb7b</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_63618c4d1baae85056c03153cd4bcb7b</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="x_snc_offmgtcsc_management_of_seized_items">x_snc_offmgtcsc_management_of_seized_items</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-23 12:37:55</sys_created_on>
+        <sys_id>27618c4d1baae85056c03153cd4bcb7d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-23 12:37:55</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_output action="delete_multiple" query="model=63618c4d1baae85056c03153cd4bcb7b"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=63618c4d1baae85056c03153cd4bcb7b"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=63618c4d1baae85056c03153cd4bcb7b^sys_idNOT IN2f618c4d1baae85056c03153cd4bcbb6,ab618c4d1baae85056c03153cd4bcbc1,e3618c4d1baae85056c03153cd4bcbbc"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
+        <action_type_parent display_value="Create Task">3f9b1ff1531003003bf1d9109ec58775</action_type_parent>
+        <comment>Provide a copy of the Contraband/Unauthorized Item Seizure Tag</comment>
+        <compiled_snapshot>2b3a6335531003003bf1d9109ec58759</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Management_of_seizures_procedure">63618c4d1baae85056c03153cd4bcb7b</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-23 12:37:55</sys_created_on>
+        <sys_id>2f618c4d1baae85056c03153cd4bcbb6</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+        <sys_updated_by>tony.perron</sys_updated_by>
+        <sys_updated_on>2021-02-23 22:27:43</sys_updated_on>
+        <ui_id>3e6e299f-d08e-4424-8980-ed0e899f1f7d</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=2f618c4d1baae85056c03153cd4bcbb6"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>2f618c4d1baae85056c03153cd4bcbb6</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-23 12:37:55</sys_created_on>
+        <sys_id>a3618c4d1baae85056c03153cd4bcbb8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-23 12:37:55</sys_updated_on>
+        <value>x_snc_offmgtcsc_seizure_tasks</value>
+        <variable display_value="Table">e73a6335531003003bf1d9109ec5875c</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=2f618c4d1baae85056c03153cd4bcbb6"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>2f618c4d1baae85056c03153cd4bcbb6</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-23 12:37:55</sys_created_on>
+        <sys_id>23618c4d1baae85056c03153cd4bcbb8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-23 12:37:55</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value>parent={{subflow.seizure_record}}^short_description=Provide a copy of the Contraband/Unauthorized Item Seizure Tag^assigned_to={"display":"Charles Olon","value":"7a8470201be2685056c03153cd4bcb60"}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>task_table</field>
+        <id>2f618c4d1baae85056c03153cd4bcbb6</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-23 12:37:55</sys_created_on>
+        <sys_id>6f618c4d1baae85056c03153cd4bcbb7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-23 12:37:55</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=2f618c4d1baae85056c03153cd4bcbb6"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=2f618c4d1baae85056c03153cd4bcbb6"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
+        <action_type_parent display_value="Create Task">3f9b1ff1531003003bf1d9109ec58775</action_type_parent>
+        <comment>Complete a Contraband/Unauthorized Item Seizure Tag (CSC/SCC 0482)</comment>
+        <compiled_snapshot>2b3a6335531003003bf1d9109ec58759</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Management_of_seizures_procedure">63618c4d1baae85056c03153cd4bcb7b</flow>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-23 12:37:55</sys_created_on>
+        <sys_id>ab618c4d1baae85056c03153cd4bcbc1</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+        <sys_updated_by>tony.perron</sys_updated_by>
+        <sys_updated_on>2021-02-23 22:27:43</sys_updated_on>
+        <ui_id>b6781ef7-1a02-445a-a2fe-0a7514b4743e</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=ab618c4d1baae85056c03153cd4bcbc1"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>ab618c4d1baae85056c03153cd4bcbc1</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-23 12:37:55</sys_created_on>
+        <sys_id>23618c4d1baae85056c03153cd4bcbc3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-23 12:37:55</sys_updated_on>
+        <value>x_snc_offmgtcsc_seizure_tasks</value>
+        <variable display_value="Table">e73a6335531003003bf1d9109ec5875c</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=ab618c4d1baae85056c03153cd4bcbc1"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>ab618c4d1baae85056c03153cd4bcbc1</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-23 12:37:55</sys_created_on>
+        <sys_id>af618c4d1baae85056c03153cd4bcbc2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-23 12:37:55</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value>parent={{subflow.seizure_record}}^short_description=Complete a Contraband/Unauthorized Item Seizure Tag (CSC/SCC 0482)^assigned_to={"display":"Charles Olon","value":"7a8470201be2685056c03153cd4bcb60"}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>task_table</field>
+        <id>ab618c4d1baae85056c03153cd4bcbc1</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-23 12:37:55</sys_created_on>
+        <sys_id>eb618c4d1baae85056c03153cd4bcbc2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-23 12:37:55</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=ab618c4d1baae85056c03153cd4bcbc1"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=ab618c4d1baae85056c03153cd4bcbc1"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
+        <action_type_parent display_value="Create Task">3f9b1ff1531003003bf1d9109ec58775</action_type_parent>
+        <comment>Submit Item to Seizure Control Officer</comment>
+        <compiled_snapshot>2b3a6335531003003bf1d9109ec58759</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Management_of_seizures_procedure">63618c4d1baae85056c03153cd4bcb7b</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-23 12:37:55</sys_created_on>
+        <sys_id>e3618c4d1baae85056c03153cd4bcbbc</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+        <sys_updated_by>tony.perron</sys_updated_by>
+        <sys_updated_on>2021-02-23 22:27:43</sys_updated_on>
+        <ui_id>3ad23183-7c01-4148-ad80-3b495d47937b</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=e3618c4d1baae85056c03153cd4bcbbc"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>e3618c4d1baae85056c03153cd4bcbbc</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-23 12:37:55</sys_created_on>
+        <sys_id>6b618c4d1baae85056c03153cd4bcbbd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-23 12:37:55</sys_updated_on>
+        <value>x_snc_offmgtcsc_seizure_tasks</value>
+        <variable display_value="Table">e73a6335531003003bf1d9109ec5875c</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=e3618c4d1baae85056c03153cd4bcbbc"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>e3618c4d1baae85056c03153cd4bcbbc</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-23 12:37:55</sys_created_on>
+        <sys_id>e7618c4d1baae85056c03153cd4bcbbd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-23 12:37:55</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value>parent={{subflow.seizure_record}}^short_description=Submit Item to Seizure Control Officer^assigned_to={"display":"Charles Olon","value":"7a8470201be2685056c03153cd4bcb60"}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>task_table</field>
+        <id>e3618c4d1baae85056c03153cd4bcbbc</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-23 12:37:55</sys_created_on>
+        <sys_id>27618c4d1baae85056c03153cd4bcbbd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-23 12:37:55</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=e3618c4d1baae85056c03153cd4bcbbc"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=e3618c4d1baae85056c03153cd4bcbbc"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=63618c4d1baae85056c03153cd4bcb7b"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=63618c4d1baae85056c03153cd4bcb7b"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=63618c4d1baae85056c03153cd4bcb7b"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=63618c4d1baae85056c03153cd4bcb7b"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_63618c4d1baae85056c03153cd4bcb7b^sys_idNOT IN27618c4d1baae85056c03153cd4bcbaa"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>seizure_record</element>
+        <help/>
+        <hint/>
+        <label>Seizure Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_63618c4d1baae85056c03153cd4bcb7b</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-23 12:37:55</sys_created_on>
+        <sys_id>27618c4d1baae85056c03153cd4bcbaa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Offender Management System" source="x_snc_offmgtcsc">aad6ec1cdb392090520c0bd3e29619cc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-23 12:37:55</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_63618c4d1baae85056c03153cd4bcb7b"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_63618c4d1baae85056c03153cd4bcb7b"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_63618c4d1baae85056c03153cd4bcb7b"/>
+    <sys_hub_flow action="update">
+        <sys_id>b8204cc91baae85056c03153cd4bcb65</sys_id>
+        <latest_snapshot>63618c4d1baae85056c03153cd4bcb7b</latest_snapshot>
+    </sys_hub_flow>
+</record_update>

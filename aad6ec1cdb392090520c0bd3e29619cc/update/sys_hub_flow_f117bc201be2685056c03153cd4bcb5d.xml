@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build>glide-paris-06-24-2020__patch6-01-19-2021</compiler_build>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>offender_intake_arrival</internal_name>
+        <label_cache>[{"name":"subflow.intake_record","label":"Input➛Intake Record","reference":"x_snc_offmgtcsc_intake","reference_display":"Intake","type":"reference","base_type":"reference","column_name":"","attributes":{"uiType":"reference","uiTypeLabel":"Reference","co_type_name":"FDb977b4e095e2685082264cc8cb42d349","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"75684b06-87b9-4ec2-afae-adf02c9f87cf","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"e4d5b7b6-fbf0-475a-886a-9d7176fc9742.Table","label":"1➛Intake Tasks Table","reference":"x_snc_offmgtcsc_intake_tasks","reference_display":"Intake Tasks","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e4d5b7b6-fbf0-475a-886a-9d7176fc9742.Record","label":"1➛Intake Tasks Record","reference":"x_snc_offmgtcsc_intake_tasks","reference_display":"Intake Tasks","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8f08f5b3-c13f-4d89-b9f9-d404a43f6388.Table","label":"1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8f08f5b3-c13f-4d89-b9f9-d404a43f6388.Record","label":"1➛Record","reference":"task","reference_display":"Task","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"45b387c7-d5ea-4ec9-b71b-852281c46667.Record","label":"1➛Intake Tasks Record","reference":"x_snc_offmgtcsc_intake_tasks","reference_display":"Intake Tasks","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"45b387c7-d5ea-4ec9-b71b-852281c46667.Table","label":"1➛Intake Tasks Table","reference":"x_snc_offmgtcsc_intake_tasks","reference_display":"Intake Tasks","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <master_snapshot>64783c641be2685056c03153cd4bcb48</master_snapshot>
+        <name>Offender Intake Arrival</name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-22 03:15:24</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f117bc201be2685056c03153cd4bcb5d</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>Offender Intake Arrival</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Offender Management System" source="x_snc_offmgtcsc">aad6ec1cdb392090520c0bd3e29619cc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+        <sys_update_name>sys_hub_flow_f117bc201be2685056c03153cd4bcb5d</sys_update_name>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-23 01:14:19</sys_updated_on>
+        <type>subflow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=f117bc201be2685056c03153cd4bcb5d"/>
+    <sys_variable_value action="delete_multiple" query="document_key=f117bc201be2685056c03153cd4bcb5d"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=f117bc201be2685056c03153cd4bcb5d"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=f117bc201be2685056c03153cd4bcb5d"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=f117bc201be2685056c03153cd4bcb5d^sys_idNOT IN7d17bc201be2685056c03153cd4bcb5e"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>f117bc201be2685056c03153cd4bcb5d</id>
+        <name>Offender Intake Arrival</name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-22 03:15:24</sys_created_on>
+        <sys_id>7d17bc201be2685056c03153cd4bcb5e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-22 03:15:24</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=7d17bc201be2685056c03153cd4bcb5e"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=f117bc201be2685056c03153cd4bcb5d^sys_idNOT INfed7b8241be2685056c03153cd4bcbf6"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>co_type_name=FDb977b4e095e2685082264cc8cb42d349,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=75684b06-87b9-4ec2-afae-adf02c9f87cf</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>x_snc_offmgtcsc_intake</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>intake_record</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Intake Record</label>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Offender Intake Arrival">f117bc201be2685056c03153cd4bcb5d</model>
+        <model_id>f117bc201be2685056c03153cd4bcb5d</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_f117bc201be2685056c03153cd4bcb5d</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="x_snc_offmgtcsc_intake">x_snc_offmgtcsc_intake</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-22 03:18:45</sys_created_on>
+        <sys_id>fed7b8241be2685056c03153cd4bcbf6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-22 03:18:45</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_output action="delete_multiple" query="model=f117bc201be2685056c03153cd4bcb5d"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=f117bc201be2685056c03153cd4bcb5d"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=f117bc201be2685056c03153cd4bcb5d^sys_idNOT INca38f0641be2685056c03153cd4bcbf9"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
+        <action_type_parent/>
+        <comment>Interview Offender</comment>
+        <compiled_snapshot>2b3a6335531003003bf1d9109ec58759</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Offender Intake Arrival">f117bc201be2685056c03153cd4bcb5d</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-22 03:20:19</sys_created_on>
+        <sys_id>ca38f0641be2685056c03153cd4bcbf9</sys_id>
+        <sys_mod_count>24</sys_mod_count>
+        <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-23 01:20:39</sys_updated_on>
+        <ui_id>e4d5b7b6-fbf0-475a-886a-9d7176fc9742</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=ca38f0641be2685056c03153cd4bcbf9"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>ca38f0641be2685056c03153cd4bcbf9</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-22 03:20:19</sys_created_on>
+        <sys_id>4238f0641be2685056c03153cd4bcbfb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-22 03:20:19</sys_updated_on>
+        <value>x_snc_offmgtcsc_intake_tasks</value>
+        <variable display_value="Table">e73a6335531003003bf1d9109ec5875c</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=ca38f0641be2685056c03153cd4bcbf9"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>ca38f0641be2685056c03153cd4bcbf9</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-22 03:20:19</sys_created_on>
+        <sys_id>ce38f0641be2685056c03153cd4bcbfa</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-23 01:14:14</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value>parent={{subflow.intake_record}}^short_description=Interview Offender^assigned_to={"display":"Malorie Radau","value":"3d64a9b4dbeaa850c2939709f4961923"}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>task_table</field>
+        <id>ca38f0641be2685056c03153cd4bcbf9</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-22 03:20:19</sys_created_on>
+        <sys_id>0e38f0641be2685056c03153cd4bcbfa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-22 03:20:19</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=ca38f0641be2685056c03153cd4bcbf9"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=ca38f0641be2685056c03153cd4bcbf9"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=f117bc201be2685056c03153cd4bcb5d"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=f117bc201be2685056c03153cd4bcb5d"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=f117bc201be2685056c03153cd4bcb5d"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=f117bc201be2685056c03153cd4bcb5d"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_f117bc201be2685056c03153cd4bcb5d^sys_idNOT IN32d7f8241be2685056c03153cd4bcb00"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>intake_record</element>
+        <help/>
+        <hint/>
+        <label>Intake Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_f117bc201be2685056c03153cd4bcb5d</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-22 03:18:45</sys_created_on>
+        <sys_id>32d7f8241be2685056c03153cd4bcb00</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Offender Management System" source="x_snc_offmgtcsc">aad6ec1cdb392090520c0bd3e29619cc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-22 03:18:45</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_f117bc201be2685056c03153cd4bcb5d"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_f117bc201be2685056c03153cd4bcb5d"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_f117bc201be2685056c03153cd4bcb5d"/>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=f117bc201be2685056c03153cd4bcb5d"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=f117bc201be2685056c03153cd4bcb5d^sys_idNOT INb4783c641be2685056c03153cd4bcba3"/>
+    <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_subflow_plan","id":"b4783c641be2685056c03153cd4bcba3","name":"plan"}}</plan>
+        <plan_id display_value="Offender Intake Arrival">f117bc201be2685056c03153cd4bcb5d</plan_id>
+        <snapshot>a2666dbc1b6ea85056c03153cd4bcb96</snapshot>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-22 03:21:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b4783c641be2685056c03153cd4bcba3</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-23 01:14:19</sys_updated_on>
+    </sys_flow_subflow_plan>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>offender_intake_arrival</internal_name>
+        <label_cache>[{"name":"subflow.intake_record","label":"Input➛Intake Record","reference":"x_snc_offmgtcsc_intake","reference_display":"Intake","type":"reference","base_type":"reference","column_name":"","attributes":{"uiType":"reference","uiTypeLabel":"Reference","co_type_name":"FDb977b4e095e2685082264cc8cb42d349","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"75684b06-87b9-4ec2-afae-adf02c9f87cf","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"e4d5b7b6-fbf0-475a-886a-9d7176fc9742.Table","label":"1➛Intake Tasks Table","reference":"x_snc_offmgtcsc_intake_tasks","reference_display":"Intake Tasks","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e4d5b7b6-fbf0-475a-886a-9d7176fc9742.Record","label":"1➛Intake Tasks Record","reference":"x_snc_offmgtcsc_intake_tasks","reference_display":"Intake Tasks","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8f08f5b3-c13f-4d89-b9f9-d404a43f6388.Table","label":"1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8f08f5b3-c13f-4d89-b9f9-d404a43f6388.Record","label":"1➛Record","reference":"task","reference_display":"Task","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"45b387c7-d5ea-4ec9-b71b-852281c46667.Record","label":"1➛Intake Tasks Record","reference":"x_snc_offmgtcsc_intake_tasks","reference_display":"Intake Tasks","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"45b387c7-d5ea-4ec9-b71b-852281c46667.Table","label":"1➛Intake Tasks Table","reference":"x_snc_offmgtcsc_intake_tasks","reference_display":"Intake Tasks","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <master>true</master>
+        <name>Offender Intake Arrival</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Offender Intake Arrival">f117bc201be2685056c03153cd4bcb5d</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-22 03:21:19</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>64783c641be2685056c03153cd4bcb48</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-23 01:14:19</sys_updated_on>
+        <type>subflow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=64783c641be2685056c03153cd4bcb48"/>
+    <sys_variable_value action="delete_multiple" query="document_key=64783c641be2685056c03153cd4bcb48"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=64783c641be2685056c03153cd4bcb48"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=64783c641be2685056c03153cd4bcb48"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=64783c641be2685056c03153cd4bcb48^sys_idNOT IN20783c641be2685056c03153cd4bcb49"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>64783c641be2685056c03153cd4bcb48</id>
+        <name>Offender Intake Arrival</name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-22 03:21:19</sys_created_on>
+        <sys_id>20783c641be2685056c03153cd4bcb49</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-22 03:21:19</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=20783c641be2685056c03153cd4bcb49"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=64783c641be2685056c03153cd4bcb48^sys_idNOT IN64783c641be2685056c03153cd4bcb4a"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=75684b06-87b9-4ec2-afae-adf02c9f87cf</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>x_snc_offmgtcsc_intake</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>intake_record</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Intake Record</label>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Offender Intake Arrival">64783c641be2685056c03153cd4bcb48</model>
+        <model_id>64783c641be2685056c03153cd4bcb48</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_64783c641be2685056c03153cd4bcb48</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="x_snc_offmgtcsc_intake">x_snc_offmgtcsc_intake</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-22 03:21:19</sys_created_on>
+        <sys_id>64783c641be2685056c03153cd4bcb4a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-22 03:21:19</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_output action="delete_multiple" query="model=64783c641be2685056c03153cd4bcb48"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=64783c641be2685056c03153cd4bcb48"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=64783c641be2685056c03153cd4bcb48^sys_idNOT INf4783c641be2685056c03153cd4bcb95"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
+        <action_type_parent display_value="Create Task">3f9b1ff1531003003bf1d9109ec58775</action_type_parent>
+        <comment>Interview Offender</comment>
+        <compiled_snapshot>2b3a6335531003003bf1d9109ec58759</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Offender Intake Arrival">64783c641be2685056c03153cd4bcb48</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-22 03:21:20</sys_created_on>
+        <sys_id>f4783c641be2685056c03153cd4bcb95</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-23 01:14:19</sys_updated_on>
+        <ui_id>e4d5b7b6-fbf0-475a-886a-9d7176fc9742</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=f4783c641be2685056c03153cd4bcb95"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>f4783c641be2685056c03153cd4bcb95</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-22 03:21:20</sys_created_on>
+        <sys_id>78783c641be2685056c03153cd4bcb97</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-22 03:21:20</sys_updated_on>
+        <value>x_snc_offmgtcsc_intake_tasks</value>
+        <variable display_value="Table">e73a6335531003003bf1d9109ec5875c</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=f4783c641be2685056c03153cd4bcb95"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>f4783c641be2685056c03153cd4bcb95</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-22 03:21:20</sys_created_on>
+        <sys_id>f4783c641be2685056c03153cd4bcb97</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-23 01:14:19</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value>parent={{subflow.intake_record}}^short_description=Interview Offender^assigned_to={"display":"Malorie Radau","value":"3d64a9b4dbeaa850c2939709f4961923"}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>task_table</field>
+        <id>f4783c641be2685056c03153cd4bcb95</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-22 03:21:20</sys_created_on>
+        <sys_id>30783c641be2685056c03153cd4bcb97</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-22 03:21:20</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=f4783c641be2685056c03153cd4bcb95"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=f4783c641be2685056c03153cd4bcb95"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=64783c641be2685056c03153cd4bcb48"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=64783c641be2685056c03153cd4bcb48"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=64783c641be2685056c03153cd4bcb48"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=64783c641be2685056c03153cd4bcb48"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_64783c641be2685056c03153cd4bcb48^sys_idNOT INfc783c641be2685056c03153cd4bcb88"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>intake_record</element>
+        <help/>
+        <hint/>
+        <label>Intake Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_64783c641be2685056c03153cd4bcb48</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-22 03:21:20</sys_created_on>
+        <sys_id>fc783c641be2685056c03153cd4bcb88</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Offender Management System" source="x_snc_offmgtcsc">aad6ec1cdb392090520c0bd3e29619cc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-22 03:21:20</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_64783c641be2685056c03153cd4bcb48"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_64783c641be2685056c03153cd4bcb48"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_64783c641be2685056c03153cd4bcb48"/>
+    <sys_hub_flow action="update">
+        <sys_id>f117bc201be2685056c03153cd4bcb5d</sys_id>
+        <latest_snapshot>64783c641be2685056c03153cd4bcb48</latest_snapshot>
+    </sys_hub_flow>
+</record_update>

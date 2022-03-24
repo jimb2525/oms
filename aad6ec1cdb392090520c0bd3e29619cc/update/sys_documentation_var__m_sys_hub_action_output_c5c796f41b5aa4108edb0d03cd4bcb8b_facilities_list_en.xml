@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="facilities_list" label="Facilities List" language="en" table="var__m_sys_hub_action_output_c5c796f41b5aa4108edb0d03cd4bcb8b">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>facilities_list</element>
+            <help/>
+            <hint/>
+            <label>Facilities List</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_output_c5c796f41b5aa4108edb0d03cd4bcb8b</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-02-10 18:40:35</sys_created_on>
+            <sys_id>ddc796f41b5aa4108edb0d03cd4bcbda</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Facilities List</sys_name>
+            <sys_package display_value="Offender Management System" source="x_snc_offmgtcsc">aad6ec1cdb392090520c0bd3e29619cc</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_hub_action_output_c5c796f41b5aa4108edb0d03cd4bcb8b_facilities_list_en</sys_update_name>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-02-10 18:40:35</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -9,8 +9,8 @@
             <sys_id>948176b31bca2410487bb88cdc4bcb23</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
-            <sys_ui_form display_value="x_snc_offmgtcsc_offender_contact" name="x_snc_offmgtcsc_offender_contact" sys_domain="global" view="c2364b1610352010d152bac818665e22">c88176b31bca2410487bb88cdc4bcb20</sys_ui_form>
-            <sys_ui_section caption="NULL" display_value="" name="x_snc_offmgtcsc_offender_contact" sys_domain="global" view="c2364b1610352010d152bac818665e22">cc8176b31bca2410487bb88cdc4bcb11</sys_ui_section>
+            <sys_ui_form display_value="x_snc_offmgtcsc_offender_contact" name="x_snc_offmgtcsc_offender_contact" sys_domain="global" view="903b5b27db062010c2939709f49619f5">c88176b31bca2410487bb88cdc4bcb20</sys_ui_form>
+            <sys_ui_section display_value="">cc8176b31bca2410487bb88cdc4bcb11</sys_ui_section>
             <sys_updated_by>tony.perron</sys_updated_by>
             <sys_updated_on>2021-02-07 17:59:04</sys_updated_on>
         </sys_ui_form_section>
@@ -23,10 +23,24 @@
             <sys_id>548176b31bca2410487bb88cdc4bcb24</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
-            <sys_ui_form display_value="x_snc_offmgtcsc_offender_contact" name="x_snc_offmgtcsc_offender_contact" sys_domain="global" view="c2364b1610352010d152bac818665e22">c88176b31bca2410487bb88cdc4bcb20</sys_ui_form>
-            <sys_ui_section caption="Contact Information" display_value="Contact Information" name="x_snc_offmgtcsc_offender_contact" sys_domain="global" view="c2364b1610352010d152bac818665e22">c48176b31bca2410487bb88cdc4bcb1f</sys_ui_section>
+            <sys_ui_form display_value="x_snc_offmgtcsc_offender_contact" name="x_snc_offmgtcsc_offender_contact" sys_domain="global" view="903b5b27db062010c2939709f49619f5">c88176b31bca2410487bb88cdc4bcb20</sys_ui_form>
+            <sys_ui_section caption="Contact Information" display_value="Contact Information" name="x_snc_offmgtcsc_offender_contact" sys_domain="global" view="903b5b27db062010c2939709f49619f5">c48176b31bca2410487bb88cdc4bcb1f</sys_ui_section>
             <sys_updated_by>tony.perron</sys_updated_by>
             <sys_updated_on>2021-02-07 17:59:04</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-02-19 23:03:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>833a61f31bd2645056c03153cd4bcb9e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_offmgtcsc_offender_contact" name="x_snc_offmgtcsc_offender_contact" sys_domain="global" view="903b5b27db062010c2939709f49619f5">c88176b31bca2410487bb88cdc4bcb20</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_offmgtcsc_offender_contact" sys_domain="global" view="903b5b27db062010c2939709f49619f5">808176b31bca2410487bb88cdc4bcb08</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-02-19 23:03:24</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_snc_offmgtcsc_offender_contact</name>
@@ -47,7 +61,7 @@
             <sys_updated_by>tony.perron</sys_updated_by>
             <sys_updated_on>2021-02-07 17:59:04</sys_updated_on>
             <sys_user/>
-            <view display_value="Workspace" name="workspace">c2364b1610352010d152bac818665e22</view>
+            <view display_value="Workspace" name="workspace">903b5b27db062010c2939709f49619f5</view>
             <view_name/>
         </sys_ui_form>
     </sys_ui_form_sections>

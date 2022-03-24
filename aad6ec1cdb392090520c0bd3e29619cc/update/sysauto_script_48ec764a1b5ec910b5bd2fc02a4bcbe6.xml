@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <business_calendar/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_time/>
+        <name>68c0f6ce87964910a702fc08cebb35fd</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek/>
+        <run_period/>
+        <run_start>2022-03-19 10:57:24</run_start>
+        <run_time/>
+        <run_type>once</run_type>
+        <script><![CDATA[//Change the Banner Text from Service Management
+setBannerText("The world works with ServiceNow","ServiceNow, Inc.");
+
+//Set banner text
+function setBannerText(bannerText, company){
+
+	var gr = new GlideRecord('core_company');
+	gr.get('primary', 'true');
+	gr.banner_text = bannerText;
+	gr.name = company;
+	gr.update();
+	
+	var email = new GlideRecord('sys_email_account');
+	email.addQuery('name','ServiceNow SMTP');
+	email.query();
+	email.next();
+	email.email_user_label = company;
+	email.update();
+
+}]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-19 10:57:24</sys_created_on>
+        <sys_id>48ec764a1b5ec910b5bd2fc02a4bcbe6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>68c0f6ce87964910a702fc08cebb35fd</sys_name>
+        <sys_package display_value="Offender Management System" source="x_snc_offmgtcsc">aad6ec1cdb392090520c0bd3e29619cc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+        <sys_update_name>sysauto_script_48ec764a1b5ec910b5bd2fc02a4bcbe6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-19 10:57:24</sys_updated_on>
+        <time_zone/>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

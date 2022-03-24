@@ -9,8 +9,8 @@
             <sys_id>ea72feb31bca2410487bb88cdc4bcb2f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
-            <sys_ui_form display_value="x_snc_offmgtcsc_offense" name="x_snc_offmgtcsc_offense" sys_domain="global" view="c2364b1610352010d152bac818665e22">e272beb31bca2410487bb88cdc4bcbd6</sys_ui_form>
-            <sys_ui_section caption="NULL" display_value="" name="x_snc_offmgtcsc_offense" sys_domain="global" view="c2364b1610352010d152bac818665e22">632132b31bca2410487bb88cdc4bcbbc</sys_ui_section>
+            <sys_ui_form display_value="x_snc_offmgtcsc_offense" name="x_snc_offmgtcsc_offense" sys_domain="global" view="903b5b27db062010c2939709f49619f5">e272beb31bca2410487bb88cdc4bcbd6</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_offmgtcsc_offense" sys_domain="global" view="903b5b27db062010c2939709f49619f5">632132b31bca2410487bb88cdc4bcbbc</sys_ui_section>
             <sys_updated_by>tony.perron</sys_updated_by>
             <sys_updated_on>2021-02-07 18:03:20</sys_updated_on>
         </sys_ui_form_section>
@@ -23,8 +23,8 @@
             <sys_id>aa72feb31bca2410487bb88cdc4bcb30</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
-            <sys_ui_form display_value="x_snc_offmgtcsc_offense" name="x_snc_offmgtcsc_offense" sys_domain="global" view="c2364b1610352010d152bac818665e22">e272beb31bca2410487bb88cdc4bcbd6</sys_ui_form>
-            <sys_ui_section caption="New Section" display_value="New Section" name="x_snc_offmgtcsc_offense" sys_domain="global" view="c2364b1610352010d152bac818665e22">ee72beb31bca2410487bb88cdc4bcbd4</sys_ui_section>
+            <sys_ui_form display_value="x_snc_offmgtcsc_offense" name="x_snc_offmgtcsc_offense" sys_domain="global" view="903b5b27db062010c2939709f49619f5">e272beb31bca2410487bb88cdc4bcbd6</sys_ui_form>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_snc_offmgtcsc_offense" sys_domain="global" view="903b5b27db062010c2939709f49619f5">ee72beb31bca2410487bb88cdc4bcbd4</sys_ui_section>
             <sys_updated_by>tony.perron</sys_updated_by>
             <sys_updated_on>2021-02-07 18:03:20</sys_updated_on>
         </sys_ui_form_section>
@@ -47,7 +47,7 @@
             <sys_updated_by>tony.perron</sys_updated_by>
             <sys_updated_on>2021-02-07 18:03:20</sys_updated_on>
             <sys_user/>
-            <view display_value="Workspace" name="workspace">c2364b1610352010d152bac818665e22</view>
+            <view display_value="Workspace" name="workspace">903b5b27db062010c2939709f49619f5</view>
             <view_name/>
         </sys_ui_form>
     </sys_ui_form_sections>

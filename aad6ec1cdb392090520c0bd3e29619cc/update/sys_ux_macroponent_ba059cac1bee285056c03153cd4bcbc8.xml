@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="INSERT_OR_UPDATE">
+        <associated_types/>
+        <category>component</category>
+        <component_dependencies/>
+        <composition>[ {
+  "elementId" : "cklfvaazshhaaaaaaccddhhhbjjzoncccbk",
+  "elementLabel" : "Container",
+  "propertyValues" : {
+    "label" : "",
+    "bare" : false,
+    "type" : "default",
+    "bgvar" : "",
+    "border" : false,
+    "canCollapse" : false,
+    "collapsed" : false
+  },
+  "slot" : "cklfv0zs800033h7bzoejy8qi",
+  "definition" : {
+    "id" : "80653115e23949b501e719ae9b0b42a6",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : {
+    "layout" : {
+      "default" : {
+        "type" : "rowColumn",
+        "root" : {"type":"column","id":"cklfv14es00093h7b6h5aibu3","size":"12","rows":[{"type":"row","id":"cklgu3vg5001r3h7bcn56x078","slotName":"cklgu28vh001o3h7bf3vvlxsq"},{"type":"row","id":"cklgu48kf001u3h7bkhchd1nv","slotName":"cklgu48kf001t3h7biv0y6idl"},{"type":"row","id":"cklfv83zn00043h7bfl9ayo9q","slotName":"cklfv83zn00033h7b6djirqog"}]},
+        "items" : null,
+        "rules" : null,
+        "styles" : null
+      }
+    },
+    "composition" : [ {
+      "elementId" : "cklfviiddzmaaaaaaccddhhhbcccbwxhhcgg",
+      "elementLabel" : "Report/PA Widget",
+      "propertyValues" : {
+        "label" : "",
+        "reportSysId" : "",
+        "paWidgetSysId" : "",
+        "variant" : "auto",
+        "border" : false,
+        "refreshInterval" : "",
+        "isRealtime" : false,
+        "refreshFrequency" : "0",
+        "kpiDetailsNavigation" : false
+      },
+      "slot" : "cklfv83zn00033h7b6djirqog",
+      "definition" : {
+        "id" : "7dbc62b27efa88d6d910579a68c7a65d",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null
+    }, {
+      "elementId" : "cklgucciivhaaaabbnddhhhbyvabbswbjj",
+      "elementLabel" : "Cell Assignation",
+      "propertyValues" : {
+        "label" : "Cell Assignation",
+        "reportSysId" : "73db1020dbae2850c2939709f4961937",
+        "paWidgetSysId" : "",
+        "variant" : "auto",
+        "border" : true,
+        "refreshInterval" : "",
+        "isRealtime" : false,
+        "refreshFrequency" : "0",
+        "kpiDetailsNavigation" : false
+      },
+      "slot" : "cklgu28vh001o3h7bf3vvlxsq",
+      "definition" : {
+        "id" : "7dbc62b27efa88d6d910579a68c7a65d",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null
+    }, {
+      "elementId" : "cklgueeiikeaaaabbsddhhhbmjlffmgggf",
+      "elementLabel" : "Offender Request by type",
+      "propertyValues" : {
+        "label" : "Offender Request by type",
+        "reportSysId" : "5c97c3dcdba62850c2939709f496191d",
+        "paWidgetSysId" : "",
+        "variant" : "auto",
+        "border" : true,
+        "refreshInterval" : "",
+        "isRealtime" : false,
+        "refreshFrequency" : "0",
+        "kpiDetailsNavigation" : false
+      },
+      "slot" : "cklgu48kf001t3h7biv0y6idl",
+      "definition" : {
+        "id" : "7dbc62b27efa88d6d910579a68c7a65d",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null
+    } ]
+  }
+} ]</composition>
+        <da_relay_models/>
+        <data/>
+        <dispatched_events/>
+        <events/>
+        <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <handled_events/>
+        <interactions/>
+        <interfaces/>
+        <internal_event_mappings/>
+        <layout>{
+  "default" : {
+    "type" : "rowColumn",
+    "root" : {"type":"column","id":"cklgucrsc000d3h7brvil85l9","size":"12","rows":[{"type":"row","id":"cklfv0zs800053h7bd4srvy0c","slotName":"cklfv0zs800033h7bzoejy8qi"}]},
+    "items" : null,
+    "rules" : null,
+    "styles" : null
+  }
+}</layout>
+        <macroponent_dependencies/>
+        <name>Offender Landing Page</name>
+        <props/>
+        <required_translations/>
+        <root_component/>
+        <root_component_config/>
+        <root_component_definition/>
+        <schema_version>1.0.0</schema_version>
+        <state_properties/>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-22 00:46:38</sys_created_on>
+        <sys_id>ba059cac1bee285056c03153cd4bcbc8</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>Offender Landing Page</sys_name>
+        <sys_package display_value="Offender Management System" source="x_snc_offmgtcsc">aad6ec1cdb392090520c0bd3e29619cc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+        <sys_update_name>sys_ux_macroponent_ba059cac1bee285056c03153cd4bcbc8</sys_update_name>
+        <sys_updated_by>tony.perron</sys_updated_by>
+        <sys_updated_on>2021-02-22 17:49:42</sys_updated_on>
+    </sys_ux_macroponent>
+</record_update>

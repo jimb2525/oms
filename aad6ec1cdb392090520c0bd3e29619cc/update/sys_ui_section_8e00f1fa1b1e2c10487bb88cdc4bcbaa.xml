@@ -8,7 +8,7 @@
             <sys_id>660035fa1b1e2c10487bb88cdc4bcb09</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Clothing" display_value="Clothing" name="x_snc_offmgtcsc_personal_property_of_offenders" sys_domain="global" view="c2364b1610352010d152bac818665e22">8e00f1fa1b1e2c10487bb88cdc4bcbaa</sys_ui_section>
+            <sys_ui_section caption="Clothing" display_value="Clothing" name="x_snc_offmgtcsc_personal_property_of_offenders" sys_domain="global" view="903b5b27db062010c2939709f49619f5">8e00f1fa1b1e2c10487bb88cdc4bcbaa</sys_ui_section>
             <sys_updated_by>tony.perron</sys_updated_by>
             <sys_updated_on>2021-02-16 20:54:50</sys_updated_on>
             <sys_user/>
@@ -22,7 +22,7 @@
             <sys_id>ea0035fa1b1e2c10487bb88cdc4bcb09</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Clothing" display_value="Clothing" name="x_snc_offmgtcsc_personal_property_of_offenders" sys_domain="global" view="c2364b1610352010d152bac818665e22">8e00f1fa1b1e2c10487bb88cdc4bcbaa</sys_ui_section>
+            <sys_ui_section caption="Clothing" display_value="Clothing" name="x_snc_offmgtcsc_personal_property_of_offenders" sys_domain="global" view="903b5b27db062010c2939709f49619f5">8e00f1fa1b1e2c10487bb88cdc4bcbaa</sys_ui_section>
             <sys_updated_by>tony.perron</sys_updated_by>
             <sys_updated_on>2021-02-16 20:54:50</sys_updated_on>
             <sys_user/>
@@ -36,7 +36,7 @@
             <sys_id>620035fa1b1e2c10487bb88cdc4bcb0a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Clothing" display_value="Clothing" name="x_snc_offmgtcsc_personal_property_of_offenders" sys_domain="global" view="c2364b1610352010d152bac818665e22">8e00f1fa1b1e2c10487bb88cdc4bcbaa</sys_ui_section>
+            <sys_ui_section caption="Clothing" display_value="Clothing" name="x_snc_offmgtcsc_personal_property_of_offenders" sys_domain="global" view="903b5b27db062010c2939709f49619f5">8e00f1fa1b1e2c10487bb88cdc4bcbaa</sys_ui_section>
             <sys_updated_by>tony.perron</sys_updated_by>
             <sys_updated_on>2021-02-16 20:54:50</sys_updated_on>
             <sys_user/>
@@ -50,7 +50,7 @@
             <sys_id>e60035fa1b1e2c10487bb88cdc4bcb0a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Clothing" display_value="Clothing" name="x_snc_offmgtcsc_personal_property_of_offenders" sys_domain="global" view="c2364b1610352010d152bac818665e22">8e00f1fa1b1e2c10487bb88cdc4bcbaa</sys_ui_section>
+            <sys_ui_section caption="Clothing" display_value="Clothing" name="x_snc_offmgtcsc_personal_property_of_offenders" sys_domain="global" view="903b5b27db062010c2939709f49619f5">8e00f1fa1b1e2c10487bb88cdc4bcbaa</sys_ui_section>
             <sys_updated_by>tony.perron</sys_updated_by>
             <sys_updated_on>2021-02-16 20:54:50</sys_updated_on>
             <sys_user/>
@@ -78,7 +78,7 @@
             <sys_updated_on>2021-02-16 20:54:48</sys_updated_on>
             <sys_user/>
             <title>false</title>
-            <view display_value="Workspace" name="workspace">c2364b1610352010d152bac818665e22</view>
+            <view display_value="Workspace" name="workspace">903b5b27db062010c2939709f49619f5</view>
             <view_name/>
         </sys_ui_section>
     </sys_ui_section>

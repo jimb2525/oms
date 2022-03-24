@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="Sentences" max_length="40" name="x_snc_offmgtcsc_sentence" sizeclass="3" type="collection">
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Offender" max_length="32" name="u_offender" reference="x_snc_offmgtcsc_offender" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Original Sentencing Date" max_length="40" name="u_original_sentencing_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Parole Date" max_length="40" name="u_parole_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Release Date" max_length="40" name="u_release_date" type="glide_date"/>
+        <element label="Sentence Length" max_length="40" name="u_sentence_length" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Sentence Type" max_length="40" name="u_sentence_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Concurrent" sequence="0" value="concurrent"/>
+                <element inactive_on_update="false" label="Consecutive" sequence="1" value="consecutive"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Warrant of Commital" max_length="40" name="u_warrant_of_commital" type="file_attachment"/>
+    </element>
+</database>

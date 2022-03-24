@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_calendar_screen">
+    <sys_sg_calendar_screen action="DELETE">
+        <available_offline>false</available_offline>
+        <description/>
+        <dynamic_prefetch_count/>
+        <fetch_type>not_required</fetch_type>
+        <filter/>
+        <hide_filters>false</hide_filters>
+        <hide_screen_name>false</hide_screen_name>
+        <icon display_value="Court date hearing Icon">a9af4820db6e2850c2939709f4961999</icon>
+        <name>Court date hearing</name>
+        <roles_override/>
+        <sys_class_name>sys_sg_calendar_screen</sys_class_name>
+        <sys_created_by>tony.perron</sys_created_by>
+        <sys_created_on>2021-02-22 00:23:15</sys_created_on>
+        <sys_id>42af0460db6e2850c2939709f4961952</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Court date hearing</sys_name>
+        <sys_package display_value="Offender Management System" source="x_snc_offmgtcsc">aad6ec1cdb392090520c0bd3e29619cc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+        <sys_update_name>sys_sg_calendar_screen_42af0460db6e2850c2939709f4961952</sys_update_name>
+        <sys_updated_by>tony.perron</sys_updated_by>
+        <sys_updated_on>2021-02-22 00:23:15</sys_updated_on>
+    </sys_sg_calendar_screen>
+    <sys_translated_text action="DELETE" query="documentkey=42af0460db6e2850c2939709f4961952"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</application>
+        <file_path/>
+        <instance_id>232313afdbc62c909df22f17d4961962</instance_id>
+        <instance_name>jbelote11demo</instance_name>
+        <name>sys_sg_calendar_screen_42af0460db6e2850c2939709f4961952</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_calendar_screen"><sys_sg_calendar_screen action="INSERT_OR_UPDATE"><available_offline>false</available_offline><description/><dynamic_prefetch_count/><fetch_type>not_required</fetch_type><filter/><hide_filters>false</hide_filters><hide_screen_name>false</hide_screen_name><icon display_value="Court date hearing Icon">a9af4820db6e2850c2939709f4961999</icon><name>Court date hearing</name><roles_override/><sys_class_name>sys_sg_calendar_screen</sys_class_name><sys_created_by>tony.perron</sys_created_by><sys_created_on>2021-02-22 00:23:15</sys_created_on><sys_id>42af0460db6e2850c2939709f4961952</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Court date hearing</sys_name><sys_package display_value="Offender Management System" source="x_snc_offmgtcsc">aad6ec1cdb392090520c0bd3e29619cc</sys_package><sys_policy/><sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope><sys_update_name>sys_sg_calendar_screen_42af0460db6e2850c2939709f4961952</sys_update_name><sys_updated_by>tony.perron</sys_updated_by><sys_updated_on>2021-02-22 00:23:15</sys_updated_on></sys_sg_calendar_screen><sys_translated_text action="delete_multiple" query="documentkey=42af0460db6e2850c2939709f4961952"/></record_update>]]></payload>
+        <payload_hash>-553776014</payload_hash>
+        <record_name>Court date hearing</record_name>
+        <reverted_from/>
+        <source>e6ba61771bd2645056c03153cd4bcbbc</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>tony.perron</sys_created_by>
+        <sys_created_on>2021-02-22 00:23:16</sys_created_on>
+        <sys_id>d4bf4820db6e2850c2939709f49619ab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>177c71e6d4e0000001</sys_recorded_at>
+        <sys_updated_by>tony.perron</sys_updated_by>
+        <sys_updated_on>2021-02-22 00:23:16</sys_updated_on>
+        <type>Calendar screen</type>
+        <update_guid>dcbf4820906e2850792a63fd3ad4f0aa</update_guid>
+        <update_guid_history>dcbf4820906e2850792a63fd3ad4f0aa:-553776014</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>tony.perron</sys_created_by>
+        <sys_created_on>2021-02-22 00:24:44</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_calendar_screen">sys_sg_calendar_screen</sys_db_object>
+        <sys_id>ad0e01629f354e9ba6b98888d5d2f189</sys_id>
+        <sys_metadata>42af0460db6e2850c2939709f4961952</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Court date hearing</sys_name>
+        <sys_package display_value="Offender Management System" source="x_snc_offmgtcsc">aad6ec1cdb392090520c0bd3e29619cc</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+        <sys_scope_delete display_value="">5bdba594b38346ec838dd36fd672ece4</sys_scope_delete>
+        <sys_update_name>sys_sg_calendar_screen_42af0460db6e2850c2939709f4961952</sys_update_name>
+        <sys_update_version display_value="sys_sg_calendar_screen_42af0460db6e2850c2939709f4961952">d4bf4820db6e2850c2939709f49619ab</sys_update_version>
+        <sys_updated_by>tony.perron</sys_updated_by>
+        <sys_updated_on>2021-02-22 00:24:44</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

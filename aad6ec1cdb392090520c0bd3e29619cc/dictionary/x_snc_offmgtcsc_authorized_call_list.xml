@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_ui_related_list_entry" label="Authorized Call List" max_length="40" name="x_snc_offmgtcsc_authorized_call_list" sizeclass="0" type="collection"/>
+</database>

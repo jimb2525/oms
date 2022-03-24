@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_attend_as" table="x_snc_offmgtcsc_parole_hearing" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_attend_as</element>
+            <name>x_snc_offmgtcsc_parole_hearing</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>sam.pirner</sys_created_by>
+            <sys_created_on>2021-02-24 00:29:54</sys_created_on>
+            <sys_id>1164e28ddb6a2c50c2939709f49619f5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_attend_as</sys_name>
+            <sys_package display_value="Offender Management System" source="x_snc_offmgtcsc">aad6ec1cdb392090520c0bd3e29619cc</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+            <sys_update_name>sys_choice_x_snc_offmgtcsc_parole_hearing_u_attend_as</sys_update_name>
+            <sys_updated_by>sam.pirner</sys_updated_by>
+            <sys_updated_on>2021-02-24 00:29:54</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_attend_as</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Offender support</label>
+            <language>en</language>
+            <name>x_snc_offmgtcsc_parole_hearing</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>sam.pirner</sys_created_by>
+            <sys_created_on>2021-02-24 00:29:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d564e28ddb6a2c50c2939709f49619f4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sam.pirner</sys_updated_by>
+            <sys_updated_on>2021-02-24 00:29:54</sys_updated_on>
+            <value>offender support</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_attend_as</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Media</label>
+            <language>en</language>
+            <name>x_snc_offmgtcsc_parole_hearing</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>sam.pirner</sys_created_by>
+            <sys_created_on>2021-02-24 00:29:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5d64e28ddb6a2c50c2939709f49619f8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sam.pirner</sys_updated_by>
+            <sys_updated_on>2021-02-24 00:29:54</sys_updated_on>
+            <value>media</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_attend_as</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Victim</label>
+            <language>en</language>
+            <name>x_snc_offmgtcsc_parole_hearing</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>sam.pirner</sys_created_by>
+            <sys_created_on>2021-02-24 00:29:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9164e28ddb6a2c50c2939709f49619fc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sam.pirner</sys_updated_by>
+            <sys_updated_on>2021-02-24 00:29:55</sys_updated_on>
+            <value>victim</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_attend_as</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Student</label>
+            <language>en</language>
+            <name>x_snc_offmgtcsc_parole_hearing</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>sam.pirner</sys_created_by>
+            <sys_created_on>2021-02-24 00:29:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9d64268ddb6a2c50c2939709f496190b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sam.pirner</sys_updated_by>
+            <sys_updated_on>2021-02-24 00:29:55</sys_updated_on>
+            <value>student</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_attend_as</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Victim support</label>
+            <language>en</language>
+            <name>x_snc_offmgtcsc_parole_hearing</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>sam.pirner</sys_created_by>
+            <sys_created_on>2021-02-24 00:29:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d164268ddb6a2c50c2939709f496190f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sam.pirner</sys_updated_by>
+            <sys_updated_on>2021-02-24 00:29:55</sys_updated_on>
+            <value>victim support</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_attend_as</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_snc_offmgtcsc_parole_hearing</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>sam.pirner</sys_created_by>
+            <sys_created_on>2021-02-24 00:29:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1964268ddb6a2c50c2939709f4961912</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sam.pirner</sys_updated_by>
+            <sys_updated_on>2021-02-24 00:29:55</sys_updated_on>
+            <value>other</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

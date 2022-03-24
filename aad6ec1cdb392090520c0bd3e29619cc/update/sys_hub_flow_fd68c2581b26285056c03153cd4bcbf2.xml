@@ -1,0 +1,1139 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build>glide-paris-06-24-2020__patch6-01-19-2021</compiler_build>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>calculate_sentence_length</internal_name>
+        <label_cache>[{"name":"fd66b3f2-56d2-48e2-bd05-9c0147ea1243.record","label":"1➛Sentences Record","reference":"x_snc_offmgtcsc_sentence","reference_display":"Sentences Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"fd66b3f2-56d2-48e2-bd05-9c0147ea1243.table_name","label":"1➛Sentences Table","reference":"x_snc_offmgtcsc_sentence","reference_display":"Sentences Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current","label":"Trigger➛Sentences Record","reference":"x_snc_offmgtcsc_sentence","reference_display":"Sentences","type":"reference","base_type":"reference","attributes":{}}]</label_cache>
+        <master_snapshot>294bce1c1b26285056c03153cd4bcb9c</master_snapshot>
+        <name>Calculate Sentence Length</name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id>272c0a9c1b26285056c03153cd4bcba4</remote_trigger_id>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-21 14:32:10</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>fd68c2581b26285056c03153cd4bcbf2</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>Calculate Sentence Length</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Offender Management System" source="x_snc_offmgtcsc">aad6ec1cdb392090520c0bd3e29619cc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+        <sys_update_name>sys_hub_flow_fd68c2581b26285056c03153cd4bcbf2</sys_update_name>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-21 18:27:33</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=fd68c2581b26285056c03153cd4bcbf2"/>
+    <sys_variable_value action="delete_multiple" query="document_key=fd68c2581b26285056c03153cd4bcbf2"/>
+    <sys_flow_record_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_snc_offmgtcsc_sentence">u_sentence_lengthVALCHANGES^ORu_original_sentencing_dateVALCHANGES<item endquery="false" field="u_sentence_length" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/>
+            <item endquery="false" field="u_original_sentencing_date" goto="false" newquery="false" operator="VALCHANGES" or="true" value=""/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>true</on_insert>
+        <on_update>true</on_update>
+        <run_flow_in>background</run_flow_in>
+        <run_on_extended>false</run_on_extended>
+        <run_when_setting>both</run_when_setting>
+        <run_when_user_list/>
+        <run_when_user_setting>any</run_when_user_setting>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-21 14:48:41</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>272c0a9c1b26285056c03153cd4bcba4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-21 14:48:41</sys_updated_on>
+        <table>x_snc_offmgtcsc_sentence</table>
+    </sys_flow_record_trigger>
+    <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <data>{"table":"sys_trigger_runner_mapping","id":"af2c0a9c1b26285056c03153cd4bcba4","name":"trigger_runner","type":"java.util.Collections$UnmodifiableMap"}</data>
+        <identifier>fd68c2581b26285056c03153cd4bcbf2</identifier>
+        <runner>FDTriggerRunner</runner>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-21 14:48:41</sys_created_on>
+        <sys_id>af2c0a9c1b26285056c03153cd4bcba4</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-21 18:27:34</sys_updated_on>
+        <trigger display_value="">272c0a9c1b26285056c03153cd4bcba4</trigger>
+    </sys_trigger_runner_mapping>
+    <sys_json_chunk action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAGXLWwqAIBBA0b3MdytwKxGD5fggGUFHLKK99yAo6Pce7ga5MtqYGgYGBaOeZpdTZQPdTc0TYy2UMYYioPrh0wuJBHbXl8T/jpc1r48mRlqE2JA5u9WxEOwH5v2lw4YAAAA=</data>
+        <document_id>af2c0a9c1b26285056c03153cd4bcba4</document_id>
+        <field>trigger_runner</field>
+        <length>144</length>
+        <position>0</position>
+        <source_table>sys_trigger_runner_mapping</source_table>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-21 14:48:41</sys_created_on>
+        <sys_id>272c0a9c1b26285056c03153cd4bcba5</sys_id>
+    </sys_json_chunk>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=fd68c2581b26285056c03153cd4bcbf2^sys_idNOT INaf2c0a9c1b26285056c03153cd4bcba4"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=fd68c2581b26285056c03153cd4bcbf2^sys_idNOT IN5a3b4e1c1b26285056c03153cd4bcbad"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Calculate Sentence Length">fd68c2581b26285056c03153cd4bcbf2</flow>
+        <name>Created or Updated</name>
+        <remote_sys_id/>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-21 14:44:29</sys_created_on>
+        <sys_id>5a3b4e1c1b26285056c03153cd4bcbad</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-21 18:27:20</sys_updated_on>
+        <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_create_or_update</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=5a3b4e1c1b26285056c03153cd4bcbad"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>5a3b4e1c1b26285056c03153cd4bcbad</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-21 14:44:29</sys_created_on>
+        <sys_id>1e3b4e1c1b26285056c03153cd4bcbae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-21 14:44:29</sys_updated_on>
+        <value>u_sentence_lengthVALCHANGES^ORu_original_sentencing_dateVALCHANGES</value>
+        <variable display_value="Condition">707dd180c32222002841b63b12d3aecb</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>5a3b4e1c1b26285056c03153cd4bcbad</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-21 14:44:29</sys_created_on>
+        <sys_id>d23b4e1c1b26285056c03153cd4bcbaf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-21 14:44:29</sys_updated_on>
+        <value>x_snc_offmgtcsc_sentence</value>
+        <variable display_value="Table">cf1e1980c32222002841b63b12d3aea0</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_output_a45d9180c32222002841b63b12d3aea7^id=5a3b4e1c1b26285056c03153cd4bcbad"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=fd68c2581b26285056c03153cd4bcbf2"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=fd68c2581b26285056c03153cd4bcbf2^sys_idNOT IN716846581b26285056c03153cd4bcbb4"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>fd68c2581b26285056c03153cd4bcbf2</id>
+        <name>Calculate Sentence Length</name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-21 14:32:10</sys_created_on>
+        <sys_id>716846581b26285056c03153cd4bcbb4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-21 14:32:10</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=716846581b26285056c03153cd4bcbb4"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=fd68c2581b26285056c03153cd4bcbf2^sys_idNOT IN123b4e1c1b26285056c03153cd4bcb9f,4e3b4e1c1b26285056c03153cd4bcb97,963b4e1c1b26285056c03153cd4bcba5"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FD9e3e721c4d2a2850dd961c0f98b749cd,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Calculate Sentence Length">fd68c2581b26285056c03153cd4bcbf2</model>
+        <model_id>fd68c2581b26285056c03153cd4bcbf2</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_fd68c2581b26285056c03153cd4bcbf2</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-21 14:44:29</sys_created_on>
+        <sys_id>123b4e1c1b26285056c03153cd4bcb9f</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-21 18:27:19</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Calculate Sentence Length">fd68c2581b26285056c03153cd4bcbf2</model>
+        <model_id>fd68c2581b26285056c03153cd4bcbf2</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_fd68c2581b26285056c03153cd4bcbf2</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-21 14:44:29</sys_created_on>
+        <sys_id>4e3b4e1c1b26285056c03153cd4bcb97</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-21 18:27:19</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Calculate Sentence Length">fd68c2581b26285056c03153cd4bcbf2</model>
+        <model_id>fd68c2581b26285056c03153cd4bcbf2</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_fd68c2581b26285056c03153cd4bcbf2</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-21 14:44:29</sys_created_on>
+        <sys_id>963b4e1c1b26285056c03153cd4bcba5</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-21 18:27:20</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_output action="delete_multiple" query="model=fd68c2581b26285056c03153cd4bcbf2"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=fd68c2581b26285056c03153cd4bcbf2"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=fd68c2581b26285056c03153cd4bcbf2^sys_idNOT INda3b4e1c1b26285056c03153cd4bcbb3"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment>Update Parole Date</comment>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Calculate Sentence Length">fd68c2581b26285056c03153cd4bcbf2</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-21 14:44:29</sys_created_on>
+        <sys_id>da3b4e1c1b26285056c03153cd4bcbb3</sys_id>
+        <sys_mod_count>26</sys_mod_count>
+        <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-21 18:27:20</sys_updated_on>
+        <ui_id>fd66b3f2-56d2-48e2-bd05-9c0147ea1243</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=da3b4e1c1b26285056c03153cd4bcbb3"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>da3b4e1c1b26285056c03153cd4bcbb3</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-21 14:44:30</sys_created_on>
+        <sys_id>123b4e1c1b26285056c03153cd4bcbb7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-21 14:44:30</sys_updated_on>
+        <value>u_parole_date=fd-scripted</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>da3b4e1c1b26285056c03153cd4bcbb3</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-21 14:44:30</sys_created_on>
+        <sys_id>d23b4e1c1b26285056c03153cd4bcbb7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-21 14:44:30</sys_updated_on>
+        <value>x_snc_offmgtcsc_sentence</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=da3b4e1c1b26285056c03153cd4bcbb3"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>da3b4e1c1b26285056c03153cd4bcbb3</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-21 14:44:30</sys_created_on>
+        <sys_id>da3b4e1c1b26285056c03153cd4bcbb6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-21 14:44:30</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Created or Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>da3b4e1c1b26285056c03153cd4bcbb3</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-21 14:44:30</sys_created_on>
+        <sys_id>163b4e1c1b26285056c03153cd4bcbb6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-21 14:44:30</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>da3b4e1c1b26285056c03153cd4bcbb3</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-21 14:44:30</sys_created_on>
+        <sys_id>9e3b4e1c1b26285056c03153cd4bcbb6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-21 14:44:30</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=da3b4e1c1b26285056c03153cd4bcbb3^sys_idNOT IN963b4e1c1b26285056c03153cd4bcbb5"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>values</input_name>
+        <instance>da3b4e1c1b26285056c03153cd4bcbb3</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"u_parole_date":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value.\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\nvar sentence_date \u003d fd_data.trigger.current.u_original_sentencing_date;\nvar sentence_length \u003d fd_data.trigger.current.u_sentence_length;\n\nvar parole_eligibility \u003d sentence_length * .33;\n\nparole_date \u003d setDate(sentence_date + parole_eligibility);\n\nreturn parole_date;\n","savedValue":""}}</script>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-21 14:44:29</sys_created_on>
+        <sys_id>963b4e1c1b26285056c03153cd4bcbb5</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-21 14:48:28</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=da3b4e1c1b26285056c03153cd4bcbb3"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=fd68c2581b26285056c03153cd4bcbf2"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=fd68c2581b26285056c03153cd4bcbf2"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=fd68c2581b26285056c03153cd4bcbf2"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=fd68c2581b26285056c03153cd4bcbf2"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_fd68c2581b26285056c03153cd4bcbf2^sys_idNOT IN123b4e1c1b26285056c03153cd4bcbaa,5a3b4e1c1b26285056c03153cd4bcb9d,de3b4e1c1b26285056c03153cd4bcba3"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_fd68c2581b26285056c03153cd4bcbf2</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-21 14:44:29</sys_created_on>
+        <sys_id>123b4e1c1b26285056c03153cd4bcbaa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Offender Management System" source="x_snc_offmgtcsc">aad6ec1cdb392090520c0bd3e29619cc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-21 14:44:29</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_fd68c2581b26285056c03153cd4bcbf2</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-21 14:44:29</sys_created_on>
+        <sys_id>5a3b4e1c1b26285056c03153cd4bcb9d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Offender Management System" source="x_snc_offmgtcsc">aad6ec1cdb392090520c0bd3e29619cc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-21 14:44:29</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_fd68c2581b26285056c03153cd4bcbf2</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-21 14:44:29</sys_created_on>
+        <sys_id>de3b4e1c1b26285056c03153cd4bcba3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Offender Management System" source="x_snc_offmgtcsc">aad6ec1cdb392090520c0bd3e29619cc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-21 14:44:29</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_fd68c2581b26285056c03153cd4bcbf2"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_fd68c2581b26285056c03153cd4bcbf2"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_fd68c2581b26285056c03153cd4bcbf2"/>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=fd68c2581b26285056c03153cd4bcbf2^sys_idNOT IN794bce1c1b26285056c03153cd4bcbec"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"794bce1c1b26285056c03153cd4bcbec","name":"plan"}}</plan>
+        <plan_id>fd68c2581b26285056c03153cd4bcbf2</plan_id>
+        <snapshot>884c8a9c1b26285056c03153cd4bcb77</snapshot>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-21 14:44:44</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>794bce1c1b26285056c03153cd4bcbec</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-21 14:48:41</sys_updated_on>
+        <trigger display_value="">272c0a9c1b26285056c03153cd4bcba4</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=fd68c2581b26285056c03153cd4bcbf2"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>calculate_sentence_length</internal_name>
+        <label_cache>[{"name":"Created or Updated_1.current","label":"Trigger➛Sentences Record","reference":"x_snc_offmgtcsc_sentence","reference_display":"Sentences","type":"reference","base_type":"reference","attributes":{}},{"name":"fd66b3f2-56d2-48e2-bd05-9c0147ea1243.table_name","label":"1➛Sentences Table","reference":"x_snc_offmgtcsc_sentence","reference_display":"Sentences","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"fd66b3f2-56d2-48e2-bd05-9c0147ea1243.record","label":"1➛Sentences Record","reference":"x_snc_offmgtcsc_sentence","reference_display":"Sentences","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <master>true</master>
+        <name>Calculate Sentence Length</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Calculate Sentence Length">fd68c2581b26285056c03153cd4bcbf2</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-21 14:44:43</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>294bce1c1b26285056c03153cd4bcb9c</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-21 14:48:41</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=294bce1c1b26285056c03153cd4bcb9c"/>
+    <sys_variable_value action="delete_multiple" query="document_key=294bce1c1b26285056c03153cd4bcb9c"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=294bce1c1b26285056c03153cd4bcb9c^sys_idNOT IN3d4bce1c1b26285056c03153cd4bcbda"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Calculate Sentence Length">294bce1c1b26285056c03153cd4bcb9c</flow>
+        <name>Created or Updated</name>
+        <remote_sys_id/>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-21 14:44:44</sys_created_on>
+        <sys_id>3d4bce1c1b26285056c03153cd4bcbda</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-21 14:48:41</sys_updated_on>
+        <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_create_or_update</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=3d4bce1c1b26285056c03153cd4bcbda"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>3d4bce1c1b26285056c03153cd4bcbda</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-21 14:44:44</sys_created_on>
+        <sys_id>394bce1c1b26285056c03153cd4bcbdc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-21 14:44:44</sys_updated_on>
+        <value>x_snc_offmgtcsc_sentence</value>
+        <variable display_value="Table">cf1e1980c32222002841b63b12d3aea0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>3d4bce1c1b26285056c03153cd4bcbda</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-21 14:44:44</sys_created_on>
+        <sys_id>754bce1c1b26285056c03153cd4bcbdc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-21 14:44:44</sys_updated_on>
+        <value>u_sentence_lengthVALCHANGES^ORu_original_sentencing_dateVALCHANGES</value>
+        <variable display_value="Condition">707dd180c32222002841b63b12d3aecb</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_output_a45d9180c32222002841b63b12d3aea7^id=3d4bce1c1b26285056c03153cd4bcbda"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=294bce1c1b26285056c03153cd4bcb9c"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=294bce1c1b26285056c03153cd4bcb9c^sys_idNOT IN254bce1c1b26285056c03153cd4bcb9d"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>294bce1c1b26285056c03153cd4bcb9c</id>
+        <name>Calculate Sentence Length</name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-21 14:44:43</sys_created_on>
+        <sys_id>254bce1c1b26285056c03153cd4bcb9d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-21 14:44:43</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=254bce1c1b26285056c03153cd4bcb9d"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=294bce1c1b26285056c03153cd4bcb9c^sys_idNOT IN614bce1c1b26285056c03153cd4bcbc5,694bce1c1b26285056c03153cd4bcba0,ed4bce1c1b26285056c03153cd4bcbb9"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Calculate Sentence Length">294bce1c1b26285056c03153cd4bcb9c</model>
+        <model_id>294bce1c1b26285056c03153cd4bcb9c</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_294bce1c1b26285056c03153cd4bcb9c</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-21 14:44:43</sys_created_on>
+        <sys_id>614bce1c1b26285056c03153cd4bcbc5</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-21 14:48:40</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Calculate Sentence Length">294bce1c1b26285056c03153cd4bcb9c</model>
+        <model_id>294bce1c1b26285056c03153cd4bcb9c</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_294bce1c1b26285056c03153cd4bcb9c</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-21 14:44:43</sys_created_on>
+        <sys_id>694bce1c1b26285056c03153cd4bcba0</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-21 14:48:40</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FD632c0a9cdd262850ce0b2f40bea50a6b,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Calculate Sentence Length">294bce1c1b26285056c03153cd4bcb9c</model>
+        <model_id>294bce1c1b26285056c03153cd4bcb9c</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_294bce1c1b26285056c03153cd4bcb9c</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-21 14:44:43</sys_created_on>
+        <sys_id>ed4bce1c1b26285056c03153cd4bcbb9</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-21 14:48:40</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_output action="delete_multiple" query="model=294bce1c1b26285056c03153cd4bcb9c"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=294bce1c1b26285056c03153cd4bcb9c"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=294bce1c1b26285056c03153cd4bcb9c^sys_idNOT IN794bce1c1b26285056c03153cd4bcbd8"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <comment>Update Parole Date</comment>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Calculate Sentence Length">294bce1c1b26285056c03153cd4bcb9c</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-21 14:44:44</sys_created_on>
+        <sys_id>794bce1c1b26285056c03153cd4bcbd8</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-21 14:48:40</sys_updated_on>
+        <ui_id>fd66b3f2-56d2-48e2-bd05-9c0147ea1243</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=794bce1c1b26285056c03153cd4bcbd8"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>794bce1c1b26285056c03153cd4bcbd8</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-21 14:44:44</sys_created_on>
+        <sys_id>394bce1c1b26285056c03153cd4bcbda</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-21 14:44:44</sys_updated_on>
+        <value>x_snc_offmgtcsc_sentence</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>794bce1c1b26285056c03153cd4bcbd8</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-21 14:44:44</sys_created_on>
+        <sys_id>754bce1c1b26285056c03153cd4bcbda</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-21 14:44:44</sys_updated_on>
+        <value>u_parole_date=fd-scripted</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=794bce1c1b26285056c03153cd4bcbd8"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>794bce1c1b26285056c03153cd4bcbd8</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-21 14:44:44</sys_created_on>
+        <sys_id>314bce1c1b26285056c03153cd4bcbda</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-21 14:44:44</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Created or Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>794bce1c1b26285056c03153cd4bcbd8</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-21 14:44:44</sys_created_on>
+        <sys_id>7d4bce1c1b26285056c03153cd4bcbd9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-21 14:44:44</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>794bce1c1b26285056c03153cd4bcbd8</id>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-21 14:44:44</sys_created_on>
+        <sys_id>f14bce1c1b26285056c03153cd4bcbda</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-21 14:44:44</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=794bce1c1b26285056c03153cd4bcbd8^sys_idNOT IN794bce1c1b26285056c03153cd4bcbd9"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>values</input_name>
+        <instance>794bce1c1b26285056c03153cd4bcbd8</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"u_parole_date":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value.\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\nvar sentence_date \u003d fd_data.trigger.current.u_original_sentencing_date;\nvar sentence_length \u003d fd_data.trigger.current.u_sentence_length;\n\nvar parole_eligibility \u003d sentence_length * .33;\n\nparole_date \u003d setDate(sentence_date + parole_eligibility);\n\nreturn parole_date;\n","savedValue":""}}</script>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-21 14:44:44</sys_created_on>
+        <sys_id>794bce1c1b26285056c03153cd4bcbd9</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-21 14:48:40</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=794bce1c1b26285056c03153cd4bcbd8"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=294bce1c1b26285056c03153cd4bcb9c"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=294bce1c1b26285056c03153cd4bcb9c"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=294bce1c1b26285056c03153cd4bcb9c"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=294bce1c1b26285056c03153cd4bcb9c"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_294bce1c1b26285056c03153cd4bcb9c^sys_idNOT IN214bce1c1b26285056c03153cd4bcbc1,ad4bce1c1b26285056c03153cd4bcbb5,ad4bce1c1b26285056c03153cd4bcbcb"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_294bce1c1b26285056c03153cd4bcb9c</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-21 14:44:43</sys_created_on>
+        <sys_id>214bce1c1b26285056c03153cd4bcbc1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Offender Management System" source="x_snc_offmgtcsc">aad6ec1cdb392090520c0bd3e29619cc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-21 14:44:43</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_294bce1c1b26285056c03153cd4bcb9c</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-21 14:44:43</sys_created_on>
+        <sys_id>ad4bce1c1b26285056c03153cd4bcbb5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Offender Management System" source="x_snc_offmgtcsc">aad6ec1cdb392090520c0bd3e29619cc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-21 14:44:43</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_294bce1c1b26285056c03153cd4bcb9c</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-21 14:44:43</sys_created_on>
+        <sys_id>ad4bce1c1b26285056c03153cd4bcbcb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Offender Management System" source="x_snc_offmgtcsc">aad6ec1cdb392090520c0bd3e29619cc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-21 14:44:43</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_294bce1c1b26285056c03153cd4bcb9c"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_294bce1c1b26285056c03153cd4bcb9c"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_294bce1c1b26285056c03153cd4bcb9c"/>
+    <sys_hub_flow action="update">
+        <sys_id>fd68c2581b26285056c03153cd4bcbf2</sys_id>
+        <latest_snapshot>294bce1c1b26285056c03153cd4bcb9c</latest_snapshot>
+    </sys_hub_flow>
+</record_update>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="Offender Court dates" max_length="40" name="x_snc_offmgtcsc_offender_court_dates" sizeclass="2" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Court date" max_length="40" name="u_court_date" type="glide_date"/>
+        <element attributes="encode_utf8=false" label="Offender" max_length="32" name="u_offender" reference="x_snc_offmgtcsc_offender" type="reference"/>
+    </element>
+</database>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="content_block_iframe">
+    <content_block_iframe action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category>general</category>
+        <condition/>
+        <conditional>false</conditional>
+        <frame/>
+        <frame_name>My Correctional Officers II Schedule</frame_name>
+        <height>600</height>
+        <logged_on>false</logged_on>
+        <name>My Correctional Officers II Schedule</name>
+        <sizing>expand</sizing>
+        <sys_class_name>content_block_iframe</sys_class_name>
+        <sys_created_by>tony.perron</sys_created_by>
+        <sys_created_on>2021-02-23 17:41:20</sys_created_on>
+        <sys_id>3ab64585db622c50c2939709f49619d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My Correctional Officers II Schedule</sys_name>
+        <sys_package display_value="Offender Management System" source="x_snc_offmgtcsc">aad6ec1cdb392090520c0bd3e29619cc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+        <sys_update_name>content_block_iframe_3ab64585db622c50c2939709f49619d9</sys_update_name>
+        <sys_updated_by>tony.perron</sys_updated_by>
+        <sys_updated_on>2021-02-23 17:41:20</sys_updated_on>
+        <url>https://jbelote11demo.service-now.com/nav_to.do?uri=%2F$oc_workbench.do%3Fsysparm_group_id%3D2ce3efacdbee6850c2939709f49619a6%26sysparm_redirect%3D$oc_creation_wizard.do%3Fsysparm_group_id%3D2ce3efacdbee6850c2939709f49619a6</url>
+        <width>400</width>
+    </content_block_iframe>
+</record_update>

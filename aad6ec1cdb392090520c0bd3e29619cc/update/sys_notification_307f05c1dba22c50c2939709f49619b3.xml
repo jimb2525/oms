@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_notification">
+    <sys_notification action="INSERT_OR_UPDATE">
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_update>true</action_update>
+        <active>true</active>
+        <advanced_event_condition>false</advanced_event_condition>
+        <condition/>
+        <description/>
+        <event/>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_1_table>sys_user</event_parm_1_table>
+        <event_parm_2>false</event_parm_2>
+        <event_parm_2_table>sys_user</event_parm_2_table>
+        <include_originator>true</include_originator>
+        <name>Tasks Assigned to me</name>
+        <order>100</order>
+        <recipient_fields>assigned_to</recipient_fields>
+        <recipient_users>a314a7ecdbee6850c2939709f49619da,5884afecdbee6850c2939709f49619f7,3d64a9b4dbeaa850c2939709f4961923,7a8470201be2685056c03153cd4bcb60,8e05ab20db22a850c2939709f496197d,b975a360db22a850c2939709f4961920,64b5e360db22a850c2939709f49619ff,00a20becdb2e6850c2939709f4961904,8ae52f60db22a850c2939709f49619c3,88ed7c68dba26850c2939709f49619e3,c59667e0db22a850c2939709f49619c7,a8c6afa0db22a850c2939709f49619a0</recipient_users>
+        <script><![CDATA[(function runRecipientScript(/*String*/ parm1, /*String*/ parm2) {      /*      //Create instance of AdvancedNotificationRecipients to add recipients      var nr = new sn_notification.AdvancedNotificationRecipients();      var sysIds = [];      var gr = new GlideRecord('sys_user');      gr.addQuery('first_name','IN',parm1);      gr.query();      while (gr.next()) {        sysIds.push(gr.getValue('sys_id'));      }      nr.addRecipientInfo('sys_user',sysIds);      return nr;*/      })(parm1,parm2);]]></script>
+        <sys_class_name>sys_notification</sys_class_name>
+        <sys_created_by>chuck.mallard</sys_created_by>
+        <sys_created_on>2021-02-23 18:21:18</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>307f05c1dba22c50c2939709f49619b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Tasks Assigned to me</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Offender Management System" source="x_snc_offmgtcsc">aad6ec1cdb392090520c0bd3e29619cc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+        <sys_update_name>sys_notification_307f05c1dba22c50c2939709f49619b3</sys_update_name>
+        <sys_updated_by>chuck.mallard</sys_updated_by>
+        <sys_updated_on>2021-02-23 18:21:18</sys_updated_on>
+        <table>task</table>
+        <triggered_by>record_change</triggered_by>
+    </sys_notification>
+</record_update>

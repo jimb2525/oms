@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" extends="sys_user" label="Offender" max_length="40" name="x_snc_offmgtcsc_offender" sizeclass="206" text_index="true" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Additional comments" max_length="1000" name="additional_comments" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Affiliated with organized crime or gang" max_length="40" name="affiliated_with_organized_crime_or_gang" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Alias (es)" max_length="40" name="alias_es" type="string"/>
+        <element label="Band No" max_length="1000" name="band_no" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Birth Certificate" max_length="40" name="birth_certificate" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Case has attracted extensive media attention" max_length="40" name="case_has_attracted_extensive_media_attention" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Citizenship" mandatory="true" max_length="40" name="citizenship" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Canadian" value="Canadian"/>
+                <element inactive_on_update="false" label="Dual Citizenship" value="Dual Citizenship"/>
+                <element inactive_on_update="false" label="Non-Canadian" value="Non-Canadian"/>
+                <element inactive_on_update="false" label="Other Country" value="Other Country"/>
+                <element inactive_on_update="false" label="Unknown" value="Unknown"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Citizenship - Permanent residency card" max_length="40" name="citizenship_permanent_residency_card" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Concerns exist regarding incompatibles" max_length="40" name="concerns_exist_regarding_incompatibles" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Confirm all immediate needs and update immediate needs screen where required" max_length="1000" name="confirm_all_immediate_needs_and_update_immediate_needs_screen_where_required" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Confirm FPS and name of co-convicted offenders are entered" max_length="40" name="confirm_fps_and_name_of_coconvicted_offenders_are_entered" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Confirm that the name and FPS of any co-convicted offenders are entered into the" max_length="40" name="confirm_that_the_name_and_fps_of_any_co_convicted_offenders_are_entered_into_the" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Current offences involve explosives" max_length="40" name="current_offences_involve_explosives" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Current offences involve use of computer technology" max_length="40" name="current_offences_involve_use_of_computer_technology" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Date of birth" mandatory="true" max_length="40" name="date_of_birth" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Driver's License" max_length="40" name="driver_s_license" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Fingerprint sheet" max_length="40" name="fingerprint_sheet" type="file_attachment"/>
+        <element label="FPS Number" max_length="100" name="fps_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Gladue Report" max_length="40" name="gladue_repor" type="file_attachment"/>
+        <element attributes="edge_encryption_enabled=true" label="Has a history of arson/fire setting" max_length="40" name="has_a_history_of_arson_fire_setting" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Has outstanding charges" max_length="40" name="has_outstanding_charges" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="History of criminal activities" max_length="40" name="history_of_criminal_activities" type="file_attachment"/>
+        <element label="Home Language" max_length="1000" name="home_language" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Physical disability may preclude the use of certain types of force" max_length="40" name="hysical_disability_may_preclude_the_use_of_certain_types_of_force" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="* If applicable, ad the name of the community support" max_length="1000" name="if_applicable_ad_the_name_of_the_community_support" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Indian Status Card" max_length="40" name="indian_status_card" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Indicate if an initial orientation to institutional operating procedures was pro" max_length="40" name="indicate_if_an_initial_orientation_to_institutional_operating_procedures_was_pro" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Indicate if a telephone call was offered to the offender and specify the date an" max_length="1000" name="indicate_if_a_telephone_call_was_offered_to_the_offender_and_specify_the_date_an" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Indicate whether flags, needs and/or alerts were entered (where required)." max_length="1000" name="indicate_whether_flags_needs_and_or_alerts_were_entered_where_required" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Indicate whether referrals were made to address immediate needs and to whom." max_length="1000" name="indicate_whether_referrals_were_made_to_address_immediate_needs_and_to_whom" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Initial orientation provided and reason" max_length="1000" name="initial_orientation_provided_and_reason" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" label="Marital Status" max_length="40" name="marital_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Célibataire" language="fq" value="Célibataire"/>
+                <element inactive_on_update="false" label="Common law" value="Common law"/>
+                <element inactive_on_update="false" label="Conjoint de fait" language="fq" value="Conjoint de fait"/>
+                <element inactive_on_update="false" label="Divorcé (e)" language="fq" value="Divorcé (e)"/>
+                <element inactive_on_update="false" label="Divorced" value="Divorced"/>
+                <element inactive_on_update="false" label="Marié (e)" language="fq" value="Marié (e)"/>
+                <element inactive_on_update="false" label="Married" value="Married"/>
+                <element inactive_on_update="false" label="Separated" value="Separated"/>
+                <element inactive_on_update="false" label="Séparé (e)" language="fq" value="Séparé (e)"/>
+                <element inactive_on_update="false" label="Single" value="Single"/>
+                <element inactive_on_update="false" label="Statut inconnu" language="fq" value="Statut inconnu"/>
+                <element inactive_on_update="false" label="Unknown" value="Unknown"/>
+                <element inactive_on_update="false" label="Veuf (ve)" language="fq" value="Veuf (ve)"/>
+                <element inactive_on_update="false" label="Widowed" value="Widowed"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="May be gas reactant or unaffected by gas" max_length="40" name="may_be_gas_reactant_or_unaffected_by_gas" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="May be security literate" max_length="40" name="may_be_security_literate" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="May be subject to deportation" max_length="40" name="may_be_subject_to_deportation" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Metis Card" max_length="40" name="metis_card" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Need a translator" max_length="40" name="need_a_translator" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Non-Insured Health Benefits (NIHB) N-Number" max_length="40" name="non_insured_health_benefits_nihb_n_number" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Offender ID" max_length="40" name="offender_id" type="string"/>
+        <element label="Offender Location" max_length="1000" name="offender_location" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Offender's personal history," max_length="40" name="offender_s_personal_history" type="file_attachment"/>
+        <element attributes="edge_encryption_enabled=true" label="Official Documents" max_length="40" name="official_documents" type="file_attachment"/>
+        <element attributes="edge_encryption_enabled=true" label="Official Version of the offence" max_length="40" name="official_version_of_the_offence" type="file_attachment"/>
+        <element attributes="edge_encryption_enabled=true" label="Others" max_length="40" name="others" type="boolean"/>
+        <element label="Other spoken Languages" max_length="1000" name="other_spoken_languages" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Sentence Management Notes" max_length="1000" name="parole_officer_notes" type="string"/>
+        <element attributes="edge_encryption_enabled=true,serializer=com.glide.script.TranslatedTextXMLSerializer" label="Place of birth" max_length="1000" name="place_of_birth" type="translated_text"/>
+        <element attributes="edge_encryption_enabled=true" label="Post-Sentence Community Assessment" max_length="40" name="post_sentence_community_assessment" type="file_attachment"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Preferred Official Language" mandatory="true" max_length="40" name="preferred_official_language" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Anglais" language="fq" value="Anglais"/>
+                <element inactive_on_update="false" label="English" value="English"/>
+                <element inactive_on_update="false" label="Français" language="fq" value="Français"/>
+                <element inactive_on_update="false" label="French" value="French"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Previous institutional adjustment concerns exist" max_length="40" name="previous_institutional_adjustment_concerns_exist" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Protected or confidential concerns exist" max_length="40" name="protected_or_confidential_concerns_exist" type="boolean"/>
+        <element label="Race" max_length="1000" name="race" type="string"/>
+        <element label="Race Status" max_length="1000" name="race_status" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Reason" max_length="1000" name="reason" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Religion" max_length="40" name="religion" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Catholic" value="Catholic"/>
+                <element inactive_on_update="false" label="Muslim" value="Muslim"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Request Copie of the above?" max_length="40" name="request_copie_of_the_above" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Served in the Canadian Armed Forces" max_length="40" name="served_in_the_canadian_armed_forces" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Smoker" max_length="40" name="smoker" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Social Insurance number or card" max_length="40" name="social_insurance_number_or_card" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Suicide Risk" max_length="40" name="suicide_risk" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Telephone Call offered to the offender" max_length="40" name="telephone_call_offered_to_the_offender" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Telephone call refused by the offender" max_length="40" name="telephone_call_refused_by_the_offender" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="yes" label="Suicidal Risk" max_length="40" name="u_choice_1" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="no"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="email and notification" dependent="u_choice_1" dependent_on_field="u_choice_1" label="Send Psychologist Notification" max_length="40" name="u_choice_2" type="string" use_dependent_field="true">
+            <choice>
+                <element inactive_on_update="false" label="Choice 1" sequence="0" value="Choice 1"/>
+                <element inactive="true" inactive_on_update="true" label="Email and Notification" sequence="0" value="email and notification"/>
+                <element inactive_on_update="false" label="Choice 2" sequence="1" value="Choice 2"/>
+                <element inactive_on_update="false" label="Choice 3" sequence="2" value="Choice 3"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="yes" label="Suicidal Risk" max_length="40" name="u_choice_3" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="no"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;var u_sentence_length = current.getValue('u_sentence_length');&#13;&#10;&#9;var u_original_sentence_date = current.getValue('u_original_sentence_date');&#13;&#10;&#9;&#13;&#10;&#9;var gdt = new GlideDateTime(u_original_sentence_date);&#13;&#10;&#9;gdt.addDaysLocalTime(u_sentence_length * 365 * 1/3);&#13;&#10;&#9;gdt.addMonthsLocalTime(-6); // 6 months before 1/3&#13;&#10;&#9;&#13;&#10;&#9;return gdt.getValue(); // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Day Parole Eligible" max_length="40" name="u_day_parole_eligible" type="glide_date" virtual="true"/>
+        <element label="Dry Cell Placement" max_length="40" name="u_drycellplacement" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Faciltiy" max_length="32" name="u_facility" reference="x_snc_offmgtcsc_facility" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;var u_sentence_length = current.getValue('u_sentence_length');&#13;&#10;&#9;var u_original_sentence_date = current.getValue('u_original_sentence_date');&#13;&#10;&#9;&#13;&#10;&#9;var gdt = new GlideDateTime(u_original_sentence_date);&#13;&#10;&#9;gdt.addDaysLocalTime(u_sentence_length * 365 * 1/3);&#13;&#10;&#9;&#13;&#10;&#9;return gdt.getValue(); // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Full Parole Eligible" max_length="40" name="u_full_parole_eligible" type="glide_date" virtual="true"/>
+        <element active="false" attributes="edge_encryption_enabled=true" label="Date of Birtth" mandatory="true" max_length="40" name="u_glide_date_1" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" calculation="(function calculatedFieldValue(current) {&#10;&#10;&#9;// Add your code here&#10;&#9;return current.sys_id;  // return the calculated value&#10;&#10;})(current);" label="Offender 360" max_length="32" name="u_offender" reference="x_snc_offmgtcsc_offender" type="reference" virtual="true"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Offender's location" max_length="32" name="u_offender_location" reference="x_snc_offmgtcsc_facility" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Original Sentence Date" max_length="40" name="u_original_sentence_date" type="glide_date"/>
+        <element label="Sentence Length" max_length="40" name="u_sentence_length" type="float"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Sentence Type" max_length="40" name="u_sentence_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Concurrent" sequence="0" value="concurrent"/>
+                <element inactive_on_update="false" label="Consecutive" sequence="1" value="consecutive"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;var u_sentence_length = current.getValue('u_sentence_length');&#13;&#10;&#9;var u_original_sentence_date = current.getValue('u_original_sentence_date');&#13;&#10;&#9;&#13;&#10;&#9;var gdt = new GlideDateTime(u_original_sentence_date);&#13;&#10;&#9;gdt.addDaysLocalTime(u_sentence_length * 365 * 2/3);&#13;&#10;&#9;&#13;&#10;&#9;return gdt.getValue(); // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Statutory Release Date" max_length="40" name="u_statutory_release_date" type="glide_date" virtual="true"/>
+        <element label="Is Vaccinated" max_length="40" name="u_vaccinated" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;var u_sentence_length = current.getValue('u_sentence_length');&#13;&#10;&#9;var u_original_sentence_date = current.getValue('u_original_sentence_date');&#13;&#10;&#9;&#13;&#10;&#9;var gdt = new GlideDateTime(u_original_sentence_date);&#13;&#10;&#9;gdt.addDaysLocalTime(u_sentence_length * 365 * 3/3);&#13;&#10;&#9;&#13;&#10;&#9;return gdt.getValue(); // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Warrant Expiry Date" max_length="40" name="u_warrant_expiry_date" type="glide_date" virtual="true"/>
+        <element label="Victim" max_length="32" name="victim" reference="x_snc_offmgtcsc_victim" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Victim Impact Assessment" max_length="40" name="victim_impact_assessment" type="file_attachment"/>
+        <element attributes="edge_encryption_enabled=true" label="Young offender History" max_length="40" name="young_offender_history" type="file_attachment"/>
+        <index name="index">
+            <element name="u_offender"/>
+        </index>
+        <index name="index2">
+            <element name="u_offender_location"/>
+        </index>
+        <index name="index3">
+            <element name="u_facility"/>
+        </index>
+        <index name="index4">
+            <element name="victim"/>
+        </index>
+    </element>
+</database>

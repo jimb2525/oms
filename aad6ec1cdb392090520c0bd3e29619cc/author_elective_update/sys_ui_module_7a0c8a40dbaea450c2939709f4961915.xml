@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="DELETE">
+        <active>true</active>
+        <application display_value="Visit Requests">3e0c8a40dbaea450c2939709f4961912</application>
+        <filter/>
+        <name>Visit Requests</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_snc_offmgtcsc.visit_requests_user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>sam.pirner</sys_created_by>
+        <sys_created_on>2021-02-20 20:09:35</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7a0c8a40dbaea450c2939709f4961915</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Visit Requests</sys_name>
+        <sys_package display_value="Offender Management System" source="x_snc_offmgtcsc">aad6ec1cdb392090520c0bd3e29619cc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+        <sys_update_name>sys_ui_module_7a0c8a40dbaea450c2939709f4961915</sys_update_name>
+        <sys_updated_by>sam.pirner</sys_updated_by>
+        <sys_updated_on>2021-02-20 20:09:35</sys_updated_on>
+        <table>x_snc_offmgtcsc_visit_requests</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</application>
+        <file_path/>
+        <instance_id>232313afdbc62c909df22f17d4961962</instance_id>
+        <instance_name>jbelote11demo</instance_name>
+        <name>sys_ui_module_7a0c8a40dbaea450c2939709f4961915</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Visit Requests">3e0c8a40dbaea450c2939709f4961912</application><filter/><name>Visit Requests</name><order/><path/><path_relative_to_root>false</path_relative_to_root><roles>x_snc_offmgtcsc.visit_requests_user</roles><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>sam.pirner</sys_created_by><sys_created_on>2021-02-20 20:09:35</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>7a0c8a40dbaea450c2939709f4961915</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Visit Requests</sys_name><sys_package display_value="Offender Management System" source="x_snc_offmgtcsc">aad6ec1cdb392090520c0bd3e29619cc</sys_package><sys_policy/><sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope><sys_update_name>sys_ui_module_7a0c8a40dbaea450c2939709f4961915</sys_update_name><sys_updated_by>sam.pirner</sys_updated_by><sys_updated_on>2021-02-20 20:09:35</sys_updated_on><table>x_snc_offmgtcsc_visit_requests</table><uncancelable>false</uncancelable><view_name/></sys_ui_module></record_update>]]></payload>
+        <payload_hash>1048021500</payload_hash>
+        <record_name>Visit Requests</record_name>
+        <reverted_from/>
+        <source>e6ba61771bd2645056c03153cd4bcbbc</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>sam.pirner</sys_created_by>
+        <sys_created_on>2021-02-20 20:09:35</sys_created_on>
+        <sys_id>360c8a40dbaea450c2939709f4961918</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>177c10fd3f20000001</sys_recorded_at>
+        <sys_updated_by>sam.pirner</sys_updated_by>
+        <sys_updated_on>2021-02-20 20:09:35</sys_updated_on>
+        <type>Module</type>
+        <update_guid>3e0c8a403aaea4508f2e7752547d8f17</update_guid>
+        <update_guid_history>3e0c8a403aaea4508f2e7752547d8f17:1048021500</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>sam.pirner</sys_created_by>
+        <sys_created_on>2021-02-23 02:57:11</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_module">sys_ui_module</sys_db_object>
+        <sys_id>21a433feb53042289b5191f1789e9440</sys_id>
+        <sys_metadata>7a0c8a40dbaea450c2939709f4961915</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Visit Requests</sys_name>
+        <sys_package display_value="Offender Management System" source="x_snc_offmgtcsc">aad6ec1cdb392090520c0bd3e29619cc</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+        <sys_scope_delete display_value="">5bdba594b38346ec838dd36fd672ece4</sys_scope_delete>
+        <sys_update_name>sys_ui_module_7a0c8a40dbaea450c2939709f4961915</sys_update_name>
+        <sys_update_version display_value="sys_ui_module_7a0c8a40dbaea450c2939709f4961915">360c8a40dbaea450c2939709f4961918</sys_update_version>
+        <sys_updated_by>sam.pirner</sys_updated_by>
+        <sys_updated_on>2021-02-23 02:57:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -17,6 +17,7 @@
         <display_price_property>non_zero</display_price_property>
         <entitlement_script/>
         <flow_designer_flow/>
+        <fulfillment_automation_level>unspecified</fulfillment_automation_level>
         <group/>
         <hide_sp>false</hide_sp>
         <icon/>
@@ -57,7 +58,13 @@
         <request_method/>
         <roles>snc_internal</roles>
         <save_options/>
-        <save_script/>
+        <save_script><![CDATA[/**
+* This script is executed at every step save in Catalog Builder. 
+* This script is executed before `Script` is executed.
+* `current` Is the GlideRecord produced by Record Producer. 
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]></save_script>
         <sc_catalogs>c12ae414db792090520c0bd3e2961989</sc_catalogs>
         <sc_ic_item_staging/>
         <sc_ic_version/>
@@ -80,6 +87,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-02-16 23:15:34</sys_updated_on>
         <table_name>x_snc_offmgtcsc_offender_incident</table_name>
+        <taxonomy_topic/>
         <template/>
         <template_manager_roles/>
         <type>item</type>

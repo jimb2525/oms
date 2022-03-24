@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <business_calendar/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_time/>
+        <name>79fcf66987ce8950a702fc08cebb352b</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek/>
+        <run_period/>
+        <run_start>2022-03-05 14:31:33</run_start>
+        <run_time/>
+        <run_type>once</run_type>
+        <script><![CDATA[// Train NLU Model
+trainModel();
+function trainModel() {
+	var nlu = new GlideRecord('sys_nlu_model');
+	nlu.query();
+	while (nlu.next()) {
+		// Check release version and choose the appropriate script include
+		if (gs.getProperty('com.glide.embedded_help.version') == 'Paris' || gs.getProperty('com.glide.embedded_help.version') == 'Orlando') {
+			new NLUStudioUtil().trainModel(nlu.sys_id);
+			new NLUStudioUtil().publishModel(nlu.sys_id);
+		} else {
+			new NLUStudioTrainer.trainModel(nlu.sys_id);
+			new NLUStudioPublisher.publishModel(nlu.sys_id);
+		}
+	}
+}
+setVADefaultTopicsAnythingElse();
+//set general settings
+//Anything Else Topic
+function setVADefaultTopicsAnythingElse(){
+	var gr = new GlideRecord('sys_cs_context_profile_topic');
+	gr.get('07ee495353651010a813ddeeff7b12fc');
+	gr.topic = '30ade05053130010cf8cddeeff7b12f3';
+	gr.update();
+}
+setVADefaultTopicsFeedback();
+//set general settings
+//Anything Else Topic
+function setVADefaultTopicsFeedback(){
+	var gr = new GlideRecord('sys_cs_context_profile_topic');
+	gr.get('5bde495353651010a813ddeeff7b12f9');
+	gr.topic = 'b18df45853130010cf8cddeeff7b12fd';
+	gr.update();
+}
+//Update NLU settings
+setNLUGeneralSettings();
+//set general settings
+function setNLUGeneralSettings(){
+	var gr = new GlideRecord('sys_cs_general_settings');
+	gr.get('586237553b1323009cbbcea234efc42f');
+	gr.nlu_enabled = true;
+	gr.nlu_driver ='64c023c17300330021a044764df6a70e';
+	gr.auto_select_prompt_enabled_initial=false;
+	gr.auto_select_prompt_enabled_mid=false;
+	gr.update();
+}]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-05 14:31:33</sys_created_on>
+        <sys_id>d8a72f611b0a8d50b5bd2fc02a4bcb26</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>79fcf66987ce8950a702fc08cebb352b</sys_name>
+        <sys_package display_value="Offender Management System" source="x_snc_offmgtcsc">aad6ec1cdb392090520c0bd3e29619cc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+        <sys_update_name>sysauto_script_d8a72f611b0a8d50b5bd2fc02a4bcb26</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-05 14:31:33</sys_updated_on>
+        <time_zone/>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

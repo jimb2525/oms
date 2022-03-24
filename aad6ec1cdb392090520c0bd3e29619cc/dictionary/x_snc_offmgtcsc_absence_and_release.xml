@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="Absence and Release" max_length="40" name="x_snc_offmgtcsc_absence_and_release" sizeclass="1" type="collection">
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Offender" max_length="32" name="offender" reference="x_snc_offmgtcsc_offender" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Start Date" max_length="40" name="start_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Type" max_length="40" name="type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Escorted Temporary Absence" sequence="0" value="Escorted Temporary Absence"/>
+                <element inactive_on_update="false" label="Unescorted Temporary Absence" sequence="1" value="Unescorted Temporary Absence"/>
+                <element inactive_on_update="false" label="Work Release" sequence="2" value="Work Release"/>
+                <element inactive_on_update="false" label="Day Parole" sequence="3" value="Day Parole"/>
+                <element inactive_on_update="false" label="Full Parole" sequence="4" value="Full Parole"/>
+                <element inactive_on_update="false" label="Statutory Release" sequence="5" value="Statutory Release"/>
+                <element inactive_on_update="false" label="Release on Expiry of Sentence" sequence="6" value="Release on Expiry of Sentence"/>
+            </choice>
+        </element>
+    </element>
+</database>

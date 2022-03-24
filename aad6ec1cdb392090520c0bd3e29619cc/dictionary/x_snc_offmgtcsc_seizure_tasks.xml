@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="Seizure tasks" max_length="40" name="x_snc_offmgtcsc_seizure_tasks" sizeclass="7" type="collection">
+        <element attributes="encode_utf8=false" label="Facility" max_length="32" name="u_facility" reference="x_snc_offmgtcsc_facility" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Offender" max_length="32" name="u_reference_1" reference="cmdb_ci_appl_dot_net" type="reference"/>
+    </element>
+</database>

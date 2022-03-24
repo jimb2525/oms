@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="kb_uc_can_read_mtom">
+    <kb_uc_can_read_mtom action="INSERT_OR_UPDATE">
+        <kb_knowledge_base display_value="Visitor Services">75fa42b7db9a6450c2939709f4961999</kb_knowledge_base>
+        <sys_class_name>kb_uc_can_read_mtom</sys_class_name>
+        <sys_created_by>sam.pirner</sys_created_by>
+        <sys_created_on>2021-02-20 01:26:40</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3d0b82b7db9a6450c2939709f49619a3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Visitors.Users with 'snc_internal' role</sys_name>
+        <sys_package display_value="Offender Management System" source="x_snc_offmgtcsc">aad6ec1cdb392090520c0bd3e29619cc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+        <sys_update_name>kb_uc_can_read_mtom_3d0b82b7db9a6450c2939709f49619a3</sys_update_name>
+        <sys_updated_by>sam.pirner</sys_updated_by>
+        <sys_updated_on>2021-02-20 01:26:40</sys_updated_on>
+        <user_criteria display_value="Users with 'snc_internal' role">d2d2e20557130300d873ac71ef94f9aa</user_criteria>
+    </kb_uc_can_read_mtom>
+</record_update>

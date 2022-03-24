@@ -5,6 +5,8 @@
         <group_by/>
         <instance_relative_url_qc/>
         <name>Offender Management System Victim</name>
+        <offline_query_condition/>
+        <offline_query_condition_script/>
         <query_condition/>
         <query_condition_script/>
         <sys_class_name>sys_sg_data_item</sys_class_name>

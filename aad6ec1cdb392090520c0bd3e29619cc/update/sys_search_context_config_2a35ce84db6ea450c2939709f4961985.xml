@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_search_context_config">
+    <sys_search_context_config action="INSERT_OR_UPDATE">
+        <application_id display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</application_id>
+        <genius_results_limit/>
+        <hit_highlighting>false</hit_highlighting>
+        <name>Visitor Services Management Search Context Config</name>
+        <search_engine>zing</search_engine>
+        <search_profile/>
+        <search_results_limit>10</search_results_limit>
+        <spell_check>false</spell_check>
+        <suggestions_to_show_limit>10</suggestions_to_show_limit>
+        <sys_class_name>sys_search_context_config</sys_class_name>
+        <sys_created_by>sam.pirner</sys_created_by>
+        <sys_created_on>2021-02-20 19:39:48</sys_created_on>
+        <sys_id>2a35ce84db6ea450c2939709f4961985</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Visitor Services Management Search Context Config</sys_name>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+        <sys_update_name>sys_search_context_config_2a35ce84db6ea450c2939709f4961985</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-02-13 04:17:57</sys_updated_on>
+        <ts_index_group/>
+        <view/>
+    </sys_search_context_config>
+    <sys_translated_text action="delete_multiple" query="documentkey=2a35ce84db6ea450c2939709f4961985"/>
+</record_update>

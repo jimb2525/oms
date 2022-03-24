@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_aw_ribbon_component">
     <sys_aw_ribbon_component action="INSERT_OR_UPDATE">
-        <component display_value="snc-snc-process-formatter">e91042eda9ff74c5df214c400500fea4</component>
+        <component display_value="">e91042eda9ff74c5df214c400500fea4</component>
         <description/>
         <name>Process Formatter</name>
         <sys_class_name>sys_aw_ribbon_component</sys_class_name>
@@ -15,7 +15,7 @@
         <sys_update_name>sys_aw_ribbon_component_f3fd45e11b9a28108edb0d03cd4bcb80</sys_update_name>
         <sys_updated_by>james.belote</sys_updated_by>
         <sys_updated_on>2021-02-12 21:13:59</sys_updated_on>
-        <tag>snc-snc-process-formatter</tag>
+        <tag/>
     </sys_aw_ribbon_component>
     <sys_translated_text action="delete_multiple" query="documentkey=f3fd45e11b9a28108edb0d03cd4bcb80"/>
 </record_update>

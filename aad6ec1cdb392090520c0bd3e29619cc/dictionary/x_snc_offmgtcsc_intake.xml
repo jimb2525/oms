@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" extends="task" label="Intake" max_length="40" name="x_snc_offmgtcsc_intake" sizeclass="4" type="collection">
+        <element attributes="encode_utf8=false" label="Offender" max_length="32" name="u_offender" reference="x_snc_offmgtcsc_offender" type="reference"/>
+    </element>
+</database>

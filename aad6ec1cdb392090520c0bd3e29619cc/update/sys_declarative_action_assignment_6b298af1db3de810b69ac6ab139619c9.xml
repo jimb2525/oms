@@ -10,6 +10,7 @@
         <client_action/>
         <client_conditions/>
         <client_conditions_on_fields/>
+        <client_script><![CDATA[function onClick() { }]]></client_script>
         <confirmation_message/>
         <confirmation_required>false</confirmation_required>
         <create_access>false</create_access>
@@ -60,7 +61,7 @@
         <table>x_snc_offmgtcsc_offender</table>
         <tooltip/>
         <ui_component/>
-        <view display_value="Workspace" name="workspace">c2364b1610352010d152bac818665e22</view>
+        <view display_value="Workspace" name="workspace">903b5b27db062010c2939709f49619f5</view>
         <workspace display_value="Offender Management System">d8e8acdcdb392090520c0bd3e2961904</workspace>
         <write_access>false</write_access>
     </sys_declarative_action_assignment>

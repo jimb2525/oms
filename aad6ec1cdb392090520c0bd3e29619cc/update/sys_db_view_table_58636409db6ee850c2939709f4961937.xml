@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_view_table">
+    <sys_db_view_table action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <left_join>false</left_join>
+        <order>100</order>
+        <sys_class_name>sys_db_view_table</sys_class_name>
+        <sys_created_by>john.smith</sys_created_by>
+        <sys_created_on>2021-02-23 15:06:53</sys_created_on>
+        <sys_id>58636409db6ee850c2939709f4961937</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_offmgtcsc_transfer_and_placement</sys_name>
+        <sys_package display_value="Offender Management System" source="x_snc_offmgtcsc">aad6ec1cdb392090520c0bd3e29619cc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+        <sys_update_name>sys_db_view_table_58636409db6ee850c2939709f4961937</sys_update_name>
+        <sys_updated_by>john.smith</sys_updated_by>
+        <sys_updated_on>2021-02-23 15:06:53</sys_updated_on>
+        <table>x_snc_offmgtcsc_transfer_and_placement</table>
+        <variable_prefix>TRF</variable_prefix>
+        <view display_value="x_snc_offmgtcsc_my_assigned_cases">14332009db6ee850c2939709f49619a0</view>
+        <where_clause/>
+    </sys_db_view_table>
+</record_update>

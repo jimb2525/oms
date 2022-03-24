@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_aw_module">
+    <sys_aw_module action="DELETE">
+        <active>true</active>
+        <content/>
+        <content_attrs/>
+        <content_component display_value="sn-workspace-list-module">430c13c072108799d48a4d0306fd9f80</content_component>
+        <content_tag/>
+        <detail/>
+        <detail_attrs/>
+        <detail_component/>
+        <detail_tag/>
+        <hide_until_ready>false</hide_until_ready>
+        <icon>list-outline</icon>
+        <id>list</id>
+        <label>Lists</label>
+        <order>100</order>
+        <roles/>
+        <sys_class_name>sys_aw_module</sys_class_name>
+        <sys_created_by>sam.pirner</sys_created_by>
+        <sys_created_on>2021-02-20 19:39:58</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b4458e08db6ea450c2939709f49619dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>list</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Offender Management System" source="x_snc_offmgtcsc">aad6ec1cdb392090520c0bd3e29619cc</sys_package>
+        <sys_policy/>
+        <sys_props/>
+        <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+        <sys_update_name>sys_aw_module_b4458e08db6ea450c2939709f49619dd</sys_update_name>
+        <sys_updated_by>sam.pirner</sys_updated_by>
+        <sys_updated_on>2021-02-20 19:39:58</sys_updated_on>
+        <toolbar_button/>
+        <type>full</type>
+        <workspace_config display_value="Visitor Services Management">26358a08db6ea450c2939709f49619ee</workspace_config>
+    </sys_aw_module>
+    <sys_variable_value action="DELETE" query="document_key=b4458e08db6ea450c2939709f49619dd"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</application>
+        <file_path/>
+        <instance_id>232313afdbc62c909df22f17d4961962</instance_id>
+        <instance_name>jbelote11demo</instance_name>
+        <name>sys_aw_module_b4458e08db6ea450c2939709f49619dd</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_aw_module"><sys_aw_module action="INSERT_OR_UPDATE"><active>true</active><content/><content_attrs/><content_component display_value="sn-workspace-list-module">430c13c072108799d48a4d0306fd9f80</content_component><content_tag/><detail/><detail_attrs/><detail_component/><detail_tag/><hide_until_ready>false</hide_until_ready><icon>list-outline</icon><id>list</id><label>Lists</label><order>100</order><roles/><sys_class_name>sys_aw_module</sys_class_name><sys_created_by>sam.pirner</sys_created_by><sys_created_on>2021-02-20 19:39:58</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>b4458e08db6ea450c2939709f49619dd</sys_id><sys_mod_count>0</sys_mod_count><sys_name>list</sys_name><sys_overrides/><sys_package display_value="Offender Management System" source="x_snc_offmgtcsc">aad6ec1cdb392090520c0bd3e29619cc</sys_package><sys_policy/><sys_props/><sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope><sys_update_name>sys_aw_module_b4458e08db6ea450c2939709f49619dd</sys_update_name><sys_updated_by>sam.pirner</sys_updated_by><sys_updated_on>2021-02-20 19:39:58</sys_updated_on><toolbar_button/><type>full</type><workspace_config display_value="Visitor Services Management">26358a08db6ea450c2939709f49619ee</workspace_config></sys_aw_module><sys_variable_value action="delete_multiple" query="document_key=b4458e08db6ea450c2939709f49619dd"/></record_update>]]></payload>
+        <payload_hash>580342910</payload_hash>
+        <record_name>list</record_name>
+        <reverted_from/>
+        <source>e6ba61771bd2645056c03153cd4bcbbc</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>sam.pirner</sys_created_by>
+        <sys_created_on>2021-02-20 20:36:20</sys_created_on>
+        <sys_id>66229a88dbaea450c2939709f4961921</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>177c1284e990000001</sys_recorded_at>
+        <sys_updated_by>sam.pirner</sys_updated_by>
+        <sys_updated_on>2021-02-20 20:36:20</sys_updated_on>
+        <type>Workspace Module</type>
+        <update_guid>fc458e08826ea450560e37c7a428a3f0</update_guid>
+        <update_guid_history>fc458e08826ea450560e37c7a428a3f0:746960183,fc458e08826ea450560e37c7a428a3f0:746960183,fc458e08826ea450560e37c7a428a3f0:746960183</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>sam.pirner</sys_created_by>
+        <sys_created_on>2021-02-20 20:36:20</sys_created_on>
+        <sys_db_object display_value="" name="sys_aw_module">sys_aw_module</sys_db_object>
+        <sys_id>41898b50a556429597940b22fb89c461</sys_id>
+        <sys_metadata>b4458e08db6ea450c2939709f49619dd</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>list</sys_name>
+        <sys_package display_value="Offender Management System" source="x_snc_offmgtcsc">aad6ec1cdb392090520c0bd3e29619cc</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+        <sys_scope_delete display_value="">5bdba594b38346ec838dd36fd672ece4</sys_scope_delete>
+        <sys_update_name>sys_aw_module_b4458e08db6ea450c2939709f49619dd</sys_update_name>
+        <sys_update_version display_value="sys_aw_module_b4458e08db6ea450c2939709f49619dd">66229a88dbaea450c2939709f4961921</sys_update_version>
+        <sys_updated_by>sam.pirner</sys_updated_by>
+        <sys_updated_on>2021-02-20 20:36:20</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

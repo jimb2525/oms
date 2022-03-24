@@ -8,7 +8,7 @@
             <sys_id>4f8479dcdbf92010b69ac6ab13961932</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Additional Information" display_value="Additional Information" name="x_snc_offmgtcsc_investigation" sys_domain="global" view="c2364b1610352010d152bac818665e22">368439dcdbf92010b69ac6ab1396196c</sys_ui_section>
+            <sys_ui_section caption="Additional Information" display_value="Additional Information" name="x_snc_offmgtcsc_investigation" sys_domain="global" view="903b5b27db062010c2939709f49619f5">368439dcdbf92010b69ac6ab1396196c</sys_ui_section>
             <sys_updated_by>james.belote</sys_updated_by>
             <sys_updated_on>2021-01-15 06:18:19</sys_updated_on>
             <sys_user/>
@@ -22,7 +22,7 @@
             <sys_id>c38479dcdbf92010b69ac6ab13961933</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Additional Information" display_value="Additional Information" name="x_snc_offmgtcsc_investigation" sys_domain="global" view="c2364b1610352010d152bac818665e22">368439dcdbf92010b69ac6ab1396196c</sys_ui_section>
+            <sys_ui_section caption="Additional Information" display_value="Additional Information" name="x_snc_offmgtcsc_investigation" sys_domain="global" view="903b5b27db062010c2939709f49619f5">368439dcdbf92010b69ac6ab1396196c</sys_ui_section>
             <sys_updated_by>james.belote</sys_updated_by>
             <sys_updated_on>2021-01-15 06:18:19</sys_updated_on>
             <sys_user/>
@@ -36,7 +36,7 @@
             <sys_id>4b8479dcdbf92010b69ac6ab13961933</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Additional Information" display_value="Additional Information" name="x_snc_offmgtcsc_investigation" sys_domain="global" view="c2364b1610352010d152bac818665e22">368439dcdbf92010b69ac6ab1396196c</sys_ui_section>
+            <sys_ui_section caption="Additional Information" display_value="Additional Information" name="x_snc_offmgtcsc_investigation" sys_domain="global" view="903b5b27db062010c2939709f49619f5">368439dcdbf92010b69ac6ab1396196c</sys_ui_section>
             <sys_updated_by>james.belote</sys_updated_by>
             <sys_updated_on>2021-01-15 06:18:19</sys_updated_on>
             <sys_user/>
@@ -64,7 +64,7 @@
             <sys_updated_on>2021-01-15 06:18:19</sys_updated_on>
             <sys_user/>
             <title>false</title>
-            <view display_value="Workspace" name="workspace">c2364b1610352010d152bac818665e22</view>
+            <view display_value="Workspace" name="workspace">903b5b27db062010c2939709f49619f5</view>
             <view_name/>
         </sys_ui_section>
     </sys_ui_section>

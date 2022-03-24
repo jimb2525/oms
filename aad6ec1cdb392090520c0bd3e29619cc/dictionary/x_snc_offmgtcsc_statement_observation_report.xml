@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="Statement/Observation Report" max_length="40" name="x_snc_offmgtcsc_statement_observation_report" sizeclass="0" type="collection">
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Offender Incident" max_length="32" name="offender_incident" reference="x_snc_offmgtcsc_offender_incident" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="I understand that this report must be completed independently" max_length="40" name="u_acknowledgement" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Completing Officer" max_length="32" name="u_completing_officer" reference="x_snc_offmgtcsc_correctional_services_officer" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Completion Date" max_length="40" name="u_completion_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Completion Date" max_length="40" name="u_completion_date2" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Completing Operational Unit" max_length="40" name="u_cou" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Date of Observation" max_length="40" name="u_date_of_observation" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Facility" max_length="32" name="u_facility" reference="sn_wsd_core_site" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Level" max_length="40" name="u_level" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Level" max_length="40" name="u_level2" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Post" max_length="40" name="u_post" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Post" max_length="40" name="u_post2" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Protected" max_length="40" name="u_protected" type="string">
+            <choice>
+                <element inactive_on_update="false" label="A" sequence="0" value="a"/>
+                <element inactive_on_update="false" label="B" sequence="1" value="b"/>
+                <element inactive_on_update="false" label="C" sequence="2" value="c"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Region" max_length="32" name="u_region" reference="sn_wsd_core_region" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Subject" max_length="32" name="u_subject" reference="x_snc_offmgtcsc_offender" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Supervisor" max_length="32" name="u_supervisor" reference="x_snc_offmgtcsc_correctional_manager" type="reference"/>
+    </element>
+</database>

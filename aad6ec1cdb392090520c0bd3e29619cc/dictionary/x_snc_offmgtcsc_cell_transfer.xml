@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="Cell Transfer" max_length="40" name="x_snc_offmgtcsc_cell_transfer" sizeclass="0" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Bed (Unit) * if necessary" max_length="40" name="u_bed" type="string"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" default="9207ae861bdaa810487bb88cdc4bcb47" label="Cell (From)" mandatory="true" max_length="32" name="u_cell_1" reference="sn_wsd_core_space" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Cell (To)" mandatory="true" max_length="32" name="u_cell_2" reference="sn_wsd_core_space" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Dry Cell" max_length="40" name="u_dry_cell" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Provide Information and Follow Procedure on Dry Cell" max_length="40" name="u_dry_cell_2" type="string"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Facility" mandatory="true" max_length="32" name="u_facility_1" reference="x_snc_offmgtcsc_facility" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Offender" mandatory="true" max_length="32" name="u_offender_1" reference="x_snc_offmgtcsc_offender" type="reference"/>
+    </element>
+</database>

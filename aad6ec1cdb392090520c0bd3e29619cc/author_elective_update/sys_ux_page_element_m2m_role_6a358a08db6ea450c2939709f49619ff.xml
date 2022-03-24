@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_page_element_m2m_role">
+    <sys_ux_page_element_m2m_role action="DELETE">
+        <element display_value="Analytics Center Button">2e358a08db6ea450c2939709f49619f5</element>
+        <group/>
+        <role display_value="pa_viewer" name="pa_viewer">a90d30b3bf101100b96dac808c073950</role>
+        <sys_class_name>sys_ux_page_element_m2m_role</sys_class_name>
+        <sys_created_by>sam.pirner</sys_created_by>
+        <sys_created_on>2021-02-20 19:39:49</sys_created_on>
+        <sys_id>6a358a08db6ea450c2939709f49619ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Offender Management System" source="x_snc_offmgtcsc">aad6ec1cdb392090520c0bd3e29619cc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+        <sys_update_name>sys_ux_page_element_m2m_role_6a358a08db6ea450c2939709f49619ff</sys_update_name>
+        <sys_updated_by>sam.pirner</sys_updated_by>
+        <sys_updated_on>2021-02-20 19:39:49</sys_updated_on>
+    </sys_ux_page_element_m2m_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</application>
+        <file_path/>
+        <instance_id>232313afdbc62c909df22f17d4961962</instance_id>
+        <instance_name>jbelote11demo</instance_name>
+        <name>sys_ux_page_element_m2m_role_6a358a08db6ea450c2939709f49619ff</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_page_element_m2m_role"><sys_ux_page_element_m2m_role action="INSERT_OR_UPDATE"><element display_value="Analytics Center Button">2e358a08db6ea450c2939709f49619f5</element><group/><role display_value="pa_viewer" name="pa_viewer">a90d30b3bf101100b96dac808c073950</role><sys_class_name>sys_ux_page_element_m2m_role</sys_class_name><sys_created_by>sam.pirner</sys_created_by><sys_created_on>2021-02-20 19:39:49</sys_created_on><sys_id>6a358a08db6ea450c2939709f49619ff</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Offender Management System" source="x_snc_offmgtcsc">aad6ec1cdb392090520c0bd3e29619cc</sys_package><sys_policy/><sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope><sys_update_name>sys_ux_page_element_m2m_role_6a358a08db6ea450c2939709f49619ff</sys_update_name><sys_updated_by>sam.pirner</sys_updated_by><sys_updated_on>2021-02-20 19:39:49</sys_updated_on></sys_ux_page_element_m2m_role></record_update>]]></payload>
+        <payload_hash>-130569430</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>e6ba61771bd2645056c03153cd4bcbbc</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>sam.pirner</sys_created_by>
+        <sys_created_on>2021-02-20 19:39:49</sys_created_on>
+        <sys_id>6235ca08db6ea450c2939709f4961902</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>177c0f491b00000001</sys_recorded_at>
+        <sys_updated_by>sam.pirner</sys_updated_by>
+        <sys_updated_on>2021-02-20 19:39:49</sys_updated_on>
+        <type>UX Page Element Permissions</type>
+        <update_guid>6a35ca085f6ea4503f554a36190fd201</update_guid>
+        <update_guid_history>6a35ca085f6ea4503f554a36190fd201:-130569430</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>sam.pirner</sys_created_by>
+        <sys_created_on>2021-02-20 20:36:19</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_element_m2m_role">sys_ux_page_element_m2m_role</sys_db_object>
+        <sys_id>386755fe1927419a98969020aa6d0af1</sys_id>
+        <sys_metadata>6a358a08db6ea450c2939709f49619ff</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Offender Management System" source="x_snc_offmgtcsc">aad6ec1cdb392090520c0bd3e29619cc</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+        <sys_scope_delete display_value="">5bdba594b38346ec838dd36fd672ece4</sys_scope_delete>
+        <sys_update_name>sys_ux_page_element_m2m_role_6a358a08db6ea450c2939709f49619ff</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_element_m2m_role_6a358a08db6ea450c2939709f49619ff">6235ca08db6ea450c2939709f4961902</sys_update_version>
+        <sys_updated_by>sam.pirner</sys_updated_by>
+        <sys_updated_on>2021-02-20 20:36:19</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

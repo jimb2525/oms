@@ -6,7 +6,9 @@
         <default_tab_order>true</default_tab_order>
         <description/>
         <disable_section_collapse>false</disable_section_collapse>
+        <experience_restricted>true</experience_restricted>
         <hide_details>false</hide_details>
+        <hide_journal_input_fields>false</hide_journal_input_fields>
         <hide_section_menu>false</hide_section_menu>
         <name>Investigations</name>
         <order>100</order>
@@ -28,7 +30,7 @@
         <sys_updated_on>2021-01-15 05:39:47</sys_updated_on>
         <table>x_snc_offmgtcsc_offender_incident</table>
         <tabs_order>[{"label":"Details","value":"Details"}]</tabs_order>
-        <view display_value="Workspace" name="workspace">c2364b1610352010d152bac818665e22</view>
+        <view display_value="Workspace" name="workspace">903b5b27db062010c2939709f49619f5</view>
         <workspace display_value="Offender Management System">d8e8acdcdb392090520c0bd3e2961904</workspace>
     </sysrule_view_workspace>
 </record_update>

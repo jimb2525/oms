@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_aw_renderer">
     <sys_aw_renderer action="INSERT_OR_UPDATE">
         <active>true</active>
-        <custom_renderer display_value="">448be5e5b7323300c9a22fb9ee11a924</custom_renderer>
+        <custom_renderer/>
         <custom_renderer_tag/>
         <macroponent/>
         <module_flag>false</module_flag>

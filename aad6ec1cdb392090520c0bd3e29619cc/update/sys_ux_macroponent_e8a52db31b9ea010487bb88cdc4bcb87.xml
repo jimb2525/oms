@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
     <sys_ux_macroponent action="INSERT_OR_UPDATE">
         <associated_types/>
-        <category>macroponent</category>
+        <category>component</category>
         <component_dependencies/>
         <composition>[ {
   "elementId" : "container_1",
@@ -473,13 +473,13 @@
   },
   "readEvaluationMode" : "EAGER"
 } ]</data>
-        <dispatched_events>e06d3154b74020109bad2c95de11a9d6</dispatched_events>
+        <dispatched_events/>
         <events/>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
         <handled_events/>
         <interactions/>
         <interfaces/>
-        <internal_event_mappings>{ }</internal_event_mappings>
+        <internal_event_mappings/>
         <layout>{
   "default" : {
     "children" : null,
@@ -516,64 +516,12 @@
   "readOnly" : false,
   "selectable" : false
 } ]</props>
-        <required_translations>[{"message":"Create Case","comment":""},{"message":"Case Type","comment":""},{"message":"Cancel","comment":""},{"message":"Select Case Type","comment":""}]</required_translations>
+        <required_translations/>
         <root_component/>
         <root_component_config>{ }</root_component_config>
         <root_component_definition/>
         <schema_version>1.0.0</schema_version>
-        <state_properties>[ {
-  "name" : "source_table",
-  "label" : "source_table",
-  "fieldType" : "",
-  "valueType" : "",
-  "shape" : "",
-  "description" : "",
-  "initialValue" : {
-    "type" : "CONTEXT_BINDING",
-    "binding" : {
-      "address" : [ "table" ],
-      "category" : "props"
-    }
-  }
-}, {
-  "name" : "source_id",
-  "label" : "source_id",
-  "fieldType" : "",
-  "valueType" : "",
-  "shape" : "",
-  "description" : "",
-  "initialValue" : {
-    "type" : "CONTEXT_BINDING",
-    "binding" : {
-      "address" : [ "sysId" ],
-      "category" : "props"
-    }
-  }
-}, {
-  "name" : "caseTypeDefaultParams",
-  "label" : "caseTypeDefaultParams",
-  "fieldType" : "",
-  "valueType" : "",
-  "shape" : "",
-  "description" : "",
-  "initialValue" : {
-    "type" : "DATA_OUTPUT_BINDING",
-    "binding" : {
-      "address" : [ "get_default_case_type_encoded_query", "query" ]
-    }
-  }
-}, {
-  "name" : "caseTypeAdditionalParams",
-  "label" : "caseTypeAdditionalParams",
-  "fieldType" : "",
-  "valueType" : "",
-  "shape" : "",
-  "description" : "",
-  "initialValue" : {
-    "type" : "JSON_LITERAL",
-    "value" : null
-  }
-} ]</state_properties>
+        <state_properties/>
         <sys_class_name>sys_ux_macroponent</sys_class_name>
         <sys_created_by>james.belote</sys_created_by>
         <sys_created_on>2021-02-19 22:43:18</sys_created_on>

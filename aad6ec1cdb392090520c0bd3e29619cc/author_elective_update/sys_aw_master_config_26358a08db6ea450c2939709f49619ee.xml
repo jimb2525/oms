@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_aw_master_config">
+    <sys_aw_master_config action="DELETE">
+        <active>true</active>
+        <brand_color/>
+        <compiled_page display_value="Workspace Core">b70867ad0f603300bb57f4a1ff767e15</compiled_page>
+        <compiled_page_registry/>
+        <description/>
+        <global_search display_value="Default search settings">97a574ea53c0130084acddeeff7b12a6</global_search>
+        <global_search_data display_value="Visitor Services Management Search Context Config">2a35ce84db6ea450c2939709f4961985</global_search_data>
+        <hide_search_results_count>false</hide_search_results_count>
+        <name>Visitor Services Management</name>
+        <navigation_type>tab</navigation_type>
+        <notifications_enabled>true</notifications_enabled>
+        <primary_color/>
+        <search_enabled>true</search_enabled>
+        <sys_class_name>sys_aw_master_config</sys_class_name>
+        <sys_created_by>sam.pirner</sys_created_by>
+        <sys_created_on>2021-02-20 19:39:49</sys_created_on>
+        <sys_id>26358a08db6ea450c2939709f49619ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Visitor Services Management</sys_name>
+        <sys_package display_value="Offender Management System" source="x_snc_offmgtcsc">aad6ec1cdb392090520c0bd3e29619cc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+        <sys_update_name>sys_aw_master_config_26358a08db6ea450c2939709f49619ee</sys_update_name>
+        <sys_updated_by>sam.pirner</sys_updated_by>
+        <sys_updated_on>2021-02-20 19:39:49</sys_updated_on>
+        <user_preference_controls_enabled>true</user_preference_controls_enabled>
+        <workspace_logo/>
+        <workspace_url>visit</workspace_url>
+    </sys_aw_master_config>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</application>
+        <file_path/>
+        <instance_id>232313afdbc62c909df22f17d4961962</instance_id>
+        <instance_name>jbelote11demo</instance_name>
+        <name>sys_aw_master_config_26358a08db6ea450c2939709f49619ee</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_aw_master_config"><sys_aw_master_config action="INSERT_OR_UPDATE"><active>true</active><brand_color/><compiled_page display_value="Workspace Core">b70867ad0f603300bb57f4a1ff767e15</compiled_page><compiled_page_registry/><description/><global_search display_value="Default search settings">97a574ea53c0130084acddeeff7b12a6</global_search><global_search_data display_value="Visitor Services Management Search Context Config">2a35ce84db6ea450c2939709f4961985</global_search_data><hide_search_results_count>false</hide_search_results_count><name>Visitor Services Management</name><navigation_type>tab</navigation_type><notifications_enabled>true</notifications_enabled><primary_color/><search_enabled>true</search_enabled><sys_class_name>sys_aw_master_config</sys_class_name><sys_created_by>sam.pirner</sys_created_by><sys_created_on>2021-02-20 19:39:49</sys_created_on><sys_id>26358a08db6ea450c2939709f49619ee</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Visitor Services Management</sys_name><sys_package display_value="Offender Management System" source="x_snc_offmgtcsc">aad6ec1cdb392090520c0bd3e29619cc</sys_package><sys_policy/><sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope><sys_update_name>sys_aw_master_config_26358a08db6ea450c2939709f49619ee</sys_update_name><sys_updated_by>sam.pirner</sys_updated_by><sys_updated_on>2021-02-20 19:39:49</sys_updated_on><user_preference_controls_enabled>true</user_preference_controls_enabled><workspace_logo/><workspace_url>visit</workspace_url></sys_aw_master_config></record_update>]]></payload>
+        <payload_hash>-1507154370</payload_hash>
+        <record_name>Visitor Services Management</record_name>
+        <reverted_from/>
+        <source>e6ba61771bd2645056c03153cd4bcbbc</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>sam.pirner</sys_created_by>
+        <sys_created_on>2021-02-20 20:36:20</sys_created_on>
+        <sys_id>a6229a88dbaea450c2939709f496195e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>177c12850310000001</sys_recorded_at>
+        <sys_updated_by>sam.pirner</sys_updated_by>
+        <sys_updated_on>2021-02-20 20:36:20</sys_updated_on>
+        <type>Workspace</type>
+        <update_guid>ea35ca08f16ea4503f8e0a2aa0eacc0c</update_guid>
+        <update_guid_history>ea35ca08f16ea4503f8e0a2aa0eacc0c:-2037169541,ea35ca08f16ea4503f8e0a2aa0eacc0c:-2037169541</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>sam.pirner</sys_created_by>
+        <sys_created_on>2021-02-20 20:36:21</sys_created_on>
+        <sys_db_object display_value="" name="sys_aw_master_config">sys_aw_master_config</sys_db_object>
+        <sys_id>4c57cee2069e4960a8af5194af988f61</sys_id>
+        <sys_metadata>26358a08db6ea450c2939709f49619ee</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Visitor Services Management</sys_name>
+        <sys_package display_value="Offender Management System" source="x_snc_offmgtcsc">aad6ec1cdb392090520c0bd3e29619cc</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+        <sys_scope_delete display_value="">5bdba594b38346ec838dd36fd672ece4</sys_scope_delete>
+        <sys_update_name>sys_aw_master_config_26358a08db6ea450c2939709f49619ee</sys_update_name>
+        <sys_update_version display_value="sys_aw_master_config_26358a08db6ea450c2939709f49619ee">a6229a88dbaea450c2939709f496195e</sys_update_version>
+        <sys_updated_by>sam.pirner</sys_updated_by>
+        <sys_updated_on>2021-02-20 20:36:21</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

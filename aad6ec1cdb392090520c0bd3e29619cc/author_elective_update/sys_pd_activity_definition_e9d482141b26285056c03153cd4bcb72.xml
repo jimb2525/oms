@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_pd_activity_definition">
+    <sys_pd_activity_definition action="DELETE">
+        <access>public</access>
+        <active>true</active>
+        <activity_type/>
+        <badge/>
+        <category/>
+        <description/>
+        <inputs/>
+        <label>Ensure Tombstone Data is entered</label>
+        <name>ensure_tombstone_data_is_entered</name>
+        <source>53540a901b26285056c03153cd4bcba9</source>
+        <source_type>sys_hub_flow</source_type>
+        <sys_class_name>sys_pd_activity_definition</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-21 14:17:15</sys_created_on>
+        <sys_id>e9d482141b26285056c03153cd4bcb72</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Ensure Tombstone Data is entered</sys_name>
+        <sys_package display_value="Offender Management System" source="x_snc_offmgtcsc">aad6ec1cdb392090520c0bd3e29619cc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+        <sys_update_name>sys_pd_activity_definition_e9d482141b26285056c03153cd4bcb72</sys_update_name>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-21 14:17:15</sys_updated_on>
+        <system_level>false</system_level>
+        <table>x_snc_offmgtcsc_sentence</table>
+        <type_vals/>
+        <wait_for_completion>true</wait_for_completion>
+    </sys_pd_activity_definition>
+    <sys_variable_value action="DELETE" query="document_key=e9d482141b26285056c03153cd4bcb72"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</application>
+        <file_path/>
+        <instance_id>232313afdbc62c909df22f17d4961962</instance_id>
+        <instance_name>jbelote11demo</instance_name>
+        <name>sys_pd_activity_definition_e9d482141b26285056c03153cd4bcb72</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_pd_activity_definition"><sys_pd_activity_definition action="INSERT_OR_UPDATE"><access>public</access><active>true</active><activity_type/><badge/><category/><description/><inputs/><label>Ensure Tombstone Data is entered</label><name>ensure_tombstone_data_is_entered</name><source>53540a901b26285056c03153cd4bcba9</source><source_type>sys_hub_flow</source_type><sys_class_name>sys_pd_activity_definition</sys_class_name><sys_created_by>james.belote</sys_created_by><sys_created_on>2021-02-21 14:17:15</sys_created_on><sys_id>e9d482141b26285056c03153cd4bcb72</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Ensure Tombstone Data is entered</sys_name><sys_package display_value="Offender Management System" source="x_snc_offmgtcsc">aad6ec1cdb392090520c0bd3e29619cc</sys_package><sys_policy/><sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope><sys_update_name>sys_pd_activity_definition_e9d482141b26285056c03153cd4bcb72</sys_update_name><sys_updated_by>james.belote</sys_updated_by><sys_updated_on>2021-02-21 14:17:15</sys_updated_on><system_level>false</system_level><table>x_snc_offmgtcsc_sentence</table><type_vals/><wait_for_completion>true</wait_for_completion></sys_pd_activity_definition><sys_variable_value action="delete_multiple" query="document_key=e9d482141b26285056c03153cd4bcb72"/></record_update>]]></payload>
+        <payload_hash>808497741</payload_hash>
+        <record_name>Ensure Tombstone Data is entered</record_name>
+        <reverted_from/>
+        <source>e6ba61771bd2645056c03153cd4bcbbc</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-21 14:17:15</sys_created_on>
+        <sys_id>8ff406141b26285056c03153cd4bcbf5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>177c4f39a820000001</sys_recorded_at>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-21 14:17:15</sys_updated_on>
+        <type>Activity Definition</type>
+        <update_guid>87f40614e92628507667b604e21f0df5</update_guid>
+        <update_guid_history>87f40614e92628507667b604e21f0df5:808497741</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-21 14:19:13</sys_created_on>
+        <sys_db_object display_value="" name="sys_pd_activity_definition">sys_pd_activity_definition</sys_db_object>
+        <sys_id>006c03f1789f49008049237d3a3c9000</sys_id>
+        <sys_metadata>e9d482141b26285056c03153cd4bcb72</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Ensure Tombstone Data is entered</sys_name>
+        <sys_package display_value="Offender Management System" source="x_snc_offmgtcsc">aad6ec1cdb392090520c0bd3e29619cc</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+        <sys_scope_delete display_value="">5bdba594b38346ec838dd36fd672ece4</sys_scope_delete>
+        <sys_update_name>sys_pd_activity_definition_e9d482141b26285056c03153cd4bcb72</sys_update_name>
+        <sys_update_version display_value="sys_pd_activity_definition_e9d482141b26285056c03153cd4bcb72">8ff406141b26285056c03153cd4bcbf5</sys_update_version>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-21 14:19:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

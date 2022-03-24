@@ -1,0 +1,636 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update node_type="sys_portal_page" unload_date="2022-03-24 16:43:55">
+    <sys_portal_page action="INSERT_OR_UPDATE">
+        <layout/>
+        <order/>
+        <read_roles>snc_internal</read_roles>
+        <roles/>
+        <selectable>false</selectable>
+        <sys_class_name>sys_portal_page</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-02-20 18:07:30</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9210f18c1beaa45056c03153cd4bcbda</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>PA Homepage</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Offender Management System" source="x_snc_offmgtcsc">aad6ec1cdb392090520c0bd3e29619cc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+        <sys_update_name>sys_portal_page_9210f18c1beaa45056c03153cd4bcbda</sys_update_name>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-24 16:04:53</sys_updated_on>
+        <title>PA Homepage</title>
+        <user/>
+        <view>pa_parole_officer_homep_-_new_tab</view>
+        <related_items_node>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA Homepage">9210f18c1beaa45056c03153cd4bcbda</page>
+                <summary>Average Time Between Offender Request And Resolution</summary>
+                <sys_created_by>james.belote</sys_created_by>
+                <sys_created_on>2021-02-20 18:33:09</sys_created_on>
+                <sys_id>0ef5b1841b2ea45056c03153cd4bcbaf</sys_id>
+                <sys_mod_count>2</sys_mod_count>
+                <sys_updated_by>james.belote</sys_updated_by>
+                <sys_updated_on>2021-02-20 18:33:42</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>type</name>
+                        <portal_section display_value="Created 2021-02-20 10:33:09">0ef5b1841b2ea45056c03153cd4bcbaf</portal_section>
+                        <sys_created_by>james.belote</sys_created_by>
+                        <sys_created_on>2021-02-20 18:33:09</sys_created_on>
+                        <sys_id>02f5b1841b2ea45056c03153cd4bcbb2</sys_id>
+                        <sys_mod_count>1</sys_mod_count>
+                        <sys_updated_by>james.belote</sys_updated_by>
+                        <sys_updated_on>2021-02-20 18:33:42</sys_updated_on>
+                        <value>pa_widgets</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2021-02-20 10:33:09">0ef5b1841b2ea45056c03153cd4bcbaf</portal_section>
+                        <sys_created_by>james.belote</sys_created_by>
+                        <sys_created_on>2021-02-20 18:33:09</sys_created_on>
+                        <sys_id>0ef5b1841b2ea45056c03153cd4bcbb0</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>james.belote</sys_updated_by>
+                        <sys_updated_on>2021-02-20 18:33:09</sys_updated_on>
+                        <value>com.snc.pa.ui.RenderPerformanceAnalytics</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2021-02-20 10:33:09">0ef5b1841b2ea45056c03153cd4bcbaf</portal_section>
+                        <sys_created_by>james.belote</sys_created_by>
+                        <sys_created_on>2021-02-20 18:33:09</sys_created_on>
+                        <sys_id>46f5b1841b2ea45056c03153cd4bcbb1</sys_id>
+                        <sys_mod_count>1</sys_mod_count>
+                        <sys_updated_by>james.belote</sys_updated_by>
+                        <sys_updated_on>2021-02-20 18:33:42</sys_updated_on>
+                        <value>Average Time Between Offender Request And Resolution</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2021-02-20 10:33:09">0ef5b1841b2ea45056c03153cd4bcbaf</portal_section>
+                        <sys_created_by>james.belote</sys_created_by>
+                        <sys_created_on>2021-02-20 18:33:09</sys_created_on>
+                        <sys_id>82f5b1841b2ea45056c03153cd4bcbb0</sys_id>
+                        <sys_mod_count>1</sys_mod_count>
+                        <sys_updated_by>james.belote</sys_updated_by>
+                        <sys_updated_on>2021-02-20 18:33:42</sys_updated_on>
+                        <value>8bf5b1841b2ea45056c03153cd4bcb41</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>render_time</name>
+                        <portal_section display_value="Created 2021-02-20 10:33:09">0ef5b1841b2ea45056c03153cd4bcbaf</portal_section>
+                        <sys_created_by>james.belote</sys_created_by>
+                        <sys_created_on>2021-02-20 18:33:09</sys_created_on>
+                        <sys_id>82f5b1841b2ea45056c03153cd4bcbb1</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>james.belote</sys_updated_by>
+                        <sys_updated_on>2021-02-20 18:33:09</sys_updated_on>
+                        <value>0</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2021-02-20 10:33:09">0ef5b1841b2ea45056c03153cd4bcbaf</portal_section>
+                        <sys_created_by>james.belote</sys_created_by>
+                        <sys_created_on>2021-02-20 18:33:09</sys_created_on>
+                        <sys_id>cef5b1841b2ea45056c03153cd4bcbb0</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>james.belote</sys_updated_by>
+                        <sys_updated_on>2021-02-20 18:33:09</sys_updated_on>
+                        <value>pa_widget_description</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA Homepage">9210f18c1beaa45056c03153cd4bcbda</page>
+                <summary>Offender Incident - Active</summary>
+                <sys_created_by>tony.perron</sys_created_by>
+                <sys_created_on>2021-02-21 20:02:35</sys_created_on>
+                <sys_id>3d049790db2a2850c2939709f4961967</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>tony.perron</sys_updated_by>
+                <sys_updated_on>2021-02-21 20:02:35</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2021-02-21 12:02:35">3d049790db2a2850c2939709f4961967</portal_section>
+                        <sys_created_by>tony.perron</sys_created_by>
+                        <sys_created_on>2021-02-21 20:02:35</sys_created_on>
+                        <sys_id>35049790db2a2850c2939709f4961969</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>tony.perron</sys_updated_by>
+                        <sys_updated_on>2021-02-21 20:02:35</sys_updated_on>
+                        <value>bar</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2021-02-21 12:02:35">3d049790db2a2850c2939709f4961967</portal_section>
+                        <sys_created_by>tony.perron</sys_created_by>
+                        <sys_created_on>2021-02-21 20:02:35</sys_created_on>
+                        <sys_id>71049790db2a2850c2939709f4961969</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>tony.perron</sys_updated_by>
+                        <sys_updated_on>2021-02-21 20:02:35</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2021-02-21 12:02:35">3d049790db2a2850c2939709f4961967</portal_section>
+                        <sys_created_by>tony.perron</sys_created_by>
+                        <sys_created_on>2021-02-21 20:02:35</sys_created_on>
+                        <sys_id>b1049790db2a2850c2939709f4961968</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>tony.perron</sys_updated_by>
+                        <sys_updated_on>2021-02-21 20:02:35</sys_updated_on>
+                        <value>7db35f50db2a2850c2939709f49619c6</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2021-02-21 12:02:35">3d049790db2a2850c2939709f4961967</portal_section>
+                        <sys_created_by>tony.perron</sys_created_by>
+                        <sys_created_on>2021-02-21 20:02:35</sys_created_on>
+                        <sys_id>bd049790db2a2850c2939709f4961968</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>tony.perron</sys_updated_by>
+                        <sys_updated_on>2021-02-21 20:02:35</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2021-02-21 12:02:35">3d049790db2a2850c2939709f4961967</portal_section>
+                        <sys_created_by>tony.perron</sys_created_by>
+                        <sys_created_on>2021-02-21 20:02:35</sys_created_on>
+                        <sys_id>f5049790db2a2850c2939709f4961969</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>tony.perron</sys_updated_by>
+                        <sys_updated_on>2021-02-21 20:02:35</sys_updated_on>
+                        <value>Offender Incident - Active</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2021-02-21 12:02:35">3d049790db2a2850c2939709f4961967</portal_section>
+                        <sys_created_by>tony.perron</sys_created_by>
+                        <sys_created_on>2021-02-21 20:02:35</sys_created_on>
+                        <sys_id>f9049790db2a2850c2939709f4961968</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>tony.perron</sys_updated_by>
+                        <sys_updated_on>2021-02-21 20:02:35</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA Homepage">9210f18c1beaa45056c03153cd4bcbda</page>
+                <summary>Caseload Notifications (Active for 2 days)</summary>
+                <sys_created_by>tony.perron</sys_created_by>
+                <sys_created_on>2021-02-21 19:43:21</sys_created_on>
+                <sys_id>4caf87d8dbe62850c2939709f4961978</sys_id>
+                <sys_mod_count>2</sys_mod_count>
+                <sys_updated_by>tony.perron</sys_updated_by>
+                <sys_updated_on>2021-02-21 19:43:50</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2021-02-21 11:43:21">4caf87d8dbe62850c2939709f4961978</portal_section>
+                        <sys_created_by>tony.perron</sys_created_by>
+                        <sys_created_on>2021-02-21 19:43:21</sys_created_on>
+                        <sys_id>08af87d8dbe62850c2939709f4961979</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>tony.perron</sys_updated_by>
+                        <sys_updated_on>2021-02-21 19:43:21</sys_updated_on>
+                        <value>pa_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2021-02-21 11:43:21">4caf87d8dbe62850c2939709f4961978</portal_section>
+                        <sys_created_by>tony.perron</sys_created_by>
+                        <sys_created_on>2021-02-21 19:43:21</sys_created_on>
+                        <sys_id>44af87d8dbe62850c2939709f4961979</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>tony.perron</sys_updated_by>
+                        <sys_updated_on>2021-02-21 19:43:21</sys_updated_on>
+                        <value>com.snc.pa.ui.RenderPerformanceAnalytics</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2021-02-21 11:43:21">4caf87d8dbe62850c2939709f4961978</portal_section>
+                        <sys_created_by>tony.perron</sys_created_by>
+                        <sys_created_on>2021-02-21 19:43:21</sys_created_on>
+                        <sys_id>8caf87d8dbe62850c2939709f4961979</sys_id>
+                        <sys_mod_count>1</sys_mod_count>
+                        <sys_updated_by>tony.perron</sys_updated_by>
+                        <sys_updated_on>2021-02-21 19:43:50</sys_updated_on>
+                        <value>Caseload Notifications (Active for 2 days)</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>type</name>
+                        <portal_section display_value="Created 2021-02-21 11:43:21">4caf87d8dbe62850c2939709f4961978</portal_section>
+                        <sys_created_by>tony.perron</sys_created_by>
+                        <sys_created_on>2021-02-21 19:43:21</sys_created_on>
+                        <sys_id>c0af87d8dbe62850c2939709f496197a</sys_id>
+                        <sys_mod_count>1</sys_mod_count>
+                        <sys_updated_by>tony.perron</sys_updated_by>
+                        <sys_updated_on>2021-02-21 19:43:50</sys_updated_on>
+                        <value>pa_widgets</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>render_time</name>
+                        <portal_section display_value="Created 2021-02-21 11:43:21">4caf87d8dbe62850c2939709f4961978</portal_section>
+                        <sys_created_by>tony.perron</sys_created_by>
+                        <sys_created_on>2021-02-21 19:43:21</sys_created_on>
+                        <sys_id>c8af87d8dbe62850c2939709f4961979</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>tony.perron</sys_updated_by>
+                        <sys_updated_on>2021-02-21 19:43:21</sys_updated_on>
+                        <value>0</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2021-02-21 11:43:21">4caf87d8dbe62850c2939709f4961978</portal_section>
+                        <sys_created_by>tony.perron</sys_created_by>
+                        <sys_created_on>2021-02-21 19:43:21</sys_created_on>
+                        <sys_id>ccaf87d8dbe62850c2939709f4961978</sys_id>
+                        <sys_mod_count>1</sys_mod_count>
+                        <sys_updated_by>tony.perron</sys_updated_by>
+                        <sys_updated_on>2021-02-21 19:43:50</sys_updated_on>
+                        <value>34af8fd8dbe62850c2939709f4961951</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA Homepage">9210f18c1beaa45056c03153cd4bcbda</page>
+                <summary>Successful Transfers To Reduced Security</summary>
+                <sys_created_by>james.belote</sys_created_by>
+                <sys_created_on>2021-02-20 18:26:17</sys_created_on>
+                <sys_id>5964f5c01b2ea45056c03153cd4bcb81</sys_id>
+                <sys_mod_count>2</sys_mod_count>
+                <sys_updated_by>james.belote</sys_updated_by>
+                <sys_updated_on>2021-02-20 18:27:13</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2021-02-20 10:26:17">5964f5c01b2ea45056c03153cd4bcb81</portal_section>
+                        <sys_created_by>james.belote</sys_created_by>
+                        <sys_created_on>2021-02-20 18:26:17</sys_created_on>
+                        <sys_id>1d64f5c01b2ea45056c03153cd4bcb82</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>james.belote</sys_updated_by>
+                        <sys_updated_on>2021-02-20 18:26:17</sys_updated_on>
+                        <value>pa_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2021-02-20 10:26:17">5964f5c01b2ea45056c03153cd4bcb81</portal_section>
+                        <sys_created_by>james.belote</sys_created_by>
+                        <sys_created_on>2021-02-20 18:26:17</sys_created_on>
+                        <sys_id>5964f5c01b2ea45056c03153cd4bcb82</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>james.belote</sys_updated_by>
+                        <sys_updated_on>2021-02-20 18:26:17</sys_updated_on>
+                        <value>com.snc.pa.ui.RenderPerformanceAnalytics</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>type</name>
+                        <portal_section display_value="Created 2021-02-20 10:26:17">5964f5c01b2ea45056c03153cd4bcb81</portal_section>
+                        <sys_created_by>james.belote</sys_created_by>
+                        <sys_created_on>2021-02-20 18:26:17</sys_created_on>
+                        <sys_id>5d64f5c01b2ea45056c03153cd4bcb83</sys_id>
+                        <sys_mod_count>1</sys_mod_count>
+                        <sys_updated_by>james.belote</sys_updated_by>
+                        <sys_updated_on>2021-02-20 18:27:13</sys_updated_on>
+                        <value>pa_widgets</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2021-02-20 10:26:17">5964f5c01b2ea45056c03153cd4bcb81</portal_section>
+                        <sys_created_by>james.belote</sys_created_by>
+                        <sys_created_on>2021-02-20 18:26:17</sys_created_on>
+                        <sys_id>9164f5c01b2ea45056c03153cd4bcb83</sys_id>
+                        <sys_mod_count>1</sys_mod_count>
+                        <sys_updated_by>james.belote</sys_updated_by>
+                        <sys_updated_on>2021-02-20 18:27:13</sys_updated_on>
+                        <value>Successful Transfers To Reduced Security</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2021-02-20 10:26:17">5964f5c01b2ea45056c03153cd4bcb81</portal_section>
+                        <sys_created_by>james.belote</sys_created_by>
+                        <sys_created_on>2021-02-20 18:26:17</sys_created_on>
+                        <sys_id>dd64f5c01b2ea45056c03153cd4bcb81</sys_id>
+                        <sys_mod_count>1</sys_mod_count>
+                        <sys_updated_by>james.belote</sys_updated_by>
+                        <sys_updated_on>2021-02-20 18:27:13</sys_updated_on>
+                        <value>066431041b2ea45056c03153cd4bcb0c</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>render_time</name>
+                        <portal_section display_value="Created 2021-02-20 10:26:17">5964f5c01b2ea45056c03153cd4bcb81</portal_section>
+                        <sys_created_by>james.belote</sys_created_by>
+                        <sys_created_on>2021-02-20 18:26:17</sys_created_on>
+                        <sys_id>dd64f5c01b2ea45056c03153cd4bcb82</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>james.belote</sys_updated_by>
+                        <sys_updated_on>2021-02-20 18:26:17</sys_updated_on>
+                        <value>0</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA Homepage">9210f18c1beaa45056c03153cd4bcbda</page>
+                <summary>Offender Request by type</summary>
+                <sys_created_by>tony.perron</sys_created_by>
+                <sys_created_on>2021-02-21 19:04:01</sys_created_on>
+                <sys_id>84a6c79cdba62850c2939709f496197f</sys_id>
+                <sys_mod_count>2</sys_mod_count>
+                <sys_updated_by>tony.perron</sys_updated_by>
+                <sys_updated_on>2021-02-21 19:08:08</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2021-02-21 11:04:01">84a6c79cdba62850c2939709f496197f</portal_section>
+                        <sys_created_by>tony.perron</sys_created_by>
+                        <sys_created_on>2021-02-21 19:04:01</sys_created_on>
+                        <sys_id>04a6c79cdba62850c2939709f4961980</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>tony.perron</sys_updated_by>
+                        <sys_updated_on>2021-02-21 19:04:01</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2021-02-21 11:04:01">84a6c79cdba62850c2939709f496197f</portal_section>
+                        <sys_created_by>tony.perron</sys_created_by>
+                        <sys_created_on>2021-02-21 19:04:01</sys_created_on>
+                        <sys_id>08a6c79cdba62850c2939709f496197f</sys_id>
+                        <sys_mod_count>1</sys_mod_count>
+                        <sys_updated_by>tony.perron</sys_updated_by>
+                        <sys_updated_on>2021-02-21 19:08:08</sys_updated_on>
+                        <value>5c97c3dcdba62850c2939709f496191d</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2021-02-21 11:04:01">84a6c79cdba62850c2939709f496197f</portal_section>
+                        <sys_created_by>tony.perron</sys_created_by>
+                        <sys_created_on>2021-02-21 19:04:01</sys_created_on>
+                        <sys_id>40a6c79cdba62850c2939709f4961980</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>tony.perron</sys_updated_by>
+                        <sys_updated_on>2021-02-21 19:04:01</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2021-02-21 11:04:01">84a6c79cdba62850c2939709f496197f</portal_section>
+                        <sys_created_by>tony.perron</sys_created_by>
+                        <sys_created_on>2021-02-21 19:04:01</sys_created_on>
+                        <sys_id>8ca6c79cdba62850c2939709f496197f</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>tony.perron</sys_updated_by>
+                        <sys_updated_on>2021-02-21 19:04:01</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2021-02-21 11:04:01">84a6c79cdba62850c2939709f496197f</portal_section>
+                        <sys_created_by>tony.perron</sys_created_by>
+                        <sys_created_on>2021-02-21 19:04:01</sys_created_on>
+                        <sys_id>c4a6c79cdba62850c2939709f4961980</sys_id>
+                        <sys_mod_count>1</sys_mod_count>
+                        <sys_updated_by>tony.perron</sys_updated_by>
+                        <sys_updated_on>2021-02-21 19:08:08</sys_updated_on>
+                        <value>Offender Request by type</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA Homepage">9210f18c1beaa45056c03153cd4bcbda</page>
+                <summary>PO Reports Completed On Time</summary>
+                <sys_created_by>james.belote</sys_created_by>
+                <sys_created_on>2021-02-20 18:20:23</sys_created_on>
+                <sys_id>8703bd401b2ea45056c03153cd4bcb25</sys_id>
+                <sys_mod_count>2</sys_mod_count>
+                <sys_updated_by>james.belote</sys_updated_by>
+                <sys_updated_on>2021-02-20 18:21:08</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2021-02-20 10:20:23">8703bd401b2ea45056c03153cd4bcb25</portal_section>
+                        <sys_created_by>james.belote</sys_created_by>
+                        <sys_created_on>2021-02-20 18:20:23</sys_created_on>
+                        <sys_id>0f03bd401b2ea45056c03153cd4bcb26</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>james.belote</sys_updated_by>
+                        <sys_updated_on>2021-02-20 18:20:23</sys_updated_on>
+                        <value>com.snc.pa.ui.RenderPerformanceAnalytics</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2021-02-20 10:20:23">8703bd401b2ea45056c03153cd4bcb25</portal_section>
+                        <sys_created_by>james.belote</sys_created_by>
+                        <sys_created_on>2021-02-20 18:20:23</sys_created_on>
+                        <sys_id>4703bd401b2ea45056c03153cd4bcb27</sys_id>
+                        <sys_mod_count>1</sys_mod_count>
+                        <sys_updated_by>james.belote</sys_updated_by>
+                        <sys_updated_on>2021-02-20 18:21:08</sys_updated_on>
+                        <value>PO Reports Completed On Time</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>render_time</name>
+                        <portal_section display_value="Created 2021-02-20 10:20:23">8703bd401b2ea45056c03153cd4bcb25</portal_section>
+                        <sys_created_by>james.belote</sys_created_by>
+                        <sys_created_on>2021-02-20 18:20:23</sys_created_on>
+                        <sys_id>8303bd401b2ea45056c03153cd4bcb27</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>james.belote</sys_updated_by>
+                        <sys_updated_on>2021-02-20 18:20:23</sys_updated_on>
+                        <value>0</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2021-02-20 10:20:23">8703bd401b2ea45056c03153cd4bcb25</portal_section>
+                        <sys_created_by>james.belote</sys_created_by>
+                        <sys_created_on>2021-02-20 18:20:23</sys_created_on>
+                        <sys_id>8f03bd401b2ea45056c03153cd4bcb25</sys_id>
+                        <sys_mod_count>1</sys_mod_count>
+                        <sys_updated_by>james.belote</sys_updated_by>
+                        <sys_updated_on>2021-02-20 18:21:08</sys_updated_on>
+                        <value>481379801b2ea45056c03153cd4bcb02</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2021-02-20 10:20:23">8703bd401b2ea45056c03153cd4bcb25</portal_section>
+                        <sys_created_by>james.belote</sys_created_by>
+                        <sys_created_on>2021-02-20 18:20:23</sys_created_on>
+                        <sys_id>cf03bd401b2ea45056c03153cd4bcb26</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>james.belote</sys_updated_by>
+                        <sys_updated_on>2021-02-20 18:20:23</sys_updated_on>
+                        <value>pa_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>type</name>
+                        <portal_section display_value="Created 2021-02-20 10:20:23">8703bd401b2ea45056c03153cd4bcb25</portal_section>
+                        <sys_created_by>james.belote</sys_created_by>
+                        <sys_created_on>2021-02-20 18:20:23</sys_created_on>
+                        <sys_id>cf03f5801b2ea45056c03153cd4bcb94</sys_id>
+                        <sys_mod_count>1</sys_mod_count>
+                        <sys_updated_by>james.belote</sys_updated_by>
+                        <sys_updated_on>2021-02-20 18:21:08</sys_updated_on>
+                        <value>pa_widgets</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA Homepage">9210f18c1beaa45056c03153cd4bcbda</page>
+                <summary>Absences and Releases</summary>
+                <sys_created_by>chuck.mallard</sys_created_by>
+                <sys_created_on>2021-02-23 20:57:59</sys_created_on>
+                <sys_id>f8e3f181db662c50c2939709f49619ed</sys_id>
+                <sys_mod_count>2</sys_mod_count>
+                <sys_updated_by>chuck.mallard</sys_updated_by>
+                <sys_updated_on>2021-02-23 20:58:56</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2021-02-23 12:57:59">f8e3f181db662c50c2939709f49619ed</portal_section>
+                        <sys_created_by>chuck.mallard</sys_created_by>
+                        <sys_created_on>2021-02-23 20:57:59</sys_created_on>
+                        <sys_id>38e3f1c1db662c50c2939709f49619b9</sys_id>
+                        <sys_mod_count>1</sys_mod_count>
+                        <sys_updated_by>chuck.mallard</sys_updated_by>
+                        <sys_updated_on>2021-02-23 20:58:56</sys_updated_on>
+                        <value>Absences and Releases</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2021-02-23 12:57:59">f8e3f181db662c50c2939709f49619ed</portal_section>
+                        <sys_created_by>chuck.mallard</sys_created_by>
+                        <sys_created_on>2021-02-23 20:57:59</sys_created_on>
+                        <sys_id>70e3f181db662c50c2939709f49619ee</sys_id>
+                        <sys_mod_count>1</sys_mod_count>
+                        <sys_updated_by>chuck.mallard</sys_updated_by>
+                        <sys_updated_on>2021-02-23 20:58:56</sys_updated_on>
+                        <value>721471c1db662c50c2939709f49619f6</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2021-02-23 12:57:59">f8e3f181db662c50c2939709f49619ed</portal_section>
+                        <sys_created_by>chuck.mallard</sys_created_by>
+                        <sys_created_on>2021-02-23 20:57:59</sys_created_on>
+                        <sys_id>74e3f1c1db662c50c2939709f49619b9</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>chuck.mallard</sys_updated_by>
+                        <sys_updated_on>2021-02-23 20:57:59</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2021-02-23 12:57:59">f8e3f181db662c50c2939709f49619ed</portal_section>
+                        <sys_created_by>chuck.mallard</sys_created_by>
+                        <sys_created_on>2021-02-23 20:57:59</sys_created_on>
+                        <sys_id>b0e3f1c1db662c50c2939709f49619b9</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>chuck.mallard</sys_updated_by>
+                        <sys_updated_on>2021-02-23 20:57:59</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2021-02-23 12:57:59">f8e3f181db662c50c2939709f49619ed</portal_section>
+                        <sys_created_by>chuck.mallard</sys_created_by>
+                        <sys_created_on>2021-02-23 20:57:59</sys_created_on>
+                        <sys_id>fce3f1c1db662c50c2939709f49619b8</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>chuck.mallard</sys_updated_by>
+                        <sys_updated_on>2021-02-23 20:57:59</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA Homepage">9210f18c1beaa45056c03153cd4bcbda</page>
+                <summary>My Open Cases</summary>
+                <sys_created_by>tony.perron</sys_created_by>
+                <sys_created_on>2021-02-23 17:07:06</sys_created_on>
+                <sys_id>fe0f3849db222c50c2939709f4961944</sys_id>
+                <sys_mod_count>2</sys_mod_count>
+                <sys_updated_by>tony.perron</sys_updated_by>
+                <sys_updated_on>2021-02-23 17:09:35</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2021-02-23 09:07:06">fe0f3849db222c50c2939709f4961944</portal_section>
+                        <sys_created_by>tony.perron</sys_created_by>
+                        <sys_created_on>2021-02-23 17:07:06</sys_created_on>
+                        <sys_id>320f3849db222c50c2939709f4961946</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>tony.perron</sys_updated_by>
+                        <sys_updated_on>2021-02-23 17:07:06</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2021-02-23 09:07:06">fe0f3849db222c50c2939709f4961944</portal_section>
+                        <sys_created_by>tony.perron</sys_created_by>
+                        <sys_created_on>2021-02-23 17:07:06</sys_created_on>
+                        <sys_id>760f3849db222c50c2939709f4961945</sys_id>
+                        <sys_mod_count>1</sys_mod_count>
+                        <sys_updated_by>tony.perron</sys_updated_by>
+                        <sys_updated_on>2021-02-23 17:09:35</sys_updated_on>
+                        <value>039fbc49db222c50c2939709f496197a</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2021-02-23 09:07:06">fe0f3849db222c50c2939709f4961944</portal_section>
+                        <sys_created_by>tony.perron</sys_created_by>
+                        <sys_created_on>2021-02-23 17:07:06</sys_created_on>
+                        <sys_id>7a0f3849db222c50c2939709f4961946</sys_id>
+                        <sys_mod_count>1</sys_mod_count>
+                        <sys_updated_by>tony.perron</sys_updated_by>
+                        <sys_updated_on>2021-02-23 17:09:35</sys_updated_on>
+                        <value>My Open Cases</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2021-02-23 09:07:06">fe0f3849db222c50c2939709f4961944</portal_section>
+                        <sys_created_by>tony.perron</sys_created_by>
+                        <sys_created_on>2021-02-23 17:07:06</sys_created_on>
+                        <sys_id>b60f3849db222c50c2939709f4961946</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>tony.perron</sys_updated_by>
+                        <sys_updated_on>2021-02-23 17:07:06</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2021-02-23 09:07:06">fe0f3849db222c50c2939709f4961944</portal_section>
+                        <sys_created_by>tony.perron</sys_created_by>
+                        <sys_created_on>2021-02-23 17:07:06</sys_created_on>
+                        <sys_id>f20f3849db222c50c2939709f4961946</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>tony.perron</sys_updated_by>
+                        <sys_updated_on>2021-02-23 17:07:06</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+        </related_items_node>
+    </sys_portal_page>
+</record_update>

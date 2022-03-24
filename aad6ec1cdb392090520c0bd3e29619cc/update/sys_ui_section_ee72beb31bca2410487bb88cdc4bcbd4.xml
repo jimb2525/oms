@@ -8,7 +8,7 @@
             <sys_id>1c23f6f31bca2410487bb88cdc4bcb78</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="New Section" display_value="New Section" name="x_snc_offmgtcsc_offense" sys_domain="global" view="c2364b1610352010d152bac818665e22">ee72beb31bca2410487bb88cdc4bcbd4</sys_ui_section>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_snc_offmgtcsc_offense" sys_domain="global" view="903b5b27db062010c2939709f49619f5">ee72beb31bca2410487bb88cdc4bcbd4</sys_ui_section>
             <sys_updated_by>tony.perron</sys_updated_by>
             <sys_updated_on>2021-02-07 18:06:11</sys_updated_on>
             <sys_user/>
@@ -22,7 +22,7 @@
             <sys_id>9023f6f31bca2410487bb88cdc4bcb79</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter display_value="Activities (filtered)">444ea5c6bf310100e628555b3f0739d6</sys_ui_formatter>
-            <sys_ui_section caption="New Section" display_value="New Section" name="x_snc_offmgtcsc_offense" sys_domain="global" view="c2364b1610352010d152bac818665e22">ee72beb31bca2410487bb88cdc4bcbd4</sys_ui_section>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_snc_offmgtcsc_offense" sys_domain="global" view="903b5b27db062010c2939709f49619f5">ee72beb31bca2410487bb88cdc4bcbd4</sys_ui_section>
             <sys_updated_by>tony.perron</sys_updated_by>
             <sys_updated_on>2021-02-07 18:06:11</sys_updated_on>
             <sys_user/>
@@ -36,7 +36,7 @@
             <sys_id>d823f6f31bca2410487bb88cdc4bcb79</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="New Section" display_value="New Section" name="x_snc_offmgtcsc_offense" sys_domain="global" view="c2364b1610352010d152bac818665e22">ee72beb31bca2410487bb88cdc4bcbd4</sys_ui_section>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_snc_offmgtcsc_offense" sys_domain="global" view="903b5b27db062010c2939709f49619f5">ee72beb31bca2410487bb88cdc4bcbd4</sys_ui_section>
             <sys_updated_by>tony.perron</sys_updated_by>
             <sys_updated_on>2021-02-07 18:06:11</sys_updated_on>
             <sys_user/>
@@ -64,7 +64,7 @@
             <sys_updated_on>2021-02-07 18:03:20</sys_updated_on>
             <sys_user/>
             <title>false</title>
-            <view display_value="Workspace" name="workspace">c2364b1610352010d152bac818665e22</view>
+            <view display_value="Workspace" name="workspace">903b5b27db062010c2939709f49619f5</view>
             <view_name/>
         </sys_ui_section>
     </sys_ui_section>

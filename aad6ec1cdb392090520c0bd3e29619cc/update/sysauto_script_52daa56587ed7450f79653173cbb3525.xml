@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <business_calendar/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_time/>
+        <name>13c9ed2187ed7450f79653173cbb35ab</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek/>
+        <run_period/>
+        <run_start>2021-07-24 12:43:48</run_start>
+        <run_time/>
+        <run_type>once</run_type>
+        <script><![CDATA[var queue = new GlideRecord('x_snc_demohub_app_install_queue');
+queue.addEncodedQuery('parent=NULL^state=Queued');
+queue.query();
+
+
+
+var gr = new GlideRecord('x_snc_demohub_app_configuration');
+gr.addEncodedQuery('state!=Installed');
+gr.query();
+gr.deleteMultiple();
+var gr1 = new GlideRecord('x_snc_demohub_app_narrative');
+gr1.query();
+gr1.deleteMultiple();
+new x_snc_demohub_app.server().updateWillInstallConfigurationSysID();
+new x_snc_demohub_app.server().POSTCheckin();
+new x_snc_demohub_app.server().GETDemoHubApp();
+new x_snc_demohub_app.server().GETConfigurationList();
+new x_snc_demohub_app.server().GETNarrativeList();
+new x_snc_demohub_app.install().checkNode();
+new x_snc_demohub_app.server().GETConfigurationList();
+new x_snc_demohub_app.server().GETNarrativeList();
+new x_snc_demohub_app.server().updateWillInstallConfiguration();
+
+while (queue.next()){
+	
+	new x_snc_demohub_app.installQueue().addConfiguration(queue.sys_id,'',queue.title);
+	queue.state='Error';
+	queue.update();
+	
+}]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-24 12:43:48</sys_created_on>
+        <sys_id>52daa56587ed7450f79653173cbb3525</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>13c9ed2187ed7450f79653173cbb35ab</sys_name>
+        <sys_package display_value="Offender Management System" source="x_snc_offmgtcsc">aad6ec1cdb392090520c0bd3e29619cc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+        <sys_update_name>sysauto_script_52daa56587ed7450f79653173cbb3525</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-24 12:43:48</sys_updated_on>
+        <time_zone/>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

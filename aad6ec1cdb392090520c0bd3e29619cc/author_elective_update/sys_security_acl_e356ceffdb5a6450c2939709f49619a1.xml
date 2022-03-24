@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description>Default access control on x_snc_offmgtcsc_visitor</description>
+        <name>x_snc_offmgtcsc_visitor</name>
+        <operation display_value="delete">delete</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>sam.pirner</sys_created_by>
+        <sys_created_on>2021-02-20 01:06:19</sys_created_on>
+        <sys_id>e356ceffdb5a6450c2939709f49619a1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_offmgtcsc_visitor</sys_name>
+        <sys_package display_value="Offender Management System" source="x_snc_offmgtcsc">aad6ec1cdb392090520c0bd3e29619cc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+        <sys_update_name>sys_security_acl_e356ceffdb5a6450c2939709f49619a1</sys_update_name>
+        <sys_updated_by>sam.pirner</sys_updated_by>
+        <sys_updated_on>2021-02-20 01:06:19</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</application>
+        <file_path/>
+        <instance_id>232313afdbc62c909df22f17d4961962</instance_id>
+        <instance_name>jbelote11demo</instance_name>
+        <name>sys_security_acl_e356ceffdb5a6450c2939709f49619a1</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on x_snc_offmgtcsc_visitor</description><name>x_snc_offmgtcsc_visitor</name><operation display_value="delete">delete</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>sam.pirner</sys_created_by><sys_created_on>2021-02-20 01:06:19</sys_created_on><sys_id>e356ceffdb5a6450c2939709f49619a1</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_snc_offmgtcsc_visitor</sys_name><sys_package display_value="Offender Management System" source="x_snc_offmgtcsc">aad6ec1cdb392090520c0bd3e29619cc</sys_package><sys_policy/><sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope><sys_update_name>sys_security_acl_e356ceffdb5a6450c2939709f49619a1</sys_update_name><sys_updated_by>sam.pirner</sys_updated_by><sys_updated_on>2021-02-20 01:06:19</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>-824896428</payload_hash>
+        <record_name>x_snc_offmgtcsc_visitor</record_name>
+        <reverted_from/>
+        <source>e6ba61771bd2645056c03153cd4bcbbc</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>sam.pirner</sys_created_by>
+        <sys_created_on>2021-02-20 01:06:19</sys_created_on>
+        <sys_id>eb56ceffdb5a6450c2939709f49619a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>177bcf91ff70000001</sys_recorded_at>
+        <sys_updated_by>sam.pirner</sys_updated_by>
+        <sys_updated_on>2021-02-20 01:06:19</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>e356ceff175a64505705b22bbed217a5</update_guid>
+        <update_guid_history>e356ceff175a64505705b22bbed217a5:-824896428</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>sam.pirner</sys_created_by>
+        <sys_created_on>2021-02-23 02:56:47</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>68304fb482ce4ee78d7b3333cd409a39</sys_id>
+        <sys_metadata>e356ceffdb5a6450c2939709f49619a1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_offmgtcsc_visitor</sys_name>
+        <sys_package display_value="Offender Management System" source="x_snc_offmgtcsc">aad6ec1cdb392090520c0bd3e29619cc</sys_package>
+        <sys_parent display_value="">2b56ceffdb5a6450c2939709f49619aa</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+        <sys_scope_delete display_value="">5bdba594b38346ec838dd36fd672ece4</sys_scope_delete>
+        <sys_update_name>sys_security_acl_e356ceffdb5a6450c2939709f49619a1</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_e356ceffdb5a6450c2939709f49619a1">eb56ceffdb5a6450c2939709f49619a5</sys_update_version>
+        <sys_updated_by>sam.pirner</sys_updated_by>
+        <sys_updated_on>2021-02-23 02:56:47</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

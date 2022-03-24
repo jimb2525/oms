@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_user" label="Social Program Officers" max_length="40" name="x_snc_offmgtcsc_social_program_officers" sizeclass="0" text_index="true" type="collection"/>
+</database>

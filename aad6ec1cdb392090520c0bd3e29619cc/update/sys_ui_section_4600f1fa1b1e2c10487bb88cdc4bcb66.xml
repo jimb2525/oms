@@ -19,7 +19,7 @@
             <sys_id>d600f1fa1b1e2c10487bb88cdc4bcbe0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Music Instrument" display_value="Music Instrument" name="x_snc_offmgtcsc_personal_property_of_offenders" sys_domain="global" view="c2364b1610352010d152bac818665e22">4600f1fa1b1e2c10487bb88cdc4bcb66</sys_ui_section>
+            <sys_ui_section caption="Music Instrument" display_value="Music Instrument" name="x_snc_offmgtcsc_personal_property_of_offenders" sys_domain="global" view="903b5b27db062010c2939709f49619f5">4600f1fa1b1e2c10487bb88cdc4bcb66</sys_ui_section>
             <sys_updated_by>tony.perron</sys_updated_by>
             <sys_updated_on>2021-02-16 20:54:49</sys_updated_on>
             <sys_user/>
@@ -33,7 +33,7 @@
             <sys_id>5e00f1fa1b1e2c10487bb88cdc4bcbe0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Music Instrument" display_value="Music Instrument" name="x_snc_offmgtcsc_personal_property_of_offenders" sys_domain="global" view="c2364b1610352010d152bac818665e22">4600f1fa1b1e2c10487bb88cdc4bcb66</sys_ui_section>
+            <sys_ui_section caption="Music Instrument" display_value="Music Instrument" name="x_snc_offmgtcsc_personal_property_of_offenders" sys_domain="global" view="903b5b27db062010c2939709f49619f5">4600f1fa1b1e2c10487bb88cdc4bcb66</sys_ui_section>
             <sys_updated_by>tony.perron</sys_updated_by>
             <sys_updated_on>2021-02-16 20:54:49</sys_updated_on>
             <sys_user/>
@@ -47,7 +47,7 @@
             <sys_id>d200f1fa1b1e2c10487bb88cdc4bcbe1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Music Instrument" display_value="Music Instrument" name="x_snc_offmgtcsc_personal_property_of_offenders" sys_domain="global" view="c2364b1610352010d152bac818665e22">4600f1fa1b1e2c10487bb88cdc4bcb66</sys_ui_section>
+            <sys_ui_section caption="Music Instrument" display_value="Music Instrument" name="x_snc_offmgtcsc_personal_property_of_offenders" sys_domain="global" view="903b5b27db062010c2939709f49619f5">4600f1fa1b1e2c10487bb88cdc4bcb66</sys_ui_section>
             <sys_updated_by>tony.perron</sys_updated_by>
             <sys_updated_on>2021-02-16 20:54:49</sys_updated_on>
             <sys_user/>
@@ -75,7 +75,7 @@
             <sys_updated_on>2021-02-16 20:54:48</sys_updated_on>
             <sys_user/>
             <title>false</title>
-            <view display_value="Workspace" name="workspace">c2364b1610352010d152bac818665e22</view>
+            <view display_value="Workspace" name="workspace">903b5b27db062010c2939709f49619f5</view>
             <view_name/>
         </sys_ui_section>
     </sys_ui_section>

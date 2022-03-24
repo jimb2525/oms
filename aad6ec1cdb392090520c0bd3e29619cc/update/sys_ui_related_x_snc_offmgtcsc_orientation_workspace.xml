@@ -2,7 +2,7 @@
     <sys_ui_related sys_domain="global" table="x_snc_offmgtcsc_orientation" version="2" view="workspace">
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="Orientation - Workspace" name="x_snc_offmgtcsc_orientation" related_list="NULL" sys_domain="global" view="c2364b1610352010d152bac818665e22">0aa158481b5ee0108edb0d03cd4bcb44</list_id>
+            <list_id display_value="Orientation - Workspace" name="x_snc_offmgtcsc_orientation" related_list="NULL" sys_domain="global" view="903b5b27db062010c2939709f49619f5">0aa158481b5ee0108edb0d03cd4bcb44</list_id>
             <order_by/>
             <position>0</position>
             <related_list>x_snc_offmgtcsc_orientation_task.parent</related_list>
@@ -36,7 +36,7 @@
             <sys_updated_by>james.belote</sys_updated_by>
             <sys_updated_on>2021-02-08 00:59:11</sys_updated_on>
             <sys_user/>
-            <view display_value="Workspace" name="workspace">c2364b1610352010d152bac818665e22</view>
+            <view display_value="Workspace" name="workspace">903b5b27db062010c2939709f49619f5</view>
             <view_name/>
         </sys_ui_related_list>
     </sys_ui_related>

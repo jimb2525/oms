@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
     <sys_ux_macroponent action="INSERT_OR_UPDATE">
         <associated_types/>
-        <category>macroponent</category>
+        <category>component</category>
         <component_dependencies/>
         <composition>[ {
   "elementId" : "label_value_1",
@@ -1610,13 +1610,13 @@
   },
   "readEvaluationMode" : "EAGER"
 } ]</data>
-        <dispatched_events>7016cf8c87331010ab038467a7cb0bb9</dispatched_events>
+        <dispatched_events/>
         <events/>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
         <handled_events/>
         <interactions/>
         <interfaces/>
-        <internal_event_mappings>{ }</internal_event_mappings>
+        <internal_event_mappings/>
         <layout>{
   "default" : {
     "children" : null,
@@ -1653,86 +1653,12 @@
   "readOnly" : false,
   "selectable" : false
 } ]</props>
-        <required_translations>[{"message":"Category","comment":""},{"message":"Case type","comment":""},{"message":"Create Case","comment":""},{"message":"Select a Case Type. To narrow the available choices in the Case Type list, you can optionally select a Category.","comment":""},{"message":"null","comment":""},{"message":"Cancel","comment":""},{"message":"What type of case would you like to create?","comment":""},{"message":"*","comment":""},{"message":"Select Case Type","comment":""},{"message":"Enter a label","comment":""}]</required_translations>
+        <required_translations/>
         <root_component/>
         <root_component_config>{ }</root_component_config>
         <root_component_definition/>
         <schema_version>1.0.0</schema_version>
-        <state_properties>[ {
-  "name" : "source_table",
-  "label" : "source_table",
-  "fieldType" : "string",
-  "valueType" : "string",
-  "shape" : "",
-  "description" : "",
-  "initialValue" : {
-    "type" : "CONTEXT_BINDING",
-    "binding" : {
-      "address" : [ "table" ],
-      "category" : "props"
-    }
-  }
-}, {
-  "name" : "source_id",
-  "label" : "source_id",
-  "fieldType" : "string",
-  "valueType" : "string",
-  "shape" : "",
-  "description" : "",
-  "initialValue" : {
-    "type" : "CONTEXT_BINDING",
-    "binding" : {
-      "address" : [ "sysId" ],
-      "category" : "props"
-    }
-  }
-}, {
-  "name" : "category",
-  "label" : "category",
-  "fieldType" : "string",
-  "valueType" : "string",
-  "shape" : "",
-  "description" : "",
-  "initialValue" : {
-    "type" : "JSON_LITERAL",
-    "value" : "0"
-  }
-}, {
-  "name" : "caseTypeTable",
-  "label" : "caseTypeTable",
-  "fieldType" : "string",
-  "valueType" : "string",
-  "shape" : "",
-  "description" : "",
-  "initialValue" : {
-    "type" : "JSON_LITERAL",
-    "value" : ""
-  }
-}, {
-  "name" : "caseTypeDefaultParams",
-  "label" : "caseTypeDefaultParams",
-  "fieldType" : "string",
-  "valueType" : "string",
-  "shape" : "",
-  "description" : "",
-  "initialValue" : {
-    "type" : "DATA_OUTPUT_BINDING",
-    "binding" : {
-      "address" : [ "get_default_case_type_encoded_query", "query" ]
-    }
-  }
-}, {
-  "name" : "caseTypeAdditionalParams",
-  "label" : "caseTypeAdditionalParams",
-  "fieldType" : "string",
-  "valueType" : "string",
-  "shape" : "",
-  "description" : "",
-  "initialValue" : {
-    "type" : "JSON_LITERAL",
-    "value" : null
-  }
-} ]</state_properties>
+        <state_properties/>
         <sys_class_name>sys_ux_macroponent</sys_class_name>
         <sys_created_by>james.belote</sys_created_by>
         <sys_created_on>2021-02-19 22:43:16</sys_created_on>

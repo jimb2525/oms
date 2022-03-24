@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="Parole hearing" max_length="40" name="x_snc_offmgtcsc_parole_hearing" sizeclass="1" type="collection">
+        <element label="Institution" max_length="32" name="institution" reference="sn_wsd_core_building" type="reference"/>
+        <element label="Offender" max_length="32" name="offender" reference="x_snc_offmgtcsc_offender" type="reference"/>
+        <element label="Parole hearing date" max_length="40" name="parole_hearing_date" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="victim" label="Attend as" max_length="40" name="u_attend_as" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Offender support" sequence="0" value="offender support"/>
+                <element inactive_on_update="false" label="Media" sequence="1" value="media"/>
+                <element inactive_on_update="false" label="Victim" sequence="2" value="victim"/>
+                <element inactive_on_update="false" label="Student" sequence="3" value="student"/>
+                <element inactive_on_update="false" label="Victim support" sequence="4" value="victim support"/>
+                <element inactive_on_update="false" label="Other" sequence="5" value="other"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="observe only" label="Registered victim activity" max_length="40" name="u_reg_vic_act" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Observe ONLY" sequence="0" value="observe only"/>
+                <element inactive_on_update="false" label="Observe and read" sequence="1" value="observe and read"/>
+                <element inactive_on_update="false" label="Observe and support reads" sequence="2" value="observe and support reads"/>
+                <element inactive_on_update="false" label="Observe and present on recording" sequence="3" value="observe and present on recording"/>
+            </choice>
+        </element>
+        <element label="Victim" max_length="32" name="victim" reference="x_snc_offmgtcsc_victim" type="reference"/>
+    </element>
+</database>

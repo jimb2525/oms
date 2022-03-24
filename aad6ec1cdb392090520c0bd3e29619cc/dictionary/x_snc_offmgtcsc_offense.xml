@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" extends="task" label="Offense" max_length="40" name="x_snc_offmgtcsc_offense" sizeclass="1" type="collection">
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Offender" max_length="32" name="offender" reference="x_snc_offmgtcsc_offender" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Date of Sentencing" max_length="40" name="u_calendar_date_time_4" type="calendar_date_time"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" dependent="u_offense_type" dependent_on_field="u_offense_type" label="Charge" max_length="40" name="u_charge" type="string" use_dependent_field="true">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" choice_field="u_offense_type" dependent="u_offense_type" dependent_on_field="u_offense_type" label="Type of Charge" max_length="40" name="u_charges_type" type="string" use_dependent_field="true">
+            <choice>
+                <element dependent_value="administration of justice" inactive_on_update="false" label="Breach of probation" value="Breach of probation"/>
+                <element dependent_value="crimes against property" inactive_on_update="false" label="Break and Enter" value="Break and Enter"/>
+                <element dependent_value="crimes against the person" inactive_on_update="false" label="Common Assault (Level 1)" value="Common Aussault"/>
+                <element dependent_value="crimes against the person" inactive_on_update="false" label="Criminal Harrassement" value="criminal harrassment"/>
+                <element dependent_value="other criminal code" inactive_on_update="false" label="Disturbing the Peace" value="Disturbing the Peace"/>
+                <element dependent_value="other federal statutes" inactive_on_update="false" label="Drug Possession" value="Drug Possession"/>
+                <element dependent_value="administration of justice" inactive_on_update="false" label="Fail to Comply with Order" value="Fail to Comply with Order"/>
+                <element dependent_value="crimes against property" inactive_on_update="false" label="Fraud" value="Fraud"/>
+                <element dependent_value="criminal code traffic" inactive_on_update="false" label="Impaired Driving" value="Impaired Driving"/>
+                <element dependent_value="administration of justice" inactive_on_update="false" label="Other Admins. Justice" value="Other Admins. Justice"/>
+                <element dependent_value="criminal code traffic" inactive_on_update="false" label="Other CC Traffic" value="Other CC Traffic"/>
+                <element dependent_value="crimes against the person" inactive_on_update="false" label="Other Crimes Against Persons" value="Other Crimes Against Persons"/>
+                <element dependent_value="other federal statutes" inactive_on_update="false" label="Other Drug Offences" value="Other Drug Offences"/>
+                <element dependent_value="crimes against property" inactive_on_update="false" label="Other Property Crimes" value="Other Property Crimes"/>
+                <element dependent_value="crimes against property" inactive_on_update="false" label="Property Theft" value="Property Theft"/>
+                <element dependent_value="other criminal code" inactive_on_update="false" label="Prostitution" value="Prostitution"/>
+                <element dependent_value="other criminal code" inactive_on_update="false" label="Residual Criminal Code" value="Residual Criminal Code"/>
+                <element dependent_value="other federal statutes" inactive_on_update="false" label="Residual Federal Statutes" value="Residual Federal Statutes"/>
+                <element dependent_value="crimes against the person" inactive_on_update="false" label="Uttering Threats" value="uttering threats"/>
+                <element dependent_value="other criminal code" inactive_on_update="false" label="Weapons" value="Weapons"/>
+                <element dependent_value="crimes against the person" inactive_on_update="false" label="Homicide and Related" sequence="0" value="Homicide and Related"/>
+                <element dependent_value="crimes against the person" inactive_on_update="false" label="Attempted Murder" sequence="1" value="Attempted Murder"/>
+                <element dependent_value="crimes against the person" inactive_on_update="false" label="Robbery" sequence="2" value="Robbery"/>
+                <element dependent_value="crimes against the person" inactive_on_update="false" label="Sexual assault" sequence="3" value="sexual assault"/>
+                <element dependent_value="crimes against the person" inactive_on_update="false" label="Other Sexual Offences" sequence="4" value="other sexual offences"/>
+                <element dependent_value="crimes against the person" inactive_on_update="false" label="Major Assault (levels 2 &amp; 3)" sequence="5" value="major assault (levels 2 &amp; 3)"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" dependent="u_offense_type" dependent_on_field="u_offense_type" label="Choice" max_length="40" name="u_choice_1" type="string" use_dependent_field="true">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Length of offence" max_length="40" name="u_length_of_offence" type="string"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Offender" mandatory="true" max_length="32" name="u_offender" reference="x_snc_offmgtcsc_offender" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Type of Charge Categories" max_length="40" name="u_offense_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Crimes Against the Person" sequence="0" value="crimes against the person"/>
+                <element inactive_on_update="false" label="Crimes Against Property" sequence="1" value="crimes against property"/>
+                <element inactive_on_update="false" label="Administration of Justice" sequence="2" value="administration of justice"/>
+                <element inactive_on_update="false" label="Other Criminal Code" sequence="3" value="other criminal code"/>
+                <element inactive_on_update="false" label="Criminal Code Traffic" sequence="4" value="criminal code traffic"/>
+                <element inactive_on_update="false" label="Other Federal Statutes" sequence="5" value="other federal statutes"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Sentence Type" max_length="40" name="u_sentence_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Adult" sequence="0" value="adult"/>
+                <element inactive_on_update="false" label="Youth" sequence="1" value="youth"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Waiver Signed" max_length="40" name="u_waiver_signed" type="boolean"/>
+    </element>
+</database>

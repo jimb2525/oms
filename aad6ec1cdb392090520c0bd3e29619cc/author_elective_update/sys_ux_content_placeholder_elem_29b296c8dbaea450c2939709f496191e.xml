@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_page_element">
+    <sys_ux_content_placeholder_elem action="DELETE">
+        <attrs/>
+        <children/>
+        <component/>
+        <is_root>false</is_root>
+        <layout/>
+        <limit>1</limit>
+        <macroponent/>
+        <macroponent_config/>
+        <name>Landing Page Placeholder</name>
+        <order>0</order>
+        <page display_value="Workspace Core">b70867ad0f603300bb57f4a1ff767e15</page>
+        <parent display_value="">0db256c8dbaea450c2939709f49619ae</parent>
+        <parent_slot/>
+        <picker/>
+        <picker_condition/>
+        <sys_class_name>sys_ux_content_placeholder_elem</sys_class_name>
+        <sys_created_by>sam.pirner</sys_created_by>
+        <sys_created_on>2021-02-20 20:38:43</sys_created_on>
+        <sys_id>29b296c8dbaea450c2939709f496191e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Landing Page Placeholder</sys_name>
+        <sys_package display_value="Offender Management System" source="x_snc_offmgtcsc">aad6ec1cdb392090520c0bd3e29619cc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+        <sys_update_name>sys_ux_content_placeholder_elem_29b296c8dbaea450c2939709f496191e</sys_update_name>
+        <sys_updated_by>sam.pirner</sys_updated_by>
+        <sys_updated_on>2021-02-20 20:38:43</sys_updated_on>
+        <tree_root/>
+    </sys_ux_content_placeholder_elem>
+    <sys_variable_value action="DELETE" query="document_key=29b296c8dbaea450c2939709f496191e"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</application>
+        <file_path/>
+        <instance_id>232313afdbc62c909df22f17d4961962</instance_id>
+        <instance_name>jbelote11demo</instance_name>
+        <name>sys_ux_content_placeholder_elem_29b296c8dbaea450c2939709f496191e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_page_element"><sys_ux_content_placeholder_elem action="INSERT_OR_UPDATE"><attrs/><children/><component/><is_root>false</is_root><layout/><limit>1</limit><macroponent/><macroponent_config/><name>Landing Page Placeholder</name><order>0</order><page display_value="Workspace Core">b70867ad0f603300bb57f4a1ff767e15</page><parent display_value="">0db256c8dbaea450c2939709f49619ae</parent><parent_slot/><picker/><picker_condition/><sys_class_name>sys_ux_content_placeholder_elem</sys_class_name><sys_created_by>sam.pirner</sys_created_by><sys_created_on>2021-02-20 20:38:43</sys_created_on><sys_id>29b296c8dbaea450c2939709f496191e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Landing Page Placeholder</sys_name><sys_package display_value="Offender Management System" source="x_snc_offmgtcsc">aad6ec1cdb392090520c0bd3e29619cc</sys_package><sys_policy/><sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope><sys_update_name>sys_ux_content_placeholder_elem_29b296c8dbaea450c2939709f496191e</sys_update_name><sys_updated_by>sam.pirner</sys_updated_by><sys_updated_on>2021-02-20 20:38:43</sys_updated_on><tree_root/></sys_ux_content_placeholder_elem><sys_variable_value action="delete_multiple" query="document_key=29b296c8dbaea450c2939709f496191e"/></record_update>]]></payload>
+        <payload_hash>-1472434727</payload_hash>
+        <record_name>Landing Page Placeholder</record_name>
+        <reverted_from/>
+        <source>e6ba61771bd2645056c03153cd4bcbbc</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>sam.pirner</sys_created_by>
+        <sys_created_on>2021-02-20 20:42:16</sys_created_on>
+        <sys_id>1983da0cdbaea450c2939709f496191a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>177c12dbc8b0000001</sys_recorded_at>
+        <sys_updated_by>sam.pirner</sys_updated_by>
+        <sys_updated_on>2021-02-20 20:42:16</sys_updated_on>
+        <type>UX Content Placeholder</type>
+        <update_guid>a1b296c8afaea450d64c67483b224e21</update_guid>
+        <update_guid_history>a1b296c8afaea450d64c67483b224e21:590273593,a1b296c8afaea450d64c67483b224e21:590273593</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>sam.pirner</sys_created_by>
+        <sys_created_on>2021-02-20 20:42:16</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_content_placeholder_elem">sys_ux_content_placeholder_elem</sys_db_object>
+        <sys_id>1b7871e6b03a49549b5b38793dc33d90</sys_id>
+        <sys_metadata>29b296c8dbaea450c2939709f496191e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Landing Page Placeholder</sys_name>
+        <sys_package display_value="Offender Management System" source="x_snc_offmgtcsc">aad6ec1cdb392090520c0bd3e29619cc</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+        <sys_scope_delete display_value="">5bdba594b38346ec838dd36fd672ece4</sys_scope_delete>
+        <sys_update_name>sys_ux_content_placeholder_elem_29b296c8dbaea450c2939709f496191e</sys_update_name>
+        <sys_update_version display_value="sys_ux_content_placeholder_elem_29b296c8dbaea450c2939709f496191e">1983da0cdbaea450c2939709f496191a</sys_update_version>
+        <sys_updated_by>sam.pirner</sys_updated_by>
+        <sys_updated_on>2021-02-20 20:42:16</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

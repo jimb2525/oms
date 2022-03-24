@@ -3,167 +3,152 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>number</element>
-            <list_id display_value="sn_complaint_case" element="NULL" name="sn_complaint_case" parent="NULL" relationship="NULL" sys_domain="global" view="ec4e6952c392101088cee5f87d40dd83">6bd50fd40ff30010b1f7f81417767e37</list_id>
+            <list_id display_value="sn_customerservice_case" element="NULL" name="sn_customerservice_case" parent="NULL" relationship="NULL" sys_domain="global" view="ec4e6952c392101088cee5f87d40dd83">61796a66c3111200e7c7d44d81d3aed0</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-23 05:56:53</sys_created_on>
-            <sys_id>27d50fd40ff30010b1f7f81417767e38</sys_id>
+            <sys_created_on>2016-02-03 23:44:04</sys_created_on>
+            <sys_id>25796a66c3111200e7c7d44d81d3aed0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-23 05:56:53</sys_updated_on>
+            <sys_updated_on>2016-02-03 23:44:04</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>short_description</element>
-            <list_id display_value="sn_complaint_case" element="NULL" name="sn_complaint_case" parent="NULL" relationship="NULL" sys_domain="global" view="ec4e6952c392101088cee5f87d40dd83">6bd50fd40ff30010b1f7f81417767e37</list_id>
+            <list_id display_value="sn_customerservice_case" element="NULL" name="sn_customerservice_case" parent="NULL" relationship="NULL" sys_domain="global" view="ec4e6952c392101088cee5f87d40dd83">61796a66c3111200e7c7d44d81d3aed0</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-23 05:56:53</sys_created_on>
-            <sys_id>a7d50fd40ff30010b1f7f81417767e38</sys_id>
+            <sys_created_on>2016-02-03 23:44:04</sys_created_on>
+            <sys_id>65796a66c3111200e7c7d44d81d3aed0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-23 05:56:53</sys_updated_on>
+            <sys_updated_on>2016-02-03 23:44:04</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>contact</element>
-            <list_id display_value="sn_complaint_case" element="NULL" name="sn_complaint_case" parent="NULL" relationship="NULL" sys_domain="global" view="ec4e6952c392101088cee5f87d40dd83">6bd50fd40ff30010b1f7f81417767e37</list_id>
+            <list_id display_value="sn_customerservice_case" element="NULL" name="sn_customerservice_case" parent="NULL" relationship="NULL" sys_domain="global" view="ec4e6952c392101088cee5f87d40dd83">61796a66c3111200e7c7d44d81d3aed0</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-23 05:56:53</sys_created_on>
-            <sys_id>2bd50fd40ff30010b1f7f81417767e38</sys_id>
+            <sys_created_on>2016-02-03 23:44:04</sys_created_on>
+            <sys_id>a5796a66c3111200e7c7d44d81d3aed0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-23 05:56:53</sys_updated_on>
+            <sys_updated_on>2016-02-03 23:44:04</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>account</element>
-            <list_id display_value="sn_complaint_case" element="NULL" name="sn_complaint_case" parent="NULL" relationship="NULL" sys_domain="global" view="ec4e6952c392101088cee5f87d40dd83">6bd50fd40ff30010b1f7f81417767e37</list_id>
+            <list_id display_value="sn_customerservice_case" element="NULL" name="sn_customerservice_case" parent="NULL" relationship="NULL" sys_domain="global" view="ec4e6952c392101088cee5f87d40dd83">61796a66c3111200e7c7d44d81d3aed0</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>3</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-23 05:56:53</sys_created_on>
-            <sys_id>abd50fd40ff30010b1f7f81417767e38</sys_id>
+            <sys_created_on>2016-02-03 23:44:04</sys_created_on>
+            <sys_id>e5796a66c3111200e7c7d44d81d3aed0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-23 05:56:53</sys_updated_on>
+            <sys_updated_on>2016-02-03 23:44:04</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>consumer</element>
-            <list_id display_value="sn_complaint_case" element="NULL" name="sn_complaint_case" parent="NULL" relationship="NULL" sys_domain="global" view="ec4e6952c392101088cee5f87d40dd83">6bd50fd40ff30010b1f7f81417767e37</list_id>
+            <list_id display_value="sn_customerservice_case" element="NULL" name="sn_customerservice_case" parent="NULL" relationship="NULL" sys_domain="global" view="ec4e6952c392101088cee5f87d40dd83">61796a66c3111200e7c7d44d81d3aed0</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>4</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-23 05:56:53</sys_created_on>
-            <sys_id>2fd50fd40ff30010b1f7f81417767e38</sys_id>
+            <sys_created_on>2016-05-26 21:27:01</sys_created_on>
+            <sys_id>a3b5c8cbc323120071d07bfaa2d3ae3c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-23 05:56:53</sys_updated_on>
+            <sys_updated_on>2016-05-26 21:27:01</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>contact_type</element>
-            <list_id display_value="sn_complaint_case" element="NULL" name="sn_complaint_case" parent="NULL" relationship="NULL" sys_domain="global" view="ec4e6952c392101088cee5f87d40dd83">6bd50fd40ff30010b1f7f81417767e37</list_id>
+            <list_id display_value="sn_customerservice_case" element="NULL" name="sn_customerservice_case" parent="NULL" relationship="NULL" sys_domain="global" view="ec4e6952c392101088cee5f87d40dd83">61796a66c3111200e7c7d44d81d3aed0</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>5</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-23 05:56:53</sys_created_on>
-            <sys_id>afd50fd40ff30010b1f7f81417767e38</sys_id>
+            <sys_created_on>2016-02-03 23:44:04</sys_created_on>
+            <sys_id>29796a66c3111200e7c7d44d81d3aed0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-23 05:56:53</sys_updated_on>
+            <sys_updated_on>2016-02-03 23:44:04</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>stage</element>
-            <list_id display_value="sn_complaint_case" element="NULL" name="sn_complaint_case" parent="NULL" relationship="NULL" sys_domain="global" view="ec4e6952c392101088cee5f87d40dd83">6bd50fd40ff30010b1f7f81417767e37</list_id>
+            <element>state</element>
+            <list_id display_value="sn_customerservice_case" element="NULL" name="sn_customerservice_case" parent="NULL" relationship="NULL" sys_domain="global" view="ec4e6952c392101088cee5f87d40dd83">61796a66c3111200e7c7d44d81d3aed0</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>6</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-23 05:56:53</sys_created_on>
-            <sys_id>a3d50fd40ff30010b1f7f81417767e39</sys_id>
+            <sys_created_on>2016-02-03 23:44:04</sys_created_on>
+            <sys_id>69796a66c3111200e7c7d44d81d3aed0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-23 05:56:53</sys_updated_on>
+            <sys_updated_on>2016-02-03 23:44:04</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>state</element>
-            <list_id display_value="sn_complaint_case" element="NULL" name="sn_complaint_case" parent="NULL" relationship="NULL" sys_domain="global" view="ec4e6952c392101088cee5f87d40dd83">6bd50fd40ff30010b1f7f81417767e37</list_id>
+            <element>priority</element>
+            <list_id display_value="sn_customerservice_case" element="NULL" name="sn_customerservice_case" parent="NULL" relationship="NULL" sys_domain="global" view="ec4e6952c392101088cee5f87d40dd83">61796a66c3111200e7c7d44d81d3aed0</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>7</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-23 05:56:53</sys_created_on>
-            <sys_id>23d50fd40ff30010b1f7f81417767e39</sys_id>
+            <sys_created_on>2016-02-03 23:44:04</sys_created_on>
+            <sys_id>a9796a66c3111200e7c7d44d81d3aed0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-23 05:56:53</sys_updated_on>
+            <sys_updated_on>2016-02-03 23:44:04</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>priority</element>
-            <list_id display_value="sn_complaint_case" element="NULL" name="sn_complaint_case" parent="NULL" relationship="NULL" sys_domain="global" view="ec4e6952c392101088cee5f87d40dd83">6bd50fd40ff30010b1f7f81417767e37</list_id>
+            <element>assigned_to</element>
+            <list_id display_value="sn_customerservice_case" element="NULL" name="sn_customerservice_case" parent="NULL" relationship="NULL" sys_domain="global" view="ec4e6952c392101088cee5f87d40dd83">61796a66c3111200e7c7d44d81d3aed0</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>8</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-23 05:56:53</sys_created_on>
-            <sys_id>27d50fd40ff30010b1f7f81417767e39</sys_id>
+            <sys_created_on>2016-02-03 23:44:04</sys_created_on>
+            <sys_id>e9796a66c3111200e7c7d44d81d3aed0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-23 05:56:53</sys_updated_on>
+            <sys_updated_on>2016-02-03 23:44:04</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>assigned_to</element>
-            <list_id display_value="sn_complaint_case" element="NULL" name="sn_complaint_case" parent="NULL" relationship="NULL" sys_domain="global" view="ec4e6952c392101088cee5f87d40dd83">6bd50fd40ff30010b1f7f81417767e37</list_id>
+            <element>sys_updated_on</element>
+            <list_id display_value="sn_customerservice_case" element="NULL" name="sn_customerservice_case" parent="NULL" relationship="NULL" sys_domain="global" view="ec4e6952c392101088cee5f87d40dd83">61796a66c3111200e7c7d44d81d3aed0</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>9</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-23 05:56:53</sys_created_on>
-            <sys_id>a7d50fd40ff30010b1f7f81417767e39</sys_id>
+            <sys_created_on>2016-02-03 23:44:04</sys_created_on>
+            <sys_id>2d796a66c3111200e7c7d44d81d3aed0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-23 05:56:53</sys_updated_on>
-        </sys_ui_list_element>
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
-            <element>sys_updated_on</element>
-            <list_id display_value="sn_complaint_case" element="NULL" name="sn_complaint_case" parent="NULL" relationship="NULL" sys_domain="global" view="ec4e6952c392101088cee5f87d40dd83">6bd50fd40ff30010b1f7f81417767e37</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>10</position>
-            <sum>false</sum>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-03-23 05:56:53</sys_created_on>
-            <sys_id>2bd50fd40ff30010b1f7f81417767e39</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-03-23 05:56:53</sys_updated_on>
+            <sys_updated_on>2016-02-03 23:44:04</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -183,7 +168,7 @@
             <sys_id>6bd50fd40ff30010b1f7f81417767e37</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>sn_complaint_case</sys_name>
-            <sys_package/>
+            <sys_package display_value="Global" source="global">global</sys_package>
             <sys_policy/>
             <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
             <sys_update_name>sys_ui_list_sn_complaint_case_case</sys_update_name>

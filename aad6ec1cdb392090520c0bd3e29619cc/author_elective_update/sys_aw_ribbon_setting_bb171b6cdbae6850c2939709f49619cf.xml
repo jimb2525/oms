@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_aw_ribbon_setting">
+    <sys_aw_ribbon_setting action="DELETE">
+        <active>true</active>
+        <attrs/>
+        <component display_value="Active SLA">5acf80a48710230084aca571d5cb0b69</component>
+        <is_inheritable>false</is_inheritable>
+        <name>Transfer SLA</name>
+        <order>3</order>
+        <sys_class_name>sys_aw_ribbon_setting</sys_class_name>
+        <sys_created_by>tony.perron</sys_created_by>
+        <sys_created_on>2021-02-22 14:55:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>bb171b6cdbae6850c2939709f49619cf</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Transfer SLA</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Offender Management System" source="x_snc_offmgtcsc">aad6ec1cdb392090520c0bd3e29619cc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+        <sys_update_name>sys_aw_ribbon_setting_bb171b6cdbae6850c2939709f49619cf</sys_update_name>
+        <sys_updated_by>tony.perron</sys_updated_by>
+        <sys_updated_on>2021-02-22 15:02:21</sys_updated_on>
+        <table>x_snc_offmgtcsc_transfer_and_placement</table>
+        <tag>sn-component-workspace-sla</tag>
+        <width>2</width>
+        <workspace display_value="Offender Management System">d8e8acdcdb392090520c0bd3e2961904</workspace>
+    </sys_aw_ribbon_setting>
+    <sys_variable_value action="DELETE" query="document_key=bb171b6cdbae6850c2939709f49619cf"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</application>
+        <file_path/>
+        <instance_id>232313afdbc62c909df22f17d4961962</instance_id>
+        <instance_name>jbelote11demo</instance_name>
+        <name>sys_aw_ribbon_setting_bb171b6cdbae6850c2939709f49619cf</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_aw_ribbon_setting"><sys_aw_ribbon_setting action="INSERT_OR_UPDATE"><active>true</active><attrs/><component display_value="Active SLA">5acf80a48710230084aca571d5cb0b69</component><is_inheritable>false</is_inheritable><name>Transfer SLA</name><order>3</order><sys_class_name>sys_aw_ribbon_setting</sys_class_name><sys_created_by>tony.perron</sys_created_by><sys_created_on>2021-02-22 14:55:20</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>bb171b6cdbae6850c2939709f49619cf</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Transfer SLA</sys_name><sys_overrides/><sys_package display_value="Offender Management System" source="x_snc_offmgtcsc">aad6ec1cdb392090520c0bd3e29619cc</sys_package><sys_policy/><sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope><sys_update_name>sys_aw_ribbon_setting_bb171b6cdbae6850c2939709f49619cf</sys_update_name><sys_updated_by>tony.perron</sys_updated_by><sys_updated_on>2021-02-22 15:02:21</sys_updated_on><table>x_snc_offmgtcsc_transfer_and_placement</table><tag>sn-component-workspace-sla</tag><width>2</width><workspace display_value="Offender Management System">d8e8acdcdb392090520c0bd3e2961904</workspace></sys_aw_ribbon_setting><sys_variable_value action="delete_multiple" query="document_key=bb171b6cdbae6850c2939709f49619cf"/></record_update>]]></payload>
+        <payload_hash>-837941039</payload_hash>
+        <record_name>Transfer SLA</record_name>
+        <reverted_from/>
+        <source>e6ba61771bd2645056c03153cd4bcbbc</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>tony.perron</sys_created_by>
+        <sys_created_on>2021-02-22 15:02:21</sys_created_on>
+        <sys_id>39e81becdbae6850c2939709f49619e9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>177ca43435b0000001</sys_recorded_at>
+        <sys_updated_by>tony.perron</sys_updated_by>
+        <sys_updated_on>2021-02-22 15:02:21</sys_updated_on>
+        <type>Ribbon Setting</type>
+        <update_guid>7de81bec5eae6850b8bc52a807564be8</update_guid>
+        <update_guid_history>7de81bec5eae6850b8bc52a807564be8:-837941039,32471f6c1aae68501fe25fe545c65c66:-454551308</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>tony.perron</sys_created_by>
+        <sys_created_on>2021-02-22 15:17:05</sys_created_on>
+        <sys_db_object display_value="" name="sys_aw_ribbon_setting">sys_aw_ribbon_setting</sys_db_object>
+        <sys_id>01a6658df9dd48968003f335c5ccae41</sys_id>
+        <sys_metadata>bb171b6cdbae6850c2939709f49619cf</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Transfer SLA</sys_name>
+        <sys_package display_value="Offender Management System" source="x_snc_offmgtcsc">aad6ec1cdb392090520c0bd3e29619cc</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+        <sys_scope_delete display_value="">5bdba594b38346ec838dd36fd672ece4</sys_scope_delete>
+        <sys_update_name>sys_aw_ribbon_setting_bb171b6cdbae6850c2939709f49619cf</sys_update_name>
+        <sys_update_version display_value="sys_aw_ribbon_setting_bb171b6cdbae6850c2939709f49619cf">39e81becdbae6850c2939709f49619e9</sys_update_version>
+        <sys_updated_by>tony.perron</sys_updated_by>
+        <sys_updated_on>2021-02-22 15:17:05</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

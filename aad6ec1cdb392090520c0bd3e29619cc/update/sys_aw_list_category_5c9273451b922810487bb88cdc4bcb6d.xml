@@ -2,22 +2,22 @@
     <sys_aw_list_category action="INSERT_OR_UPDATE">
         <active>true</active>
         <description>Correctional Services Facilities</description>
-        <order>200</order>
+        <order>2000</order>
         <sys_class_name>sys_aw_list_category</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-02-11 19:56:05</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>5c9273451b922810487bb88cdc4bcb6d</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Facilities</sys_name>
         <sys_overrides/>
         <sys_package display_value="Offender Management System" source="x_snc_offmgtcsc">aad6ec1cdb392090520c0bd3e29619cc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
         <sys_update_name>sys_aw_list_category_5c9273451b922810487bb88cdc4bcb6d</sys_update_name>
-        <sys_updated_by>tony.perron</sys_updated_by>
-        <sys_updated_on>2021-02-18 13:56:53</sys_updated_on>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-22 02:53:28</sys_updated_on>
         <title>Facilities</title>
         <workspace display_value="Offender Management System">d8e8acdcdb392090520c0bd3e2961904</workspace>
     </sys_aw_list_category>

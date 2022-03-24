@@ -18,7 +18,7 @@
         <provider_class/>
         <read_access>true</read_access>
         <scriptable_table>false</scriptable_table>
-        <super_class display_value="Related List Entry" name="sys_ui_related_list_entry">9d03871210312010d152bac818665ec2</super_class>
+        <super_class display_value="Related List Entry" name="sys_ui_related_list_entry">ad959723db022010c2939709f49619c7</super_class>
         <sys_class_code/>
         <sys_class_name>sys_db_object</sys_class_name>
         <sys_class_path/>

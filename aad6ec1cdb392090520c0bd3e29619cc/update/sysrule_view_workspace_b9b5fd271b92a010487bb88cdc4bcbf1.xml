@@ -6,7 +6,9 @@
         <default_tab_order>true</default_tab_order>
         <description/>
         <disable_section_collapse>true</disable_section_collapse>
+        <experience_restricted>true</experience_restricted>
         <hide_details>true</hide_details>
+        <hide_journal_input_fields>false</hide_journal_input_fields>
         <hide_section_menu>true</hide_section_menu>
         <name>Victims View</name>
         <order>100</order>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Victim Registration">052acd98dbf92090520c0bd3e296199b</sc_cat_item>
+        <sc_catalog display_value="Victim Services">8d63b8ccdba6a450c2939709f496195d</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>sam.pirner</sys_created_by>
+        <sys_created_on>2021-02-20 19:24:30</sys_created_on>
+        <sys_id>5eb1cac0db6ea450c2939709f49619c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Victim Services.Victim Registration</sys_name>
+        <sys_package display_value="Offender Management System" source="x_snc_offmgtcsc">aad6ec1cdb392090520c0bd3e29619cc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_5eb1cac0db6ea450c2939709f49619c6</sys_update_name>
+        <sys_updated_by>sam.pirner</sys_updated_by>
+        <sys_updated_on>2021-02-20 19:24:30</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</application>
+        <file_path/>
+        <instance_id>232313afdbc62c909df22f17d4961962</instance_id>
+        <instance_name>jbelote11demo</instance_name>
+        <name>sc_cat_item_catalog_5eb1cac0db6ea450c2939709f49619c6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="Victim Registration">052acd98dbf92090520c0bd3e296199b</sc_cat_item><sc_catalog display_value="Victim Services">8d63b8ccdba6a450c2939709f496195d</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>sam.pirner</sys_created_by><sys_created_on>2021-02-20 19:24:30</sys_created_on><sys_id>5eb1cac0db6ea450c2939709f49619c6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Victim Services.Victim Registration</sys_name><sys_package display_value="Offender Management System" source="x_snc_offmgtcsc">aad6ec1cdb392090520c0bd3e29619cc</sys_package><sys_policy/><sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope><sys_update_name>sc_cat_item_catalog_5eb1cac0db6ea450c2939709f49619c6</sys_update_name><sys_updated_by>sam.pirner</sys_updated_by><sys_updated_on>2021-02-20 19:24:30</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>-2134446596</payload_hash>
+        <record_name>Victim Services.Victim Registration</record_name>
+        <reverted_from/>
+        <source>e6ba61771bd2645056c03153cd4bcbbc</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>sam.pirner</sys_created_by>
+        <sys_created_on>2021-02-20 19:24:30</sys_created_on>
+        <sys_id>1ab1cac0db6ea450c2939709f49619d5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>177c0e68cba0000001</sys_recorded_at>
+        <sys_updated_by>sam.pirner</sys_updated_by>
+        <sys_updated_on>2021-02-20 19:24:30</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>12b1cac01f6ea4509bb73b530b689cd5</update_guid>
+        <update_guid_history>12b1cac01f6ea4509bb73b530b689cd5:-2134446596</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Victim Services.Victim Registration">954bdb5cdb2a2850c2939709f496192e</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>sam.pirner</sys_created_by>
+        <sys_created_on>2021-02-21 20:34:14</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>9adbe44c0af24acfad033e8637030009</sys_id>
+        <sys_metadata>5eb1cac0db6ea450c2939709f49619c6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Victim Services.Victim Registration</sys_name>
+        <sys_package display_value="Offender Management System" source="x_snc_offmgtcsc">aad6ec1cdb392090520c0bd3e29619cc</sys_package>
+        <sys_parent display_value="">052acd98dbf92090520c0bd3e296199b</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+        <sys_scope_delete display_value="">5bdba594b38346ec838dd36fd672ece4</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_5eb1cac0db6ea450c2939709f49619c6</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_5eb1cac0db6ea450c2939709f49619c6">1ab1cac0db6ea450c2939709f49619d5</sys_update_version>
+        <sys_updated_by>sam.pirner</sys_updated_by>
+        <sys_updated_on>2021-02-21 20:34:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

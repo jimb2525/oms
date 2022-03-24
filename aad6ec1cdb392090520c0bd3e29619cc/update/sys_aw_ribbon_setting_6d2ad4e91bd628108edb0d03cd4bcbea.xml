@@ -12,7 +12,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>6d2ad4e91bd628108edb0d03cd4bcbea</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Customer360</sys_name>
         <sys_overrides/>
         <sys_package display_value="Offender Management System" source="x_snc_offmgtcsc">aad6ec1cdb392090520c0bd3e29619cc</sys_package>
@@ -20,7 +20,7 @@
         <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
         <sys_update_name>sys_aw_ribbon_setting_6d2ad4e91bd628108edb0d03cd4bcbea</sys_update_name>
         <sys_updated_by>james.belote</sys_updated_by>
-        <sys_updated_on>2021-02-14 21:12:58</sys_updated_on>
+        <sys_updated_on>2021-02-21 18:05:39</sys_updated_on>
         <table>x_snc_offmgtcsc_offender_incident</table>
         <tag>sn-component-workspace-customer360</tag>
         <width>6</width>
@@ -63,10 +63,10 @@
         <sys_created_by>james.belote</sys_created_by>
         <sys_created_on>2021-02-12 17:28:40</sys_created_on>
         <sys_id>6f7a58e91bd628108edb0d03cd4bcb8f</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_updated_by>allisa.liberto</sys_updated_by>
-        <sys_updated_on>2021-02-12 17:40:26</sys_updated_on>
-        <value>name,offender_id,avatar,band_no,date_of_birth</value>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-02-21 18:05:39</sys_updated_on>
+        <value>fps_number,preferred_official_language,u_sentence_length,alias_es,gender</value>
         <variable display_value="Primary fields">67b59cf08750230084aca571d5cb0b76</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">

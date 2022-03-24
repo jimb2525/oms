@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_page_element">
+    <sys_ux_custom_content_root_elem action="DELETE">
+        <active>false</active>
+        <applicability>single</applicability>
+        <applicable_page display_value="Agent Workspace">09d6f2c28727030084aca571d5cb0b5b</applicable_page>
+        <attrs/>
+        <children/>
+        <component/>
+        <is_root>true</is_root>
+        <layout/>
+        <macroponent/>
+        <macroponent_config>{
+  "label" : "My Workspace"
+}</macroponent_config>
+        <name>Offender Landing Page</name>
+        <order>0</order>
+        <page display_value="Workspace Core">b70867ad0f603300bb57f4a1ff767e15</page>
+        <parent/>
+        <parent_slot/>
+        <picker/>
+        <picker_condition/>
+        <placeholder display_value="Landing Page Placeholder">51a768297710330022f7f4d26810617d</placeholder>
+        <sys_class_name>sys_ux_custom_content_root_elem</sys_class_name>
+        <sys_created_by>tony.perron</sys_created_by>
+        <sys_created_on>2021-02-22 17:46:58</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>899efbe0dba2a850c2939709f496198f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Offender Landing Page</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Offender Management System" source="x_snc_offmgtcsc">aad6ec1cdb392090520c0bd3e29619cc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+        <sys_update_name>sys_ux_custom_content_root_elem_899efbe0dba2a850c2939709f496198f</sys_update_name>
+        <sys_updated_by>tony.perron</sys_updated_by>
+        <sys_updated_on>2021-02-22 17:46:58</sys_updated_on>
+        <tree_root/>
+    </sys_ux_custom_content_root_elem>
+    <sys_variable_value action="DELETE" query="document_key=899efbe0dba2a850c2939709f496198f"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</application>
+        <file_path/>
+        <instance_id>232313afdbc62c909df22f17d4961962</instance_id>
+        <instance_name>jbelote11demo</instance_name>
+        <name>sys_ux_custom_content_root_elem_899efbe0dba2a850c2939709f496198f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_page_element"><sys_ux_custom_content_root_elem action="INSERT_OR_UPDATE"><active>false</active><applicability>single</applicability><applicable_page display_value="Agent Workspace">09d6f2c28727030084aca571d5cb0b5b</applicable_page><attrs/><children/><component/><is_root>true</is_root><layout/><macroponent/><macroponent_config>{
+  "label" : "My Workspace"
+}</macroponent_config><name>Offender Landing Page</name><order>0</order><page display_value="Workspace Core">b70867ad0f603300bb57f4a1ff767e15</page><parent/><parent_slot/><picker/><picker_condition/><placeholder display_value="Landing Page Placeholder">51a768297710330022f7f4d26810617d</placeholder><sys_class_name>sys_ux_custom_content_root_elem</sys_class_name><sys_created_by>tony.perron</sys_created_by><sys_created_on>2021-02-22 17:46:58</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>899efbe0dba2a850c2939709f496198f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Offender Landing Page</sys_name><sys_overrides/><sys_package display_value="Offender Management System" source="x_snc_offmgtcsc">aad6ec1cdb392090520c0bd3e29619cc</sys_package><sys_policy/><sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope><sys_update_name>sys_ux_custom_content_root_elem_899efbe0dba2a850c2939709f496198f</sys_update_name><sys_updated_by>tony.perron</sys_updated_by><sys_updated_on>2021-02-22 17:46:58</sys_updated_on><tree_root/></sys_ux_custom_content_root_elem><sys_variable_value action="delete_multiple" query="document_key=899efbe0dba2a850c2939709f496198f"/></record_update>]]></payload>
+        <payload_hash>-1074312881</payload_hash>
+        <record_name>Offender Landing Page</record_name>
+        <reverted_from/>
+        <source>e6ba61771bd2645056c03153cd4bcbbc</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>tony.perron</sys_created_by>
+        <sys_created_on>2021-02-22 17:47:34</sys_created_on>
+        <sys_id>39bebfe0dba2a850c2939709f49619f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>177cada86800000001</sys_recorded_at>
+        <sys_updated_by>tony.perron</sys_updated_by>
+        <sys_updated_on>2021-02-22 17:47:34</sys_updated_on>
+        <type>UX Custom Content Extension</type>
+        <update_guid>8d9efbe07ea2a850785faad255545794</update_guid>
+        <update_guid_history>8d9efbe07ea2a850785faad255545794:-894349657,8d9efbe07ea2a850785faad255545794:-894349657</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>tony.perron</sys_created_by>
+        <sys_created_on>2021-02-22 17:47:35</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_custom_content_root_elem">sys_ux_custom_content_root_elem</sys_db_object>
+        <sys_id>3ea4b33ae1644276902fe324a5d44d41</sys_id>
+        <sys_metadata>899efbe0dba2a850c2939709f496198f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Offender Landing Page</sys_name>
+        <sys_package display_value="Offender Management System" source="x_snc_offmgtcsc">aad6ec1cdb392090520c0bd3e29619cc</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+        <sys_scope_delete display_value="">5bdba594b38346ec838dd36fd672ece4</sys_scope_delete>
+        <sys_update_name>sys_ux_custom_content_root_elem_899efbe0dba2a850c2939709f496198f</sys_update_name>
+        <sys_update_version display_value="sys_ux_custom_content_root_elem_899efbe0dba2a850c2939709f496198f">39bebfe0dba2a850c2939709f49619f2</sys_update_version>
+        <sys_updated_by>tony.perron</sys_updated_by>
+        <sys_updated_on>2021-02-22 17:47:35</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

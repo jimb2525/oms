@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="System Import Sets" source="com.glide.system_import_set">f56697a7db022010c2939709f4961986</dependency>
+        <min_version>1.0.0</min_version>
+        <sys_created_by>tony.perron</sys_created_by>
+        <sys_created_on>2021-02-19 18:25:48</sys_created_on>
+        <sys_id>dba92dbf1b92645056c03153cd4bcb36</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="Offender Management System" source="x_snc_offmgtcsc">aad6ec1cdb392090520c0bd3e29619cc</sys_package>
+        <sys_updated_by>tony.perron</sys_updated_by>
+        <sys_updated_on>2021-02-19 18:25:48</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>

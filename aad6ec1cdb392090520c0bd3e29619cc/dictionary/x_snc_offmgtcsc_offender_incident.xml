@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" extends="task" label="Offender Incident" max_length="40" name="x_snc_offmgtcsc_offender_incident" sizeclass="3" text_index="true" type="collection">
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Case Manager" max_length="32" name="case_manager" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Category" max_length="40" name="category" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Abscondence" sequence="0" value="Abscondence"/>
+                <element inactive_on_update="false" label="Accident" sequence="1" value="Accident"/>
+                <element inactive_on_update="false" label="Armed robbery" sequence="2" value="Armed robbery"/>
+                <element inactive_on_update="false" label="Arson" sequence="3" value="Arson"/>
+                <element inactive_on_update="false" label="Assault" sequence="4" value="Assault"/>
+                <element inactive_on_update="false" label="Attempt to commit murder" sequence="5" value="Attempt to commit murder"/>
+                <element inactive_on_update="false" label="Breach of Policy on Government Security" sequence="6" value="Breach of Policy on Government Security"/>
+                <element inactive_on_update="false" label="Confinement / forcible confinement" sequence="7" value="Confinement / forcible confinement"/>
+                <element inactive_on_update="false" label="Death – foul play" sequence="8" value="Death – foul play"/>
+                <element inactive_on_update="false" label="Death – natural causes" sequence="9" value="Death – natural causes"/>
+                <element inactive_on_update="false" label="Death – overdose" sequence="10" value="Death – overdose"/>
+                <element inactive_on_update="false" label="Death – police intervention" sequence="11" value="Death – police intervention"/>
+                <element inactive_on_update="false" label="Death – unknown causes" sequence="12" value="Death – unknown causes"/>
+                <element inactive_on_update="false" label="Disciplinary problems" sequence="13" value="Disciplinary problems"/>
+                <element inactive_on_update="false" label="Escape attempt" sequence="14" value="Escape attempt"/>
+                <element inactive_on_update="false" label="Escape from CSC escort" sequence="15" value="Escape from CSC escort"/>
+                <element inactive_on_update="false" label="Escape and being at large without excuse" sequence="16" value="Escape and being at large without excuse"/>
+                <element inactive_on_update="false" label="Exceptional search" sequence="17" value="Exceptional search"/>
+                <element inactive_on_update="false" label="Fail to report" sequence="18" value="Fail to report"/>
+                <element inactive_on_update="false" label="Fail to return" sequence="19" value="Fail to return"/>
+                <element inactive_on_update="false" label="Fail to return from Unescorted Temporary Absence" sequence="20" value="Fail to return from Unescorted Temporary Absence"/>
+                <element inactive_on_update="false" label="Forcible confinement with sexual assault" sequence="21" value="Forcible confinement with sexual assault"/>
+                <element inactive_on_update="false" label="Hostage taking" sequence="22" value="Hostage taking"/>
+                <element inactive_on_update="false" label="Incident Report" sequence="23" value="Incident Report"/>
+                <element inactive_on_update="false" label="Inmate fight" sequence="24" value="Inmate fight"/>
+                <element inactive_on_update="false" label="Information technology related incident" sequence="25" value="Information technology related incident"/>
+                <element inactive_on_update="false" label="Lockdown" sequence="26" value="Lockdown"/>
+                <element inactive_on_update="false" label="Major disruption" sequence="27" value="Major disruption"/>
+                <element inactive_on_update="false" label="Major disturbance" sequence="28" value="Major disturbance"/>
+                <element inactive_on_update="false" label="Medical emergency" sequence="29" value="Medical emergency"/>
+                <element inactive_on_update="false" label="Minor disruption" sequence="30" value="Minor disruption"/>
+                <element inactive_on_update="false" label="Minor disturbance" sequence="31" value="Minor disturbance"/>
+                <element inactive_on_update="false" label="Murder" sequence="32" value="Murder"/>
+                <element inactive_on_update="false" label="Murder – staff" sequence="33" value="Murder – staff"/>
+                <element inactive_on_update="false" label="Non-serious bodily injury" sequence="34" value="Non-serious bodily injury"/>
+                <element inactive_on_update="false" label="Overdose interrupted" sequence="35" value="Overdose interrupted"/>
+                <element inactive_on_update="false" label="Possession of contraband" sequence="36" value="Possession of contraband"/>
+                <element inactive_on_update="false" label="Possession of an unauthorized item" sequence="37" value="Possession of an unauthorized item"/>
+                <element inactive_on_update="false" label="Prison Breach" sequence="38" value="Prison Breach"/>
+                <element inactive_on_update="false" label="Reception or transport of contraband" sequence="39" value="Reception or transport of contraband"/>
+                <element inactive_on_update="false" label="Robbery" sequence="40" value="Robbery"/>
+                <element inactive_on_update="false" label="Security incident" sequence="41" value="Security incident"/>
+                <element inactive_on_update="false" label="Self-inflicted injuries" sequence="42" value="Self-inflicted injuries"/>
+                <element inactive_on_update="false" label="Sexual assault / sexual offence" sequence="43" value="Sexual assault / sexual offence"/>
+                <element inactive_on_update="false" label="Suicide" sequence="44" value="Suicide"/>
+                <element inactive_on_update="false" label="Suicide attempt" sequence="45" value="Suicide attempt"/>
+                <element inactive_on_update="false" label="Threats towards staff / uttering threats / criminal harassment" sequence="46" value="Threats towards staff / uttering threats / criminal harassment"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Facility" max_length="32" name="facility" reference="x_snc_offmgtcsc_facility" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Investigation Underway" max_length="40" name="investigation_underway" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Offender" max_length="32" name="offender" reference="x_snc_offmgtcsc_offender" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Incident Date" max_length="40" name="u_incident_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Incident Type" max_length="40" name="u_incident_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Institutional" sequence="0" value="institutional"/>
+                <element inactive_on_update="false" label="Community" sequence="1" value="community"/>
+            </choice>
+        </element>
+    </element>
+</database>

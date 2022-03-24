@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="Investigation" max_length="40" name="x_snc_offmgtcsc_investigation" sizeclass="5" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Intelligence Information" max_length="8000" name="intelligence_information" type="html"/>
+        <element attributes="edge_encryption_enabled=true" label="Interviews" max_length="8000" name="interviews" type="html"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Offender" max_length="32" name="offender" reference="x_snc_offmgtcsc_offender" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Video Review" max_length="8000" name="video_review" type="html"/>
+    </element>
+</database>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="core_company" label="Facility" max_length="40" name="x_snc_offmgtcsc_facility" sizeclass="201" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Facility Code" max_length="40" name="u_code" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Description" max_length="40" name="u_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="min" label="Security" max_length="40" name="u_security" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Min" sequence="0" value="min"/>
+                <element inactive_on_update="false" label="Med" sequence="1" value="med"/>
+                <element inactive_on_update="false" label="Max" sequence="2" value="max"/>
+            </choice>
+        </element>
+    </element>
+</database>

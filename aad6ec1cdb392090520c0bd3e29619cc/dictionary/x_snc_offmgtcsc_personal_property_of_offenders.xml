@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Personal Property of Offenders" max_length="40" name="x_snc_offmgtcsc_personal_property_of_offenders" sizeclass="1" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Music Instrument" max_length="40" name="u_boolean_16" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="1 - Clock radio/alarm clock" max_length="40" name="u_boolean_17" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="1 - Desk fan (plastic only)" max_length="40" name="u_boolean_18" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="1 - Power bar (maximum four (4) outlets)" max_length="40" name="u_boolean_19" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="1 - Reading lamp (non-halogen, 60 W maximum, CSA approved, no goose necked or we" max_length="40" name="u_boolean_20" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="2 - Light bulbs" max_length="40" name="u_boolean_21" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="1 - Typewriter (electric/manual)" max_length="40" name="u_boolean_22" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="2 - Tupperware type containers (maximum 1 litre (2 X 500 ml), cooking)" max_length="40" name="u_boolean_23" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="1 - Scissors (blunt ends only and maximum 6&quot; long depending on security level)" max_length="40" name="u_boolean_24" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="20 - Clothes hangers (plastic only)" max_length="40" name="u_boolean_25" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="1 - Water bottle (maximum 16 ounces)" max_length="40" name="u_boolean_27" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="1 - Blunt end cuticle scissors" max_length="40" name="u_boolean_28" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="3 - Combs" max_length="40" name="u_boolean_29" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="1 - Hair dryer/blower (hand held, 2000 W maximum)" max_length="40" name="u_boolean_30" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="1 - Toiletry bag" max_length="40" name="u_boolean_31" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="1 - Walkman type radio/CD player (non-recording)" max_length="40" name="u_boolean_32" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="1 - One piece stereo system (100 W total permitted but no condenser microphones," max_length="40" name="u_boolean_33" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="1 - Set of lifting straps" max_length="40" name="u_boolean_34" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="1 - Mouth guard (fitness)" max_length="40" name="u_boolean_35" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="3 - Sweatshirts" max_length="40" name="u_boolean_36" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="6 - Jeans or casual pants" max_length="40" name="u_boolean_37" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Scarf" max_length="40" name="u_boolean_38" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Bracelet, small loops or studs, analog watch, wedding band, neck chain (6 mm max" max_length="40" name="u_braceletsmallloopsorstudsanalogwatchweddingbandneckchain6mmmaximumandwithouthe" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Facility" mandatory="true" max_length="32" name="u_facility" reference="x_snc_offmgtcsc_facility" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="male" label="Gender" mandatory="true" max_length="40" name="u_gender" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Male" sequence="0" value="male"/>
+                <element inactive_on_update="false" label="Female" sequence="1" value="female"/>
+                <element inactive_on_update="false" label="Non-specified" sequence="2" value="non-specified"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Offender" max_length="32" name="u_offender" reference="x_snc_offmgtcsc_offender" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="med" label="Security" mandatory="true" max_length="40" name="u_security" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Min" sequence="0" value="min"/>
+                <element inactive_on_update="false" label="Med" sequence="1" value="med"/>
+                <element inactive_on_update="false" label="Max" sequence="2" value="max"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="u_offender"/>
+        </index>
+        <index name="index2">
+            <element name="u_facility"/>
+        </index>
+    </element>
+</database>

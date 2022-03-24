@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_custom_content_root_elem">
+    <sys_ux_custom_content_root_elem action="DELETE">
+        <active>true</active>
+        <applicability>single</applicability>
+        <applicable_page display_value="Visitor Service Management">90b25248dbaea450c2939709f4961933</applicable_page>
+        <attrs/>
+        <children/>
+        <component display_value="sn-workspace-toolbar-button">c599f5f3b6554fd79cd983bf4ea75968</component>
+        <is_root>true</is_root>
+        <layout/>
+        <macroponent/>
+        <macroponent_config/>
+        <name>Analytics Center Button</name>
+        <order>1000</order>
+        <page display_value="Workspace Core">b70867ad0f603300bb57f4a1ff767e15</page>
+        <parent/>
+        <parent_slot/>
+        <picker/>
+        <picker_condition/>
+        <placeholder display_value="Workspace Toolbar Buttons">1232bfb5730c330075e8f358caf6a7ca</placeholder>
+        <sys_class_name>sys_ux_custom_content_root_elem</sys_class_name>
+        <sys_created_by>sam.pirner</sys_created_by>
+        <sys_created_on>2021-02-20 20:38:39</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1cb25248dbaea450c2939709f4961939</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Analytics Center Button</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Offender Management System" source="x_snc_offmgtcsc">aad6ec1cdb392090520c0bd3e29619cc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+        <sys_update_name>sys_ux_custom_content_root_elem_1cb25248dbaea450c2939709f4961939</sys_update_name>
+        <sys_updated_by>sam.pirner</sys_updated_by>
+        <sys_updated_on>2021-02-20 20:38:39</sys_updated_on>
+        <tree_root/>
+    </sys_ux_custom_content_root_elem>
+    <sys_variable_value action="DELETE" query="document_key=1cb25248dbaea450c2939709f4961939"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_ux_custom_content_root_elem</document>
+        <document_key>1cb25248dbaea450c2939709f4961939</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sam.pirner</sys_created_by>
+        <sys_created_on>2021-02-20 20:38:39</sys_created_on>
+        <sys_id>10b216c8dbaea450c2939709f49619b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sam.pirner</sys_updated_by>
+        <sys_updated_on>2021-02-20 20:38:39</sys_updated_on>
+        <value>analytics-center-outline</value>
+        <variable display_value="">674bdc908b8ed17eb631bec92971a228</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_ux_custom_content_root_elem</document>
+        <document_key>1cb25248dbaea450c2939709f4961939</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sam.pirner</sys_created_by>
+        <sys_created_on>2021-02-20 20:38:39</sys_created_on>
+        <sys_id>58b216c8dbaea450c2939709f49619b1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sam.pirner</sys_updated_by>
+        <sys_updated_on>2021-02-20 20:38:39</sys_updated_on>
+        <value>analytics_center</value>
+        <variable display_value="">f497a95e69778d0f72f3f0d2df450266</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_ux_custom_content_root_elem</document>
+        <document_key>1cb25248dbaea450c2939709f4961939</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sam.pirner</sys_created_by>
+        <sys_created_on>2021-02-20 20:38:39</sys_created_on>
+        <sys_id>d0b216c8dbaea450c2939709f49619b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sam.pirner</sys_updated_by>
+        <sys_updated_on>2021-02-20 20:38:39</sys_updated_on>
+        <value>Analytics Center</value>
+        <variable display_value="">b5b65fd20c3c13fbd299dce1ef797184</variable>
+    </sys_variable_value>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</application>
+        <file_path/>
+        <instance_id>232313afdbc62c909df22f17d4961962</instance_id>
+        <instance_name>jbelote11demo</instance_name>
+        <name>sys_ux_custom_content_root_elem_1cb25248dbaea450c2939709f4961939</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_custom_content_root_elem"><sys_ux_custom_content_root_elem action="INSERT_OR_UPDATE"><active>true</active><applicability>single</applicability><applicable_page display_value="Visitor Service Management">90b25248dbaea450c2939709f4961933</applicable_page><attrs/><children/><component display_value="sn-workspace-toolbar-button">c599f5f3b6554fd79cd983bf4ea75968</component><is_root>true</is_root><layout/><macroponent/><macroponent_config/><name>Analytics Center Button</name><order>1000</order><page display_value="Workspace Core">b70867ad0f603300bb57f4a1ff767e15</page><parent/><parent_slot/><picker/><picker_condition/><placeholder display_value="Workspace Toolbar Buttons">1232bfb5730c330075e8f358caf6a7ca</placeholder><sys_class_name>sys_ux_custom_content_root_elem</sys_class_name><sys_created_by>sam.pirner</sys_created_by><sys_created_on>2021-02-20 20:38:39</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>1cb25248dbaea450c2939709f4961939</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Analytics Center Button</sys_name><sys_overrides/><sys_package display_value="Offender Management System" source="x_snc_offmgtcsc">aad6ec1cdb392090520c0bd3e29619cc</sys_package><sys_policy/><sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope><sys_update_name>sys_ux_custom_content_root_elem_1cb25248dbaea450c2939709f4961939</sys_update_name><sys_updated_by>sam.pirner</sys_updated_by><sys_updated_on>2021-02-20 20:38:39</sys_updated_on><tree_root/></sys_ux_custom_content_root_elem><sys_variable_value action="delete_multiple" query="document_key=1cb25248dbaea450c2939709f4961939"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_ux_custom_content_root_elem</document><document_key>1cb25248dbaea450c2939709f4961939</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>sam.pirner</sys_created_by><sys_created_on>2021-02-20 20:38:39</sys_created_on><sys_id>10b216c8dbaea450c2939709f49619b2</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>sam.pirner</sys_updated_by><sys_updated_on>2021-02-20 20:38:39</sys_updated_on><value>analytics-center-outline</value><variable display_value="">674bdc908b8ed17eb631bec92971a228</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_ux_custom_content_root_elem</document><document_key>1cb25248dbaea450c2939709f4961939</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>sam.pirner</sys_created_by><sys_created_on>2021-02-20 20:38:39</sys_created_on><sys_id>58b216c8dbaea450c2939709f49619b1</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>sam.pirner</sys_updated_by><sys_updated_on>2021-02-20 20:38:39</sys_updated_on><value>analytics_center</value><variable display_value="">f497a95e69778d0f72f3f0d2df450266</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_ux_custom_content_root_elem</document><document_key>1cb25248dbaea450c2939709f4961939</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>sam.pirner</sys_created_by><sys_created_on>2021-02-20 20:38:39</sys_created_on><sys_id>d0b216c8dbaea450c2939709f49619b2</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>sam.pirner</sys_updated_by><sys_updated_on>2021-02-20 20:38:39</sys_updated_on><value>Analytics Center</value><variable display_value="">b5b65fd20c3c13fbd299dce1ef797184</variable></sys_variable_value></record_update>]]></payload>
+        <payload_hash>558174557</payload_hash>
+        <record_name>Analytics Center Button</record_name>
+        <reverted_from/>
+        <source>e6ba61771bd2645056c03153cd4bcbbc</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>sam.pirner</sys_created_by>
+        <sys_created_on>2021-02-20 20:38:39</sys_created_on>
+        <sys_id>5cb216c8dbaea450c2939709f49619b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>177c12a6e1a0000001</sys_recorded_at>
+        <sys_updated_by>sam.pirner</sys_updated_by>
+        <sys_updated_on>2021-02-20 20:38:39</sys_updated_on>
+        <type>UX Custom Content Extension</type>
+        <update_guid>14b216c8f5aea45030007bc6f81144b4</update_guid>
+        <update_guid_history>14b216c8f5aea45030007bc6f81144b4:558174557,18b216c82aaea450fc162be048e4f6a8:-2004937679</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>sam.pirner</sys_created_by>
+        <sys_created_on>2021-02-20 20:42:16</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_custom_content_root_elem">sys_ux_custom_content_root_elem</sys_db_object>
+        <sys_id>14733b73cdec4ae2820f96b620f09004</sys_id>
+        <sys_metadata>1cb25248dbaea450c2939709f4961939</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Analytics Center Button</sys_name>
+        <sys_package display_value="Offender Management System" source="x_snc_offmgtcsc">aad6ec1cdb392090520c0bd3e29619cc</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+        <sys_scope_delete display_value="">5bdba594b38346ec838dd36fd672ece4</sys_scope_delete>
+        <sys_update_name>sys_ux_custom_content_root_elem_1cb25248dbaea450c2939709f4961939</sys_update_name>
+        <sys_update_version display_value="sys_ux_custom_content_root_elem_1cb25248dbaea450c2939709f4961939">5cb216c8dbaea450c2939709f49619b4</sys_update_version>
+        <sys_updated_by>sam.pirner</sys_updated_by>
+        <sys_updated_on>2021-02-20 20:42:16</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

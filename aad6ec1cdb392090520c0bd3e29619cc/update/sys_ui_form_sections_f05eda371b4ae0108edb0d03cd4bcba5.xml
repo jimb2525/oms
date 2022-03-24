@@ -9,8 +9,8 @@
             <sys_id>785eda371b4ae0108edb0d03cd4bcbb4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
-            <sys_ui_form display_value="x_snc_offmgtcsc_offender" name="x_snc_offmgtcsc_offender" sys_domain="global" view="c2364b1610352010d152bac818665e22">f05eda371b4ae0108edb0d03cd4bcba5</sys_ui_form>
-            <sys_ui_section caption="Offender Information" display_value="Offender Information" name="x_snc_offmgtcsc_offender" sys_domain="global" view="c2364b1610352010d152bac818665e22">705eda371b4ae0108edb0d03cd4bcba0</sys_ui_section>
+            <sys_ui_form display_value="x_snc_offmgtcsc_offender" name="x_snc_offmgtcsc_offender" sys_domain="global" view="903b5b27db062010c2939709f49619f5">f05eda371b4ae0108edb0d03cd4bcba5</sys_ui_form>
+            <sys_ui_section caption="Offender Information" display_value="Offender Information" name="x_snc_offmgtcsc_offender" sys_domain="global" view="903b5b27db062010c2939709f49619f5">705eda371b4ae0108edb0d03cd4bcba0</sys_ui_section>
             <sys_updated_by>james.belote</sys_updated_by>
             <sys_updated_on>2021-02-07 16:35:17</sys_updated_on>
         </sys_ui_form_section>
@@ -23,8 +23,8 @@
             <sys_id>345eda371b4ae0108edb0d03cd4bcbb5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
-            <sys_ui_form display_value="x_snc_offmgtcsc_offender" name="x_snc_offmgtcsc_offender" sys_domain="global" view="c2364b1610352010d152bac818665e22">f05eda371b4ae0108edb0d03cd4bcba5</sys_ui_form>
-            <sys_ui_section caption="Language" display_value="Language" name="x_snc_offmgtcsc_offender" sys_domain="global" view="c2364b1610352010d152bac818665e22">3c5eda371b4ae0108edb0d03cd4bcba0</sys_ui_section>
+            <sys_ui_form display_value="x_snc_offmgtcsc_offender" name="x_snc_offmgtcsc_offender" sys_domain="global" view="903b5b27db062010c2939709f49619f5">f05eda371b4ae0108edb0d03cd4bcba5</sys_ui_form>
+            <sys_ui_section caption="Language" display_value="Language" name="x_snc_offmgtcsc_offender" sys_domain="global" view="903b5b27db062010c2939709f49619f5">3c5eda371b4ae0108edb0d03cd4bcba0</sys_ui_section>
             <sys_updated_by>james.belote</sys_updated_by>
             <sys_updated_on>2021-02-07 16:35:17</sys_updated_on>
         </sys_ui_form_section>
@@ -37,8 +37,8 @@
             <sys_id>785eda371b4ae0108edb0d03cd4bcbb8</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
-            <sys_ui_form display_value="x_snc_offmgtcsc_offender" name="x_snc_offmgtcsc_offender" sys_domain="global" view="c2364b1610352010d152bac818665e22">f05eda371b4ae0108edb0d03cd4bcba5</sys_ui_form>
-            <sys_ui_section caption="Race and Religion" display_value="Race and Religion" name="x_snc_offmgtcsc_offender" sys_domain="global" view="c2364b1610352010d152bac818665e22">f45eda371b4ae0108edb0d03cd4bcba1</sys_ui_section>
+            <sys_ui_form display_value="x_snc_offmgtcsc_offender" name="x_snc_offmgtcsc_offender" sys_domain="global" view="903b5b27db062010c2939709f49619f5">f05eda371b4ae0108edb0d03cd4bcba5</sys_ui_form>
+            <sys_ui_section caption="Race and Religion" display_value="Race and Religion" name="x_snc_offmgtcsc_offender" sys_domain="global" view="903b5b27db062010c2939709f49619f5">f45eda371b4ae0108edb0d03cd4bcba1</sys_ui_section>
             <sys_updated_by>james.belote</sys_updated_by>
             <sys_updated_on>2021-02-07 16:35:17</sys_updated_on>
         </sys_ui_form_section>
@@ -51,8 +51,8 @@
             <sys_id>305eda371b4ae0108edb0d03cd4bcbbc</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
-            <sys_ui_form display_value="x_snc_offmgtcsc_offender" name="x_snc_offmgtcsc_offender" sys_domain="global" view="c2364b1610352010d152bac818665e22">f05eda371b4ae0108edb0d03cd4bcba5</sys_ui_form>
-            <sys_ui_section caption="Official Identification" display_value="Official Identification" name="x_snc_offmgtcsc_offender" sys_domain="global" view="c2364b1610352010d152bac818665e22">b05eda371b4ae0108edb0d03cd4bcba2</sys_ui_section>
+            <sys_ui_form display_value="x_snc_offmgtcsc_offender" name="x_snc_offmgtcsc_offender" sys_domain="global" view="903b5b27db062010c2939709f49619f5">f05eda371b4ae0108edb0d03cd4bcba5</sys_ui_form>
+            <sys_ui_section caption="Official Identification" display_value="Official Identification" name="x_snc_offmgtcsc_offender" sys_domain="global" view="903b5b27db062010c2939709f49619f5">b05eda371b4ae0108edb0d03cd4bcba2</sys_ui_section>
             <sys_updated_by>james.belote</sys_updated_by>
             <sys_updated_on>2021-02-07 16:35:17</sys_updated_on>
         </sys_ui_form_section>
@@ -65,8 +65,8 @@
             <sys_id>f85eda371b4ae0108edb0d03cd4bcbbf</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
-            <sys_ui_form display_value="x_snc_offmgtcsc_offender" name="x_snc_offmgtcsc_offender" sys_domain="global" view="c2364b1610352010d152bac818665e22">f05eda371b4ae0108edb0d03cd4bcba5</sys_ui_form>
-            <sys_ui_section caption="Security" display_value="Security" name="x_snc_offmgtcsc_offender" sys_domain="global" view="c2364b1610352010d152bac818665e22">7c5eda371b4ae0108edb0d03cd4bcba2</sys_ui_section>
+            <sys_ui_form display_value="x_snc_offmgtcsc_offender" name="x_snc_offmgtcsc_offender" sys_domain="global" view="903b5b27db062010c2939709f49619f5">f05eda371b4ae0108edb0d03cd4bcba5</sys_ui_form>
+            <sys_ui_section caption="Security" display_value="Security" name="x_snc_offmgtcsc_offender" sys_domain="global" view="903b5b27db062010c2939709f49619f5">7c5eda371b4ae0108edb0d03cd4bcba2</sys_ui_section>
             <sys_updated_by>james.belote</sys_updated_by>
             <sys_updated_on>2021-02-07 16:35:18</sys_updated_on>
         </sys_ui_form_section>
@@ -79,8 +79,8 @@
             <sys_id>895eda371b4ae0108edb0d03cd4bcbc3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
-            <sys_ui_form display_value="x_snc_offmgtcsc_offender" name="x_snc_offmgtcsc_offender" sys_domain="global" view="c2364b1610352010d152bac818665e22">f05eda371b4ae0108edb0d03cd4bcba5</sys_ui_form>
-            <sys_ui_section caption="Information Collection" display_value="Information Collection" name="x_snc_offmgtcsc_offender" sys_domain="global" view="c2364b1610352010d152bac818665e22">385eda371b4ae0108edb0d03cd4bcba3</sys_ui_section>
+            <sys_ui_form display_value="x_snc_offmgtcsc_offender" name="x_snc_offmgtcsc_offender" sys_domain="global" view="903b5b27db062010c2939709f49619f5">f05eda371b4ae0108edb0d03cd4bcba5</sys_ui_form>
+            <sys_ui_section caption="Information Collection" display_value="Information Collection" name="x_snc_offmgtcsc_offender" sys_domain="global" view="903b5b27db062010c2939709f49619f5">385eda371b4ae0108edb0d03cd4bcba3</sys_ui_section>
             <sys_updated_by>james.belote</sys_updated_by>
             <sys_updated_on>2021-02-07 16:35:18</sys_updated_on>
         </sys_ui_form_section>
@@ -93,10 +93,38 @@
             <sys_id>4d5eda371b4ae0108edb0d03cd4bcbc7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
-            <sys_ui_form display_value="x_snc_offmgtcsc_offender" name="x_snc_offmgtcsc_offender" sys_domain="global" view="c2364b1610352010d152bac818665e22">f05eda371b4ae0108edb0d03cd4bcba5</sys_ui_form>
-            <sys_ui_section caption="Casework Record on Immediate needs" display_value="Casework Record on Immediate needs" name="x_snc_offmgtcsc_offender" sys_domain="global" view="c2364b1610352010d152bac818665e22">f05eda371b4ae0108edb0d03cd4bcba4</sys_ui_section>
+            <sys_ui_form display_value="x_snc_offmgtcsc_offender" name="x_snc_offmgtcsc_offender" sys_domain="global" view="903b5b27db062010c2939709f49619f5">f05eda371b4ae0108edb0d03cd4bcba5</sys_ui_form>
+            <sys_ui_section caption="Casework Record on Immediate needs" display_value="Casework Record on Immediate needs" name="x_snc_offmgtcsc_offender" sys_domain="global" view="903b5b27db062010c2939709f49619f5">f05eda371b4ae0108edb0d03cd4bcba4</sys_ui_section>
             <sys_updated_by>james.belote</sys_updated_by>
             <sys_updated_on>2021-02-07 16:35:18</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>7</position>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-02-21 17:42:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>20f33ed01b2a285056c03153cd4bcb48</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_offmgtcsc_offender" name="x_snc_offmgtcsc_offender" sys_domain="global" view="903b5b27db062010c2939709f49619f5">f05eda371b4ae0108edb0d03cd4bcba5</sys_ui_form>
+            <sys_ui_section caption="Sentencing" display_value="Sentencing" name="x_snc_offmgtcsc_offender" sys_domain="global" view="903b5b27db062010c2939709f49619f5">5cf33ed01b2a285056c03153cd4bcb15</sys_ui_section>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-02-21 17:42:25</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>8</position>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-02-24 06:06:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>25817b811b226c5056c03153cd4bcb61</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_offmgtcsc_offender" name="x_snc_offmgtcsc_offender" sys_domain="global" view="903b5b27db062010c2939709f49619f5">f05eda371b4ae0108edb0d03cd4bcba5</sys_ui_form>
+            <sys_ui_section caption="Profile" display_value="Profile" name="x_snc_offmgtcsc_offender" sys_domain="global" view="903b5b27db062010c2939709f49619f5">ad817b811b226c5056c03153cd4bcb5b</sys_ui_section>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-02-24 06:06:53</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_snc_offmgtcsc_offender</name>
@@ -117,7 +145,7 @@
             <sys_updated_by>james.belote</sys_updated_by>
             <sys_updated_on>2021-02-07 16:35:17</sys_updated_on>
             <sys_user/>
-            <view display_value="Workspace" name="workspace">c2364b1610352010d152bac818665e22</view>
+            <view display_value="Workspace" name="workspace">903b5b27db062010c2939709f49619f5</view>
             <view_name/>
         </sys_ui_form>
     </sys_ui_form_sections>

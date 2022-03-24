@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="x_snc_offmgtcsc_parole_hearing" label="Victim Statement" max_length="40" name="x_snc_offmgtcsc_victim_statement" sizeclass="0" type="collection">
+        <element label="Victim permission" max_length="40" name="victim_permission" type="boolean"/>
+        <element label="Victim statement" max_length="40" name="victim_statement" type="file_attachment"/>
+    </element>
+</database>

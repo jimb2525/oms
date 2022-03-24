@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description/>
+        <ignore_cache>false</ignore_cache>
+        <is_private>false</is_private>
+        <name>evt_mgmt.alert_management_scoped_active</name>
+        <read_roles/>
+        <suffix>x_snc_offmgtcsc</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-13 04:23:15</sys_created_on>
+        <sys_id>879c5e0f87650110a702fc08cebb3582</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>evt_mgmt.alert_management_scoped_active</sys_name>
+        <sys_package display_value="Offender Management System" source="x_snc_offmgtcsc">aad6ec1cdb392090520c0bd3e29619cc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+        <sys_update_name>sys_properties_879c5e0f87650110a702fc08cebb3582</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-13 04:23:15</sys_updated_on>
+        <type>string</type>
+        <value>true</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=879c5e0f87650110a702fc08cebb3582"/>
+</record_update>

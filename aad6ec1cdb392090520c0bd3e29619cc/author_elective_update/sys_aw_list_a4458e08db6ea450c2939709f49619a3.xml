@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_aw_list">
+    <sys_aw_list action="DELETE">
+        <active>true</active>
+        <category display_value="Visitors">e8458e08db6ea450c2939709f496199e</category>
+        <columns>accumulated_roles,active,address,avatar,building,calendar_integration,city,company,correlation_id,cost_center,country,date_format,default_perspective,department,email,employee_number,enable_multifactor_authn,failed_attempts,first_name,gender,home_phone,hr_integration_source,internal_integration_user,introduction,last_login,last_login_time,last_name,ldap_server,location,locked_out,manager,middle_name,mobile_phone,name,notification,offender,password_needs_reset,phone,photo,preferred_language,roles,schedule,sn_hr_ef_purging_stride,source,state,street,sys_class_name,sys_created_by,sys_created_on,sys_domain,sys_domain_path,sys_id,sys_mod_count,sys_tags,sys_updated_by,sys_updated_on,time_format,time_zone,title,transaction_log,user_name,user_password,vip,visitation_date,visitation_time,visitor_id,web_service_access_only,zip</columns>
+        <condition/>
+        <groups/>
+        <list_attributes/>
+        <order>100</order>
+        <roles/>
+        <sys_class_name>sys_aw_list</sys_class_name>
+        <sys_created_by>sam.pirner</sys_created_by>
+        <sys_created_on>2021-02-20 19:39:57</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a4458e08db6ea450c2939709f49619a3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>All</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Offender Management System" source="x_snc_offmgtcsc">aad6ec1cdb392090520c0bd3e29619cc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+        <sys_update_name>sys_aw_list_a4458e08db6ea450c2939709f49619a3</sys_update_name>
+        <sys_updated_by>sam.pirner</sys_updated_by>
+        <sys_updated_on>2021-02-20 19:39:57</sys_updated_on>
+        <table>x_snc_offmgtcsc_visitor</table>
+        <title>All</title>
+        <workspace/>
+    </sys_aw_list>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</application>
+        <file_path/>
+        <instance_id>232313afdbc62c909df22f17d4961962</instance_id>
+        <instance_name>jbelote11demo</instance_name>
+        <name>sys_aw_list_a4458e08db6ea450c2939709f49619a3</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_aw_list"><sys_aw_list action="INSERT_OR_UPDATE"><active>true</active><category display_value="Visitors">e8458e08db6ea450c2939709f496199e</category><columns>accumulated_roles,active,address,avatar,building,calendar_integration,city,company,correlation_id,cost_center,country,date_format,default_perspective,department,email,employee_number,enable_multifactor_authn,failed_attempts,first_name,gender,home_phone,hr_integration_source,internal_integration_user,introduction,last_login,last_login_time,last_name,ldap_server,location,locked_out,manager,middle_name,mobile_phone,name,notification,offender,password_needs_reset,phone,photo,preferred_language,roles,schedule,sn_hr_ef_purging_stride,source,state,street,sys_class_name,sys_created_by,sys_created_on,sys_domain,sys_domain_path,sys_id,sys_mod_count,sys_tags,sys_updated_by,sys_updated_on,time_format,time_zone,title,transaction_log,user_name,user_password,vip,visitation_date,visitation_time,visitor_id,web_service_access_only,zip</columns><condition/><groups/><list_attributes/><order>100</order><roles/><sys_class_name>sys_aw_list</sys_class_name><sys_created_by>sam.pirner</sys_created_by><sys_created_on>2021-02-20 19:39:57</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>a4458e08db6ea450c2939709f49619a3</sys_id><sys_mod_count>0</sys_mod_count><sys_name>All</sys_name><sys_overrides/><sys_package display_value="Offender Management System" source="x_snc_offmgtcsc">aad6ec1cdb392090520c0bd3e29619cc</sys_package><sys_policy/><sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope><sys_update_name>sys_aw_list_a4458e08db6ea450c2939709f49619a3</sys_update_name><sys_updated_by>sam.pirner</sys_updated_by><sys_updated_on>2021-02-20 19:39:57</sys_updated_on><table>x_snc_offmgtcsc_visitor</table><title>All</title><workspace/></sys_aw_list></record_update>]]></payload>
+        <payload_hash>161392724</payload_hash>
+        <record_name>All</record_name>
+        <reverted_from/>
+        <source>e6ba61771bd2645056c03153cd4bcbbc</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>sam.pirner</sys_created_by>
+        <sys_created_on>2021-02-20 20:36:21</sys_created_on>
+        <sys_id>fe229a88dbaea450c2939709f4961998</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>177c12852960000001</sys_recorded_at>
+        <sys_updated_by>sam.pirner</sys_updated_by>
+        <sys_updated_on>2021-02-20 20:36:21</sys_updated_on>
+        <type>Workspace List</type>
+        <update_guid>2c458e08436ea4500679fbbb51a26ea5</update_guid>
+        <update_guid_history>2c458e08436ea4500679fbbb51a26ea5:-1098068882,2c458e08436ea4500679fbbb51a26ea5:-1098068882</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>sam.pirner</sys_created_by>
+        <sys_created_on>2021-02-23 02:56:52</sys_created_on>
+        <sys_db_object display_value="" name="sys_aw_list">sys_aw_list</sys_db_object>
+        <sys_id>2b95c3058a9e4c00b71de3c1eeec4000</sys_id>
+        <sys_metadata>a4458e08db6ea450c2939709f49619a3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>All</sys_name>
+        <sys_package display_value="Offender Management System" source="x_snc_offmgtcsc">aad6ec1cdb392090520c0bd3e29619cc</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+        <sys_scope_delete display_value="">5bdba594b38346ec838dd36fd672ece4</sys_scope_delete>
+        <sys_update_name>sys_aw_list_a4458e08db6ea450c2939709f49619a3</sys_update_name>
+        <sys_update_version display_value="sys_aw_list_a4458e08db6ea450c2939709f49619a3">fe229a88dbaea450c2939709f4961998</sys_update_version>
+        <sys_updated_by>sam.pirner</sys_updated_by>
+        <sys_updated_on>2021-02-23 02:56:52</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

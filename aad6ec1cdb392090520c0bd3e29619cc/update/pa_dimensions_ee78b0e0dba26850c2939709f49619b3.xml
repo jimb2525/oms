@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_dimensions">
+    <pa_dimensions action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <conditions table="pa_manual_breakdowns">breakdown=c118f8a0dba26850c2939709f4961910<item display_table="pa_breakdowns" display_value="Cell break down" endquery="false" field="breakdown" goto="false" newquery="false" operator="=" or="false" value="c118f8a0dba26850c2939709f4961910"/>
+        </conditions>
+        <description/>
+        <empty_value/>
+        <facts_table>pa_manual_breakdowns</facts_table>
+        <field>sys_id</field>
+        <manual_breakdown>c118f8a0dba26850c2939709f4961910</manual_breakdown>
+        <name>Cell break down</name>
+        <security_type>1</security_type>
+        <sys_class_name>pa_dimensions</sys_class_name>
+        <sys_created_by>tony.perron</sys_created_by>
+        <sys_created_on>2021-02-22 03:21:27</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ee78b0e0dba26850c2939709f49619b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Cell break down</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Offender Management System" source="x_snc_offmgtcsc">aad6ec1cdb392090520c0bd3e29619cc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+        <sys_update_name>pa_dimensions_ee78b0e0dba26850c2939709f49619b3</sys_update_name>
+        <sys_updated_by>tony.perron</sys_updated_by>
+        <sys_updated_on>2021-02-22 03:21:27</sys_updated_on>
+    </pa_dimensions>
+    <sys_translated_text action="delete_multiple" query="documentkey=ee78b0e0dba26850c2939709f49619b3"/>
+</record_update>

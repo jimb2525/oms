@@ -2,157 +2,171 @@
     <sys_ui_related sys_domain="global" table="x_snc_offmgtcsc_offender" version="2" view="workspace">
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="Offender - Workspace" name="x_snc_offmgtcsc_offender" related_list="NULL" sys_domain="global" view="c2364b1610352010d152bac818665e22">32ec216f1b56a4108edb0d03cd4bcb64</list_id>
+            <list_id display_value="Offender - Workspace" name="x_snc_offmgtcsc_offender" related_list="NULL" sys_domain="global" view="903b5b27db062010c2939709f49619f5">97d12249db6a2c50c2939709f4961958</list_id>
             <order_by/>
             <position>0</position>
             <related_list>x_snc_offmgtcsc_sentence.u_offender</related_list>
             <sys_class_name>sys_ui_related_list_entry</sys_class_name>
             <sys_created_by>tony.perron</sys_created_by>
-            <sys_created_on>2021-02-19 04:36:39</sys_created_on>
-            <sys_id>beec216f1b56a4108edb0d03cd4bcb64</sys_id>
+            <sys_created_on>2021-02-24 00:18:51</sys_created_on>
+            <sys_id>53d12249db6a2c50c2939709f496195a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>tony.perron</sys_updated_by>
-            <sys_updated_on>2021-02-19 04:36:39</sys_updated_on>
+            <sys_updated_on>2021-02-24 00:18:51</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="Offender - Workspace" name="x_snc_offmgtcsc_offender" related_list="NULL" sys_domain="global" view="c2364b1610352010d152bac818665e22">32ec216f1b56a4108edb0d03cd4bcb64</list_id>
+            <list_id display_value="Offender - Workspace" name="x_snc_offmgtcsc_offender" related_list="NULL" sys_domain="global" view="903b5b27db062010c2939709f49619f5">97d12249db6a2c50c2939709f4961958</list_id>
             <order_by/>
             <position>1</position>
+            <related_list>x_snc_offmgtcsc_intake.u_offender</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>tony.perron</sys_created_by>
+            <sys_created_on>2021-02-24 00:18:51</sys_created_on>
+            <sys_id>1fd12249db6a2c50c2939709f496195a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tony.perron</sys_updated_by>
+            <sys_updated_on>2021-02-24 00:18:51</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Offender - Workspace" name="x_snc_offmgtcsc_offender" related_list="NULL" sys_domain="global" view="903b5b27db062010c2939709f49619f5">97d12249db6a2c50c2939709f4961958</list_id>
+            <order_by/>
+            <position>2</position>
             <related_list>x_snc_offmgtcsc_offense.offender</related_list>
             <sys_class_name>sys_ui_related_list_entry</sys_class_name>
             <sys_created_by>tony.perron</sys_created_by>
-            <sys_created_on>2021-02-19 04:36:39</sys_created_on>
-            <sys_id>36ec216f1b56a4108edb0d03cd4bcb65</sys_id>
+            <sys_created_on>2021-02-24 00:18:51</sys_created_on>
+            <sys_id>93d12249db6a2c50c2939709f496195b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>tony.perron</sys_updated_by>
-            <sys_updated_on>2021-02-19 04:36:39</sys_updated_on>
+            <sys_updated_on>2021-02-24 00:18:51</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="Offender - Workspace" name="x_snc_offmgtcsc_offender" related_list="NULL" sys_domain="global" view="c2364b1610352010d152bac818665e22">32ec216f1b56a4108edb0d03cd4bcb64</list_id>
+            <list_id display_value="Offender - Workspace" name="x_snc_offmgtcsc_offender" related_list="NULL" sys_domain="global" view="903b5b27db062010c2939709f49619f5">97d12249db6a2c50c2939709f4961958</list_id>
             <order_by/>
-            <position>2</position>
+            <position>3</position>
             <related_list>x_snc_offmgtcsc_offender_incident.offender</related_list>
             <sys_class_name>sys_ui_related_list_entry</sys_class_name>
             <sys_created_by>tony.perron</sys_created_by>
-            <sys_created_on>2021-02-19 04:36:39</sys_created_on>
-            <sys_id>baec216f1b56a4108edb0d03cd4bcb65</sys_id>
+            <sys_created_on>2021-02-24 00:18:51</sys_created_on>
+            <sys_id>1bd12249db6a2c50c2939709f496195b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>tony.perron</sys_updated_by>
-            <sys_updated_on>2021-02-19 04:36:39</sys_updated_on>
+            <sys_updated_on>2021-02-24 00:18:51</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="Offender - Workspace" name="x_snc_offmgtcsc_offender" related_list="NULL" sys_domain="global" view="c2364b1610352010d152bac818665e22">32ec216f1b56a4108edb0d03cd4bcb64</list_id>
-            <order_by/>
-            <position>3</position>
-            <related_list>x_snc_offmgtcsc_offender_contact.offender</related_list>
-            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
-            <sys_created_by>tony.perron</sys_created_by>
-            <sys_created_on>2021-02-19 04:36:39</sys_created_on>
-            <sys_id>32ec216f1b56a4108edb0d03cd4bcb66</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>tony.perron</sys_updated_by>
-            <sys_updated_on>2021-02-19 04:36:39</sys_updated_on>
-        </sys_ui_related_list_entry>
-        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
-            <filter/>
-            <list_id display_value="Offender - Workspace" name="x_snc_offmgtcsc_offender" related_list="NULL" sys_domain="global" view="c2364b1610352010d152bac818665e22">32ec216f1b56a4108edb0d03cd4bcb64</list_id>
+            <list_id display_value="Offender - Workspace" name="x_snc_offmgtcsc_offender" related_list="NULL" sys_domain="global" view="903b5b27db062010c2939709f49619f5">97d12249db6a2c50c2939709f4961958</list_id>
             <order_by/>
             <position>4</position>
             <related_list>x_snc_offmgtcsc_cell_transfer.u_offender_1</related_list>
             <sys_class_name>sys_ui_related_list_entry</sys_class_name>
             <sys_created_by>tony.perron</sys_created_by>
-            <sys_created_on>2021-02-19 04:36:39</sys_created_on>
-            <sys_id>b6ec216f1b56a4108edb0d03cd4bcb66</sys_id>
+            <sys_created_on>2021-02-24 00:18:51</sys_created_on>
+            <sys_id>9fd12249db6a2c50c2939709f496195b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>tony.perron</sys_updated_by>
-            <sys_updated_on>2021-02-19 04:36:39</sys_updated_on>
+            <sys_updated_on>2021-02-24 00:18:51</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="Offender - Workspace" name="x_snc_offmgtcsc_offender" related_list="NULL" sys_domain="global" view="c2364b1610352010d152bac818665e22">32ec216f1b56a4108edb0d03cd4bcb64</list_id>
+            <list_id display_value="Offender - Workspace" name="x_snc_offmgtcsc_offender" related_list="NULL" sys_domain="global" view="903b5b27db062010c2939709f49619f5">97d12249db6a2c50c2939709f4961958</list_id>
             <order_by/>
             <position>5</position>
             <related_list>x_snc_offmgtcsc_transfer_and_placement.u_offender</related_list>
             <sys_class_name>sys_ui_related_list_entry</sys_class_name>
             <sys_created_by>tony.perron</sys_created_by>
-            <sys_created_on>2021-02-19 04:36:39</sys_created_on>
-            <sys_id>3eec216f1b56a4108edb0d03cd4bcb66</sys_id>
+            <sys_created_on>2021-02-24 00:18:51</sys_created_on>
+            <sys_id>17d12249db6a2c50c2939709f496195c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>tony.perron</sys_updated_by>
-            <sys_updated_on>2021-02-19 04:36:39</sys_updated_on>
+            <sys_updated_on>2021-02-24 00:18:51</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="Offender - Workspace" name="x_snc_offmgtcsc_offender" related_list="NULL" sys_domain="global" view="c2364b1610352010d152bac818665e22">32ec216f1b56a4108edb0d03cd4bcb64</list_id>
+            <list_id display_value="Offender - Workspace" name="x_snc_offmgtcsc_offender" related_list="NULL" sys_domain="global" view="903b5b27db062010c2939709f49619f5">97d12249db6a2c50c2939709f4961958</list_id>
             <order_by/>
             <position>6</position>
-            <related_list>x_snc_offmgtcsc_absence_and_release.offender</related_list>
-            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
-            <sys_created_by>tony.perron</sys_created_by>
-            <sys_created_on>2021-02-19 04:36:39</sys_created_on>
-            <sys_id>b2ec216f1b56a4108edb0d03cd4bcb67</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>tony.perron</sys_updated_by>
-            <sys_updated_on>2021-02-19 04:36:39</sys_updated_on>
-        </sys_ui_related_list_entry>
-        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
-            <filter/>
-            <list_id display_value="Offender - Workspace" name="x_snc_offmgtcsc_offender" related_list="NULL" sys_domain="global" view="c2364b1610352010d152bac818665e22">32ec216f1b56a4108edb0d03cd4bcb64</list_id>
-            <order_by/>
-            <position>7</position>
-            <related_list>x_snc_offmgtcsc_personal_property_of_offenders.u_offender</related_list>
-            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
-            <sys_created_by>tony.perron</sys_created_by>
-            <sys_created_on>2021-02-19 04:36:39</sys_created_on>
-            <sys_id>3aec216f1b56a4108edb0d03cd4bcb67</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>tony.perron</sys_updated_by>
-            <sys_updated_on>2021-02-19 04:36:39</sys_updated_on>
-        </sys_ui_related_list_entry>
-        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
-            <filter/>
-            <list_id display_value="Offender - Workspace" name="x_snc_offmgtcsc_offender" related_list="NULL" sys_domain="global" view="c2364b1610352010d152bac818665e22">32ec216f1b56a4108edb0d03cd4bcb64</list_id>
-            <order_by/>
-            <position>8</position>
             <related_list>x_snc_offmgtcsc_management_of_seized_items.u_offender</related_list>
             <sys_class_name>sys_ui_related_list_entry</sys_class_name>
             <sys_created_by>tony.perron</sys_created_by>
-            <sys_created_on>2021-02-19 04:36:39</sys_created_on>
-            <sys_id>beec216f1b56a4108edb0d03cd4bcb67</sys_id>
+            <sys_created_on>2021-02-24 00:18:51</sys_created_on>
+            <sys_id>9bd12249db6a2c50c2939709f496195c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>tony.perron</sys_updated_by>
-            <sys_updated_on>2021-02-19 04:36:39</sys_updated_on>
+            <sys_updated_on>2021-02-24 00:18:51</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="Offender - Workspace" name="x_snc_offmgtcsc_offender" related_list="NULL" sys_domain="global" view="c2364b1610352010d152bac818665e22">32ec216f1b56a4108edb0d03cd4bcb64</list_id>
+            <list_id display_value="Offender - Workspace" name="x_snc_offmgtcsc_offender" related_list="NULL" sys_domain="global" view="903b5b27db062010c2939709f49619f5">97d12249db6a2c50c2939709f4961958</list_id>
             <order_by/>
-            <position>9</position>
+            <position>7</position>
+            <related_list>x_snc_offmgtcsc_absence_and_release.offender</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>tony.perron</sys_created_by>
+            <sys_created_on>2021-02-24 00:18:51</sys_created_on>
+            <sys_id>13d12249db6a2c50c2939709f496195d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tony.perron</sys_updated_by>
+            <sys_updated_on>2021-02-24 00:18:51</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Offender - Workspace" name="x_snc_offmgtcsc_offender" related_list="NULL" sys_domain="global" view="903b5b27db062010c2939709f49619f5">97d12249db6a2c50c2939709f4961958</list_id>
+            <order_by/>
+            <position>8</position>
             <related_list>sn_complaint_case.opened_by</related_list>
             <sys_class_name>sys_ui_related_list_entry</sys_class_name>
             <sys_created_by>tony.perron</sys_created_by>
-            <sys_created_on>2021-02-19 04:36:39</sys_created_on>
-            <sys_id>36ec216f1b56a4108edb0d03cd4bcb68</sys_id>
+            <sys_created_on>2021-02-24 00:18:51</sys_created_on>
+            <sys_id>97d12249db6a2c50c2939709f496195d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>tony.perron</sys_updated_by>
-            <sys_updated_on>2021-02-19 04:36:39</sys_updated_on>
+            <sys_updated_on>2021-02-24 00:18:51</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="Offender - Workspace" name="x_snc_offmgtcsc_offender" related_list="NULL" sys_domain="global" view="c2364b1610352010d152bac818665e22">32ec216f1b56a4108edb0d03cd4bcb64</list_id>
+            <list_id display_value="Offender - Workspace" name="x_snc_offmgtcsc_offender" related_list="NULL" sys_domain="global" view="903b5b27db062010c2939709f49619f5">97d12249db6a2c50c2939709f4961958</list_id>
+            <order_by/>
+            <position>9</position>
+            <related_list>x_snc_offmgtcsc_personal_property_of_offenders.u_offender</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>tony.perron</sys_created_by>
+            <sys_created_on>2021-02-24 00:18:51</sys_created_on>
+            <sys_id>1fd12249db6a2c50c2939709f496195d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tony.perron</sys_updated_by>
+            <sys_updated_on>2021-02-24 00:18:51</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Offender - Workspace" name="x_snc_offmgtcsc_offender" related_list="NULL" sys_domain="global" view="903b5b27db062010c2939709f49619f5">97d12249db6a2c50c2939709f4961958</list_id>
             <order_by/>
             <position>10</position>
+            <related_list>x_snc_offmgtcsc_offender_contact.offender</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>tony.perron</sys_created_by>
+            <sys_created_on>2021-02-24 00:18:51</sys_created_on>
+            <sys_id>93d12249db6a2c50c2939709f496195e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tony.perron</sys_updated_by>
+            <sys_updated_on>2021-02-24 00:18:51</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Offender - Workspace" name="x_snc_offmgtcsc_offender" related_list="NULL" sys_domain="global" view="903b5b27db062010c2939709f49619f5">97d12249db6a2c50c2939709f4961958</list_id>
+            <order_by/>
+            <position>11</position>
             <related_list>sn_wsd_visitor_visit.host</related_list>
             <sys_class_name>sys_ui_related_list_entry</sys_class_name>
             <sys_created_by>tony.perron</sys_created_by>
-            <sys_created_on>2021-02-19 04:36:39</sys_created_on>
-            <sys_id>baec216f1b56a4108edb0d03cd4bcb68</sys_id>
+            <sys_created_on>2021-02-24 00:18:51</sys_created_on>
+            <sys_id>1bd12249db6a2c50c2939709f496195e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>tony.perron</sys_updated_by>
-            <sys_updated_on>2021-02-19 04:36:39</sys_updated_on>
+            <sys_updated_on>2021-02-24 00:18:51</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list action="INSERT_OR_UPDATE">
             <calculated_name>Offender - Workspace</calculated_name>
@@ -163,10 +177,10 @@
             <related_list/>
             <sys_class_name>sys_ui_related_list</sys_class_name>
             <sys_created_by>tony.perron</sys_created_by>
-            <sys_created_on>2021-02-19 04:36:39</sys_created_on>
+            <sys_created_on>2021-02-24 00:18:51</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>32ec216f1b56a4108edb0d03cd4bcb64</sys_id>
+            <sys_id>97d12249db6a2c50c2939709f4961958</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>Offender - Workspace</sys_name>
             <sys_package display_value="Offender Management System" source="x_snc_offmgtcsc">aad6ec1cdb392090520c0bd3e29619cc</sys_package>
@@ -174,9 +188,9 @@
             <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
             <sys_update_name>sys_ui_related_x_snc_offmgtcsc_offender_workspace</sys_update_name>
             <sys_updated_by>tony.perron</sys_updated_by>
-            <sys_updated_on>2021-02-19 04:36:39</sys_updated_on>
+            <sys_updated_on>2021-02-24 00:18:51</sys_updated_on>
             <sys_user/>
-            <view display_value="Workspace" name="workspace">c2364b1610352010d152bac818665e22</view>
+            <view display_value="Workspace" name="workspace">903b5b27db062010c2939709f49619f5</view>
             <view_name/>
         </sys_ui_related_list>
     </sys_ui_related>

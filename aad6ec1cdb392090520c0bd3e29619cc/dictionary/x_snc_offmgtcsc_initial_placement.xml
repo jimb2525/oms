@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="Initial Placement" max_length="40" name="x_snc_offmgtcsc_initial_placement" sizeclass="0" type="collection"/>
+</database>

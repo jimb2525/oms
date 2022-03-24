@@ -2,17 +2,31 @@
     <sys_ui_related sys_domain="global" table="x_snc_offmgtcsc_absence_and_release" version="2" view="">
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="Absence and Release - Default view" name="x_snc_offmgtcsc_absence_and_release" related_list="NULL" sys_domain="global" view="Default view">8ef142431bda24108edb0d03cd4bcbdb</list_id>
+            <list_id display_value="Absence and Release - Default view" name="x_snc_offmgtcsc_absence_and_release" related_list="NULL" sys_domain="global" view="Default view">dbce2709db226c50c2939709f49619ce</list_id>
             <order_by/>
             <position>0</position>
-            <related_list>task_rel_task.child</related_list>
+            <related_list>sysapproval_approver.sysapproval</related_list>
             <sys_class_name>sys_ui_related_list_entry</sys_class_name>
-            <sys_created_by>russell.sparks</sys_created_by>
-            <sys_created_on>2021-02-17 16:51:40</sys_created_on>
-            <sys_id>4af142431bda24108edb0d03cd4bcbdd</sys_id>
+            <sys_created_by>pamela.oregon</sys_created_by>
+            <sys_created_on>2021-02-24 05:55:00</sys_created_on>
+            <sys_id>97ce2709db226c50c2939709f49619d0</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>russell.sparks</sys_updated_by>
-            <sys_updated_on>2021-02-17 16:51:40</sys_updated_on>
+            <sys_updated_by>pamela.oregon</sys_updated_by>
+            <sys_updated_on>2021-02-24 05:55:00</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Absence and Release - Default view" name="x_snc_offmgtcsc_absence_and_release" related_list="NULL" sys_domain="global" view="Default view">dbce2709db226c50c2939709f49619ce</list_id>
+            <order_by/>
+            <position>1</position>
+            <related_list>x_snc_offmgtcsc_absense_and_release_tasks.parent</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>pamela.oregon</sys_created_by>
+            <sys_created_on>2021-02-24 05:55:00</sys_created_on>
+            <sys_id>53ce2709db226c50c2939709f49619d1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>pamela.oregon</sys_updated_by>
+            <sys_updated_on>2021-02-24 05:55:00</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list action="INSERT_OR_UPDATE">
             <calculated_name>Absence and Release - Default view</calculated_name>
@@ -22,19 +36,19 @@
             <position/>
             <related_list/>
             <sys_class_name>sys_ui_related_list</sys_class_name>
-            <sys_created_by>russell.sparks</sys_created_by>
-            <sys_created_on>2021-02-17 16:51:40</sys_created_on>
+            <sys_created_by>pamela.oregon</sys_created_by>
+            <sys_created_on>2021-02-24 05:55:00</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>8ef142431bda24108edb0d03cd4bcbdb</sys_id>
+            <sys_id>dbce2709db226c50c2939709f49619ce</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>Absence and Release - Default view</sys_name>
             <sys_package display_value="Offender Management System" source="x_snc_offmgtcsc">aad6ec1cdb392090520c0bd3e29619cc</sys_package>
             <sys_policy/>
             <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
             <sys_update_name>sys_ui_related_x_snc_offmgtcsc_absence_and_release_null</sys_update_name>
-            <sys_updated_by>russell.sparks</sys_updated_by>
-            <sys_updated_on>2021-02-17 16:51:40</sys_updated_on>
+            <sys_updated_by>pamela.oregon</sys_updated_by>
+            <sys_updated_on>2021-02-24 05:55:00</sys_updated_on>
             <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>

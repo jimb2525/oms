@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_indicator_breakdowns">
+    <pa_indicator_breakdowns action="INSERT_OR_UPDATE">
+        <breakdown display_value="Days in SIU">0a41cf94dba62850c2939709f496195f</breakdown>
+        <display>true</display>
+        <indicator display_value="TIme in SIU">21fbb6dcdb662850c2939709f49619b2</indicator>
+        <order>100</order>
+        <sql_statement/>
+        <sys_class_name>pa_indicator_breakdowns</sys_class_name>
+        <sys_created_by>tony.perron</sys_created_by>
+        <sys_created_on>2021-02-21 18:45:30</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6c624718dba62850c2939709f496192c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Days in SIU.TIme in SIU</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Offender Management System" source="x_snc_offmgtcsc">aad6ec1cdb392090520c0bd3e29619cc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+        <sys_update_name>pa_indicator_breakdowns_6c624718dba62850c2939709f496192c</sys_update_name>
+        <sys_updated_by>tony.perron</sys_updated_by>
+        <sys_updated_on>2021-02-21 18:45:30</sys_updated_on>
+    </pa_indicator_breakdowns>
+</record_update>

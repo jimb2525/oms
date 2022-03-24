@@ -20,4 +20,38 @@
         <value>Male</value>
     </question_choice>
     <fx_price action="delete_multiple" query="id=d959478f1b1e2010487bb88cdc4bcb01"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>misc</field>
+        <id>d959478f1b1e2010487bb88cdc4bcb01</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2021-02-19 23:02:36</sys_created_on>
+        <sys_id>930aa93fdbd66450c2939709f496198f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-02-19 23:02:36</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>rec_misc</field>
+        <id>d959478f1b1e2010487bb88cdc4bcb01</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2021-02-19 23:02:36</sys_created_on>
+        <sys_id>170aa93fdbd66450c2939709f496198e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-02-19 23:02:36</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
 </record_update>

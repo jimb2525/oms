@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <business_calendar/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_time/>
+        <name>e4c0f6ce87964910a702fc08cebb35fe</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek/>
+        <run_period/>
+        <run_start>2022-03-19 10:58:33</run_start>
+        <run_time/>
+        <run_type>once</run_type>
+        <script><![CDATA[try{
+
+			var gr = new GlideRecord('sys_script_include');
+			gr.get('da0031870a0a0bc200289490b9da8601');
+			gr.access='public';
+			gr.update();
+
+
+			gs.debug('END');
+		}
+
+		catch(err) {
+
+			var message = "message: {0} \n\nname: {1} \n\narguments: \n{2} \n\nstack: \n{3} ";
+			gs.error(message, err.message, err.name, JSON.stringify(arguments,null,' '), err.stack);
+
+		}	]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-19 10:58:33</sys_created_on>
+        <sys_id>892d32ce871a4910a702fc08cebb35f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>e4c0f6ce87964910a702fc08cebb35fe</sys_name>
+        <sys_package display_value="Offender Management System" source="x_snc_offmgtcsc">aad6ec1cdb392090520c0bd3e29619cc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+        <sys_update_name>sysauto_script_892d32ce871a4910a702fc08cebb35f8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-19 10:58:33</sys_updated_on>
+        <time_zone/>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

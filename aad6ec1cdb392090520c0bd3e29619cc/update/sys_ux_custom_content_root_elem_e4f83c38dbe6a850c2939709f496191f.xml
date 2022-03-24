@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_custom_content_root_elem">
+    <sys_ux_custom_content_root_elem action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applicability>single</applicability>
+        <applicable_page display_value="Offender Management System">54e8acdcdb392090520c0bd3e2961905</applicable_page>
+        <attrs/>
+        <children/>
+        <component/>
+        <is_root>true</is_root>
+        <layout/>
+        <macroponent display_value="Offender Management Landing Page">24f83c38dbe6a850c2939709f496191c</macroponent>
+        <macroponent_config>{
+  "label" : ""
+}</macroponent_config>
+        <name>Offender Management Landing Page</name>
+        <order>0</order>
+        <page display_value="Workspace Core">b70867ad0f603300bb57f4a1ff767e15</page>
+        <parent/>
+        <parent_slot/>
+        <picker/>
+        <picker_condition/>
+        <placeholder display_value="Landing Page Placeholder">8f09a850db792090520c0bd3e296194a</placeholder>
+        <sys_class_name>sys_ux_custom_content_root_elem</sys_class_name>
+        <sys_created_by>tony.perron</sys_created_by>
+        <sys_created_on>2021-02-22 22:01:59</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e4f83c38dbe6a850c2939709f496191f</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Offender Management Landing Page</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Offender Management System" source="x_snc_offmgtcsc">aad6ec1cdb392090520c0bd3e29619cc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Offender Management System">aad6ec1cdb392090520c0bd3e29619cc</sys_scope>
+        <sys_update_name>sys_ux_custom_content_root_elem_e4f83c38dbe6a850c2939709f496191f</sys_update_name>
+        <sys_updated_by>tony.perron</sys_updated_by>
+        <sys_updated_on>2021-02-23 14:51:09</sys_updated_on>
+        <tree_root/>
+    </sys_ux_custom_content_root_elem>
+    <sys_variable_value action="delete_multiple" query="document_key=e4f83c38dbe6a850c2939709f496191f"/>
+</record_update>

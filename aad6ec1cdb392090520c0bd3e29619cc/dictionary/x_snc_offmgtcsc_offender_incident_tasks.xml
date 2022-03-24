@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="Offender Incident Tasks" max_length="40" name="x_snc_offmgtcsc_offender_incident_tasks" sizeclass="24" type="collection">
+        <element label="Offender Incident" max_length="32" name="offender_incident" reference="x_snc_offmgtcsc_offender_incident" type="reference"/>
+    </element>
+</database>

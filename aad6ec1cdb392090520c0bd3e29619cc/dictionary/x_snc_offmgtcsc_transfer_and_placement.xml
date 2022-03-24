@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="Facility Transfer" max_length="40" name="x_snc_offmgtcsc_transfer_and_placement" sizeclass="1" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Date" max_length="40" name="u_glide_date_1" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Date" max_length="40" name="u_glide_date_2" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Date/Time" max_length="40" name="u_glide_date_time_2" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Date/Time" max_length="40" name="u_glide_date_time_3" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Initial Placement Complete?" max_length="40" name="u_initial_placement_complete" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Inter-Regional" max_length="40" name="u_inter_regional" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Voluntary" sequence="0" value="voluntary"/>
+                <element inactive_on_update="false" label="involuntary" sequence="1" value="involuntary"/>
+                <element inactive_on_update="false" label="N/A" sequence="2" value="n/a"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="voluntary" label="Intra-Regional Type" max_length="40" name="u_intra_regional_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Voluntary" sequence="0" value="voluntary"/>
+                <element inactive_on_update="false" label="Involuntary" sequence="1" value="involuntary"/>
+                <element inactive_on_update="false" label="Emergency" sequence="2" value="emergency"/>
+                <element inactive_on_update="false" label="N/A" sequence="3" value="n/a"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Offender" max_length="32" name="u_offender" reference="x_snc_offmgtcsc_offender" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="From (Facility)" mandatory="true" max_length="32" name="u_reference_2" reference="x_snc_offmgtcsc_facility" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="To (Facility)" mandatory="true" max_length="32" name="u_to" reference="x_snc_offmgtcsc_facility" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="intra-regional" label="Transfer" mandatory="true" max_length="40" name="u_transfer" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Intra-Regional" sequence="0" value="intra-regional"/>
+                <element inactive_on_update="false" label="Special Handling Unit" sequence="1" value="special handling unit"/>
+                <element inactive_on_update="false" label="Section 81 Facility" sequence="2" value="section 81 facility"/>
+                <element inactive_on_update="false" label="CSC Aboriginal Healing Lodge" sequence="3" value="csc aboriginal healing lodge"/>
+                <element inactive_on_update="false" label="CSC Treatment Centre" sequence="4" value="csc treatment centre"/>
+                <element inactive_on_update="false" label="Judicial Review of Parole Ineligibility" sequence="5" value="judicial review of parole ineligibility"/>
+                <element inactive_on_update="false" label="Attendance at Court Proceedings" sequence="6" value="attendance at court proceedings"/>
+                <element inactive_on_update="false" label="Inter-Regional" sequence="7" value="inter-regional"/>
+                <element inactive_on_update="false" label="Inter-jurisdictional Transfer" sequence="8" value="inter-jurisdictional transfer"/>
+            </choice>
+        </element>
+    </element>
+</database>

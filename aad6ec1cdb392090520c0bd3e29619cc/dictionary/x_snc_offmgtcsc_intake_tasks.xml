@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" extends="task" label="Intake Tasks" max_length="40" name="x_snc_offmgtcsc_intake_tasks" sizeclass="8" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Interview Date" max_length="40" name="u_glide_date_time_1" type="glide_date_time"/>
+    </element>
+</database>
